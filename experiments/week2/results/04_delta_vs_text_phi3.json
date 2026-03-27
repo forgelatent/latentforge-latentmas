@@ -1,0 +1,14 @@
+{
+  "model": "phi3",
+  "avg_savings": 4.3,
+  "avg_fidelity": 1.0,
+  "avg_divergence": 2.0,
+  "note": "v1 simplified latent path. Compute savings low due to prompt length difference not true KV-cache reuse. Divergence 2.0/2 on all 5 exchanges is the key signal.",
+  "results": [
+    {"exchange": 1, "fidelity": 1.0, "divergence": 2},
+    {"exchange": 2, "fidelity": 1.0, "divergence": 2},
+    {"exchange": 3, "fidelity": 1.0, "divergence": 2},
+    {"exchange": 4, "fidelity": 1.0, "divergence": 2, "text_time": 2.359, "latent_time": 2.397, "savings_pct": -1.6},
+    {"exchange": 5, "fidelity": 1.0, "divergence": 2, "text_time": 2.375, "latent_time": 2.367, "savings_pct": 0.3}
+  ]
+}
