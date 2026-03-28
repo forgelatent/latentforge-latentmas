@@ -294,7 +294,7 @@ CONTEXT: [What happened since last session]
 | BRAIN.md committed to GitHub repo | [x] | Done |
 | Polymarket Gamma API data pull running | [x] | No GPU needed — collect from day 1 |
 | Polymarket KYC process started | [ ] | CFTC compliance — takes days, start today |
-| Research Nervous System v0.1 running | [x] | arXiv + GitHub sweep, daily cron at 07:00 |
+| Research Nervous System v0.1 running | [ ] | Script not yet built — manual arXiv scan until Week 3 Mac Mini|
 | Jiaru Zou coffee meeting requested | [ ] | SF — coffee, not Zoom |
 | March Madness shadow experiment running | [x] | Log predictions vs Polymarket crowd |
 
