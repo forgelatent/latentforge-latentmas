@@ -129,7 +129,7 @@ Out of scope for V0.1:
 | Divergent Thinking Engine — Strategic intelligence & trends | Supergrok | Real-time web access, breaking research, competitive intelligence, market timing | Less context on accumulated project history. Always needs BRAIN.md + Systems Engine response as input. |
 | Lead engineer | Claude Code (Clawbot) | Fast precise implementation, reads codebase, runs experiments, commits results | Cannot notice what it wasn't asked about. Needs well-specified briefs. Cannot own judgment across time. |
 | Ambient researcher + task automation | OpenClaw / NemoClaw | Autonomous operation, cron scheduling, research sweeps, digest generation | Orchestration and monitoring only. Never touches core IP files without explicit instruction. |
-| Research advisor (target) | Jiaru Zou (LatentMAS first author, SF) | Deep technical credibility, LatentMAS architecture knowledge | Not yet contacted. He's in SF — coffee, not Zoom. This week. |
+| Research advisor (target) | Jiaru Zou (LatentMAS first author, SF) | Deep technical credibility, LatentMAS architecture knowledge | Not yet contacted. He's in SF — coffee, not Zoom. LinkedIn DM drafted and ready. Send when Week 4 OpenSpiel divergence score is in hand (~April 20-25). |
 
 The judgment gap — and why three engines solve it:
 No single intelligence owns complete engineering judgment. The three-engine structure addresses this directly: Systems Engine holds accumulated context, Divergent Thinking Engine holds current reality, the Founder holds execution and final authority. Gaps in any one are covered by the other two.
@@ -295,7 +295,7 @@ CONTEXT: [What happened since last session]
 | Polymarket Gamma API data pull running | [x] | No GPU needed — collect from day 1 |
 | Polymarket KYC process started | [ ] | CFTC compliance — takes days, start today |
 | Research Nervous System v0.1 running | [x] | Automated via cron at 7:30 AM daily (arXiv + GitHub sweep) |
-| Jiaru Zou coffee meeting requested | [ ] | SF — coffee, not Zoom |
+| Jiaru Zou coffee meeting requested | [ ] | LinkedIn DM drafted. Send when Week 4 OpenSpiel results in hand (~April 20-25) |
 | March Madness shadow experiment running | [x] | Log predictions vs Polymarket crowd |
 
 Week 1 failure condition: OpenClaw not running in Docker by Day 3 → stop, diagnose, do not proceed to Week 2.
@@ -437,7 +437,7 @@ Urgent flag triggers:
 
 | Person / Org | Who | Status | Next action |
 |---|---|---|---|
-| Jiaru Zou | LatentMAS first author, Gen-Verse, SF | Not contacted | Email this week. SF → propose coffee. Lead with NemoClaw governance stack framing. |
+| | Jiaru Zou | LatentMAS first author, Gen-Verse, SF | LinkedIn DM drafted | Send when Week 4 OpenSpiel divergence score in hand (~April 20-25). |
 | Karpathy | autoresearch, "AI psychosis" naming | Public figure | Monitor output. His framing = our marketing language. Watch for SF appearances. |
 | Rain Protocol | $5M grant, OpenClaw SDK | Not contacted | Apply Week 5 with Week 4 benchmark results. |
 | YC / a16z / Sequoia | Pre-seed investors | No relationship | First conversations Week 2. SF = in-person. |
