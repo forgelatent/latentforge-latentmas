@@ -457,7 +457,7 @@ Urgent flag triggers:
 ## 15. THE PITCH — ONE SENTENCE VERSIONS
 
 **For a technical researcher:**
-"A governance-native latent communication protocol for multi-agent systems — commercial layer on LatentMAS with a real-time Shadow Self audit layer targeting the AI psychosis problem Karpathy named this week."
+"Direct Manifold Mapping — agents maintain high-dimensional signal fidelity throughout the entire reasoning chain instead of passing it through the low-pass filter of human language."
 
 **For an investor:**
 "LatentForge is the infrastructure layer for the loopy era — communication protocol and governance that makes Karpathy's multi-agent research swarm safe and efficient enough for enterprise deployment."
