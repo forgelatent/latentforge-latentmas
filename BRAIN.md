@@ -416,7 +416,7 @@ arXiv search terms (daily):
 - "Latent-DARM"
 
 GitHub repos to monitor:
-LatentMAS · Vision Wormhole · OpenClaw/NemoClaw · autoresearch (Karpathy) · Rain Protocol SDK · vLLM
+LatentMAS · Vision Wormhole · OpenClaw/NemoClaw · autoresearch (Karpathy) · Rain Protocol SDK · vLLM · VectorArc/AVM
 
 Decision rules:
 - Relevance >0.8 → morning strategy session agenda BEFORE Claude Code work
@@ -429,6 +429,7 @@ Urgent flag triggers:
 - LatentMAS repo acquired or going private
 - Rain Protocol grant deadline moving
 - Karpathy publishes anything touching multi-agent communication
+- AVP (VectorArc) ships governance or audit layer — immediate dual-engine review
 
 ---
 
@@ -503,6 +504,8 @@ Urgent flag triggers:
 | RunPod | runpod.io | Cloud GPU ~$0.44/hr |
 | Nemotron Nano 4B | HuggingFace / NVIDIA | Primary agent model Phase 1 |
 | TinyLlama 1.1B | HuggingFace | Shadow Self model Phase 1 |
+| AVP (Agent Vector Protocol) | github.com/VectorArc/avp-python | Adjacent protocol — KV-cache handoff, no governance layer. Monitor weekly. |
+| Agent Primitives | arXiv 2602.03695 | Validates latent building blocks direction. References LatentMAS explicitly. |
 
 ---
 
