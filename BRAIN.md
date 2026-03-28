@@ -356,7 +356,7 @@ Week 4 failure condition: Divergence Score <1.2× → stop, reassess architectur
 |---|---|---|
 | 4+ weeks Polymarket data collected (started Week 1) | [ ] | |
 | Latent agent probability estimator built | [ ] | |
-| Paper trading live — 30 day minimum | [ ] | No real money before this |
+| Paper trading live — 30 day minimum | [ ] | No real money before this. Brier score vs text baseline + crowd is the measurement standards |
 | Rain Protocol grant application submitted | [ ] | $50K non-dilutive |
 | March Madness post-mortem complete | [ ] | Full calibration analysis |
 
