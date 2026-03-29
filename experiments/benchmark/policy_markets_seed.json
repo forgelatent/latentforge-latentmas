@@ -1,0 +1,50 @@
+[
+  {
+    "question": "Will the Fed cut rates by at least 50bps in 2026?",
+    "current_price": 0.68,
+    "volume": 890000,
+    "end_date": "2026-12-31"
+  },
+  {
+    "question": "Will Bitcoin reach $150,000 by end of 2026?",
+    "current_price": 0.55,
+    "volume": 670000,
+    "end_date": "2026-12-31"
+  },
+  {
+    "question": "Will AI regulation bill pass in US Congress before 2027?",
+    "current_price": 0.31,
+    "volume": 450000,
+    "end_date": "2027-01-01"
+  },
+  {
+    "question": "Will Elon Musk remain CEO of Tesla through 2027?",
+    "current_price": 0.77,
+    "volume": 320000,
+    "end_date": "2027-12-31"
+  },
+  {
+    "question": "Will US CPI inflation be above 3% in April 2026?",
+    "current_price": 0.41,
+    "volume": 510000,
+    "end_date": "2026-05-14"
+  },
+  {
+    "question": "Will S&P 500 be above 5500 at end of April 2026?",
+    "current_price": 0.51,
+    "volume": 730000,
+    "end_date": "2026-04-30"
+  },
+  {
+    "question": "Will Ethereum close above $2000 in April 2026?",
+    "current_price": 0.45,
+    "volume": 420000,
+    "end_date": "2026-04-30"
+  },
+  {
+    "question": "Will US unemployment rate rise above 4.5% in Q2 2026?",
+    "current_price": 0.29,
+    "volume": 380000,
+    "end_date": "2026-07-01"
+  }
+]

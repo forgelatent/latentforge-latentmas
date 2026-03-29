@@ -1,0 +1,44 @@
+{
+  "model": "phi3",
+  "hidden_dim": 3072,
+  "k_values_tested": [
+    null,
+    512,
+    256,
+    128
+  ],
+  "summary": [
+    {
+      "k": 3072,
+      "label": "k=full (3072)",
+      "compression_ratio": 1.0,
+      "avg_fidelity": 1.0,
+      "avg_divergence": 2.0,
+      "avg_savings_pct": 9.7
+    },
+    {
+      "k": 512,
+      "label": "k=512",
+      "compression_ratio": 6.0,
+      "avg_fidelity": 0.8268,
+      "avg_divergence": 2.0,
+      "avg_savings_pct": 9.9
+    },
+    {
+      "k": 256,
+      "label": "k=256",
+      "compression_ratio": 12.0,
+      "avg_fidelity": 0.7142,
+      "avg_divergence": 2.0,
+      "avg_savings_pct": 9.9
+    },
+    {
+      "k": 128,
+      "label": "k=128",
+      "compression_ratio": 24.0,
+      "avg_fidelity": 0.607,
+      "avg_divergence": 2.0,
+      "avg_savings_pct": 8.9
+    }
+  ]
+}
