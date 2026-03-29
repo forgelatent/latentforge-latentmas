@@ -1,6 +1,6 @@
 # LatentForge BRAIN.md
 Single source of truth for the project
-Last Updated: March 282, 2026
+Last Updated: March 29, 2026
 Maintained by: John McGuire with Grok and Claude as technical intelligence
 Company: LatentForge (confirmed, public-facing)
 Location: San Francisco, CA
@@ -290,7 +290,7 @@ CONTEXT: [What happened since last session]
 | NemoClaw installed in Docker container | [x] | Single command |
 | OpenClaw running inside NemoClaw | [x] | |
 | hello.txt written by OpenClaw | [x] | First proof of life |
-| RunPod account funded ($50) | [ ] | Do this today |
+| RunPod account funded ($50) | [x] | Done in Week 1 |
 | BRAIN.md committed to GitHub repo | [x] | Done |
 | Polymarket Gamma API data pull running | [x] | No GPU needed — collect from day 1 |
 | Polymarket KYC process started | [ ] | CFTC compliance — takes days, start today |
@@ -509,7 +509,7 @@ Urgent flag triggers:
 
 ---
 
-Last updated: March 28 1.2 — Week 2 completel
+Last updated: March 29, 2026 — v1.3
 Merged from: Systems Engine founding version (complete content) + Divergent Thinking Engine (cleaner structure + complete milestones + NVIDIA pitch + KYC flag)
 Next review: April 4, 2026 — End of Week 3
 First dual-engine decision logged in Section 11 (Architecture Decisions)
@@ -532,4 +532,10 @@ First dual-engine decision logged in Section 11 (Architecture Decisions)
 | Mar 29 2026 | Use curated policy seed file for benchmark | Kalshi trading API requires RSA auth; seed gives meaningful markets immediately | Waiting for full auth (would delay benchmark start) |
 | Mar 29 2026 | Make benchmark private for first 7–14 days | Protect early noisy results; build confidence before public "Divergence vs Crowd" posts | Immediate public launch (risk of publishing weak early signal) |
 | Mar 29 2026 | Revenue Strategist now uses real Anthropic API + Kalshi data | Enables grounded daily recommendations tied to our thesis | Continuing with placeholder output |
+
+
+| Mar 29 2026 | Kalshi API endpoint updated + RSA auth identified | Old trading-api.kalshi.com returns 401. New endpoint (api.elections.kalshi.com) is sports-only. Real policy markets require RSA signature auth (API key + private key). | Waiting for proper auth implementation (deferred to week of April 1). Using curated seed file for benchmark in the meantime. |
+
+
+| Mar 29 2026 | Kalshi API endpoint updated + RSA auth identified | Old trading-api.kalshi.com returns 401. New endpoint (api.elections.kalshi.com) is sports-only. Real policy markets require RSA signature auth (API key + private key). | Waiting for proper auth implementation (deferred to week of April 1). Using curated seed file for benchmark in the meantime. |
 
