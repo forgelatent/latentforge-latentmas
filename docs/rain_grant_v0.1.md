@@ -3,23 +3,26 @@
 **Requested Amount:** $50,000 (non-dilutive)
 
 ## Executive Summary
-LatentForge is building the first communication protocol for AI agents that removes the "language bottleneck." Instead of forcing agents to translate rich internal thought-objects (hidden states) into lossy human language or JSON, agents communicate directly via compressed latent vector deltas.
+Today, multi-agent AI systems are bottlenecked by human language. Agents must compress rich internal thought-objects (hidden states) into lossy text or JSON, then decompress them again. This translation layer wastes 30–100× compute and forces agents to reason inside human conceptual boundaries.
 
-This enables two measurable advantages:
-- Dramatically lower compute cost per agent exchange (target: 30–100× reduction)
-- Genuine divergent thinking — solutions and insights that text-based systems are structurally incapable of producing
+LatentForge removes that bottleneck.
 
-Early validation (Week 2):
+We are building a governable latent communication protocol where agents exchange compressed vector deltas directly against a shared seed vector. This enables:
+- Dramatically lower communication cost
+- Measurable, useful divergence — calibrated forecasts and solutions that text-based systems are structurally incapable of producing
+- Operational observability via the Shadow Self layer (real-time English translation + drift detection)
+
+Early validation (Week 2 on Phi-3 Mini):
 - Hidden state extraction and reconstruction with perfect fidelity (1.0000)
-- Consistent divergence: latent paths produce meaningfully different outputs (divergence score 2.0/2)
+- Consistent divergence score of 2.0/2 on every exchange
 - Divergence remains robust even under 24× compression (top-k sparsity at k=128)
 
 ## Proposed Work
-Fund the first systematic "Divergence vs Crowd" benchmark on Kalshi prediction markets. We will:
-- Run a 30-day private benchmark comparing text-only vs latent-agent probability estimates
-- Track calibration (Brier score) and divergence rate
-- Publish daily "Divergence vs Crowd" updates after initial validation
-- Open-source the divergence scoring framework and benchmark harness
+Fund the first systematic “Divergence vs Crowd” benchmark on Kalshi prediction markets. We will:
+- Run a 30-day private benchmark comparing single text agent, text swarm, single latent agent, and latent swarm (holding model family, retrieval, wall-clock, and dollar budget constant)
+- Measure calibration (Brier/log loss), marginal diversity, compression-adjusted utility, and simulated trading alpha vs market mid-price
+- Publish daily “Divergence vs Crowd” updates after initial validation period
+- Open-source the divergence scoring framework, benchmark harness, and Shadow Self governance layer
 
 This directly aligns with Rain’s mission to advance novel AI approaches to prediction markets.
 
@@ -27,7 +30,7 @@ This directly aligns with Rain’s mission to advance novel AI approaches to pre
 - We already have working latent delta infrastructure (LatentMAS fork + custom sparsity tests)
 - We have proven divergence in controlled experiments
 - We have a live daily Revenue Strategist and automated data pipelines
-- Shadow Self governance layer provides real-time English translation and drift detection — addressing safety and audit concerns
+- Shadow Self provides operational observability (translation, anomaly detection, divergence bounds) without claiming full mechanistic interpretability
 
 ## Team
 - Founder: John McGuire (vision + execution)
@@ -37,7 +40,7 @@ This directly aligns with Rain’s mission to advance novel AI approaches to pre
 
 ## Timeline & Deliverables (First 90 Days)
 - Week 1–2: Benchmark infrastructure + Day 1–14 data collection
-- Week 3–4: Shadow Self integration + first latent vs text comparison
+- Week 3–4: Shadow Self integration + first four-arm comparison
 - Week 5–8: 30-day paper trading + public divergence reporting
 - Week 9–12: Technical report + grant deliverables
 
@@ -46,7 +49,7 @@ This directly aligns with Rain’s mission to advance novel AI approaches to pre
 - Benchmark infrastructure and public dissemination
 - Minimal operational costs
 
-We believe measurable divergence is a new evaluation axis for agentic AI. This grant would accelerate the first public demonstration of that capability on real prediction markets.
+We believe removing the language bottleneck and measuring useful divergence is a new evaluation axis for agentic AI. This grant would accelerate the first public demonstration of that capability on real prediction markets.
 
 Thank you for considering LatentForge.
 
