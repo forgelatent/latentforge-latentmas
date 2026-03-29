@@ -482,8 +482,8 @@ Urgent flag triggers:
 - [ ] Vision Wormhole practical validation — run the repo. Does it actually work cross-model?
 - [ ] Shadow Self compute cost at scale — benchmark before claiming cost numbers to investors.
 - [ ] Nemotron Nano vs Phi-3 Mini delta stability — run comparison Week 2, pick winner on data.
-- [ ] Kalshi KYC — complete US identity verification at kalshi.com before Week 5 live trading
-- [ ] Kalshi API access — sign up at kalshi.com, verify US account, test API before Week 5
+- [x] Kalshi KYC — complete US identity verification at kalshi.com before Week 5 live trading
+- [x] Kalshi API access — sign up at kalshi.com, verify US account, test API before Week 5
 
 ---
 
