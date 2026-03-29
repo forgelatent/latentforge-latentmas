@@ -513,3 +513,23 @@ Last updated: March 28 1.2 — Week 2 completel
 Merged from: Systems Engine founding version (complete content) + Divergent Thinking Engine (cleaner structure + complete milestones + NVIDIA pitch + KYC flag)
 Next review: April 4, 2026 — End of Week 3
 First dual-engine decision logged in Section 11 (Architecture Decisions)
+
+### March 29, 2026 — Day 1 Benchmark & Revenue Systems
+| Deliverable | Done? | Notes |
+|-------------|-------|-------|
+| Revenue Strategist v0.3 with real Anthropic API | [x] | Now producing daily grounded ideas |
+| Revenue Strategist added to cron (8:00 AM) | [x] | Fully automated |
+| Policy market seed file created | [x] | 8 high-interest markets for benchmark |
+| Daily Benchmark Tracker created | [x] | `experiments/benchmark/daily_tracker.md` |
+| Text baseline estimator built | [x] | Day 1 numbers logged |
+| Kalshi data pull stabilized (seed fallback) | [x] | Live pull deferred to next week |
+
+**Week 2 Complete** — Latent delta validation + sparsity proven. Revenue + benchmark systems live.
+
+### March 29, 2026 — Architecture Decisions
+| Date       | Decision | Why | Alternatives rejected |
+|------------|----------|-----|-----------------------|
+| Mar 29 2026 | Use curated policy seed file for benchmark | Kalshi trading API requires RSA auth; seed gives meaningful markets immediately | Waiting for full auth (would delay benchmark start) |
+| Mar 29 2026 | Make benchmark private for first 7–14 days | Protect early noisy results; build confidence before public "Divergence vs Crowd" posts | Immediate public launch (risk of publishing weak early signal) |
+| Mar 29 2026 | Revenue Strategist now uses real Anthropic API + Kalshi data | Enables grounded daily recommendations tied to our thesis | Continuing with placeholder output |
+
