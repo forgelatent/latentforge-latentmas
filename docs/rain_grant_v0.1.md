@@ -18,11 +18,15 @@ Early validation (Week 2 on Phi-3 Mini):
 - Divergence remains robust even under 24× compression (top-k sparsity at k=128)
 
 ## Proposed Work
-Fund the first systematic “Divergence vs Crowd” benchmark on Kalshi prediction markets. We will:
-- Run a 30-day private benchmark comparing single text agent, text swarm, single latent agent, and latent swarm (holding model family, retrieval, wall-clock, and dollar budget constant)
-- Measure calibration (Brier/log loss), marginal diversity, compression-adjusted utility, and simulated trading alpha vs market mid-price
-- Publish daily “Divergence vs Crowd” updates after initial validation period
-- Open-source the divergence scoring framework, benchmark harness, and Shadow Self governance layer
+Fund the first systematic “Divergence vs Crowd” benchmark on Kalshi prediction markets. We will run a four-arm experiment (single text agent, text swarm, single latent agent, latent swarm) holding model family, retrieval, wall-clock budget, and dollar budget constant.
+
+We will measure:
+- Calibration (Brier / log loss)
+- Marginal diversity (improvement when adding agents)
+- Compression-adjusted utility (improvement in Brier or simulated PnL per unit cost)
+- Simulated trading alpha versus market mid-price
+
+We will publish daily “Divergence vs Crowd” updates after an initial private validation period and open-source the divergence scoring framework, benchmark harness, and Shadow Self governance layer.
 
 This directly aligns with Rain’s mission to advance novel AI approaches to prediction markets.
 
