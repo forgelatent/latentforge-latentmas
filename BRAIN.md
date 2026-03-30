@@ -549,3 +549,14 @@ First dual-engine decision logged in Section 11 (Architecture Decisions)
 | Mar 30 2026 | Shadow Self upgraded to KL-Divergence Watchdog | Measures drift from base model manifold, not just translates | Translator only: misses the governance story |
 | Mar 30 2026 | Anthropic API key rotated | Old sk-ant-api03 format was invalid. New key confirmed working. | N/A |
 | Mar 30 2026 | Arm 2 text swarm built and running | Needed to establish text swarm baseline before Mac Mini latent arms | Skipping to latent arms: no comparison baseline |
+
+
+### March 30, 2026 — Architecture Decisions (Morning Sync)
+| Date       | Decision                              | Why                                                                 | Alternatives rejected                  |
+|------------|---------------------------------------|---------------------------------------------------------------------|----------------------------------------|
+| Mar 30 2026 | Four-arm benchmark locked             | ChatGPT/Gemini/Grok converged on falsifiable structure              | Two-arm only: not sufficiently defensible |
+| Mar 30 2026 | "Useful divergence" replaces "divergence" | Must tie to calibration + PnL/alpha, not novelty alone             | Pure novelty divergence: too easy to dismiss |
+| Mar 30 2026 | Shadow Self upgraded to include KL-Divergence Watchdog | Better drift detection from base model manifold                    | Translator-only: misses strong governance story |
+| Mar 30 2026 | Contrarian agent tracked as standalone supplementary signal | Day 1 data shows systematic, directional divergence from crowd     | Averaging only into swarm: dilutes the edge signal |
+| Mar 30 2026 | Anthropic API key rotated             | Old sk-ant-api03 format was invalid                                 | Continuing with broken key             |
+
