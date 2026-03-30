@@ -1,13 +1,13 @@
 # experiments/benchmark/03_text_swarm.py
 """
-Arm 2: Text Swarm Estimator
-Calls Claude 3 times with different reasoning angles on the same markets.
-Aggregates probabilities to produce a swarm estimate.
-Compares against Arm 1 (single text agent) baseline.
+Arm 2: Text Swarm Estimator v2
+- Auto-logs contrarian separately to contrarian_track.csv
+- Auto-flags divergences > 10 points from crowd
 """
 
 import os
 import json
+import csv
 import requests
 from datetime import datetime
 from pathlib import Path
@@ -16,6 +16,7 @@ TODAY = datetime.now().strftime("%Y-%m-%d")
 BENCHMARK_DIR = Path("experiments/benchmark")
 SEED_FILE = BENCHMARK_DIR / "policy_markets_seed.json"
 OUTPUT_FILE = BENCHMARK_DIR / f"text_swarm_{TODAY}.md"
+CONTRARIAN_LOG = BENCHMARK_DIR / "contrarian_track.csv"
 
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 
@@ -68,18 +69,40 @@ def parse_probabilities(text, n_markets):
     if not text:
         return [None] * n_markets
     for i in range(1, n_markets + 1):
+        found = False
         for line in text.split("\n"):
             if line.strip().startswith(f"Market {i}:"):
                 try:
                     pct = line.split(":")[1].strip().replace("%", "")
                     probs.append(float(pct))
+                    found = True
                     break
                 except:
                     probs.append(None)
+                    found = True
                     break
-        else:
+        if not found:
             probs.append(None)
     return probs
+
+def log_contrarian(markets, contrarian_probs):
+    file_exists = CONTRARIAN_LOG.exists()
+    with open(CONTRARIAN_LOG, "a", newline="") as f:
+        writer = csv.writer(f)
+        if not file_exists:
+            writer.writerow(["date", "market", "contrarian_pct", "crowd_pct", "vs_crowd"])
+        for j, m in enumerate(markets):
+            question = m.get("question", "")[:80]
+            crowd = m.get("current_price", None)
+            contra = contrarian_probs[j]
+            if contra is not None and crowd is not None:
+                try:
+                    crowd_pct = round(float(crowd) * 100, 1)
+                    vs_crowd = round(contra - crowd_pct, 1)
+                    writer.writerow([TODAY, question, contra, crowd_pct, vs_crowd])
+                except:
+                    pass
+    print(f"Contrarian track updated: {CONTRARIAN_LOG}")
 
 def main():
     if not SEED_FILE.exists():
@@ -106,13 +129,14 @@ def main():
         all_probs.append(probs)
         print(f"  Raw: {probs}")
 
-    # Aggregate: simple average, skip None
     swarm_probs = []
     for j in range(n):
         valid = [all_probs[i][j] for i in range(3) if all_probs[i][j] is not None]
         swarm_probs.append(round(sum(valid) / len(valid), 1) if valid else None)
 
-    # Write output
+    contrarian_probs = all_probs[2]
+    log_contrarian(markets, contrarian_probs)
+
     out = open(OUTPUT_FILE, "w")
     out.write(f"# Text Swarm Estimates - {TODAY}\n\n")
     out.write("Three agents (Macro, Quant, Contrarian) averaged into swarm estimate.\n\n")
@@ -124,13 +148,32 @@ def main():
         crowd = m.get("current_price", "N/A")
         macro = f"{all_probs[0][j]}%" if all_probs[0][j] else "-"
         quant = f"{all_probs[1][j]}%" if all_probs[1][j] else "-"
-        contra = f"{all_probs[2][j]}%" if all_probs[2][j] else "-"
+        contra = f"{contrarian_probs[j]}%" if contrarian_probs[j] else "-"
         swarm = f"{swarm_probs[j]}%" if swarm_probs[j] else "-"
-        crowd_pct = f"{int(float(crowd)*100)}%" if crowd not in ["N/A", None] else str(crowd)
+        try:
+            crowd_pct = f"{int(float(crowd)*100)}%" if crowd not in ["N/A", None] else str(crowd)
+        except:
+            crowd_pct = str(crowd)
         out.write(f"| {j+1} | {q} | {macro} | {quant} | {contra} | {swarm} | {crowd_pct} |\n")
 
-    out.write("\n## Divergence from Single Agent (Arm 1 vs Arm 2)\n\n")
-    out.write("Compare this file against text_baseline_{TODAY}.md to see if swarm moves estimates.\n")
+    out.write("\n## Divergence Flags (swarm vs crowd > 10 points)\n\n")
+    flags = []
+    for j, m in enumerate(markets):
+        crowd = m.get("current_price", None)
+        if swarm_probs[j] and crowd:
+            try:
+                crowd_pct = float(crowd) * 100
+                diff = abs(swarm_probs[j] - crowd_pct)
+                if diff > 10:
+                    flags.append(f"Market {j+1}: swarm {swarm_probs[j]}% vs crowd {crowd_pct:.0f}% (diff {diff:.0f}pts)")
+            except:
+                pass
+    if flags:
+        for flag in flags:
+            out.write(f"- {flag}\n")
+    else:
+        out.write("No flags today.\n")
+
     out.close()
 
     print(f"\nSaved to {OUTPUT_FILE}")
