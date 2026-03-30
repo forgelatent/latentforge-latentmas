@@ -539,3 +539,13 @@ First dual-engine decision logged in Section 11 (Architecture Decisions)
 
 | Mar 29 2026 | Kalshi API endpoint updated + RSA auth identified | Old trading-api.kalshi.com returns 401. New endpoint (api.elections.kalshi.com) is sports-only. Real policy markets require RSA signature auth (API key + private key). | Waiting for proper auth implementation (deferred to week of April 1). Using curated seed file for benchmark in the meantime. |
 
+
+
+### March 30, 2026 — Architecture Decisions
+| Date | Decision | Why | Alternatives rejected |
+|------|----------|-----|-----------------------|
+| Mar 30 2026 | Four-arm benchmark design locked | ChatGPT/Gemini/Grok all converged on this. Falsifiable, defensible. | Two-arm only: not defensible against fairness critique |
+| Mar 30 2026 | Useful divergence replaces divergence | Divergence alone is not a value prop. Must be tied to calibration + PnL. | Divergence as novelty metric: too easy to dismiss |
+| Mar 30 2026 | Shadow Self upgraded to KL-Divergence Watchdog | Measures drift from base model manifold, not just translates | Translator only: misses the governance story |
+| Mar 30 2026 | Anthropic API key rotated | Old sk-ant-api03 format was invalid. New key confirmed working. | N/A |
+| Mar 30 2026 | Arm 2 text swarm built and running | Needed to establish text swarm baseline before Mac Mini latent arms | Skipping to latent arms: no comparison baseline |
