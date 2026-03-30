@@ -38,3 +38,36 @@
 
 ---
 Last updated: 2026-03-29
+
+
+## March 30, 2026 — Day 2 (Arms 1+2: Single Agent + Text Swarm)
+
+| # | Market | Single | Macro | Quant | Contrarian | Swarm | Crowd | Flag |
+|---|--------|--------|-------|-------|------------|-------|-------|------|
+| 1 | Fed 50bps? | 65% | 72% | 65% | 55% | 64% | 68% | - |
+| 2 | BTC 150K? | 50% | 48% | 52% | 45% | 48% | 55% | - |
+| 3 | AI regulation? | 31% | 18% | 28% | 12% | 19% | 31% | DIVERGE |
+| 4 | Musk/Tesla? | - | 71% | 74% | 62% | 69% | 77% | - |
+| 5 | CPI >3%? | - | 44% | 44% | 52% | 47% | 41% | - |
+| 6 | S&P >5500? | - | 54% | 53% | 58% | 55% | 51% | - |
+| 7 | ETH >2K? | - | 42% | 48% | 38% | 43% | 45% | - |
+| 8 | Unemployment? | - | 32% | 32% | 38% | 34% | 29% | - |
+
+**Flag:** AI regulation swarm 19% vs crowd 31%. Contrarian at 12%.
+
+## Contrarian Standalone Track
+
+Contrarian is NOT a fifth arm. Logged independently to test if systematic contrarian positioning produces alpha.
+
+| Date | Market | Contrarian | Crowd | vs Crowd |
+|------|--------|------------|-------|----------|
+| 2026-03-30 | Fed 50bps | 55% | 68% | -13% |
+| 2026-03-30 | BTC 150K | 45% | 55% | -10% |
+| 2026-03-30 | AI regulation | 12% | 31% | -19% |
+| 2026-03-30 | Musk/Tesla | 62% | 77% | -15% |
+| 2026-03-30 | CPI >3% | 52% | 41% | +11% |
+| 2026-03-30 | S&P >5500 | 58% | 51% | +7% |
+| 2026-03-30 | ETH >2K | 38% | 45% | -7% |
+| 2026-03-30 | Unemployment | 38% | 29% | +9% |
+
+Pattern: Contrarian below crowd on crypto/tech/policy. Above crowd on macro risk.
