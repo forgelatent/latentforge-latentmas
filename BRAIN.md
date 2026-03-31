@@ -560,3 +560,11 @@ First dual-engine decision logged in Section 11 (Architecture Decisions)
 | Mar 30 2026 | Contrarian agent tracked as standalone supplementary signal | Day 1 data shows systematic, directional divergence from crowd     | Averaging only into swarm: dilutes the edge signal |
 | Mar 30 2026 | Anthropic API key rotated             | Old sk-ant-api03 format was invalid                                 | Continuing with broken key             |
 
+
+
+### March 31, 2026 — Urgent Competitive Signals (from research sweep)
+| Signal | What it means | Action |
+|--------|---------------|--------|
+| AVP v0.4.2 released (co-authored with Claude Opus 4.6) | VectorArc is using Claude to build their protocol. Ecosystem accelerating. | Monitor weekly — they are building adjacent to us |
+| LatentMAS README updated — added new AVP entry | LatentMAS and AVP explicitly integrating. Ecosystem converging around a wire format. | LatentForge needs to publish before this solidifies |
+| NemoClaw reverted security sandbox policy (#1169) | Active governance debate inside NVIDIA agent runtime. Shadow Self relevance confirmed. | Note in Shadow Self spec — cite NemoClaw governance gap |
