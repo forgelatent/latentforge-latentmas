@@ -8,3 +8,26 @@ Digest: 2026-03-29.md
 
 --- PREVIEW (first 700 chars) ---
 [ERROR: ANTHROPIC_API_KEY not set]
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Revenue Strategist for 2026-03-31...
+Kalshi: markets_2026-03-31.json
+Digest: 2026-03-29.md
+
+✅ Saved to /Users/latentforge/Projects/latentforge-latentmas/revenue_ideas/2026-03-31.md
+
+--- PREVIEW (first 700 chars) ---
+# LatentForge Revenue Opportunities — Week of March 31, 2026
+
+---
+
+## 1. Rain AI Grant Application
+**Timeline: $50K possible within 6–10 weeks of submission**
+
+**The edge:**
+Rain funds AI infrastructure with genuine technical differentiation. Latent delta communication is a credible, novel protocol with a measurable claim (30–100× compute reduction per coordination turn). The LatentMAS README updates and avp-python v0.4.1 stability release this week mean the ecosystem is real and citable — not vaporware.
+
+**Honest caveat:** Grant cycles are slow. This is not this-week money, but the application *starts* this week.
+
+**Actionable next step:**
+Write and submit the Rain grant application. The ap
