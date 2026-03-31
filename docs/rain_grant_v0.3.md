@@ -1,11 +1,11 @@
 # Rain Grant One-Pager — LatentForge
 **Requested Amount:** $50,000 (non-dilutive)  
-**Submitted:** March 30, 2026
+**Submitted:** March 31, 2026
 
 ## Executive Summary
-Multi-agent systems today waste enormous compute translating rich internal representations into lossy text or JSON. LatentForge removes this bottleneck with a governable latent communication protocol. Agents exchange compressed vector deltas in mathematical space instead of tokens.
+Multi-agent AI systems today waste enormous compute translating rich internal representations into lossy text or JSON. LatentForge removes this bottleneck with a governable latent communication protocol. Agents exchange compressed vector deltas in mathematical space instead of tokens.
 
-The result: lower coordination cost and **useful divergence** — probability estimates and strategies that text-based systems are structurally incapable of producing.
+The result: lower coordination cost and **useful divergence** — solutions and probability estimates that text-based systems are structurally incapable of producing.
 
 We validate on prediction markets because outcomes resolve, crowd priors exist, and performance can be measured with Brier score and simulated alpha.
 
@@ -17,26 +17,26 @@ We compare four configurations on identical compute budgets across real Kalshi p
 3. Single Latent Agent (hidden-state extraction + reconstruction)
 4. Latent Swarm (agents communicating via latent deltas)
 
-**Early results (Day 1–2 text swarm):**
-- AI regulation: Crowd 31% → Text Swarm 21% (contrarian agent pulled to 18%)
-- Macro risk (CPI, unemployment): Swarm consistently more bearish than crowd
+**Early results (Day 1–3 text swarm):**
+- AI regulation: Crowd 31% → Text Swarm ~21–28% (contrarian agent consistently pulling lower)
+- Macro risk (CPI, unemployment): Swarm systematically more bearish than crowd
 
 **Metrics:**
-- Brier score (calibration)
-- Simulated trading alpha vs crowd
-- Compute cost
+- Brier score (calibration to ground truth)
+- Simulated trading alpha vs crowd mid-price
+- Compute cost (wall-clock time or equivalent)
 - Divergence score (useful differences from text baseline)
 
-Goal: Prove latent communication delivers **better-calibrated decisions at lower effective cost**.
+Goal: Show that latent communication produces **better-calibrated decisions at lower effective cost**, not just novel outputs.
 
 ## Why Rain Should Fund This
-Rain supports novel forecasting approaches. Latent deltas give a structural edge on complex, correlated markets where text agents lose joint probability structure. Early experiments show perfect reconstruction fidelity and divergence that survives compression.
+Rain supports novel forecasting approaches. While leading players like Aaru ($1B valuation) simulate populations using text-based multi-agent LLMs, LatentForge tests whether direct latent communication produces measurably superior calibration and useful divergence on the same prediction tasks. Early experiments already show perfect reconstruction fidelity and divergence that survives aggressive compression.
 
-This is infrastructure for the next layer of agent intelligence.
+This is infrastructure for the next layer of agent intelligence, not another prompt hack.
 
 ## Timeline & Deliverables (4–8 weeks)
 - Week 1–2: Text arms + baseline (completed)
-- Week 3 (Mac Mini): Latent arms + Shadow Self governance
+- Week 3 (Mac Mini arrival): Latent arms + Shadow Self governance
 - Week 4–6: Full four-arm runs + Brier/PnL analysis
 - Week 6–8: Preprint draft + open-source benchmark framework
 
