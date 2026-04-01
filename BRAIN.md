@@ -568,3 +568,11 @@ First dual-engine decision logged in Section 11 (Architecture Decisions)
 | AVP v0.4.2 released (co-authored with Claude Opus 4.6) | VectorArc is using Claude to build their protocol. Ecosystem accelerating. | Monitor weekly — they are building adjacent to us |
 | LatentMAS README updated — added new AVP entry | LatentMAS and AVP explicitly integrating. Ecosystem converging around a wire format. | LatentForge needs to publish before this solidifies |
 | NemoClaw reverted security sandbox policy (#1169) | Active governance debate inside NVIDIA agent runtime. Shadow Self relevance confirmed. | Note in Shadow Self spec — cite NemoClaw governance gap |
+
+
+### April 1, 2026 — Latent Compression Research Directions (from compression researcher agent)
+| Technique | Field | Core idea | Priority | When |
+|-----------|-------|-----------|----------|------|
+| Efference Copy Compression | Neuroscience | Transmit only residual from predicted next state, not delta from seed. Compression improves during session as forward model warms up. | HIGH | Week 3 - test with 2 API calls |
+| Dictionary Learning sparse coding | Genomics / Compressed Sensing | Learn domain-specific basis from latent delta corpus, transmit 20 coefficients instead of 128 raw coordinates. 6x additional compression. | MEDIUM | Week 4 - CPU testable with sklearn |
+| Topological Drift Detection | Algebraic Topology / TDA | Persistent homology detects when agent crosses semantic boundary regardless of magnitude. Replaces cosine distance in Shadow Self. | HIGH | Week 4 - testable with ripser |
