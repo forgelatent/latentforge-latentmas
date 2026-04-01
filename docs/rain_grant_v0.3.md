@@ -36,7 +36,7 @@ This is infrastructure for the next layer of agent intelligence, not another pro
 
 ## Timeline & Deliverables (4–8 weeks)
 - Week 1–2: Text arms + baseline (completed)
-- Week 3 (Mac Mini arrival): Latent arms + Shadow Self governance + initial efference-copy compression test (biologically-inspired predictive residual coding — transmit only the unpredictable delta against a shared prior)
+- Week 3 (Mac Mini arrival): Latent arms + Shadow Self governance + initial efference-copy compression test (biologically-inspired predictive residual coding) + initial efference-copy compression test (biologically-inspired predictive residual coding — transmit only the unpredictable delta against a shared prior)
 - Week 4–6: Full four-arm runs + Brier/PnL analysis
 - Week 6–8: Preprint draft + open-source benchmark framework
 
