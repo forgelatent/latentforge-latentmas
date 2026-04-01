@@ -576,3 +576,13 @@ First dual-engine decision logged in Section 11 (Architecture Decisions)
 | Efference Copy Compression | Neuroscience | Transmit only residual from predicted next state, not delta from seed. Compression improves during session as forward model warms up. | HIGH | Week 3 - test with 2 API calls |
 | Dictionary Learning sparse coding | Genomics / Compressed Sensing | Learn domain-specific basis from latent delta corpus, transmit 20 coefficients instead of 128 raw coordinates. 6x additional compression. | MEDIUM | Week 4 - CPU testable with sklearn |
 | Topological Drift Detection | Algebraic Topology / TDA | Persistent homology detects when agent crosses semantic boundary regardless of magnitude. Replaces cosine distance in Shadow Self. | HIGH | Week 4 - testable with ripser |
+
+
+### April 1, 2026 — Efference Copy Test Result
+- Test: cold delta norm (8.49) vs warm residual norm (8.06)
+- Result: CONFIRMED — warm residual smaller than cold delta
+- Compression saving: 5.1% on proxy test
+- Cosine similarity cold vs warm: 0.64
+- Note: proxy test only (text statistics, not actual hidden states)
+- Next step: retest with Phi-3 Mini hidden state extraction on Mac Mini (April 9-16)
+- Expected improvement: 10-30x compression on repeated agent exchanges per biological precedent
