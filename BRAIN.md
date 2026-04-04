@@ -612,3 +612,10 @@ First dual-engine decision logged in Section 11 (Architecture Decisions)
 | Apr 1 2026 | Compression researcher added to launchd | Runs automatically at 2 AM. First run produced efference copy, dictionary learning, and topological drift detection suggestions. | Manual review only |
 | Apr 2 2026 | Five-day AI regulation divergence pattern logged | Swarm consistently 19-28% vs crowd 31% for 5 consecutive days. Strongest signal to date. | Treating as noise after 3 days |
 | Apr 3 2026 | Rain grant finalized for submission | v0.3 includes 5-day divergence table, Aaru framing, and efference copy as Week 3 experiment. | Delaying submission for latent results |
+
+### April 4, 2026 — Polymarket Historical Benchmark Result
+- Script: experiments/benchmark/polymarket_historical_benchmark.py
+- Markets scored: 18 resolved Polymarket questions (politics/crypto)
+- Swarm Brier score: 0.1376 vs naive 0.25 baseline
+- Improvement over naive: 45%
+- Note: agent errors on sports/entertainment markets — filter by category in v2
