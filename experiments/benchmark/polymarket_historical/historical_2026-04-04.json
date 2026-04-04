@@ -1,0 +1,136 @@
+{
+  "summary": {
+    "n": 18,
+    "swarm_brier": 0.1376,
+    "naive_brier": 0.25,
+    "improvement_pct": 45.0
+  },
+  "results": [
+    {
+      "question": "Will Kim Kardashian and Kanye West divorce before Jan 1, 2021?",
+      "actual": 0,
+      "swarm_prob": 0.85,
+      "swarm_brier": 0.7225,
+      "naive_brier": 0.25
+    },
+    {
+      "question": "Will Coinbase begin publicly trading before Jan 1, 2021?",
+      "actual": 0,
+      "swarm_prob": 0.1,
+      "swarm_brier": 0.01,
+      "naive_brier": 0.25
+    },
+    {
+      "question": "Will Trump win the 2020 U.S. presidential election?",
+      "actual": 0,
+      "swarm_prob": 0.0,
+      "swarm_brier": 0.0,
+      "naive_brier": 0.25
+    },
+    {
+      "question": "Will there be a federal charge filed against Hunter Biden before 2021?",
+      "actual": 0,
+      "swarm_prob": 0.05,
+      "swarm_brier": 0.0025,
+      "naive_brier": 0.25
+    },
+    {
+      "question": "Which party will win Arizona in the 2020 Presidential Election?",
+      "actual": 1,
+      "swarm_prob": 0.75,
+      "swarm_brier": 0.0625,
+      "naive_brier": 0.25
+    },
+    {
+      "question": "Will Donald Trump tweet announcing that he won the election before November 5th ",
+      "actual": 0,
+      "swarm_prob": 0.05,
+      "swarm_brier": 0.0025,
+      "naive_brier": 0.25
+    },
+    {
+      "question": "Will the Ethereum 2.0 Genesis Event happen successfully on December 1st, 2020?",
+      "actual": 1,
+      "swarm_prob": 0.9,
+      "swarm_brier": 0.01,
+      "naive_brier": 0.25
+    },
+    {
+      "question": "Will $BTC break $20k before 2021?",
+      "actual": 1,
+      "swarm_prob": 0.383,
+      "swarm_brier": 0.3803,
+      "naive_brier": 0.25
+    },
+    {
+      "question": "Will Donald Trump formally concede the 2020 US Election before December 1st, 202",
+      "actual": 0,
+      "swarm_prob": 0.05,
+      "swarm_brier": 0.0025,
+      "naive_brier": 0.25
+    },
+    {
+      "question": "Will Donald Trump attend Joe Biden\u2019s inauguration ceremony in person?",
+      "actual": 0,
+      "swarm_prob": 0.15,
+      "swarm_brier": 0.0225,
+      "naive_brier": 0.25
+    },
+    {
+      "question": "Will Donald Trump be inaugurated for his second term as President of the USA on ",
+      "actual": 0,
+      "swarm_prob": 0.0,
+      "swarm_brier": 0.0,
+      "naive_brier": 0.25
+    },
+    {
+      "question": "Will Trump win any of Pennsylvania, Arizona or Georgia?",
+      "actual": 0,
+      "swarm_prob": 0.75,
+      "swarm_brier": 0.5625,
+      "naive_brier": 0.25
+    },
+    {
+      "question": "Will any art piece on Superrare sell for more than $100k before 2021?",
+      "actual": 0,
+      "swarm_prob": 0.15,
+      "swarm_brier": 0.0225,
+      "naive_brier": 0.25
+    },
+    {
+      "question": "Will indoor dining be prohibited in NYC at any point before 2021?",
+      "actual": 1,
+      "swarm_prob": 0.583,
+      "swarm_brier": 0.1736,
+      "naive_brier": 0.25
+    },
+    {
+      "question": "Will Trump Pardon Himself in His First Term?",
+      "actual": 0,
+      "swarm_prob": 0.15,
+      "swarm_brier": 0.0225,
+      "naive_brier": 0.25
+    },
+    {
+      "question": "Which party will win the U.S. Senate special election in Georgia? (Loeffler - R ",
+      "actual": 1,
+      "swarm_prob": 0.583,
+      "swarm_brier": 0.1736,
+      "naive_brier": 0.25
+    },
+    {
+      "question": "Superbowl 55: Kansas City Chiefs vs Tampa Bay Buccaneers",
+      "actual": 0,
+      "swarm_prob": 0.4,
+      "swarm_brier": 0.16,
+      "naive_brier": 0.25
+    },
+    {
+      "question": "Will Donald Trump pardon Julian Assange?",
+      "actual": 0,
+      "swarm_prob": 0.383,
+      "swarm_brier": 0.1469,
+      "naive_brier": 0.25
+    }
+  ]
+}
