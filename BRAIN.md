@@ -593,3 +593,22 @@ First dual-engine decision logged in Section 11 (Architecture Decisions)
 | Apr 4 2026 | Migrated all five cron jobs to launchd | WakeForJob wakes Mac from sleep — cron silently skips sleeping machines. Jobs were not running overnight. | Keeping cron: confirmed broken |
 | Apr 4 2026 | Rotated ANTHROPIC_API_KEY | Old key exposed in terminal output and chat history | N/A |
 | Apr 4 2026 | Moved API key to macOS Keychain | Eliminates plaintext key in crontab. Retrieved at runtime via run_with_key.sh wrapper. | Environment variable in crontab: rejected |
+
+### April 1–3, 2026 — Architecture Decisions
+| Date       | Decision                                      | Why                                                                 | Alternatives rejected                          |
+|------------|-----------------------------------------------|---------------------------------------------------------------------|------------------------------------------------|
+| Apr 1 2026 | Efference Copy Compression test run           | Proxy test showed 5.1% norm reduction (cold delta 8.49 → warm residual 8.06). Directionally confirms biological predictive coding idea. | Full latent test delayed until Mac Mini        |
+| Apr 1 2026 | Latent Compression Researcher agent created   | New nightly agent (2 AM) that synthesizes ideas from compression, neuroscience, genomics, and topology into actionable suggestions for LatentForge. | Relying only on general research sweep         |
+| Apr 1 2026 | Compression researcher added to cron          | Runs automatically at 2 AM after main sweep. First run produced efference copy, dictionary learning, and topological drift detection suggestions. | Manual review only                             |
+| Apr 2 2026 | Five-day AI regulation divergence pattern logged | Swarm consistently 19–28% vs crowd 31% for 5 consecutive days. Strongest signal to date. | Treating as noise after 3 days                 |
+| Apr 3 2026 | Rain grant finalized for submission           | v0.3 includes 5-day divergence table, Aaru framing, and efference copy as Week 3 experiment. Submission scheduled for April 3. | Delaying submission for latent results         |
+
+
+### April 1–3, 2026 — Architecture Decisions
+| Date | Decision | Why | Alternatives rejected |
+|------|----------|-----|-----------------------|
+| Apr 1 2026 | Efference Copy Compression test run | Proxy test showed 5.1% norm reduction (cold delta 8.49 to warm residual 8.06). Directionally confirms biological predictive coding idea. | Full latent test delayed until Mac Mini |
+| Apr 1 2026 | Latent Compression Researcher agent created | New nightly agent (2 AM) synthesizes ideas from compression, neuroscience, genomics, and topology into actionable suggestions. | Relying only on general research sweep |
+| Apr 1 2026 | Compression researcher added to launchd | Runs automatically at 2 AM. First run produced efference copy, dictionary learning, and topological drift detection suggestions. | Manual review only |
+| Apr 2 2026 | Five-day AI regulation divergence pattern logged | Swarm consistently 19-28% vs crowd 31% for 5 consecutive days. Strongest signal to date. | Treating as noise after 3 days |
+| Apr 3 2026 | Rain grant finalized for submission | v0.3 includes 5-day divergence table, Aaru framing, and efference copy as Week 3 experiment. | Delaying submission for latent results |
