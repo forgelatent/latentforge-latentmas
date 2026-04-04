@@ -623,3 +623,19 @@ First dual-engine decision logged in Section 11 (Architecture Decisions)
 ### April 4, 2026 — Kalshi Parked
 | Date | Decision | Why | Alternatives rejected |
 |------|----------|-----|-----------------------|
+
+### April 4, 2026 — Key Decisions & Results
+| Date       | Decision / Result                             | Why / Details                                                       | Notes |
+|------------|-----------------------------------------------|---------------------------------------------------------------------|-------|
+| Apr 4 2026 | Infrastructure migrated to launchd            | Cron skipped when Mac slept. Now uses WakeForJob — reliable overnight runs | All 6 agents scheduled |
+| Apr 4 2026 | Anthropic API key rotated & secured           | Old key exposed. Now stored via getpass into ~/.latentforge/.env + .zprofile | No plaintext in terminal or git |
+| Apr 4 2026 | Polymarket historical benchmark completed     | 45% Brier improvement (0.1376 vs 0.25 naive) on 18 resolved markets | Strong citable result |
+| Apr 4 2026 | Kalshi trading API parked                     | Persistent 401 auth issues despite correct RSA. Focus shifted to Polymarket | Daily pull kept for sports data |
+| Apr 4 2026 | Live calibration tracker built & running      | Logs predictions daily. 30-day paper trading clock officially started | Added to launchd at 5:30 AM |
+| Apr 4 2026 | Shadow Match baseline completed               | Single strong model vs 3-agent text swarm on 11 markets | Results logged |
+
+**Mitigation & Next Steps:**
+- Grant submission: Update with 45% Brier number as headline + Phase 1/Phase 2 framing, then submit today.
+- Light flag post on LinkedIn/X: Plant the flag this weekend (Hybrid B+Bridge draft ready).
+- Mac Mini arrival (April 9–16): Priority = migration + W_a alignment + first latent vs text A/B test + full latent exchange logging (dataset moat).
+
