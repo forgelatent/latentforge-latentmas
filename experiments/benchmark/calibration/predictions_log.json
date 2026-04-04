@@ -1,0 +1,182 @@
+{
+  "544092": {
+    "question": "Will Harvey Weinstein be sentenced to no prison time?",
+    "end_date": "2025-12-31",
+    "days_remaining": -95,
+    "crowd_prob": 0.3,
+    "swarm_prob": 0.05,
+    "predicted_date": "2026-04-04",
+    "resolved": false
+  },
+  "544093": {
+    "question": "Will Harvey Weinstein be sentenced to less than 5 years in prison?",
+    "end_date": "2025-12-31",
+    "days_remaining": -95,
+    "crowd_prob": 0.084,
+    "swarm_prob": 0.15,
+    "predicted_date": "2026-04-04",
+    "resolved": false
+  },
+  "544094": {
+    "question": "Will Harvey Weinstein be sentenced to between 5 and 10 years in prison?",
+    "end_date": "2025-12-31",
+    "days_remaining": -95,
+    "crowd_prob": 0.077,
+    "swarm_prob": 0.217,
+    "predicted_date": "2026-04-04",
+    "resolved": false
+  },
+  "544095": {
+    "question": "Will Harvey Weinstein be sentenced to between 10 and 20 years in prison?",
+    "end_date": "2025-12-31",
+    "days_remaining": -95,
+    "crowd_prob": 0.178,
+    "swarm_prob": 0.25,
+    "predicted_date": "2026-04-04",
+    "resolved": false
+  },
+  "544096": {
+    "question": "Will Harvey Weinstein be sentenced to between 20 and 30 years in prison?",
+    "end_date": "2025-12-31",
+    "days_remaining": -95,
+    "crowd_prob": 0.216,
+    "swarm_prob": 0.183,
+    "predicted_date": "2026-04-04",
+    "resolved": false
+  },
+  "544097": {
+    "question": "Will Harvey Weinstein be sentenced to more than 30 years in prison?",
+    "end_date": "2025-12-31",
+    "days_remaining": -95,
+    "crowd_prob": 0.07,
+    "swarm_prob": 0.183,
+    "predicted_date": "2026-04-04",
+    "resolved": false
+  },
+  "556062": {
+    "question": "MegaETH market cap (FDV) >$2B one day after launch?",
+    "end_date": "2025-12-31",
+    "days_remaining": -95,
+    "crowd_prob": 0.1,
+    "swarm_prob": 0.183,
+    "predicted_date": "2026-04-04",
+    "resolved": false
+  },
+  "556108": {
+    "question": "Will MegaETH perform an airdrop by June 30? ",
+    "end_date": "2026-02-01",
+    "days_remaining": -63,
+    "crowd_prob": 0.56,
+    "swarm_prob": 0.417,
+    "predicted_date": "2026-04-04",
+    "resolved": false
+  },
+  "561365": {
+    "question": "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+    "end_date": "2026-05-18",
+    "days_remaining": 43,
+    "crowd_prob": 0.273,
+    "swarm_prob": 0.217,
+    "predicted_date": "2026-04-04",
+    "resolved": false
+  },
+  "561366": {
+    "question": "Will Tre Johnson win the 2025\u201326 NBA Rookie of the Year award?",
+    "end_date": "2026-05-18",
+    "days_remaining": 43,
+    "crowd_prob": 0.002,
+    "swarm_prob": 0.15,
+    "predicted_date": "2026-04-04",
+    "resolved": false
+  },
+  "561367": {
+    "question": "Will Ace Bailey win the 2025\u201326 NBA Rookie of the Year award?",
+    "end_date": "2026-05-18",
+    "days_remaining": 43,
+    "crowd_prob": 0.001,
+    "swarm_prob": 0.183,
+    "predicted_date": "2026-04-04",
+    "resolved": false
+  },
+  "561368": {
+    "question": "Will Dylan Harper win the 2025\u201326 NBA Rookie of the Year award?",
+    "end_date": "2026-05-18",
+    "days_remaining": 43,
+    "crowd_prob": 0.002,
+    "swarm_prob": 0.217,
+    "predicted_date": "2026-04-04",
+    "resolved": false
+  },
+  "561369": {
+    "question": "Will V.J. Edgecombe win the 2025\u201326 NBA Rookie of the Year award?",
+    "end_date": "2026-05-18",
+    "days_remaining": 43,
+    "crowd_prob": 0.001,
+    "swarm_prob": 0.15,
+    "predicted_date": "2026-04-04",
+    "resolved": false
+  },
+  "553824": {
+    "question": "Will the Carolina Hurricanes win the 2026 NHL Stanley Cup?",
+    "end_date": "2026-06-30",
+    "days_remaining": 86,
+    "crowd_prob": 0.12,
+    "swarm_prob": 0.103,
+    "predicted_date": "2026-04-04",
+    "resolved": false
+  },
+  "553825": {
+    "question": "Will the Florida Panthers win the 2026 NHL Stanley Cup?",
+    "end_date": "2026-06-30",
+    "days_remaining": 86,
+    "crowd_prob": 0.001,
+    "swarm_prob": 0.127,
+    "predicted_date": "2026-04-04",
+    "resolved": false
+  },
+  "553826": {
+    "question": "Will the Edmonton Oilers win the 2026 NHL Stanley Cup?",
+    "end_date": "2026-06-30",
+    "days_remaining": 86,
+    "crowd_prob": 0.09,
+    "swarm_prob": 0.15,
+    "predicted_date": "2026-04-04",
+    "resolved": false
+  },
+  "553827": {
+    "question": "Will the Dallas Stars win the 2026 NHL Stanley Cup?",
+    "end_date": "2026-06-30",
+    "days_remaining": 86,
+    "crowd_prob": 0.084,
+    "swarm_prob": 0.103,
+    "predicted_date": "2026-04-04",
+    "resolved": false
+  },
+  "553828": {
+    "question": "Will the Colorado Avalanche win the 2026 NHL Stanley Cup?",
+    "end_date": "2026-06-30",
+    "days_remaining": 86,
+    "crowd_prob": 0.197,
+    "swarm_prob": 0.15,
+    "predicted_date": "2026-04-04",
+    "resolved": false
+  },
+  "553829": {
+    "question": "Will the Vegas Golden Knights win the 2026 NHL Stanley Cup?",
+    "end_date": "2026-06-30",
+    "days_remaining": 86,
+    "crowd_prob": 0.053,
+    "swarm_prob": 0.103,
+    "predicted_date": "2026-04-04",
+    "resolved": false
+  },
+  "553830": {
+    "question": "Will the Tampa Bay Lightning win the 2026 NHL Stanley Cup?",
+    "end_date": "2026-06-30",
+    "days_remaining": 86,
+    "crowd_prob": 0.14,
+    "swarm_prob": 0.103,
+    "predicted_date": "2026-04-04",
+    "resolved": false
+  }
+}
