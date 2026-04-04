@@ -619,3 +619,7 @@ First dual-engine decision logged in Section 11 (Architecture Decisions)
 - Swarm Brier score: 0.1376 vs naive 0.25 baseline
 - Improvement over naive: 45%
 - Note: agent errors on sports/entertainment markets — filter by category in v2
+
+### April 4, 2026 — Kalshi Parked
+| Date | Decision | Why | Alternatives rejected |
+|------|----------|-----|-----------------------|
