@@ -586,3 +586,10 @@ First dual-engine decision logged in Section 11 (Architecture Decisions)
 - Note: proxy test only (text statistics, not actual hidden states)
 - Next step: retest with Phi-3 Mini hidden state extraction on Mac Mini (April 9-16)
 - Expected improvement: 10-30x compression on repeated agent exchanges per biological precedent
+
+### April 4, 2026 — Infrastructure Migration
+| Date | Decision | Why | Alternatives rejected |
+|------|----------|-----|-----------------------|
+| Apr 4 2026 | Migrated all five cron jobs to launchd | WakeForJob wakes Mac from sleep — cron silently skips sleeping machines. Jobs were not running overnight. | Keeping cron: confirmed broken |
+| Apr 4 2026 | Rotated ANTHROPIC_API_KEY | Old key exposed in terminal output and chat history | N/A |
+| Apr 4 2026 | Moved API key to macOS Keychain | Eliminates plaintext key in crontab. Retrieved at runtime via run_with_key.sh wrapper. | Environment variable in crontab: rejected |
