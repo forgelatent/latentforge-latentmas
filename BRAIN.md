@@ -854,3 +854,19 @@ source ~/.zprofile
 ```
 
 **Rule:** If a session starts without a full BRAIN.md paste, stop and run brainload before proceeding.
+
+### April 5, 2026 — Founder Inputs Pipeline Added
+
+| Date | Decision | Why | Notes |
+|------|----------|-----|-------|
+| Apr 5 2026 | Founder inputs pipeline built | Revenue strategist was missing X/Twitter signals found by Founder Engine | Automated agents can't browse X — human layer fills the gap |
+
+**How it works:**
+- Folder: `~/Projects/latentforge-latentmas/founder_inputs/`
+- Drop any interesting X posts, articles, or links as `.md` files
+- Naming convention: `YYYY-MM-DD_short_description.md`
+- Revenue strategist reads this folder every morning at 5:00am and incorporates signals into daily recommendations
+
+**First input logged:** `2026-04-05_coldmath_weather_arbitrage.md` — ColdMath $101K weather arbitrage on Polymarket using free METAR aviation data
+
+**Standing rule:** When you find something interesting on X or anywhere else that the automated agents wouldn't see, drop it in `founder_inputs/` before end of day. The morning revenue strategist will pick it up.
