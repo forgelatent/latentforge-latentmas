@@ -13,7 +13,7 @@ from datetime import datetime
 from pathlib import Path
 
 TODAY = datetime.now().strftime("%Y-%m-%d")
-BENCHMARK_DIR = Path("experiments/benchmark")
+BENCHMARK_DIR = Path("/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark")
 SEED_FILE = BENCHMARK_DIR / "policy_markets_seed.json"
 OUTPUT_FILE = BENCHMARK_DIR / f"text_swarm_{TODAY}.md"
 CONTRARIAN_LOG = BENCHMARK_DIR / "contrarian_track.csv"
