@@ -833,3 +833,24 @@ Jack Dorsey and Roelof Botha published "From Hierarchy to Intelligence" (April 1
 
 Decision: Article is validation, not competitive threat. Continue current priorities (grant submission, light flag post, Mac Mini prep).
 
+
+### Standing Rule — Claude Session Startup (Added April 5, 2026)
+
+**Every Claude session must begin with a full BRAIN.md paste. Never start with a truncated version.**
+
+The Systems Engine (Claude) has no memory of previous sessions beyond what is pasted into the current conversation. Starting with a partial or summarized BRAIN.md causes Claude to work with incomplete context and make avoidable mistakes (example: not knowing we had already forked the LatentMAS repo).
+
+**Startup command:**
+```bash
+brainload
+```
+
+This alias copies the full BRAIN.md to your clipboard. Paste it as the first message in every new Claude session before asking anything else.
+
+**To install the alias (one time only — already done April 5):**
+```bash
+echo "alias brainload='cat ~/Projects/latentforge-latentmas/BRAIN.md | pbcopy && echo BRAIN.md copied to clipboard'" >> ~/.zprofile
+source ~/.zprofile
+```
+
+**Rule:** If a session starts without a full BRAIN.md paste, stop and run brainload before proceeding.
