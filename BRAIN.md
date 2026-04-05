@@ -882,3 +882,31 @@ source ~/.zprofile
 - Grant document saved in `docs/rain_grant_final.md` for future submission once we have stronger proof (target: late April / early May after latent runs and more paper trading data).
 - Continue 30-day paper trading clock and daily automation. Focus on Mac Mini prep and logging everything for the dataset moat.
 
+
+### April 5, 2026 — Hardware Plan Updated
+
+| Date | Decision | Why | Notes |
+|------|----------|-----|-------|
+| Apr 5 2026 | Two-machine hardware plan locked | Mac Mini arrives soon for dev work, M5 Mac Studio ordered for production scale | Don't cancel Mac Mini — use both |
+
+**Hardware Roadmap:**
+
+| Machine | Arrives | Role |
+|---------|---------|------|
+| Mac Mini M4 Pro 32GB 1TB | April 9–16 | Dev machine — initial latent experiments, text swarm, calibration tracker, Shadow Match |
+| M5 Mac Studio 128GB 1TB | June/July 2026 | Production machine — full 4-arm benchmark, latent swarm at scale, dataset moat |
+
+**Mac Mini constraints to work around (32GB):**
+- Use 4-bit quantization for Phi-3 Mini to reduce memory footprint by 60-70%
+- Run latent agents sequentially rather than in parallel if memory is tight
+- Use RunPod for overflow compute if needed (~$50-100 total)
+- Do not attempt to run more than 2-3 model instances simultaneously
+
+**M5 Mac Studio — why we're waiting:**
+- 28% improvement in memory bandwidth over M4
+- 128GB unified memory — no ceiling for latent swarm experiments
+- Expected WWDC June 2026 launch
+- At 128GB, can run full 4-arm benchmark simultaneously with no memory management overhead
+- This is the production machine for the next 3+ years
+
+**Standing rule:** When M5 Mac Studio arrives, migrate all launchd jobs, model weights, and latent logging infrastructure from Mac Mini. Mac Mini becomes secondary dev/test machine.
