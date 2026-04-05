@@ -639,3 +639,30 @@ First dual-engine decision logged in Section 11 (Architecture Decisions)
 - Light flag post on LinkedIn/X: Plant the flag this weekend (Hybrid B+Bridge draft ready).
 - Mac Mini arrival (April 9–16): Priority = migration + W_a alignment + first latent vs text A/B test + full latent exchange logging (dataset moat).
 
+### April 5, 2026 — Weather Arbitrage Research Direction (Week 4+)
+
+| Date | Decision / Result | Why / Details | Notes |
+|------|-------------------|---------------|-------|
+| Apr 5 2026 | Weather arm added to research queue | ColdMath case study — $101K profit betting on temperature using free METAR aviation data vs Polymarket weather prices | Fast feedback loop — resolves in days not months |
+
+**The insight (ColdMath case study):**
+Aviation weather data (METAR feeds) is updated every 1-3 hours, precise to 0.1°C, and completely free by law (aviation safety requirement). Polymarket weather markets price slowly using consumer forecasts. When the two diverge, there is a real edge — not prediction, just reading a thermometer the market hasn't looked at.
+
+**Why this matters for LatentForge specifically:**
+- Weather markets resolve in days, not months — much faster Brier score feedback vs political/macro markets
+- Ground truth is objective (temperature either hit the threshold or it didn't)
+- Adds a fast-feedback calibration track alongside the 30-day paper trading window
+- METAR data is free, structured, and machine-readable — ideal for agent ingestion
+
+**Proposed implementation (Week 4+):**
+- Pull live METAR feeds for 20-30 major cities
+- Pull corresponding Polymarket weather market prices
+- Run swarm to flag mismatches (sensor reading vs market price)
+- Log predictions daily, score on resolution
+- Compare swarm vs shadow vs naive baseline on weather markets
+
+**Data source:** https://aviationweather.gov/metar (free, public, no auth required)
+**Reference:** ColdMath (@ColdMath on Polymarket) — 5,252 predictions, $101K profit, joined November 2025
+
+**Priority:** Week 4+ — after Mac Mini arrives and latent A/B test is running
+**Do not start until:** Shadow Match 30-day window has at least 2 weeks of data
