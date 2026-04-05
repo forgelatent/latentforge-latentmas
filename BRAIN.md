@@ -185,7 +185,7 @@ Action item: Check Nemotron Nano 4B memory footprint before funding RunPod. If <
 
 | Spec | Detail |
 |---|---|
-| Machine | Mac Mini M4 Pro, 24GB unified memory |
+| Machine | Mac Mini M4 Pro, 32GB unified memory |
 | Arrival | April 9-16 (confirmed window) |
 | Migration | One day maximum. Clone repo. Install Docker + NemoClaw. Run hello.txt. Done. |
 | Unlocks | Nemotron 8B locally, Shadow Self + agents simultaneously, 8-20 agent swarms, full benchmark runs |
