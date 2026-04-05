@@ -47,6 +47,8 @@ def fetch_near_term_markets(days=90, limit=200):
             days_remaining = (end_dt - now).days
             if days_remaining <= days:  # includes negative (overdue, waiting resolution)
                 last_price = m.get("lastTradePrice", 0.5)
+                if not last_price or float(last_price) < 0.05 or float(last_price) > 0.95:
+                    continue
                 near_term.append({
                     "id": market_id,
                     "question": question,
@@ -235,7 +237,7 @@ def run():
         avg_crowd = round(sum(e["crowd_brier"] for e in brier_log) / n, 4)
         avg_naive = round(sum(e["naive_brier"] for e in brier_log) / n, 4)
         swarm_vs_naive = round((avg_naive - avg_swarm) / avg_naive * 100, 1)
-        swarm_vs_crowd = round((avg_crowd - avg_swarm) / avg_crowd * 100, 1)
+        swarm_vs_crowd = round((avg_crowd - avg_swarm) / avg_crowd * 100, 1) if avg_crowd != 0 else 0.0
         print("")
         print("Resolved markets scored: " + str(n))
         print("Swarm avg Brier:  " + str(avg_swarm))
