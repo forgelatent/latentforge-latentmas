@@ -1,1 +1,57 @@
-[]
+[
+  {
+    "date": "2026-04-05",
+    "market_id": "561366",
+    "question": "Will Tre Johnson win the 2025\u201326 NBA Rookie of the Year award?",
+    "swarm_prob": 0.15,
+    "crowd_prob": 0.002,
+    "outcome": 0,
+    "swarm_brier": 0.0225,
+    "crowd_brier": 0.0,
+    "naive_brier": 0.25
+  },
+  {
+    "date": "2026-04-05",
+    "market_id": "561367",
+    "question": "Will Ace Bailey win the 2025\u201326 NBA Rookie of the Year award?",
+    "swarm_prob": 0.183,
+    "crowd_prob": 0.001,
+    "outcome": 0,
+    "swarm_brier": 0.0335,
+    "crowd_brier": 0.0,
+    "naive_brier": 0.25
+  },
+  {
+    "date": "2026-04-05",
+    "market_id": "561368",
+    "question": "Will Dylan Harper win the 2025\u201326 NBA Rookie of the Year award?",
+    "swarm_prob": 0.217,
+    "crowd_prob": 0.002,
+    "outcome": 0,
+    "swarm_brier": 0.0471,
+    "crowd_brier": 0.0,
+    "naive_brier": 0.25
+  },
+  {
+    "date": "2026-04-05",
+    "market_id": "561369",
+    "question": "Will V.J. Edgecombe win the 2025\u201326 NBA Rookie of the Year award?",
+    "swarm_prob": 0.15,
+    "crowd_prob": 0.001,
+    "outcome": 0,
+    "swarm_brier": 0.0225,
+    "crowd_brier": 0.0,
+    "naive_brier": 0.25
+  },
+  {
+    "date": "2026-04-05",
+    "market_id": "553825",
+    "question": "Will the Florida Panthers win the 2026 NHL Stanley Cup?",
+    "swarm_prob": 0.127,
+    "crowd_prob": 0.001,
+    "outcome": 0,
+    "swarm_brier": 0.0161,
+    "crowd_brier": 0.0,
+    "naive_brier": 0.25
+  }
+]

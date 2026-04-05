@@ -87,7 +87,12 @@
     "crowd_prob": 0.002,
     "swarm_prob": 0.15,
     "predicted_date": "2026-04-04",
-    "resolved": false
+    "resolved": true,
+    "outcome": 0,
+    "resolved_date": "2026-04-05",
+    "swarm_brier": 0.0225,
+    "crowd_brier": 0.0,
+    "naive_brier": 0.25
   },
   "561367": {
     "question": "Will Ace Bailey win the 2025\u201326 NBA Rookie of the Year award?",
@@ -96,7 +101,12 @@
     "crowd_prob": 0.001,
     "swarm_prob": 0.183,
     "predicted_date": "2026-04-04",
-    "resolved": false
+    "resolved": true,
+    "outcome": 0,
+    "resolved_date": "2026-04-05",
+    "swarm_brier": 0.0335,
+    "crowd_brier": 0.0,
+    "naive_brier": 0.25
   },
   "561368": {
     "question": "Will Dylan Harper win the 2025\u201326 NBA Rookie of the Year award?",
@@ -105,7 +115,12 @@
     "crowd_prob": 0.002,
     "swarm_prob": 0.217,
     "predicted_date": "2026-04-04",
-    "resolved": false
+    "resolved": true,
+    "outcome": 0,
+    "resolved_date": "2026-04-05",
+    "swarm_brier": 0.0471,
+    "crowd_brier": 0.0,
+    "naive_brier": 0.25
   },
   "561369": {
     "question": "Will V.J. Edgecombe win the 2025\u201326 NBA Rookie of the Year award?",
@@ -114,7 +129,12 @@
     "crowd_prob": 0.001,
     "swarm_prob": 0.15,
     "predicted_date": "2026-04-04",
-    "resolved": false
+    "resolved": true,
+    "outcome": 0,
+    "resolved_date": "2026-04-05",
+    "swarm_brier": 0.0225,
+    "crowd_brier": 0.0,
+    "naive_brier": 0.25
   },
   "553824": {
     "question": "Will the Carolina Hurricanes win the 2026 NHL Stanley Cup?",
@@ -132,7 +152,12 @@
     "crowd_prob": 0.001,
     "swarm_prob": 0.127,
     "predicted_date": "2026-04-04",
-    "resolved": false
+    "resolved": true,
+    "outcome": 0,
+    "resolved_date": "2026-04-05",
+    "swarm_brier": 0.0161,
+    "crowd_brier": 0.0,
+    "naive_brier": 0.25
   },
   "553826": {
     "question": "Will the Edmonton Oilers win the 2026 NHL Stanley Cup?",
@@ -177,6 +202,51 @@
     "crowd_prob": 0.14,
     "swarm_prob": 0.103,
     "predicted_date": "2026-04-04",
+    "resolved": false
+  },
+  "561370": {
+    "question": "Will Kon Knueppel win the 2025\u201326 NBA Rookie of the Year award?",
+    "end_date": "2026-05-18",
+    "days_remaining": 42,
+    "crowd_prob": 0.727,
+    "swarm_prob": 0.15,
+    "predicted_date": "2026-04-05",
+    "resolved": false
+  },
+  "553838": {
+    "question": "Will the Minnesota Wild win the 2026 NHL Stanley Cup?",
+    "end_date": "2026-06-30",
+    "days_remaining": 85,
+    "crowd_prob": 0.052,
+    "swarm_prob": 0.103,
+    "predicted_date": "2026-04-05",
+    "resolved": false
+  },
+  "553849": {
+    "question": "Will the Montreal Canadiens win the 2026 NHL Stanley Cup?",
+    "end_date": "2026-06-30",
+    "days_remaining": 85,
+    "crowd_prob": 0.053,
+    "swarm_prob": 0.15,
+    "predicted_date": "2026-04-05",
+    "resolved": false
+  },
+  "553856": {
+    "question": "Will the Oklahoma City Thunder win the 2026 NBA Finals?",
+    "end_date": "2026-07-01",
+    "days_remaining": 86,
+    "crowd_prob": 0.38,
+    "swarm_prob": 0.15,
+    "predicted_date": "2026-04-05",
+    "resolved": false
+  },
+  "553862": {
+    "question": "Will the Boston Celtics win the 2026 NBA Finals?",
+    "end_date": "2026-07-01",
+    "days_remaining": 86,
+    "crowd_prob": 0.121,
+    "swarm_prob": 0.15,
+    "predicted_date": "2026-04-05",
     "resolved": false
   }
 }

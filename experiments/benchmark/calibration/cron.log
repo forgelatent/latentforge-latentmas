@@ -1,0 +1,32 @@
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-04-05
+
+Checking 20 tracked markets for resolution...
+  RESOLVED [0] Will Tre Johnson win the 2025–26 NBA Rookie of the Year awar
+    swarm=0.15 crowd=0.002 swarm_brier=0.0225
+  RESOLVED [0] Will Ace Bailey win the 2025–26 NBA Rookie of the Year award
+    swarm=0.183 crowd=0.001 swarm_brier=0.0335
+  RESOLVED [0] Will Dylan Harper win the 2025–26 NBA Rookie of the Year awa
+    swarm=0.217 crowd=0.002 swarm_brier=0.0471
+  RESOLVED [0] Will V.J. Edgecombe win the 2025–26 NBA Rookie of the Year a
+    swarm=0.15 crowd=0.001 swarm_brier=0.0225
+  RESOLVED [0] Will the Florida Panthers win the 2026 NHL Stanley Cup?
+    swarm=0.127 crowd=0.001 swarm_brier=0.0161
+
+Fetching markets closing within 90 days...
+Found 62 qualifying markets
+  [42d] Will Kon Knueppel win the 2025–26 NBA Rookie of the Year award?
+    Agent error: HTTP Error 401: Unauthorized
+    Agent error: HTTP Error 401: Unauthorized
+    Agent error: HTTP Error 401: Unauthorized
+
+=== CALIBRATION SUMMARY ===
+Total markets tracked: 20
+New predictions today: 0
+Newly resolved: 5
+Traceback (most recent call last):
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 254, in <module>
+    run()
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 238, in run
+    swarm_vs_crowd = round((avg_crowd - avg_swarm) / avg_crowd * 100, 1)
+ZeroDivisionError: float division by zero
