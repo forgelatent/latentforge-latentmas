@@ -799,3 +799,19 @@ Swarm consistently prices AI regulation passage at 21-28% vs crowd 31%. Seven co
 
 *Prepared by Claude (Systems Engine) — April 5, 2026*
 *Next review: April 6 — after first clean overnight run of all 6 fixed jobs*
+
+### April 5, 2026 — 4th Agent Added to Text Swarm
+
+| Date | Decision | Why | Notes |
+|------|----------|-----|-------|
+| Apr 5 2026 | Bayesian Updater added as 4th swarm agent | Grok recommended to anchor swarm and reduce narrative drift | Trial week April 5–12 before making permanent |
+
+**Current swarm architecture (4 agents):**
+- Agent 1: Macro Analyst — economic fundamentals, base rates, central bank policy
+- Agent 2: Quant Researcher — market signals, momentum, crowd wisdom
+- Agent 3: Contrarian Forecaster — stress-tests assumptions, finds tail risks crowd underweights
+- Agent 4: Bayesian Updater — neutral prior, updates only on concrete evidence, ignores narrative and sentiment
+
+**Early observation (Day 1):** Bayesian Updater tracking very close to Quant Researcher on most markets. Watch over trial week to see if they diverge on specific markets. If they don't diverge meaningfully by April 12, reconsider whether the 4th agent adds value or just adds API cost.
+
+**Review date:** April 12, 2026 — keep or drop based on one week of data.
