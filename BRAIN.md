@@ -870,3 +870,15 @@ source ~/.zprofile
 **First input logged:** `2026-04-05_coldmath_weather_arbitrage.md` — ColdMath $101K weather arbitrage on Polymarket using free METAR aviation data
 
 **Standing rule:** When you find something interesting on X or anywhere else that the automated agents wouldn't see, drop it in `founder_inputs/` before end of day. The morning revenue strategist will pick it up.
+
+### April 5, 2026 — Grant Submission Decision
+| Date       | Decision                                      | Why                                                                 | Alternatives rejected                          |
+|------------|-----------------------------------------------|---------------------------------------------------------------------|------------------------------------------------|
+| Apr 5 2026 | Rain grant submission deferred                | $50K non-dilutive is attractive, but exposing the full thesis (latent deltas + Shadow Self + divergence benchmark) while still pre-latent results is not worth the risk at this stage. Self-funding the next 60 days with personal capital is sufficient and preserves secrecy. | Submit immediately with current text-swarm results |
+
+**Rationale & Plan:**
+- Current compute needs for next 60 days estimated at $150–$350 (mostly Anthropic API calls). Easily covered by personal $10K budget.
+- Strong preference for keeping the latent communication + governance thesis private until we have real latent vs text A/B results after Mac Mini arrival.
+- Grant document saved in `docs/rain_grant_final.md` for future submission once we have stronger proof (target: late April / early May after latent runs and more paper trading data).
+- Continue 30-day paper trading clock and daily automation. Focus on Mac Mini prep and logging everything for the dataset moat.
+
