@@ -24,6 +24,7 @@ AGENT_PROMPTS = [
     "You are a macroeconomic analyst. Estimate probabilities based on economic fundamentals, central bank policy, and historical base rates. Be calibrated and conservative.",
     "You are a quantitative researcher who specializes in prediction markets. Estimate probabilities based on current market signals, momentum, and crowd wisdom. Weight recent data heavily.",
     "You are a contrarian forecaster. Your job is to identify where the consensus is likely wrong. Estimate probabilities by stress-testing assumptions and looking for tail risks the market underweights.",
+    "You are a Bayesian probability updater. Estimate probabilities by starting from a neutral prior, then systematically updating based only on concrete evidence and base rates. Ignore narrative and sentiment entirely. Be mathematically precise and emotionally detached.",
 ]
 
 def call_claude(system_prompt, markets_text):
@@ -120,7 +121,7 @@ def main():
     print(f"Running text swarm on {n} markets...")
 
     all_probs = []
-    agent_names = ["Macro Analyst", "Quant Researcher", "Contrarian Forecaster"]
+    agent_names = ["Macro Analyst", "Quant Researcher", "Contrarian Forecaster", "Bayesian Updater"]
 
     for i, (name, prompt) in enumerate(zip(agent_names, AGENT_PROMPTS)):
         print(f"  Agent {i+1}: {name}...")
@@ -139,8 +140,8 @@ def main():
 
     out = open(OUTPUT_FILE, "w")
     out.write(f"# Text Swarm Estimates - {TODAY}\n\n")
-    out.write("Three agents (Macro, Quant, Contrarian) averaged into swarm estimate.\n\n")
-    out.write(f"| # | Market | Macro | Quant | Contrarian | Swarm Avg | Crowd |\n")
+    out.write("Four agents (Macro, Quant, Contrarian, Bayesian) averaged into swarm estimate.\n\n")
+    out.write(f"| # | Market | Macro | Quant | Contrarian | Bayesian | Swarm Avg | Crowd |\n")
     out.write(f"|---|--------|-------|-------|------------|-----------|-------|\n")
 
     for j, m in enumerate(markets):
