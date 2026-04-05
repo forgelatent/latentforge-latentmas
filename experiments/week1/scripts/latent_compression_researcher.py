@@ -12,7 +12,7 @@ from pathlib import Path
 
 TODAY = datetime.now().strftime("%Y-%m-%d")
 DIGEST_DIR = Path("research/daily-digest")
-SUGGESTIONS_DIR = Path("research/suggestions")
+SUGGESTIONS_DIR = Path("/Users/latentforge/Projects/latentforge-latentmas/research/suggestions")
 SUGGESTIONS_DIR.mkdir(parents=True, exist_ok=True)
 OUTPUT_FILE = SUGGESTIONS_DIR / f"{TODAY}.md"
 BRAIN_PATH = Path("BRAIN.md")
