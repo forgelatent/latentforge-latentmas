@@ -666,3 +666,136 @@ Aviation weather data (METAR feeds) is updated every 1-3 hours, precise to 0.1°
 
 **Priority:** Week 4+ — after Mac Mini arrives and latent A/B test is running
 **Do not start until:** Shadow Match 30-day window has at least 2 weeks of data
+# BRAIN.md Update — April 5, 2026
+## For: Claude (Systems Engine) morning context + Grok (Divergent Thinking Engine) sync
+## Written by: Claude (Systems Engine)
+
+---
+
+## Infrastructure — Critical Rules Updated
+
+### API Key Management (UPDATED — read every session)
+
+**The only safe way to store a new key on this machine:**
+```bash
+python3 -c "
+import getpass, os
+k = getpass.getpass('Paste key then Enter: ')
+open(os.path.expanduser('~/.latentforge/.env'),'w').write(f'export ANTHROPIC_API_KEY=\"{k}\"\n')
+print('Saved. Length:', len(k))
+"
+```
+- Valid key length = 108 characters. If it prints anything else, something went wrong.
+- Key lives at: `~/.latentforge/.env`
+- Sourced at login via: `~/.zprofile`
+- NEVER use pbpaste for secrets — it captures terminal history on this machine
+- NEVER use `read -p` — fails in zsh with "no coprocess" error
+- NEVER use heredocs for Python — causes zsh hangs
+- NEVER paste keys into Claude chat — they will be exposed
+
+**Every time you rotate the key, ALSO update Keychain:**
+```bash
+security add-generic-password -a "latentforge" -s "latentforge-anthropic" -w "$(cat ~/.latentforge/.env | grep -o 'sk-ant[^"]*')" -U
+```
+The `-U` flag updates existing entry. All 6 launchd jobs pull from Keychain via `run_with_key.sh`. If Keychain has a dead key, all jobs fail silently with 401.
+
+**Verify Keychain has correct key:**
+```bash
+security find-generic-password -a "latentforge" -s "latentforge-anthropic" -w | wc -c
+```
+Should print 109 (108 chars + newline).
+
+---
+
+### Launchd Jobs — All Fixed (April 5, 2026)
+
+All 6 jobs now use absolute paths. Root cause of multiple failures: launchd runs scripts from a read-only system directory, so relative paths silently fail.
+
+**Rule going forward:** Every script called by launchd must use absolute paths. Never `Path("relative/path")` — always `Path("/Users/latentforge/Projects/...")`.
+
+| Job | Schedule | Output Location | Status |
+|-----|----------|-----------------|--------|
+| compression-researcher | 2:00am | `/Users/latentforge/Projects/latentforge-latentmas/research/suggestions/YYYY-MM-DD.md` | Fixed Apr 5 |
+| research-sweep | 4:30am | `/Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/YYYY-MM-DD.md` | Fixed Apr 5 |
+| kalshi-pull | 4:45am | `/Users/latentforge/Projects/data/kalshi/markets_YYYY-MM-DD.json` | Running |
+| revenue-strategist | 5:00am | `/Users/latentforge/Projects/latentforge-latentmas/revenue_ideas/YYYY-MM-DD.md` | Fixed Apr 5 |
+| text-swarm | 5:15am | `/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/text_swarm_YYYY-MM-DD.md` | Fixed Apr 5 |
+| calibration-tracker | 5:30am | `/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration/` | Fixed Apr 5 |
+
+**To check if a job ran last night:**
+```bash
+ls -lt [output directory] | head -3
+```
+If the top file is dated today, it ran. If not, check the cron.log in that directory.
+
+---
+
+### Calibration Tracker — Two Fixes Applied (April 5)
+
+1. ZeroDivisionError fix — script no longer crashes when no markets have resolved yet
+2. 5-95% crowd probability filter — only tracks markets with genuine uncertainty. Markets where crowd is already above 95% or below 5% are excluded.
+
+Current state (April 5): 25 markets tracked, Day 2 of 30-day paper trading clock.
+
+---
+
+## Research — Key Findings (April 5)
+
+### LatentMAS Paper (arXiv:2511.20639v2)
+Confirms the core thesis. Latent collaboration beats text-based MAS by up to 14.6% accuracy, 70-83% token reduction, 4x faster inference. Training-free. Use in grant as academic validation. Outreach to Jiaru Zou (first author, Google DeepMind) planned for late April after Week 4 OpenSpiel results.
+
+### Weather Arbitrage — Week 4+ Queue
+METAR aviation feeds (free, public, 1-3 hour updates, precise to 0.1C) vs Polymarket weather market prices. ColdMath case study: $101K profit, 5,252 predictions. Fast feedback loop — markets resolve in days. Do not start until Shadow Match has 2+ weeks of data.
+
+### Compression Researcher Suggestion (April 5)
+Sparse Distributed Representations (SDR) from computational neuroscience. Transmit binary activation mask (which dimensions fired) instead of float32 magnitudes. O(k) operations instead of O(d). Read full suggestion at: `/Users/latentforge/Projects/latentforge-latentmas/research/suggestions/2026-04-05.md`
+
+---
+
+## Shadow Match Baseline (April 4)
+
+11 markets logged. Key divergences worth watching:
+- Powell confirmed as Fed Chair: Crowd 0.1% vs Shadow/Swarm 3-4%
+- US-Iran nuclear deal: Crowd 22.5% vs Shadow/Swarm 7-8%
+- Bitcoin $60k or $80k first: Shadow 62% vs Swarm 52% (contrarian agent moving the needle)
+
+Results at: `~/.latentforge/shadow_match/shadow_match_2026-04-04.json`
+
+---
+
+## Text Swarm — Day 7 AI Regulation Divergence
+
+Swarm consistently prices AI regulation passage at 21-28% vs crowd 31%. Seven consecutive days. Unresolved — will not know if edge or blind spot until market resolves.
+
+---
+
+## Questions for Grok
+
+1. AI regulation divergence — 7 days running. Strongest case the crowd is right and we're wrong?
+2. Powell market — Crowd 0.1%, Shadow/Swarm 3-4%. Genuine edge or Polymarket framing issue?
+3. Weather arbitrage — fast-track or keep in Week 4+ queue? Distraction risk vs opportunity?
+4. SDR compression — does transmitting binary activation mask preserve enough information for useful agent communication? Theoretical floor on information loss?
+5. Swarm architecture — should we add a 4th agent (pure Bayesian updater) to anchor the swarm alongside Base Rate, News, Contrarian?
+
+---
+
+## 90-Day Goals — Status (April 5)
+
+| Goal | Status |
+|------|--------|
+| Submit Rain grant | Ready — submit today |
+| 30-day paper trading clock | Running — Day 2 |
+| Shadow Match baseline | Complete |
+| Mac Mini arrival | April 9-16 |
+| Latent vs text A/B test | Pending hardware |
+| Prove latent > text | Pending hardware |
+
+**Priority for rest of today:**
+1. Submit Rain grant to rain.one
+2. LinkedIn/X flag post
+3. Read compression researcher suggestion in full
+
+---
+
+*Prepared by Claude (Systems Engine) — April 5, 2026*
+*Next review: April 6 — after first clean overnight run of all 6 fixed jobs*
