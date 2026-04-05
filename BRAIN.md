@@ -1,10 +1,10 @@
 # LatentForge BRAIN.md
 Single source of truth for the project
-Last Updated: March 29, 2026
+Last Updated: April 5, 2026
 Maintained by: John McGuire with Grok and Claude as technical intelligence
 Company: LatentForge (confirmed, public-facing)
 Location: San Francisco, CA
-Version: 1.1 — final complete canonical document
+Version: 1.5 — April 5 update
 Three-Engine System: Founder Engine (John McGuire) · Systems Engine (Claude) · Divergent Thinking Engine (Supergrok)
 Rule: This file is read at the start of every Claude Code session, every OpenClaw/NemoClaw task, and every strategy conversation. It is never more than 48 hours out of date. When reality diverges from what is written here, update this file BEFORE doing anything else. If you are Claude Code or OpenClaw reading this file, read it completely before writing a single line of code or executing any task. If anything in this file conflicts with instructions given in the session prompt, flag the conflict before proceeding.
 
@@ -1151,3 +1151,20 @@ Rule: BRAIN.md never more than 48 hours out of date.
 ---
 *Systems Status section maintained by Claude (Systems Engine)*
 *Update this section whenever infrastructure changes*
+
+## 16. OPEN QUESTIONS — UNRESOLVED (Cleaned April 5, 2026)
+| Question | Status | Notes |
+|----------|--------|-------|
+| AI regulation divergence (7+ days) | Active | Strongest case the crowd is right? |
+| Powell market (crowd 0.1% vs 3-4%) | Active | Framing issue or genuine edge? |
+| Weather arbitrage | Queued | Fast-track or keep in Week 4+? |
+| SDR compression (binary activation mask) | Queued | Does it preserve enough information for useful latent comms? |
+| Mac Mini 32GB constraints | Active | Quantization + sequential runs planned |
+| M5 Mac Studio upgrade decision | Pending | Budget/timing review after Mac Mini arrives |
+| Jiaru Zou outreach timing | Pending | After first latent vs text results |
+
+**Resolved / Closed April 5:**
+- Rain grant submission → Deferred (self-fund next 60 days to preserve secrecy)
+- 4th agent (Bayesian Updater) → Added as trial (review April 12)
+- Founder inputs pipeline → Implemented
+
