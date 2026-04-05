@@ -1168,3 +1168,7 @@ Rule: BRAIN.md never more than 48 hours out of date.
 - 4th agent (Bayesian Updater) → Added as trial (review April 12)
 - Founder inputs pipeline → Implemented
 
+
+### April 5, 2026 — Grant Status Update (for consistency)
+Rain grant submission has been deferred. Document remains at `docs/rain_grant_final.md` for future use once latent results exist. Self-funding the next 60 days to preserve secrecy.
+
