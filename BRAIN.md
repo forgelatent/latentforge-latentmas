@@ -910,3 +910,244 @@ source ~/.zprofile
 - This is the production machine for the next 3+ years
 
 **Standing rule:** When M5 Mac Studio arrives, migrate all launchd jobs, model weights, and latent logging infrastructure from Mac Mini. Mac Mini becomes secondary dev/test machine.
+
+---
+
+# SYSTEMS STATUS — Read This Every Session
+## Last Updated: April 5, 2026
+## This section gives Claude full operational context at the start of every session.
+
+---
+
+## The Three-Engine System
+- Founder Engine: John McGuire (strategy, vision, serendipitous discovery)
+- Systems Engine: Claude (execution, infrastructure, debugging, writing)
+- Divergent Thinking Engine: Grok/Supergrok (challenging assumptions, open questions)
+- Single source of truth: BRAIN.md at github.com/forgelatent/latentforge-latentmas
+- Rule: Read full BRAIN.md at start of every session using `brainload` alias
+
+---
+
+## Machine Infrastructure
+
+### MacBook Air (latentforge account)
+- Primary development machine right now
+- All 6 launchd jobs run here via WakeForJob=true
+- User account: latentforge
+- Project root: ~/Projects/latentforge-latentmas/
+
+### Mac Mini M4 Pro 32GB 1TB (arriving April 9-16)
+- Role: Dev machine for initial latent experiments
+- Use 4-bit quantization for Phi-3 Mini to stay within 32GB
+- Run agents sequentially not in parallel if memory is tight
+- Priority on arrival: migrate launchd jobs, run first latent vs text A/B test
+
+### M5 Mac Studio 128GB 1TB (arriving June/July 2026)
+- Role: Production machine for full 4-arm benchmark at scale
+- Waiting for WWDC June 2026 launch
+- On arrival: migrate everything from Mac Mini, Mac Mini becomes secondary dev machine
+
+---
+
+## API Keys & Secrets
+
+### Anthropic API Key
+- Name: latentforge-main
+- Stored at: ~/.latentforge/.env
+- Sourced via: ~/.zprofile (loads at login for launchd)
+- Also stored in: Keychain (account: latentforge, service: latentforge-anthropic)
+- Valid key length: 108 characters
+
+### Safe key rotation procedure (ALWAYS follow this order):
+1. Create new key at console.anthropic.com
+2. Store via python3 getpass method:
+```bash
+python3 -c "
+import getpass, os
+k = getpass.getpass('Paste key then Enter: ')
+open(os.path.expanduser('~/.latentforge/.env'),'w').write(f'export ANTHROPIC_API_KEY=\"{k}\"\n')
+print('Saved. Length:', len(k))
+"
+```
+3. Update Keychain:
+```bash
+security add-generic-password -a "latentforge" -s "latentforge-anthropic" -w "$(cat ~/.latentforge/.env | grep -o 'sk-ant[^"]*')" -U
+```
+4. Verify length = 108:
+```bash
+echo ${#ANTHROPIC_API_KEY}
+```
+5. Test with curl before doing anything else
+
+### Known zsh issues on this machine:
+- NEVER use pbpaste for secrets — captures terminal history
+- NEVER use read -p — fails with "no coprocess" error
+- NEVER use heredocs in python3 -c strings — causes hangs
+- NEVER paste keys into Claude chat — they will be exposed
+- NEVER use heredoc (cat << EOF) — hangs in zsh. Use python3 file writes instead.
+
+---
+
+## The 6 Launchd Jobs (All Fixed April 5, 2026)
+
+All scripts use absolute paths. All pull API key from Keychain via run_with_key.sh.
+Rule: Every script called by launchd must use absolute paths.
+
+| Job | Time | Output | Check Command |
+|-----|------|--------|---------------|
+| compression-researcher | 2:00am | ~/Projects/latentforge-latentmas/research/suggestions/YYYY-MM-DD.md | ls -lt ~/Projects/latentforge-latentmas/research/suggestions/ |
+| research-sweep | 4:30am | ~/Projects/latentforge-latentmas/research/daily-digest/YYYY-MM-DD.md | ls -lt ~/Projects/latentforge-latentmas/research/daily-digest/ |
+| kalshi-pull | 4:45am | ~/Projects/data/kalshi/markets_YYYY-MM-DD.json | ls -lt ~/Projects/data/kalshi/ |
+| revenue-strategist | 5:00am | ~/Projects/latentforge-latentmas/revenue_ideas/YYYY-MM-DD.md | ls -lt ~/Projects/latentforge-latentmas/revenue_ideas/ |
+| text-swarm | 5:15am | ~/Projects/latentforge-latentmas/experiments/benchmark/text_swarm_YYYY-MM-DD.md | ls -lt ~/Projects/latentforge-latentmas/experiments/benchmark/ |
+| calibration-tracker | 5:30am | ~/Projects/latentforge-latentmas/experiments/benchmark/calibration/ | ls -lt ~/Projects/latentforge-latentmas/experiments/benchmark/calibration/ |
+
+### Morning job check routine:
+```bash
+ls -lt ~/Projects/latentforge-latentmas/research/suggestions/ | head -3
+ls -lt ~/Projects/latentforge-latentmas/research/daily-digest/ | head -3
+ls -lt ~/Projects/data/kalshi/ | head -3
+ls -lt ~/Projects/latentforge-latentmas/revenue_ideas/ | head -3
+ls -lt ~/Projects/latentforge-latentmas/experiments/benchmark/ | head -3
+ls -lt ~/Projects/latentforge-latentmas/experiments/benchmark/calibration/ | head -3
+```
+If any file is not dated today, that job failed. Check cron.log in that directory.
+
+---
+
+## The Founder Inputs Pipeline
+
+**This is how John feeds serendipitous discoveries into the system.**
+
+- Folder: ~/Projects/latentforge-latentmas/founder_inputs/
+- Drop any interesting X posts, articles, or links as .md files
+- Naming: YYYY-MM-DD_short_description.md
+- Revenue strategist reads this folder every morning at 5am automatically
+- Claude should check this folder at the start of every session
+
+### Current founder inputs (as of April 5):
+- 2026-04-05_coldmath_weather_arbitrage.md — METAR data vs Polymarket weather markets
+- 2026-04-05_llm_knowledge_base_wiki.md — Compounding LLM wiki in Obsidian
+- 2026-04-05_gstack_parallel_sprints.md — Garry Tan's parallel sprint model + latent skill templates
+
+### Standing rule:
+When John finds something interesting anywhere (X, GitHub, articles), drop it in
+founder_inputs/ before end of day. The morning revenue strategist picks it up automatically.
+
+---
+
+## The Text Swarm (4 Agents as of April 5, 2026)
+
+Script: ~/Projects/latentforge-latentmas/experiments/benchmark/03_text_swarm.py
+Markets: 11 policy/macro/geopolitical markets on Polymarket
+Runs: Nightly at 5:15am
+
+| Agent | Role |
+|-------|------|
+| Macro Analyst | Economic fundamentals, base rates, central bank policy |
+| Quant Researcher | Market signals, momentum, crowd wisdom |
+| Contrarian Forecaster | Stress-tests assumptions, finds tail risks |
+| Bayesian Updater | Neutral prior, updates only on concrete evidence (added April 5 — trial week ends April 12) |
+
+Key divergence to watch: AI regulation — swarm 21-28% vs crowd 31% for 7+ consecutive days.
+
+---
+
+## Shadow Match Baseline (April 4, 2026)
+
+Script: ~/Projects/latentforge-latentmas/experiments/week1/scripts/shadow_match.py
+Results: ~/.latentforge/shadow_match/shadow_match_2026-04-04.json
+11 markets logged. Single strong model (Shadow) vs 3-agent swarm vs crowd.
+Fill in "outcome": 0 or 1 when markets resolve.
+
+Key divergences:
+- Powell confirmed as Fed Chair: Crowd 0.1% vs Shadow/Swarm 3-4%
+- US-Iran nuclear deal: Crowd 22.5% vs Shadow/Swarm 7-8%
+- Bitcoin $60k or $80k first: Shadow 62% vs Swarm 52%
+
+---
+
+## Calibration Tracker (30-Day Clock — Started April 4)
+
+Script: ~/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+Output: ~/Projects/latentforge-latentmas/experiments/benchmark/calibration/
+Runs: Nightly at 5:30am
+Filter: Only tracks markets with 5-95% crowd probability (genuine uncertainty)
+Day 2 of 30 as of April 5. 25 markets tracked.
+
+---
+
+## Research Outputs
+
+### Daily Research Digest
+Location: ~/Projects/latentforge-latentmas/research/daily-digest/YYYY-MM-DD.md
+Contains: arXiv papers, GitHub repos, competitive watch, X watchlist
+
+### Compression Researcher Suggestions
+Location: ~/Projects/latentforge-latentmas/research/suggestions/YYYY-MM-DD.md
+Runs at 2am — autonomous agent reads arXiv and suggests latent compression techniques
+
+### Revenue Ideas
+Location: ~/Projects/latentforge-latentmas/revenue_ideas/YYYY-MM-DD.md
+Reads: Kalshi data + research digest + founder inputs folder
+
+---
+
+## Key Research Directions (Week 4+)
+
+| Direction | Status | Notes |
+|-----------|--------|-------|
+| Efference copy compression | Queued | Autonomous agent suggested 3 consecutive days |
+| SDR (Sparse Distributed Representations) | Queued | Compression researcher April 5 suggestion |
+| Weather arbitrage (METAR vs Polymarket) | Queued | ColdMath case study — fast Brier feedback |
+| Latent skill templates (gstack-inspired) | Queued | Role-specialized latent agents |
+| Compounding research wiki | Queued | LLM-maintained Obsidian wiki |
+| Dictionary learning from genomics | Queued | PhD friend suggestion |
+| Topological drift detection | Queued |  |
+| Injective manifold mapping | Queued | PhD friend suggestion |
+| Hilbert curve image compression | Queued |  |
+
+---
+
+## Key Results Logged
+
+- Fidelity 1.0000, divergence score 2.0/2 at 24x compression on Phi-3 Mini 3.8B (RunPod)
+- 45% Brier improvement vs naive baseline on 18 resolved Polymarket markets (0.1376 vs 0.25)
+- 7 consecutive days of AI regulation divergence (swarm 21-28% vs crowd 31%)
+- Shadow Match baseline logged April 4 on 11 markets
+
+---
+
+## Competitive Watch
+
+- LatentMAS (Zou et al., arXiv:2511.20639v2) — validates thesis, not a threat. Outreach to Jiaru Zou planned late April after Week 4 results.
+- Aaru ($1B valuation) — text-based population simulation. Direct comparison point.
+- VectorArc/AVP v0.4.1 — adjacent protocol, KV-cache handoff, no governance layer. Monitor.
+- gstack (Garry Tan/YC) — agent orchestration toolkit, validation of role specialization approach.
+
+---
+
+## 90-Day Goals — Current Status
+
+| Goal | Status |
+|------|--------|
+| Rain grant | Parked — resubmit after Mac Mini latent results. Doc at docs/rain_grant_final.md |
+| 30-day paper trading clock | Running — Day 2 of 30 |
+| Shadow Match baseline | Complete — April 4 |
+| Mac Mini arrival | April 9-16 |
+| Latent vs text A/B test | Pending Mac Mini |
+| M5 Mac Studio order | Pending WWDC June 2026 |
+| LinkedIn/X flag post | Parked — after first latent results |
+| Jiaru Zou outreach | Parked — after Week 4 OpenSpiel results |
+
+---
+
+## GitHub
+
+Repo: github.com/forgelatent/latentforge-latentmas
+All decisions, scripts, and data committed here.
+Rule: BRAIN.md never more than 48 hours out of date.
+
+---
+*Systems Status section maintained by Claude (Systems Engine)*
+*Update this section whenever infrastructure changes*
