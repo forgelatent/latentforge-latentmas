@@ -635,7 +635,7 @@ First dual-engine decision logged in Section 11 (Architecture Decisions)
 | Apr 4 2026 | Shadow Match baseline completed               | Single strong model vs 3-agent text swarm on 11 markets | Results logged |
 
 **Mitigation & Next Steps:**
-- Grant submission: Update with 45% Brier number as headline + Phase 1/Phase 2 framing, then submit today.
+- Grant submission: PARKED — resubmit after Mac Mini latent results. Doc at docs/rain_grant_final.md.
 - Light flag post on LinkedIn/X: Plant the flag this weekend (Hybrid B+Bridge draft ready).
 - Mac Mini arrival (April 9–16): Priority = migration + W_a alignment + first latent vs text A/B test + full latent exchange logging (dataset moat).
 
@@ -783,7 +783,7 @@ Swarm consistently prices AI regulation passage at 21-28% vs crowd 31%. Seven co
 
 | Goal | Status |
 |------|--------|
-| Submit Rain grant | Ready — submit today |
+| Rain grant | Parked — resubmit after Mac Mini latent results. Doc at docs/rain_grant_final.md |
 | 30-day paper trading clock | Running — Day 2 |
 | Shadow Match baseline | Complete |
 | Mac Mini arrival | April 9-16 |
@@ -791,7 +791,7 @@ Swarm consistently prices AI regulation passage at 21-28% vs crowd 31%. Seven co
 | Prove latent > text | Pending hardware |
 
 **Priority for rest of today:**
-1. Submit Rain grant to rain.one
+1. Rain grant — PARKED. Focus on Mac Mini prep and logging latent exchanges from day one.
 2. LinkedIn/X flag post
 3. Read compression researcher suggestion in full
 
