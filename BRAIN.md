@@ -815,3 +815,21 @@ Swarm consistently prices AI regulation passage at 21-28% vs crowd 31%. Seven co
 **Early observation (Day 1):** Bayesian Updater tracking very close to Quant Researcher on most markets. Watch over trial week to see if they diverge on specific markets. If they don't diverge meaningfully by April 12, reconsider whether the 4th agent adds value or just adds API cost.
 
 **Review date:** April 12, 2026 — keep or drop based on one week of data.
+
+### April 5, 2026 — Dorsey/Botha Essay + Single Grain Implementation Notes
+Jack Dorsey and Roelof Botha published "From Hierarchy to Intelligence" (April 1, 2026). Single Grain shared a practical 4-month implementation of a similar AI-native operating system (Single Brain vector DB, specialized agents, DRI teams, conflict resolution, NemoClaw security).
+
+**Useful validation for LatentForge:**
+- Reinforces the importance of a unified world model and compounding data moat.
+- Highlights real coordination pain (agent conflicts, security) that Shadow Self is designed to solve.
+- DRI pattern for temporary agent teams is borrowable for structured experiments (e.g., latent A/B test DRI).
+
+**Not directly applicable:**
+- Their system is text-based internal operations (marketing agency workflows). We are building the inter-agent latent communication protocol + governance + prediction market validation.
+
+**Action:**
+- Log every latent exchange + Shadow Self translation + outcome from Mac Mini Day 1 onward. This builds the proprietary dataset moat.
+- Consider DRI-style temporary agent teams for the first latent vs text comparison.
+
+Decision: Article is validation, not competitive threat. Continue current priorities (grant submission, light flag post, Mac Mini prep).
+
