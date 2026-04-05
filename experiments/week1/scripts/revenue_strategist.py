@@ -76,6 +76,16 @@ def main():
     digest_file, digest_data = load_latest_file(DIGEST_DIR, ".md")
     brain_summary = load_brain_summary()
 
+    # Read Founder Engine inputs
+    FOUNDER_INPUTS_DIR = Path(os.path.expanduser("~/Projects/latentforge-latentmas/founder_inputs"))
+    founder_notes = ""
+    for file in sorted(FOUNDER_INPUTS_DIR.glob("*.md")):
+        try:
+            with open(file) as f:
+                founder_notes += f.read() + "\n\n"
+        except:
+            pass
+
     print(f"Running Revenue Strategist for {date_str}...")
     print(f"Kalshi: {kalshi_file or 'None'}")
     print(f"Digest: {digest_file or 'None'}")
@@ -88,6 +98,7 @@ Today's inputs:
 - Kalshi markets: {kalshi_data[:1800] if kalshi_data else "No data"}
 - Research digest: {digest_data[:1200] if digest_data else "No data"}
 - Thesis summary: {brain_summary}
+- Founder Engine inputs: {founder_notes[:1000] if founder_notes else "None today"}
 
 Generate 2–4 concrete, honest revenue opportunities for this week.
 For each:
@@ -114,3 +125,4 @@ Output clean markdown."""
 
 if __name__ == "__main__":
     main()
+
