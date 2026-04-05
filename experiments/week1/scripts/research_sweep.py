@@ -5,7 +5,7 @@ import os
 from pathlib import Path
 
 TODAY = datetime.date.today().isoformat()
-OUTPUT_DIR = Path("research/daily-digest")
+OUTPUT_DIR = Path("/Users/latentforge/Projects/latentforge-latentmas/research/daily-digest")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 OUTPUT_FILE = OUTPUT_DIR / f"{TODAY}.md"
 

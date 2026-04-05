@@ -1,12 +1,6 @@
 # experiments/week1/scripts/polymarket_pull.py
-"""
-Polymarket Pull — Simple, robust version using /markets endpoint
-Saves all markets and logs stats so we can see what's coming back.
-"""
-
-import requests
-import json
-from datetime import datetime
+import requests, json
+from datetime import datetime, timezone
 from pathlib import Path
 
 TODAY = datetime.now().strftime("%Y-%m-%d")
@@ -16,38 +10,26 @@ OUTPUT_FILE = OUTPUT_DIR / f"{TODAY}.json"
 
 def main():
     url = "https://gamma-api.polymarket.com/markets"
-    params = {
-        "active": "true",
-        "limit": 200
-    }
+    params = {"closed": "false", "limit": 200, "order": "volume", "ascending": "false"}
+    response = requests.get(url, params=params, timeout=30)
+    response.raise_for_status()
+    markets = response.json()
+    now = datetime.now(timezone.utc)
+    open_markets = []
+    for m in markets:
+        if not isinstance(m, dict) or m.get("closed") is True: continue
+        end = m.get("endDate") or m.get("end_date_iso")
+        if end:
+            try:
+                if datetime.fromisoformat(end.replace("Z","+00:00")) < now: continue
+            except: continue
+        open_markets.append(m)
+    print(f"Open markets: {len(open_markets)}")
+    with open(OUTPUT_FILE, "w") as f:
+        json.dump(open_markets, f, indent=2)
+    print(f"Saved to {OUTPUT_FILE}")
+    for m in open_markets[:5]:
+        print(f"  Q: {m.get('question','?')[:100]}")
+        print(f"  End: {m.get('endDate','?')[:10]} | Volume: {m.get('volume','?')}")
 
-    try:
-        response = requests.get(url, params=params, timeout=30)
-        response.raise_for_status()
-        markets = response.json()
-
-        print(f"Total raw markets received: {len(markets)}")
-
-        closed_count = sum(1 for m in markets if isinstance(m, dict) and m.get("closed") is True)
-        open_count = len(markets) - closed_count
-
-        print(f"Closed markets: {closed_count} | Open markets: {open_count}")
-
-        # Save everything so we have data to work with
-        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-            json.dump(markets, f, indent=2)
-
-        print(f"✅ Saved ALL {len(markets)} markets to {OUTPUT_FILE}")
-
-        if markets:
-            first = markets[0]
-            print("\nFirst market question:", first.get("question", "N/A")[:120])
-            print("First market closed:", first.get("closed"))
-            print("First market endDate:", first.get("endDate"))
-            print("First market volume:", first.get("volume"))
-
-    except Exception as e:
-        print(f"Error fetching Polymarket data: {e}")
-
-if __name__ == "__main__":
-    main()
+main()
