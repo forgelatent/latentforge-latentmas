@@ -1219,3 +1219,16 @@ Rain grant submission has been deferred. Document remains at `docs/rain_grant_fi
 cp ~/Projects/latentforge-latentmas/scripts/launchd/*.plist ~/Library/LaunchAgents/
 for f in ~/Library/LaunchAgents/com.latentforge.*.plist; do launchctl load "$f"; done
 ```
+
+### April 5, 2026 — Open Questions Cleanup
+Old "Questions for Grok" section from earlier in the day has been replaced with current priorities.
+
+## Current Open Questions (April 5, 2026)
+1. AI regulation divergence (7+ days) — strongest case the crowd is right and we're wrong?
+2. Powell market (crowd 0.1% vs swarm 3-4%) — framing issue or genuine edge?
+3. Weather arbitrage — fast-track or keep in Week 4+ queue?
+4. SDR compression (binary activation mask) — does it preserve enough information for useful latent comms?
+5. Mac Mini 32GB constraints — quantization + sequential runs planned. Any other memory optimizations?
+6. M5 Mac Studio upgrade decision — budget/timing review after Mac Mini arrives
+7. Jiaru Zou outreach timing — after first latent vs text results
+
