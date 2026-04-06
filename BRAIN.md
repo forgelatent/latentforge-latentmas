@@ -1172,3 +1172,13 @@ Rule: BRAIN.md never more than 48 hours out of date.
 ### April 5, 2026 — Grant Status Update (for consistency)
 Rain grant submission has been deferred. Document remains at `docs/rain_grant_final.md` for future use once latent results exist. Self-funding the next 60 days to preserve secrecy.
 
+
+### April 5, 2026 — Commercialization Agent Upgrade
+- Upgraded Revenue Strategist → full Commercialization & Growth Agent (v1.3)
+- Reads: Kalshi data, research digest, founder_inputs, compression suggestions, previous thesis
+- Outputs: Primary Strategic Bet, Supporting Moves, Thesis Update with conviction tracking
+- Key feature: Maintains running `commercialization_thesis.md` — compounds strategic thinking over time
+- First output connected 45% Brier result to information asymmetry opportunities and drafted Polymarket partnership ideas
+- Committed and pushed
+- Next: Add to launchd at 5:45 AM tomorrow
+
