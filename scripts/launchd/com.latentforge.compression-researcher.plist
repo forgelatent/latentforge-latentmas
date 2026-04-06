@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>Label</key><string>com.latentforge.compression-researcher</string>
+  <key>ProgramArguments</key><array>
+    <string>/bin/bash</string>
+    <string>/Users/latentforge/Projects/latentforge-latentmas/scripts/run_with_key.sh</string>
+    <string>/Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py</string>
+    <string>/Users/latentforge/Projects/latentforge-latentmas/research/suggestions/cron.log</string>
+  </array>
+  <key>StartCalendarInterval</key><dict><key>Hour</key><integer>2</integer><key>Minute</key><integer>0</integer></dict>
+  <key>WakeForJob</key><true/>
+</dict></plist>
