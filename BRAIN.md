@@ -1182,3 +1182,40 @@ Rain grant submission has been deferred. Document remains at `docs/rain_grant_fi
 - Committed and pushed
 - Next: Add to launchd at 5:45 AM tomorrow
 
+
+### April 5, 2026 — Commercialization Agent Added (End of Day)
+
+| Date | Decision | Why | Notes |
+|------|----------|-----|-------|
+| Apr 5 2026 | Commercialization & Growth Agent built and added to launchd | Revenue strategist was tactical. Needed a strategic co-founder layer that compounds over time. | Runs at 5:45am — after all other jobs have fresh data |
+| Apr 5 2026 | All 7 launchd plists saved to scripts/launchd/ | Mac Mini arrives April 9-16 — migration needs to be one day, not one week | Copy plists + launchctl load = instant rebuild |
+
+**Commercialization Agent details:**
+- Script: ~/Projects/latentforge-latentmas/experiments/week1/scripts/commercialization_agent.py
+- Output: ~/Projects/latentforge-latentmas/revenue_ideas/commercialization_YYYY-MM-DD.md
+- Running thesis: ~/Projects/latentforge-latentmas/commercialization_thesis.md
+- Reads: calibration tracker + research digest + compression suggestions + founder inputs + previous output
+- Produces: Primary Strategic Bet + Thesis Update + 3 business model options + partnership targets + PLG angle + this week's one action
+- Key feature: updates commercialization_thesis.md every night — conviction compounds over time
+
+**First output highlights (April 5):**
+- Primary bet: Complete 30-day paper trading clock as rigorously documented benchmark, then use it to open 3 conversations: Polymarket data team, Mana Partners (prediction market hedge fund), enterprise agent orchestration buyer (defense/financial services)
+- Named Polymarket partnership pitch: "45% Brier improvement on 18 of your resolved markets — want to discuss institutional signal partner status when validation completes May 5"
+
+**Full 7-job overnight schedule (as of April 5):**
+
+| Time | Job | Output |
+|------|-----|--------|
+| 2:00am | compression-researcher | research/suggestions/YYYY-MM-DD.md |
+| 4:30am | research-sweep | research/daily-digest/YYYY-MM-DD.md |
+| 4:45am | kalshi-pull | ~/Projects/data/kalshi/markets_YYYY-MM-DD.json |
+| 5:00am | revenue-strategist | revenue_ideas/YYYY-MM-DD.md |
+| 5:15am | text-swarm | experiments/benchmark/text_swarm_YYYY-MM-DD.md |
+| 5:30am | calibration-tracker | experiments/benchmark/calibration/ |
+| 5:45am | commercialization-agent | revenue_ideas/commercialization_YYYY-MM-DD.md |
+
+**Machine migration note:** All 7 plist files are in scripts/launchd/. On Mac Mini arrival:
+```bash
+cp ~/Projects/latentforge-latentmas/scripts/launchd/*.plist ~/Library/LaunchAgents/
+for f in ~/Library/LaunchAgents/com.latentforge.*.plist; do launchctl load "$f"; done
+```
