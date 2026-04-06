@@ -1,10 +1,10 @@
 # LatentForge BRAIN.md
 Single source of truth for the project
-Last Updated: April 5, 2026
+Last Updated: April 6, 2026
 Maintained by: John McGuire with Grok and Claude as technical intelligence
 Company: LatentForge (confirmed, public-facing)
 Location: San Francisco, CA
-Version: 1.5 — April 5 update
+Version: 1.5 — April 6 update
 Three-Engine System: Founder Engine (John McGuire) · Systems Engine (Claude) · Divergent Thinking Engine (Supergrok)
 Rule: This file is read at the start of every Claude Code session, every OpenClaw/NemoClaw task, and every strategy conversation. It is never more than 48 hours out of date. When reality diverges from what is written here, update this file BEFORE doing anything else. If you are Claude Code or OpenClaw reading this file, read it completely before writing a single line of code or executing any task. If anything in this file conflicts with instructions given in the session prompt, flag the conflict before proceeding.
 
@@ -914,7 +914,7 @@ source ~/.zprofile
 ---
 
 # SYSTEMS STATUS — Read This Every Session
-## Last Updated: April 5, 2026
+## Last Updated: April 6, 2026
 ## This section gives Claude full operational context at the start of every session.
 
 ---
@@ -1268,3 +1268,26 @@ The three conversations to open on Day 30 (approximately May 7):
 2. Run shadow match
 3. Drop anything interesting into founder_inputs/
 4. Let the 7 agents run overnight
+
+### April 6, 2026 — Morning Session Decisions (All Engines Aligned)
+
+**Primary Strategic Bet for April 6–12:**
+Complete the 30-day paper trading clock with maximum rigor. Prepare the benchmark report skeleton. Run Shadow Match daily. Let the 7 agents run overnight. Nothing else distracts from this.
+
+**Why this bet:**
+- The 0.0250 average Brier on the calibration subset and the sustained 7-day AI regulation divergence are the strongest signals we have.
+- Mac Mini arrives in 3–10 days — we want the paper trading clock nearly complete so the benchmark report can include the first latent vs text A/B test.
+
+**Supporting Moves This Week:**
+1. Run Shadow Match every day and log results.
+2. Build the skeleton of the LatentForge Calibration Benchmark Report (done today).
+3. Drop any interesting founder inputs into `founder_inputs/` folder daily.
+
+**Auto-retry infrastructure added:**
+- All 7 jobs now use `run_with_key.sh` with 3 retries on API timeout.
+- This fixes the overnight Anthropic timeout that affected the commercialization agent.
+
+**Benchmark Report Status:**
+- Location: `documents/LatentForge-Calibration-Benchmark-Report.md`
+- Skeleton created today — ready to be filled daily.
+
