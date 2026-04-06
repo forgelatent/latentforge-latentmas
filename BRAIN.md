@@ -1232,3 +1232,39 @@ Old "Questions for Grok" section from earlier in the day has been replaced with 
 6. M5 Mac Studio upgrade decision — budget/timing review after Mac Mini arrives
 7. Jiaru Zou outreach timing — after first latent vs text results
 
+
+### April 6, 2026 — Morning Session Decisions
+
+| Date | Decision | Why | Notes |
+|------|----------|-----|-------|
+| Apr 6 2026 | Primary Strategic Bet locked — all 3 engines agreed | Finish 30-day clock, publish benchmark report, open 3 conversations on Day 30 | No new building until Mac Mini arrives |
+| Apr 6 2026 | Benchmark report skeleton created | Three engines agreed this is the single highest-leverage action before Mac Mini | Fill in daily as clock runs |
+| Apr 6 2026 | Auto-retry added to run_with_key.sh | Revenue strategist and commercialization agent failed overnight due to API timeout — manual rerun required. Now retries 3x with 5min delay automatically | Applies to all 7 jobs |
+
+**Primary Strategic Bet (April 6-12):**
+Complete the 30-day paper trading clock with maximum rigor. Prepare the benchmark report. Run Shadow Match daily. Let the 7 agents run overnight. Nothing else.
+
+The three conversations to open on Day 30 (approximately May 7):
+1. Polymarket research/data team — calibration methodology in exchange for broader market access
+2. One quantitative prediction market fund (Mana Partners or equivalent)
+3. One enterprise agent orchestration buyer in financial services or defense
+
+**Benchmark report:**
+- Location: `docs/latentforge_benchmark_report_v0.1.md`
+- Status: Skeleton complete. Fill in Section 4.2 daily with calibration tracker numbers.
+- Key number to lead with: 0.0250 avg Brier on 5-market calibration subset
+- Narrative spine: AI regulation divergence (swarm 21-28% vs crowd 31%, 7+ days)
+- A/B test section: fill in after Mac Mini arrives April 9-16
+- Target completion: May 7, 2026
+
+**Auto-retry infrastructure:**
+- Script: `scripts/run_with_key.sh`
+- Behavior: On failure, waits 5 minutes and retries up to 3 times
+- On permanent failure: logs "PERMANENT FAILURE" to cron.log
+- Covers all 7 launchd jobs automatically
+
+**Daily habit this week:**
+1. Run morning status check
+2. Run shadow match
+3. Drop anything interesting into founder_inputs/
+4. Let the 7 agents run overnight
