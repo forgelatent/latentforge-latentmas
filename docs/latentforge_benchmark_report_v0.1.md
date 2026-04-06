@@ -255,3 +255,11 @@ python3 experiments/week1/scripts/shadow_match.py
 *Started: April 6, 2026*
 *Target completion: May 7, 2026*
 *Repository: github.com/forgelatent/latentforge-latentmas*
+
+### Additional Related Work
+
+- **"The Compression Gap: Why Discrete Tokenization Limits Vision-Language-Action Model Scaling"** (arXiv:2604.03191): Academic validation that discrete tokenization creates information bottlenecks in scaling — directly supports LatentForge's core argument for continuous latent vector communication over token-based agent coordination.
+
+- **VectorArc/AVP v0.6.1** (github.com/VectorArc/avp-python): Adjacent latent primitive protocol shipping `generate_on_context()`. Differentiator: no governance layer, no external calibration benchmark. LatentForge adds Shadow Self auditability and real-world prediction market validation.
+
+- **SCRAT — Stochastic Control with Retrieval and Auditable Trajectories** (arXiv:2604.03201): Independent work on auditable agent trajectories, validating the governance/audit trail direction of Shadow Self.
