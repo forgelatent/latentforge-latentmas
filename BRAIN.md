@@ -988,7 +988,7 @@ echo ${#ANTHROPIC_API_KEY}
 
 ---
 
-## The 6 Launchd Jobs (All Fixed April 5, 2026)
+## The 7 Launchd Jobs (All Fixed April 5-6, 2026)
 
 All scripts use absolute paths. All pull API key from Keychain via run_with_key.sh.
 Rule: Every script called by launchd must use absolute paths.
