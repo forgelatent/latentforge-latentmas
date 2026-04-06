@@ -53,5 +53,27 @@
     "swarm_brier": 0.0161,
     "crowd_brier": 0.0,
     "naive_brier": 0.25
+  },
+  {
+    "date": "2026-04-06",
+    "market_id": "553838",
+    "question": "Will the Minnesota Wild win the 2026 NHL Stanley Cup?",
+    "swarm_prob": 0.103,
+    "crowd_prob": 0.052,
+    "outcome": 0,
+    "swarm_brier": 0.0106,
+    "crowd_brier": 0.0027,
+    "naive_brier": 0.25
+  },
+  {
+    "date": "2026-04-06",
+    "market_id": "553849",
+    "question": "Will the Montreal Canadiens win the 2026 NHL Stanley Cup?",
+    "swarm_prob": 0.15,
+    "crowd_prob": 0.053,
+    "outcome": 0,
+    "swarm_brier": 0.0225,
+    "crowd_brier": 0.0028,
+    "naive_brier": 0.25
   }
 ]
