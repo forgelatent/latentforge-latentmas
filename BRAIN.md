@@ -1255,3 +1255,4 @@ Complete the 30-day paper trading clock with maximum rigor. Prepare the benchmar
 - Location: `docs/latentforge_benchmark_report_v0.1.md`
 - Skeleton created today — ready to be filled daily.
 
+- **6:00am | benchmark-updater** | docs/latentforge_benchmark_report_v0.1.md — auto-updates Section 4 with live calibration + shadow match data daily
