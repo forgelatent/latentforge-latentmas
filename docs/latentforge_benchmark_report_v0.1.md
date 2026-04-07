@@ -116,69 +116,86 @@ Lower is better. Perfect calibration = 0. Naive baseline = 0.25.
 
 ---
 
-## 4. Results
+## 4. Results (Auto-updated 2026-04-06 — Day 3 of 30)
 
 ### 4.1 Historical Validation (Pre-Benchmark)
 
-- Markets scored: 18 resolved Polymarket questions (politics/crypto)
-- Swarm Brier: **0.1376**
-- Naive baseline: 0.25
-- Improvement over naive: **45%**
-- Note: agent errors on sports/entertainment markets — filtered in live benchmark
+Before the live paper trading clock started, we validated the swarm against 18 resolved Polymarket markets with known outcomes:
 
-### 4.2 Live Paper Trading Results (Fill in daily)
+- **Markets scored:** 18 resolved Polymarket questions (politics/crypto)
+- **Swarm Brier:** 0.1376
+- **Naive baseline:** 0.25
+- **Improvement over naive:** 45%
+- **Note:** Agent errors on sports/entertainment markets present in this dataset — filtered in live benchmark
 
-**As of April 6, 2026 (Day 3):**
+---
+
+### 4.2 Live Paper Trading Results (Day 3 of 30 — 2026-04-06)
+
+**Markets tracked:** 26
+**Markets resolved:** 7
+**Days remaining:** 28
+
+| Market | Date | Swarm Prob | Crowd Prob | Outcome | Swarm Brier | Crowd Brier |
+|--------|------|-----------|-----------|---------|-------------|-------------|
+| Will Tre Johnson win the 2025–26 NBA Rookie of the... | 2026-04-05 | 15.0% | 0.2% | 0 | 0.0225 | 0.0 |
+| Will Ace Bailey win the 2025–26 NBA Rookie of the ... | 2026-04-05 | 18.3% | 0.1% | 0 | 0.0335 | 0.0 |
+| Will Dylan Harper win the 2025–26 NBA Rookie of th... | 2026-04-05 | 21.7% | 0.2% | 0 | 0.0471 | 0.0 |
+| Will V.J. Edgecombe win the 2025–26 NBA Rookie of ... | 2026-04-05 | 15.0% | 0.1% | 0 | 0.0225 | 0.0 |
+| Will the Florida Panthers win the 2026 NHL Stanley... | 2026-04-05 | 12.7% | 0.1% | 0 | 0.0161 | 0.0 |
+| Will the Minnesota Wild win the 2026 NHL Stanley C... | 2026-04-06 | 10.3% | 5.2% | 0 | 0.0106 | 0.0027 |
+| Will the Montreal Canadiens win the 2026 NHL Stanl... | 2026-04-06 | 15.0% | 5.3% | 0 | 0.0225 | 0.0028 |
+
+**Summary statistics:**
 
 | Metric | Value |
 |--------|-------|
-| Markets tracked | 25 |
-| Markets resolved | 5 |
-| Swarm avg Brier (resolved) | 0.0283 |
-| Crowd avg Brier (resolved) | 0.0 |
-| Naive avg Brier | 0.25 |
-| Calibration subset (5 markets) | 0.0250 |
-| Days remaining | 27 |
+| Swarm avg Brier (all resolved) | 0.0250 |
+| Crowd avg Brier (all resolved) | 0.0008 |
+| Naive avg Brier | 0.2500 |
+| Swarm vs naive improvement | 90.0% |
 
-*Note: Crowd Brier of 0.0 on early resolved markets reflects near-certain markets that slipped through the 5-95% filter. Filter tightened April 5. Future resolutions will be more informative.*
+**Honest assessment of current data:**
 
-### 4.3 Shadow Match Results (Fill in as markets resolve)
-
-*(Day 1: April 4, Day 2: April 6)*
-
-Key divergences logged:
-- **Jerome Powell confirmed as Fed Chair:** Crowd 0.1% vs Shadow 2-3% / Swarm 3% — both days, both models
-- **US-Iran nuclear deal by June 30:** Crowd 22.5% vs Shadow 8% / Swarm 7-8% — strong consensus against crowd
-- **Bitcoin $60k or $80k first:** Shadow 62% / Swarm 62% vs Crowd 65% — modest below-crowd
-
-### 4.4 AI Regulation Divergence — Case Study
-
-*(This section becomes the narrative spine of the report)*
-
-**Question:** Will an AI regulation bill pass in US Congress before [DATE]?
-**Crowd probability:** 31%
-**Swarm estimate:** 21-28%
-**Days of sustained divergence:** 7+ (as of April 6)
-**Direction:** Swarm consistently below crowd
-
-*(Fill in resolution outcome and analysis when market resolves)*
-
-If swarm correct: Evidence of latent-layer information extraction advantage over crowd consensus on regulatory probability estimation.
-If crowd correct: Documented case study of where latent swarm underweights crowd wisdom — equally publishable as a calibration lesson.
-
-### 4.5 Latent vs Text A/B Test Results
-
-*(Fill in after Mac Mini arrival)*
-
-| Metric | Text Swarm | Latent Swarm | Delta |
-|--------|-----------|--------------|-------|
-| Avg Brier | TBD | TBD | TBD |
-| Inference latency (ms) | TBD | TBD | TBD |
-| Tokens per exchange | TBD | TBD | TBD |
-| Compute cost per turn | TBD | TBD | TBD |
-| Divergence score | TBD | TBD | TBD |
+The resolved markets to date are dominated by near-certain outcomes — sports championship candidates where the crowd was already pricing at 0.1-5.3% probability. The swarm performs well in absolute terms (0.0250 average Brier) but the meaningful comparison will emerge when genuinely uncertain markets resolve (crowd probability 20-80% at prediction time). We have 19 markets currently tracked pending resolution.
 
 ---
+
+### 4.3 Shadow Match Results (Source: shadow_match_2026-04-06.json)
+
+11 policy/macro/geopolitical markets. Single strong model (Shadow) vs 4-agent swarm vs crowd.
+
+**Key divergences from latest Shadow Match:**
+
+| Market | Crowd | Shadow | Swarm |
+|--------|-------|--------|-------|
+| Will Ron DeSantis win the 2028 Republican presidential  | 2.6% | 6.0% | 7.7% |
+| US-Iran nuclear deal by June 30? | 22.5% | 8.0% | 7.5% |
+| Will the People Power Party (PPP) win the 2026 South Ko | 4.2% | 8.0% | 10.7% |
+
+
+---
+
+### 4.4 AI Regulation Divergence — Case Study in Progress
+
+**Question:** Will an AI regulation bill pass in US Congress before [date]?
+**Crowd probability:** ~31%
+**Swarm estimate:** 21-28%
+**Days of sustained divergence:** 8+ consecutive days
+**Direction:** Swarm consistently below crowd
+
+Resolution will determine whether this is genuine information extraction or systematic swarm miscalibration. Both outcomes are publishable.
+
+---
+
+### 4.5 Latent vs Text A/B Test (Pending Mac Mini Arrival)
+
+*Section to be filled in after Mac Mini M4 Pro arrival (April 9-16, 2026)*
+
+---
+
+*Auto-updated by benchmark_report_updater.py — 2026-04-06 20:18*
+*Next update: tomorrow at 6:00am*
 
 ## 5. Discussion
 
@@ -373,3 +390,22 @@ Expected metrics:
 
 *Last updated: April 6, 2026 — Day 3 of 30-day paper trading clock*
 *Next update: April 9-16 after Mac Mini arrival and first latent exchange*
+
+### Contrarian Contribution Tracking
+We track the contrarian agent's influence on swarm divergence for each market using this simple metric:
+
+**Contrarian Pull** = |swarm probability - (average of Macro + Quant probabilities)|
+
+- A high Contrarian Pull (>8–10 points) on a market indicates the contrarian is driving meaningful divergence from the more consensus-oriented agents.
+- We will monitor whether high Contrarian Pull correlates with better (lower) Brier scores on resolved markets.
+- Early observation (as of April 6): Contrarian is systematically pulling the swarm lower on high-narrative markets (Bitcoin, AI regulation, Musk/Tesla CEO). This is consistent with its assigned role but requires ongoing validation against outcomes.
+
+Example for Bitcoin $150k by EOY 2026 (April 6 data):
+- Macro: 52%
+- Quant: 52%
+- Contrarian: 45%
+- Swarm average: 48.7%
+- Contrarian Pull: 3.7 points (moderate pull)
+
+This column will be populated daily in the live results table starting April 7.
+
