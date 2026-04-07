@@ -1291,3 +1291,26 @@ Complete the 30-day paper trading clock with maximum rigor. Prepare the benchmar
 - Location: `documents/LatentForge-Calibration-Benchmark-Report.md`
 - Skeleton created today — ready to be filled daily.
 
+
+### April 6, 2026 — Morning Session Decisions (All Engines Aligned)
+
+**Primary Strategic Bet for April 6–12:**
+Complete the 30-day paper trading clock with maximum rigor. Prepare the benchmark report skeleton. Run Shadow Match daily. Let the 7 agents run overnight. Nothing else distracts from this.
+
+**Why this bet:**
+- The 0.0250 average Brier on the calibration subset and the sustained 7-day AI regulation divergence are the strongest signals we have.
+- Mac Mini arrives in 3–10 days — we want the paper trading clock nearly complete so the benchmark report can include the first latent vs text A/B test.
+
+**Supporting Moves This Week:**
+1. Run Shadow Match every day and log results.
+2. Build the skeleton of the LatentForge Calibration Benchmark Report (done today).
+3. Drop any interesting founder inputs into `founder_inputs/` folder daily.
+
+**Auto-retry infrastructure added:**
+- All 7 jobs now use `run_with_key.sh` with 3 retries on API timeout.
+- This fixes the overnight Anthropic timeout that affected the commercialization agent.
+
+**Benchmark Report Status:**
+- Location: `docs/latentforge_benchmark_report_v0.1.md`
+- Skeleton created today — ready to be filled daily.
+
