@@ -1316,3 +1316,61 @@ TODAY'S QUESTION: Check overnight jobs, run shadow match, review what the 8 agen
 
 Flag any conflicts with BRAIN.md immediately.
 ```
+
+### April 6, 2026 — BRAIN.md Accuracy Fixes
+
+**Fix 1: Job table updated to 8 jobs (replaces old 7-job table in SYSTEMS STATUS)**
+
+Full 8-job overnight schedule:
+
+| Job | Time | Output | Check Command |
+|-----|------|--------|---------------|
+| compression-researcher | 2:00am | ~/Projects/latentforge-latentmas/research/suggestions/YYYY-MM-DD.md | ls -lt ~/Projects/latentforge-latentmas/research/suggestions/ |
+| research-sweep | 4:30am | ~/Projects/latentforge-latentmas/research/daily-digest/YYYY-MM-DD.md | ls -lt ~/Projects/latentforge-latentmas/research/daily-digest/ |
+| kalshi-pull | 4:45am | ~/Projects/data/kalshi/markets_YYYY-MM-DD.json | ls -lt ~/Projects/data/kalshi/ |
+| revenue-strategist | 5:00am | ~/Projects/latentforge-latentmas/revenue_ideas/YYYY-MM-DD.md | ls -lt ~/Projects/latentforge-latentmas/revenue_ideas/ |
+| text-swarm | 5:15am | ~/Projects/latentforge-latentmas/experiments/benchmark/text_swarm_YYYY-MM-DD.md | ls -lt ~/Projects/latentforge-latentmas/experiments/benchmark/ |
+| calibration-tracker | 5:30am | ~/Projects/latentforge-latentmas/experiments/benchmark/calibration/ | ls -lt ~/Projects/latentforge-latentmas/experiments/benchmark/calibration/ |
+| commercialization-agent | 5:45am | ~/Projects/latentforge-latentmas/revenue_ideas/commercialization_YYYY-MM-DD.md | ls -lt ~/Projects/latentforge-latentmas/revenue_ideas/ |
+| benchmark-updater | 6:00am | ~/Projects/latentforge-latentmas/docs/latentforge_benchmark_report_v0.1.md | ls -lt ~/Projects/latentforge-latentmas/docs/ |
+
+All 8 plists saved at: ~/Projects/latentforge-latentmas/scripts/launchd/
+Migration command for Mac Mini arrival:
+```bash
+cp ~/Projects/latentforge-latentmas/scripts/launchd/*.plist ~/Library/LaunchAgents/
+for f in ~/Library/LaunchAgents/com.latentforge.*.plist; do launchctl load "$f"; done
+```
+
+**Fix 2: Founder inputs updated (as of April 6)**
+
+Current founder inputs:
+- 2026-04-05_coldmath_weather_arbitrage.md — METAR data vs Polymarket weather markets
+- 2026-04-05_llm_knowledge_base_wiki.md — Compounding LLM wiki in Obsidian
+- 2026-04-05_gstack_parallel_sprints.md — Garry Tan parallel sprint model + latent skill templates
+- 2026-04-06_vc_chief_of_staff_kaizen.md — VC Kaizen loop + memory architecture patterns
+
+**Fix 3: Calibration tracker status**
+
+Current state (April 6): 26 markets tracked, Day 3 of 30-day paper trading clock. 7 resolved markets. Swarm avg Brier 0.0250.
+
+**Fix 4: 90-Day Goals — current status (April 6)**
+
+| Goal | Status |
+|------|--------|
+| Rain grant | Parked — resubmit after Mac Mini latent results. Doc at docs/rain_grant_final.md |
+| 30-day paper trading clock | Running — Day 3 of 30 |
+| Shadow Match baseline | Complete + running daily (Day 3 logged April 6) |
+| Mac Mini arrival | April 9-16 |
+| Latent vs text A/B test | Pending Mac Mini |
+| M5 Mac Studio order | Pending WWDC June 2026 |
+| LinkedIn/X flag post | Parked — after first latent results |
+| Jiaru Zou outreach | Parked — after Week 4 OpenSpiel results |
+| Benchmark report | Live — auto-updates daily at 6am |
+
+**Fix 5: Architecture rule added**
+
+LLMs handle judgment. Scripts handle everything else.
+Anything deterministic (reading files, calling APIs, comparing timestamps) lives in Python.
+LLM layer handles synthesis, prioritization, drafting, reasoning.
+Pushing deterministic work through an LLM breaks in unpredictable ways and destroys trust.
+This separation is what makes the 8-agent system reliable.
