@@ -9,6 +9,10 @@ The result: lower coordination cost and **useful divergence** — probability es
 
 We validate on prediction markets because outcomes resolve, crowd priors exist, and performance can be measured with Brier score and simulated alpha.
 
+### Academic Validation
+
+Recent work directly validates the core LatentForge thesis. Shiba (2026) demonstrates that discrete tokenization creates a fundamental information bottleneck in intelligent systems — upgrading upstream model quality improved performance by 21 percentage points when using continuous representations, but delivered near-zero improvement when the same features were forced through discrete tokens. The authors conclude that "scaling behavior is governed by the location of the tightest information bottleneck." In multi-agent AI systems, that bottleneck is inter-agent text communication. LatentForge removes it by allowing agents to exchange compressed latent vector deltas directly in continuous space. Our Phase 1 text swarm already shows 45% Brier improvement over naive baseline on 18 resolved Polymarket markets — establishing the control condition against which Phase 2 latent communication gains will be precisely measured.
+
 ### Phase 1 Results — Text-based multi-agent coordination (completed)
 We have demonstrated that a structured three-agent text swarm — differentiated by reasoning role across base rate, recency, and contrarian perspectives — achieves a **45% improvement in Brier score** over a naive baseline on 18 resolved Polymarket prediction markets (0.1376 vs. 0.25). This result is consistent with recent academic findings: the LatentMAS framework (Zou et al., arXiv:2511.20639) demonstrates that latent agent collaboration outperforms text-based multi-agent systems by up to 14.6% accuracy while reducing token usage by 70–83%. Our Phase 1 text swarm establishes the clean control baseline against which Phase 2 latent gains will be precisely measured. A 30-day live paper trading calibration is now underway to validate forward-looking performance under real-time conditions.
 
