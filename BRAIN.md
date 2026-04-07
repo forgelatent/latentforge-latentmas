@@ -1288,7 +1288,7 @@ Complete the 30-day paper trading clock with maximum rigor. Prepare the benchmar
 - This fixes the overnight Anthropic timeout that affected the commercialization agent.
 
 **Benchmark Report Status:**
-- Location: `documents/LatentForge-Calibration-Benchmark-Report.md`
+- Location: `docs/latentforge_benchmark_report_v0.1.md`
 - Skeleton created today — ready to be filled daily.
 
 
