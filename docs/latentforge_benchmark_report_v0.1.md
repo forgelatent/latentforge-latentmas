@@ -258,7 +258,11 @@ python3 experiments/week1/scripts/shadow_match.py
 
 ### Additional Related Work
 
-- **"The Compression Gap: Why Discrete Tokenization Limits Vision-Language-Action Model Scaling"** (arXiv:2604.03191): Academic validation that discrete tokenization creates information bottlenecks in scaling — directly supports LatentForge's core argument for continuous latent vector communication over token-based agent coordination.
+### The Compression Gap in Agent Communication
+
+Recent work has demonstrated that discrete tokenization creates a fundamental information bottleneck in scaling intelligent systems. In "The Compression Gap: Why Discrete Tokenization Limits Vision-Language-Action Model Scaling" (arXiv:2604.03191), the authors show that upgrading the upstream vision encoder improved downstream performance by 21 percentage points when using continuous representations, but delivered almost zero improvement when the same rich features were forced through discrete tokens. They conclude that "scaling behavior is governed by the location of the tightest information bottleneck."
+
+This finding directly supports LatentForge's core thesis. In multi-agent systems today, agents must compress their rich internal hidden states into discrete tokens (English or JSON) before communicating. This is exactly the narrow funnel described in the paper. LatentForge removes this bottleneck by allowing agents to exchange compressed latent vector deltas directly in continuous mathematical space. Our early results — including a 45% Brier score improvement in text-swarm coordination and sustained divergence on AI regulation markets — suggest that bypassing the token layer can unlock measurable gains in both efficiency and decision quality.
 
 - **VectorArc/AVP v0.6.1** (github.com/VectorArc/avp-python): Adjacent latent primitive protocol shipping `generate_on_context()`. Differentiator: no governance layer, no external calibration benchmark. LatentForge adds Shadow Self auditability and real-world prediction market validation.
 
