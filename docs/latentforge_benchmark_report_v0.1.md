@@ -116,7 +116,7 @@ Lower is better. Perfect calibration = 0. Naive baseline = 0.25.
 
 ---
 
-## 4. Results (Auto-updated 2026-04-06 — Day 3 of 30)
+## 4. Results (Auto-updated 2026-04-07 — Day 4 of 30)
 
 ### 4.1 Historical Validation (Pre-Benchmark)
 
@@ -130,11 +130,11 @@ Before the live paper trading clock started, we validated the swarm against 18 r
 
 ---
 
-### 4.2 Live Paper Trading Results (Day 3 of 30 — 2026-04-06)
+### 4.2 Live Paper Trading Results (Day 4 of 30 — 2026-04-07)
 
-**Markets tracked:** 26
-**Markets resolved:** 7
-**Days remaining:** 28
+**Markets tracked:** 27
+**Markets resolved:** 8
+**Days remaining:** 27
 
 | Market | Date | Swarm Prob | Crowd Prob | Outcome | Swarm Brier | Crowd Brier |
 |--------|------|-----------|-----------|---------|-------------|-------------|
@@ -145,23 +145,24 @@ Before the live paper trading clock started, we validated the swarm against 18 r
 | Will the Florida Panthers win the 2026 NHL Stanley... | 2026-04-05 | 12.7% | 0.1% | 0 | 0.0161 | 0.0 |
 | Will the Minnesota Wild win the 2026 NHL Stanley C... | 2026-04-06 | 10.3% | 5.2% | 0 | 0.0106 | 0.0027 |
 | Will the Montreal Canadiens win the 2026 NHL Stanl... | 2026-04-06 | 15.0% | 5.3% | 0 | 0.0225 | 0.0028 |
+| Will Harvey Weinstein be sentenced to less than 5 ... | 2026-04-07 | 15.0% | 8.4% | 0 | 0.0225 | 0.0071 |
 
 **Summary statistics:**
 
 | Metric | Value |
 |--------|-------|
-| Swarm avg Brier (all resolved) | 0.0250 |
-| Crowd avg Brier (all resolved) | 0.0008 |
+| Swarm avg Brier (all resolved) | 0.0247 |
+| Crowd avg Brier (all resolved) | 0.0016 |
 | Naive avg Brier | 0.2500 |
-| Swarm vs naive improvement | 90.0% |
+| Swarm vs naive improvement | 90.1% |
 
 **Honest assessment of current data:**
 
-The resolved markets to date are dominated by near-certain outcomes — sports championship candidates where the crowd was already pricing at 0.1-5.3% probability. The swarm performs well in absolute terms (0.0250 average Brier) but the meaningful comparison will emerge when genuinely uncertain markets resolve (crowd probability 20-80% at prediction time). We have 19 markets currently tracked pending resolution.
+The resolved markets to date are dominated by near-certain outcomes — sports championship candidates where the crowd was already pricing at 0.1-5.3% probability. The swarm performs well in absolute terms (0.0247 average Brier) but the meaningful comparison will emerge when genuinely uncertain markets resolve (crowd probability 20-80% at prediction time). We have 19 markets currently tracked pending resolution.
 
 ---
 
-### 4.3 Shadow Match Results (Source: shadow_match_2026-04-06.json)
+### 4.3 Shadow Match Results (Source: shadow_match_2026-04-07.json)
 
 11 policy/macro/geopolitical markets. Single strong model (Shadow) vs 4-agent swarm vs crowd.
 
@@ -169,8 +170,8 @@ The resolved markets to date are dominated by near-certain outcomes — sports c
 
 | Market | Crowd | Shadow | Swarm |
 |--------|-------|--------|-------|
-| Will Ron DeSantis win the 2028 Republican presidential  | 2.6% | 6.0% | 7.7% |
-| US-Iran nuclear deal by June 30? | 22.5% | 8.0% | 7.5% |
+| Will Bitcoin hit $60k or $80k first? | 65.0% | 62.0% | 52.0% |
+| US-Iran nuclear deal by June 30? | 22.5% | 8.0% | 8.0% |
 | Will the People Power Party (PPP) win the 2026 South Ko | 4.2% | 8.0% | 10.7% |
 
 
@@ -181,7 +182,7 @@ The resolved markets to date are dominated by near-certain outcomes — sports c
 **Question:** Will an AI regulation bill pass in US Congress before [date]?
 **Crowd probability:** ~31%
 **Swarm estimate:** 21-28%
-**Days of sustained divergence:** 8+ consecutive days
+**Days of sustained divergence:** 9+ consecutive days
 **Direction:** Swarm consistently below crowd
 
 Resolution will determine whether this is genuine information extraction or systematic swarm miscalibration. Both outcomes are publishable.
@@ -194,7 +195,7 @@ Resolution will determine whether this is genuine information extraction or syst
 
 ---
 
-*Auto-updated by benchmark_report_updater.py — 2026-04-06 20:18*
+*Auto-updated by benchmark_report_updater.py — 2026-04-07 06:03*
 *Next update: tomorrow at 6:00am*
 
 ## 5. Discussion
@@ -409,3 +410,23 @@ Example for Bitcoin $150k by EOY 2026 (April 6 data):
 
 This column will be populated daily in the live results table starting April 7.
 
+
+
+---
+
+## Appendix A — Latent Vertigo / Regime Shift Test (Required Pre-Live)
+
+*Added April 7, 2026 — based on Gemini external review + Grok validation*
+
+Before any real capital is deployed, the latent swarm must pass a regime shift stress test. This tests whether the system fails catastrophically when the input distribution changes suddenly.
+
+**Test 1 — Regime shift stress test:**
+Run latent swarm on a set of markets. Introduce a sudden distribution shift (major news simulation or prompt injection). Measure time-to-recovery or collapse. Pass criteria: swarm returns to calibrated output within 3 exchanges or triggers Safe Mode automatically.
+
+**Test 2 — Shadow Self drift threshold:**
+Add regime detection to Shadow Self. If latent deltas move into a low-probability region of the vector space (high cosine distance from historical manifold), trigger automatic resync-to-text mode and log alert. This is the circuit breaker for latent vertigo.
+
+**Test 3 — Diversity injection:**
+Periodically force one agent to inject a small random latent perturbation. Measure whether the swarm amplifies or dampens it. Amplification = fragile. Dampening = robust.
+
+All three tests must be logged before live capital deployment.
