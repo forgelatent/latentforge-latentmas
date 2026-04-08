@@ -1374,3 +1374,29 @@ Anything deterministic (reading files, calling APIs, comparing timestamps) lives
 LLM layer handles synthesis, prioritization, drafting, reasoning.
 Pushing deterministic work through an LLM breaks in unpredictable ways and destroys trust.
 This separation is what makes the 8-agent system reliable.
+
+### April 7, 2026 — External Review Decisions (ChatGPT + Gemini + Grok)
+
+| Date | Decision | Why | Alternatives rejected |
+|------|----------|-----|-----------------------|
+| Apr 7 2026 | Add Brier Skill Score vs crowd to calibration tracker | Raw 0.0247 Brier is undefendable without market difficulty context. BSS transforms it into a defensible claim. | Reporting raw Brier only: rejected |
+| Apr 7 2026 | Pre-register Arm 3 benchmark before Mac Mini arrives | Eliminates "you optimized after seeing results" objection. Lock markets, timing, scoring method in writing today. | Registering after: rejected |
+| Apr 7 2026 | Compute parity — Phi-3 Mini across all four arms | Gemini flagged: different base models = testing model intelligence not communication protocol. Decision: Phi-3 Mini across Arms 1-4. | Different models per arm: rejected |
+| Apr 7 2026 | Dataset moat added as business model option | Gemini original idea — sell non-human latent reasoning traces to frontier labs for training data. Not in prior thinking. | N/A — new option |
+| Apr 7 2026 | Latent Echo test added to Mac Mini Day 1 protocol | Test alignment before benchmark starts. Agent A sends latent delta, Shadow Self decodes, compare to original intent. If >5% divergence, W_a is failing. | Jump straight to benchmark: rejected |
+| Apr 7 2026 | Business model ranking — deferred to Day 30 dual-engine review | ChatGPT, Gemini, and commercialization agent gave three different rankings. Requires dual-engine resolution before committing. | Committing to any ranking now: rejected |
+| Apr 7 2026 | Add statistical significance + narrative cluster weighting to benchmark report | Need confidence intervals and p-values by Day 30. Weight results by theme cluster to prevent AI regulation counting as 3 independent wins. | Reporting raw numbers only: rejected |
+
+### April 7, 2026 — Mac Mini Day 1 Protocol Update
+
+Step 1 before any benchmark: Run Latent Echo test
+- Agent A sends a latent delta about a market to Agent B
+- Shadow Self decodes it to English
+- Compare decoded English to Agent A original prompt/intent
+- If divergence >5%, W_a alignment matrix is failing — stop and fix before proceeding
+- Only proceed to Arm 3 benchmark if Echo test passes
+
+Step 2: Confirm compute parity
+- All four arms must run Phi-3 Mini 3.8B as base model
+- No mixing of model families across arms
+- Document model version and quantization level before first run
