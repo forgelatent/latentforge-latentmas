@@ -1422,3 +1422,11 @@ Step 2: Confirm compute parity
 - "0.0247 avg Brier on the calibration subset" — valid, same source, but note it's historical not live
 - Do NOT cite the live tracker BSS until policy markets resolve
 - The AI regulation 9-day divergence signal is the live proof — cite that instead
+
+### April 8, 2026 — Three Strategic Decisions (All Engines Aligned)
+
+| Date | Decision | Why | Alternatives rejected |
+|------|----------|-----|-----------------------|
+| Apr 8 2026 | Rain grant — parked until Mac Mini latent results | Two autonomous agents recommended drafting this week. Both Grok and Claude say hold. Middle path (draft around research question only) still leaks too much thesis while ecosystem is converging fast. Resubmit after first latent vs text A/B runs, likely late April. | Draft now: rejected. Premature without latent results. |
+| Apr 8 2026 | Bayesian Updater — drop after April 12 | Trial week complete. Tracking almost identically to Quant Researcher on most markets. Not adding signal, adding API cost. Three core agents (Macro, Quant, Contrarian) remain. | Keep permanently: rejected. No evidence of added value. |
+| Apr 8 2026 | Publication timing — light flag in 7-10 days, full benchmark waits | AVP v0.6.1 shipped overnight — ecosystem accelerating. Plant the flag (Hybrid B+Bridge LinkedIn/X post with 45% Brier + 9-day divergence signal) within 7-10 days. Full latent benchmark results wait until after Mac Mini runs late April/early May. | Rush full publication now: rejected. No latent results yet. |
