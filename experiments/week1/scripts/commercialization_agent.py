@@ -141,7 +141,7 @@ to something specific about latent communication, our Brier scores, or our gover
 
     response = CLIENT.messages.create(
         model=MODEL,
-        max_tokens=2000,
+        max_tokens=4000,
         messages=[{"role": "user", "content": prompt}]
     )
 
