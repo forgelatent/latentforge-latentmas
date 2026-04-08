@@ -238,6 +238,7 @@ def run():
         avg_naive = round(sum(e["naive_brier"] for e in brier_log) / n, 4)
         swarm_vs_naive = round((avg_naive - avg_swarm) / avg_naive * 100, 1)
         swarm_vs_crowd = round((avg_crowd - avg_swarm) / avg_crowd * 100, 1) if avg_crowd != 0 else 0.0
+        bss = round(1 - (avg_swarm / avg_crowd), 4) if avg_crowd != 0 else 0.0
         print("")
         print("Resolved markets scored: " + str(n))
         print("Swarm avg Brier:  " + str(avg_swarm))
@@ -245,6 +246,7 @@ def run():
         print("Naive avg Brier:  " + str(avg_naive))
         print("Swarm vs naive:   " + str(swarm_vs_naive) + "%")
         print("Swarm vs crowd:   " + str(swarm_vs_crowd) + "%")
+        print("Brier Skill Score:" + str(bss) + "  (0=crowd-level, 1=perfect, negative=worse than crowd)")
     else:
         print("No resolved markets yet — check back daily as markets close.")
 
