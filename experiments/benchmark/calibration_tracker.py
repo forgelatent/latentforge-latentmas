@@ -14,6 +14,23 @@ BASE_DIR = Path("/Users/latentforge/Projects/latentforge-latentmas/experiments/b
 BASE_DIR.mkdir(parents=True, exist_ok=True)
 
 PREDICTIONS_FILE = BASE_DIR / "predictions_log.json"
+
+POLICY_KEYWORDS = [
+    "regulation", "congress", "senate", "house", "election", "vote", "president",
+    "fed", "federal reserve", "rate cut", "inflation", "cpi", "unemployment",
+    "iran", "nuclear", "china", "taiwan", "ukraine", "russia", "nato",
+    "powell", "treasury", "gdp", "recession", "tariff", "trade",
+    "republican", "democrat", "midterm", "supreme court", "legislation",
+    "parliament", "prime minister", "chancellor", "sanctions"
+]
+
+def get_category(question):
+    q = question.lower()
+    for kw in POLICY_KEYWORDS:
+        if kw in q:
+            return "policy"
+    return "other"
+
 BRIER_LOG_FILE = BASE_DIR / "brier_running.json"
 
 NOISE_TERMS = ["gta vi", "gta6", "rihanna album", "playboi carti", "jesus christ return"]
@@ -167,6 +184,8 @@ def run():
             entry["resolved_date"] = today
             swarm_prob = entry.get("swarm_prob", 0.5)
             crowd_prob = entry.get("crowd_prob", 0.5)
+            if crowd_prob < 0.05 or crowd_prob > 0.95:
+                continue
             swarm_brier = round((swarm_prob - outcome) ** 2, 4)
             crowd_brier = round((crowd_prob - outcome) ** 2, 4)
             naive_brier = round((0.5 - outcome) ** 2, 4)
@@ -231,23 +250,35 @@ def run():
     print("New predictions today: " + str(new_predictions))
     print("Newly resolved: " + str(newly_resolved))
 
-    if brier_log:
-        n = len(brier_log)
-        avg_swarm = round(sum(e["swarm_brier"] for e in brier_log) / n, 4)
-        avg_crowd = round(sum(e["crowd_brier"] for e in brier_log) / n, 4)
-        avg_naive = round(sum(e["naive_brier"] for e in brier_log) / n, 4)
+    brier_log_all = [e for e in brier_log if 0.05 <= e.get("crowd_prob", 0.5) <= 0.95]
+    brier_log_policy = [e for e in brier_log_all if get_category(e.get("question","")) == "policy"]
+
+    def print_track(label, log):
+        if not log:
+            print(f"  No resolved {label} markets yet.")
+            return
+        n = len(log)
+        avg_swarm = round(sum(e["swarm_brier"] for e in log) / n, 4)
+        avg_crowd = round(sum(e["crowd_brier"] for e in log) / n, 4)
+        avg_naive = round(sum(e["naive_brier"] for e in log) / n, 4)
         swarm_vs_naive = round((avg_naive - avg_swarm) / avg_naive * 100, 1)
         swarm_vs_crowd = round((avg_crowd - avg_swarm) / avg_crowd * 100, 1) if avg_crowd != 0 else 0.0
         bss = round(1 - (avg_swarm / avg_crowd), 4) if avg_crowd != 0 else 0.0
-        print("")
-        print("Resolved markets scored: " + str(n))
-        print("Swarm avg Brier:  " + str(avg_swarm))
-        print("Crowd avg Brier:  " + str(avg_crowd))
-        print("Naive avg Brier:  " + str(avg_naive))
-        print("Swarm vs naive:   " + str(swarm_vs_naive) + "%")
-        print("Swarm vs crowd:   " + str(swarm_vs_crowd) + "%")
-        print("Brier Skill Score:" + str(bss) + "  (0=crowd-level, 1=perfect, negative=worse than crowd)")
-    else:
+        print(f"  Resolved markets scored: {n}")
+        print(f"  Swarm avg Brier:  {avg_swarm}")
+        print(f"  Crowd avg Brier:  {avg_crowd}")
+        print(f"  Naive avg Brier:  {avg_naive}")
+        print(f"  Swarm vs naive:   {swarm_vs_naive}%")
+        print(f"  Swarm vs crowd:   {swarm_vs_crowd}%")
+        print(f"  Brier Skill Score:{bss}  (0=crowd-level, 1=perfect, negative=worse than crowd)")
+
+    print("")
+    print("--- PRIMARY TRACK (policy/macro/geopolitics/elections) ---")
+    print_track("policy", brier_log_policy)
+    print("")
+    print("--- FULL TRACK (all categories, for transparency) ---")
+    print_track("all", brier_log_all)
+    if not brier_log_all:
         print("No resolved markets yet — check back daily as markets close.")
 
     print("")
