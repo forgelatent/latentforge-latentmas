@@ -932,7 +932,7 @@ source ~/.zprofile
 
 ### MacBook Air (latentforge account)
 - Primary development machine right now
-- All 6 launchd jobs run here via WakeForJob=true
+- All 8 launchd jobs run here via WakeForJob=true
 - User account: latentforge
 - Project root: ~/Projects/latentforge-latentmas/
 
@@ -1049,7 +1049,7 @@ Runs: Nightly at 5:15am
 | Contrarian Forecaster | Stress-tests assumptions, finds tail risks |
 | Bayesian Updater | Neutral prior, updates only on concrete evidence (added April 5 — trial week ends April 12) |
 
-Key divergence to watch: AI regulation — swarm 21-28% vs crowd 31% for 7+ consecutive days.
+Key divergence to watch: AI regulation — swarm 21-28% vs crowd 31% for 8+ consecutive days.
 
 ---
 
@@ -1132,7 +1132,7 @@ Reads: Kalshi data + research digest + founder inputs folder
 | Goal | Status |
 |------|--------|
 | Rain grant | Parked — resubmit after Mac Mini latent results. Doc at docs/rain_grant_final.md |
-| 30-day paper trading clock | Running — Day 2 of 30 |
+| 30-day paper trading clock | Running — Day 4 of 30 |
 | Shadow Match baseline | Complete — April 4 |
 | Mac Mini arrival | April 9-16 |
 | Latent vs text A/B test | Pending Mac Mini |
@@ -1351,7 +1351,7 @@ Current founder inputs:
 
 **Fix 3: Calibration tracker status**
 
-Current state (April 6): 26 markets tracked, Day 3 of 30-day paper trading clock. 7 resolved markets. Swarm avg Brier 0.0250.
+Current state (April 6): 26 markets tracked, Day 4 of 30-day paper trading clock. Swarm avg Brier 0.0247.
 
 **Fix 4: 90-Day Goals — current status (April 6)**
 
