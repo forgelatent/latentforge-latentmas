@@ -132,7 +132,7 @@ def main():
 
     swarm_probs = []
     for j in range(n):
-        valid = [all_probs[i][j] for i in range(3) if all_probs[i][j] is not None]
+        valid = [all_probs[i][j] for i in range(4) if all_probs[i][j] is not None]
         swarm_probs.append(round(sum(valid) / len(valid), 1) if valid else None)
 
     contrarian_probs = all_probs[2]
@@ -155,7 +155,8 @@ def main():
             crowd_pct = f"{int(float(crowd)*100)}%" if crowd not in ["N/A", None] else str(crowd)
         except:
             crowd_pct = str(crowd)
-        out.write(f"| {j+1} | {q} | {macro} | {quant} | {contra} | {swarm} | {crowd_pct} |\n")
+        bayesian = f"{all_probs[3][j]}%" if all_probs[3][j] else "-"
+        out.write(f"| {j+1} | {q} | {macro} | {quant} | {contra} | {bayesian} | {swarm} | {crowd_pct} |\n")
 
     out.write("\n## Divergence Flags (swarm vs crowd > 10 points)\n\n")
     flags = []
