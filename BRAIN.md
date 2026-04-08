@@ -1400,3 +1400,25 @@ Step 2: Confirm compute parity
 - All four arms must run Phi-3 Mini 3.8B as base model
 - No mixing of model families across arms
 - Document model version and quantization level before first run
+
+### April 8, 2026 — Calibration Tracker Overhaul + Brier Number Clarification
+
+| Date | Decision | Why | Alternatives rejected |
+|------|----------|-----|-----------------------|
+| Apr 8 2026 | Category filter added to calibration tracker | Sports/entertainment markets drag BSS negative — swarm was never built for these. Primary track now policy/macro/geopolitics/elections only. | Probability filter alone: still scores wrong market types |
+| Apr 8 2026 | Dual-track reporting implemented | Grok recommendation — policy track is the thesis test, full track provides transparency. No one can accuse us of hiding results. | Single track: either hides sports results or pollutes the headline number |
+| Apr 8 2026 | 0.0247 Brier number clarified | This came from the April 4 historical Polymarket benchmark (18 resolved markets, politics/crypto mix). NOT from the live calibration tracker. These are two different datasets. Must not be conflated in grant materials or investor conversations. | Continuing to cite without context: misleading |
+
+**The honest state of the numbers as of April 8:**
+
+| Source | Markets | Brier | Notes |
+|--------|---------|-------|-------|
+| Historical Polymarket benchmark (Apr 4) | 18 resolved | 0.1376 overall, 0.0247 calibration subset | Politics + crypto. 45% improvement over naive. Different script, different dataset. |
+| Live calibration tracker — primary track | 0 resolved | N/A | Policy/macro/geopolitics only. Clock started April 4. No policy markets have resolved yet. |
+| Live calibration tracker — full track | 3 resolved | BSS -3.4 | Sports/legal markets. Swarm not designed for these. |
+
+**How to cite going forward:**
+- "45% Brier improvement over naive baseline on 18 resolved Polymarket markets" — valid, cite the April 4 historical benchmark
+- "0.0247 avg Brier on the calibration subset" — valid, same source, but note it's historical not live
+- Do NOT cite the live tracker BSS until policy markets resolve
+- The AI regulation 9-day divergence signal is the live proof — cite that instead
