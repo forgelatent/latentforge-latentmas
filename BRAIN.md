@@ -186,7 +186,7 @@ Action item: Check Nemotron Nano 4B memory footprint before funding RunPod. If <
 | Spec | Detail |
 |---|---|
 | Machine | Mac Mini M4 Pro, 32GB unified memory |
-| Arrival | April 9-16 (confirmed window) |
+| Arrival | April 16 (updated April 9 — slipped to last day of window) |
 | Migration | One day maximum. Clone repo. Install Docker + NemoClaw. Run hello.txt. Done. |
 | Unlocks | Nemotron 8B locally, Shadow Self + agents simultaneously, 8-20 agent swarms, full benchmark runs |
 
@@ -786,7 +786,7 @@ Swarm consistently prices AI regulation passage at 21-28% vs crowd 31%. Seven co
 | Rain grant | Parked — resubmit after Mac Mini latent results. Doc at docs/rain_grant_final.md |
 | 30-day paper trading clock | Running — Day 2 |
 | Shadow Match baseline | Complete |
-| Mac Mini arrival | April 9-16 |
+| Mac Mini arrival | April 16 |
 | Latent vs text A/B test | Pending hardware |
 | Prove latent > text | Pending hardware |
 
@@ -1143,7 +1143,7 @@ Reads: Kalshi data + research digest + founder inputs folder
 | Rain grant | Parked — resubmit after Mac Mini latent results. Doc at docs/rain_grant_final.md |
 | 30-day paper trading clock | Running — Day 5 of 30 |
 | Shadow Match baseline | Complete — April 4 |
-| Mac Mini arrival | April 9-16 |
+| Mac Mini arrival | April 16 |
 | Latent vs text A/B test | Pending Mac Mini |
 | M5 Mac Studio order | Pending WWDC June 2026 |
 | LinkedIn/X flag post | Parked — after first latent results |
@@ -1369,7 +1369,7 @@ Current state (April 6): 26 markets tracked, Day 4 of 30-day paper trading clock
 | Rain grant | Parked — resubmit after Mac Mini latent results. Doc at docs/rain_grant_final.md |
 | 30-day paper trading clock | Running — Day 3 of 30 |
 | Shadow Match baseline | Complete + running daily (Day 3 logged April 6) |
-| Mac Mini arrival | April 9-16 |
+| Mac Mini arrival | April 16 |
 | Latent vs text A/B test | Pending Mac Mini |
 | M5 Mac Studio order | Pending WWDC June 2026 |
 | LinkedIn/X flag post | Parked — after first latent results |
