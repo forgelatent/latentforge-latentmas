@@ -1436,3 +1436,34 @@ Step 2: Confirm compute parity
 | Apr 8 2026 | Rain grant — parked until Mac Mini latent results | Two autonomous agents recommended drafting this week. Both Grok and Claude say hold. Middle path (draft around research question only) still leaks too much thesis while ecosystem is converging fast. Resubmit after first latent vs text A/B runs, likely late April. | Draft now: rejected. Premature without latent results. |
 | Apr 8 2026 | Bayesian Updater — drop after April 12 | Trial week complete. Tracking almost identically to Quant Researcher on most markets. Not adding signal, adding API cost. Three core agents (Macro, Quant, Contrarian) remain. | Keep permanently: rejected. No evidence of added value. |
 | Apr 8 2026 | Publication timing — light flag in 7-10 days, full benchmark waits | AVP v0.6.1 shipped overnight — ecosystem accelerating. Plant the flag (Hybrid B+Bridge LinkedIn/X post with 45% Brier + 9-day divergence signal) within 7-10 days. Full latent benchmark results wait until after Mac Mini runs late April/early May. | Rush full publication now: rejected. No latent results yet. |
+
+### April 8, 2026 — Architecture Decisions (Section 11 formal log)
+
+| Date | Decision | Why | Alternatives rejected |
+|------|----------|-----|-----------------------|
+| Apr 8 2026 | Category filter added to calibration tracker | Sports/entertainment markets drag BSS negative. Primary track now policy/macro/geopolitics/elections only. | Probability filter alone: still scores wrong market types |
+| Apr 8 2026 | Dual-track Brier reporting implemented | Policy track = thesis test. Full track = transparency. No one can accuse us of hiding results. | Single track: rejected |
+| Apr 8 2026 | Brier Skill Score added to calibration tracker | Raw Brier undefendable without market difficulty context. BSS = 1 - (swarm/crowd). | Raw Brier only: rejected |
+| Apr 8 2026 | 0.0247 Brier number clarified in BRAIN.md | Came from April 4 historical benchmark, NOT live tracker. Two different datasets. Must not be conflated. | Citing without context: rejected |
+| Apr 8 2026 | Bayesian Updater — drop after April 12 | Trial week complete. Tracking identically to Quant Researcher on 9 of 11 markets. No added signal, adds API cost. | Keep permanently: rejected |
+| Apr 8 2026 | Rain grant — parked until Mac Mini latent results | Both Grok and Claude say hold. Middle path still leaks too much thesis. Resubmit late April after A/B results. | Draft now: rejected |
+| Apr 8 2026 | Publication timing — light flag in 7-10 days | AVP v0.6.1 shipped — ecosystem accelerating. LinkedIn/X post with 45% Brier + 9-day divergence signal. Full benchmark waits for Mac Mini. | Rush full publication: rejected |
+
+## 16. OPEN QUESTIONS — Updated April 8, 2026
+
+| Question | Status | Notes |
+|----------|--------|-------|
+| AI regulation divergence (9+ days) | Active | Day 9 holding — swarm ~22% vs crowd 31%. Resolves when market closes. |
+| Powell market (crowd 0.1% vs swarm 3%) | Active | 5 days holding. Genuine edge or framing issue — unknown until May 2026. |
+| Weather arbitrage | Queued Week 4+ | Do not start until Shadow Match has 2+ weeks of data |
+| Mac Mini 32GB constraints | Active — hardware arriving | 4-bit quantization + sequential runs planned |
+| Jiaru Zou outreach timing | Pending | After first latent vs text results — late April |
+| Business model ranking | Deferred to Day 30 | Three engines gave three different rankings. Dual-engine review on Day 30. |
+| LinkedIn/X light flag post | Active — draft this week | Hybrid B+Bridge format, 45% Brier + 9-day divergence signal |
+| arXiv authors email | Active — by Friday April 11 | Commercialization agent recommended. Three-paragraph pitch. |
+
+**Resolved / Closed April 8:**
+- Bayesian Updater → Drop after April 12 (trial complete, no added value)
+- Rain grant → Parked until Mac Mini latent results (all engines agree)
+- Calibration tracker market selection → Fixed with category filter + dual-track
+- 0.0247 Brier number → Clarified and documented, safe to cite with context
