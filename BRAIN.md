@@ -1043,7 +1043,7 @@ founder_inputs/ before end of day. The morning revenue strategist picks it up au
 
 ---
 
-## The Text Swarm (3 Agents as of April 12, 2026)
+## The Text Swarm (3 Agents as of April 8, 2026 — Bayesian Updater to be dropped after April 12 trial)
 
 Script: ~/Projects/latentforge-latentmas/experiments/benchmark/03_text_swarm.py
 Markets: 11 policy/macro/geopolitical markets on Polymarket
