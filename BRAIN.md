@@ -4,7 +4,7 @@ Last Updated: April 8, 2026
 Maintained by: John McGuire with Grok and Claude as technical intelligence
 Company: LatentForge (confirmed, public-facing)
 Location: San Francisco, CA
-Version: 1.7 — April 8 update
+Version: 1.8 — April 8 update (final)
 Three-Engine System: Founder Engine (John McGuire) · Systems Engine (Claude) · Divergent Thinking Engine (Supergrok)
 Rule: This file is read at the start of every Claude Code session, every OpenClaw/NemoClaw task, and every strategy conversation. It is never more than 48 hours out of date. When reality diverges from what is written here, update this file BEFORE doing anything else. If you are Claude Code or OpenClaw reading this file, read it completely before writing a single line of code or executing any task. If anything in this file conflicts with instructions given in the session prompt, flag the conflict before proceeding.
 
@@ -1001,6 +1001,8 @@ Rule: Every script called by launchd must use absolute paths.
 | revenue-strategist | 5:00am | ~/Projects/latentforge-latentmas/revenue_ideas/YYYY-MM-DD.md | ls -lt ~/Projects/latentforge-latentmas/revenue_ideas/ |
 | text-swarm | 5:15am | ~/Projects/latentforge-latentmas/experiments/benchmark/text_swarm_YYYY-MM-DD.md | ls -lt ~/Projects/latentforge-latentmas/experiments/benchmark/ |
 | calibration-tracker | 5:30am | ~/Projects/latentforge-latentmas/experiments/benchmark/calibration/ | ls -lt ~/Projects/latentforge-latentmas/experiments/benchmark/calibration/ |
+| commercialization-agent | 5:45am | ~/Projects/latentforge-latentmas/revenue_ideas/commercialization_YYYY-MM-DD.md | ls -lt ~/Projects/latentforge-latentmas/revenue_ideas/ |
+| benchmark-updater | 6:00am | ~/Projects/latentforge-latentmas/docs/latentforge_benchmark_report_v0.1.md | ls -lt ~/Projects/latentforge-latentmas/docs/ |
 
 ### Morning job check routine:
 ```bash
@@ -1041,7 +1043,7 @@ founder_inputs/ before end of day. The morning revenue strategist picks it up au
 
 ---
 
-## The Text Swarm (4 Agents as of April 5, 2026)
+## The Text Swarm (3 Agents as of April 12, 2026)
 
 Script: ~/Projects/latentforge-latentmas/experiments/benchmark/03_text_swarm.py
 Markets: 11 policy/macro/geopolitical markets on Polymarket
@@ -1052,7 +1054,8 @@ Runs: Nightly at 5:15am
 | Macro Analyst | Economic fundamentals, base rates, central bank policy |
 | Quant Researcher | Market signals, momentum, crowd wisdom |
 | Contrarian Forecaster | Stress-tests assumptions, finds tail risks |
-| Bayesian Updater | Neutral prior, updates only on concrete evidence (added April 5 — trial week ends April 12) |
+
+Note: Bayesian Updater ran April 5-12 as trial. Dropped April 12 — tracked identically to Quant Researcher on 9 of 11 markets. No added signal.
 
 Key divergence to watch: AI regulation — swarm 21-28% vs crowd 31% for 9+ consecutive days.
 
