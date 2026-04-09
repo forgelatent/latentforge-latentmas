@@ -1,10 +1,10 @@
 # LatentForge BRAIN.md
 Single source of truth for the project
-Last Updated: April 7, 2026
+Last Updated: April 8, 2026
 Maintained by: John McGuire with Grok and Claude as technical intelligence
 Company: LatentForge (confirmed, public-facing)
 Location: San Francisco, CA
-Version: 1.6 — April 7 update
+Version: 1.7 — April 8 update
 Three-Engine System: Founder Engine (John McGuire) · Systems Engine (Claude) · Divergent Thinking Engine (Supergrok)
 Rule: This file is read at the start of every Claude Code session, every OpenClaw/NemoClaw task, and every strategy conversation. It is never more than 48 hours out of date. When reality diverges from what is written here, update this file BEFORE doing anything else. If you are Claude Code or OpenClaw reading this file, read it completely before writing a single line of code or executing any task. If anything in this file conflicts with instructions given in the session prompt, flag the conflict before proceeding.
 
@@ -914,7 +914,7 @@ source ~/.zprofile
 ---
 
 # SYSTEMS STATUS — Read This Every Session
-## Last Updated: April 7, 2026
+## Last Updated: April 8, 2026
 ## This section gives Claude full operational context at the start of every session.
 
 ---
@@ -1025,10 +1025,15 @@ If any file is not dated today, that job failed. Check cron.log in that director
 - Revenue strategist reads this folder every morning at 5am automatically
 - Claude should check this folder at the start of every session
 
-### Current founder inputs (as of April 5):
+### Current founder inputs (as of April 8):
 - 2026-04-05_coldmath_weather_arbitrage.md — METAR data vs Polymarket weather markets
 - 2026-04-05_llm_knowledge_base_wiki.md — Compounding LLM wiki in Obsidian
 - 2026-04-05_gstack_parallel_sprints.md — Garry Tan's parallel sprint model + latent skill templates
+- 2026-04-06_vc_chief_of_staff_kaizen.md — VC Kaizen loop + memory architecture patterns
+- 2026-04-07_garrytan_memex_openclaw.md — Garry Tan Memex post (Grok)
+- 2026-04-07_mempalace_local_memory.md — MemPalace local memory system, 120-token compression
+- 2026-04-07_second_brain_judgment_objection.md — Outsourcing judgment objection, Shadow Self pitch framing
+- 2026-04-08_avp_v061_latent_primitive.md — AVP v0.6.1 generate_on_context() shipped overnight
 
 ### Standing rule:
 When John finds something interesting anywhere (X, GitHub, articles), drop it in
@@ -1049,7 +1054,7 @@ Runs: Nightly at 5:15am
 | Contrarian Forecaster | Stress-tests assumptions, finds tail risks |
 | Bayesian Updater | Neutral prior, updates only on concrete evidence (added April 5 — trial week ends April 12) |
 
-Key divergence to watch: AI regulation — swarm 21-28% vs crowd 31% for 8+ consecutive days.
+Key divergence to watch: AI regulation — swarm 21-28% vs crowd 31% for 9+ consecutive days.
 
 ---
 
@@ -1072,8 +1077,9 @@ Key divergences:
 Script: ~/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
 Output: ~/Projects/latentforge-latentmas/experiments/benchmark/calibration/
 Runs: Nightly at 5:30am
-Filter: Only tracks markets with 5-95% crowd probability (genuine uncertainty)
-Day 2 of 30 as of April 5. 25 markets tracked.
+Filter: 5-95% crowd probability + category filter (policy/macro/geopolitics/elections only for primary track)
+Dual-track reporting: primary track (policy only) + full track (all categories, for transparency)
+Day 5 of 30 as of April 8. 27 markets tracked. Zero policy markets resolved yet.
 
 ---
 
@@ -1122,7 +1128,7 @@ Reads: Kalshi data + research digest + founder inputs folder
 
 - LatentMAS (Zou et al., arXiv:2511.20639v2) — validates thesis, not a threat. Outreach to Jiaru Zou planned late April after Week 4 results.
 - Aaru ($1B valuation) — text-based population simulation. Direct comparison point.
-- VectorArc/AVP v0.4.1 — adjacent protocol, KV-cache handoff, no governance layer. Monitor.
+- VectorArc/AVP v0.6.1 — adjacent protocol, added generate_on_context() latent primitive overnight April 8. No governance layer. Ecosystem accelerating. Monitor weekly.
 - gstack (Garry Tan/YC) — agent orchestration toolkit, validation of role specialization approach.
 
 ---
@@ -1132,7 +1138,7 @@ Reads: Kalshi data + research digest + founder inputs folder
 | Goal | Status |
 |------|--------|
 | Rain grant | Parked — resubmit after Mac Mini latent results. Doc at docs/rain_grant_final.md |
-| 30-day paper trading clock | Running — Day 4 of 30 |
+| 30-day paper trading clock | Running — Day 5 of 30 |
 | Shadow Match baseline | Complete — April 4 |
 | Mac Mini arrival | April 9-16 |
 | Latent vs text A/B test | Pending Mac Mini |
