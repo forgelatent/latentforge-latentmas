@@ -61,7 +61,7 @@ def call_anthropic(prompt):
                 "temperature": 0.7,
                 "messages": [{"role": "user", "content": prompt}]
             },
-            timeout=60
+            timeout=120
         )
         response.raise_for_status()
         return response.json()["content"][0]["text"]
