@@ -55,7 +55,7 @@ Only output the market numbers and percentages, nothing else."""
                 "system": system_prompt,
                 "messages": [{"role": "user", "content": prompt}]
             },
-            timeout=30
+            timeout=120
         )
         if r.status_code == 200:
             return r.json()["content"][0]["text"]
