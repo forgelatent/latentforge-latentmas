@@ -460,6 +460,8 @@ Urgent flag triggers:
 **The one-line framing (for anyone):**
 "Everyone else is breeding a faster horse. We removed the horse."
 
+Note: The text swarm is not the destination — it is the rigorous control arm. We are building the car in the garage (latent protocol + Shadow Self) while running the horse on the track (text swarm) so that when the Mac Mini arrives, we can show exactly how much faster the car is. If latent performs roughly the same as text, the breakthrough was structured multi-agent reasoning, not the latent channel — and we iterate harder on the latent part. The A/B test is the moment of truth.
+
 **For a technical researcher:**
 "Direct Manifold Mapping — agents maintain high-dimensional signal fidelity throughout the entire reasoning chain instead of passing it through the low-pass filter of human language."
 
