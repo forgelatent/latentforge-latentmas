@@ -1470,3 +1470,11 @@ Step 2: Confirm compute parity
 - Rain grant → Parked until Mac Mini latent results (all engines agree)
 - Calibration tracker market selection → Fixed with category filter + dual-track
 - 0.0247 Brier number → Clarified and documented, safe to cite with context
+
+### April 11, 2026 — Three Decisions Executed
+
+| Date | Decision | Why | Status |
+|------|----------|-----|--------|
+| Apr 11 2026 | Bayesian Updater dropped from swarm | Trial complete — tracked identically to Quant Researcher on 9 of 11 markets. No added signal, adds API cost. Swarm now 3 agents: Macro, Quant, Contrarian. | Done — committed |
+| Apr 11 2026 | Rain grant locked in commercialization agent prompt | Agent recommended it 5 days straight. Decision remains: park until Mac Mini latent vs text results. Added LOCKED DECISIONS block to prompt. | Done — committed |
+| Apr 11 2026 | Public dashboard target set to May 7 | Day 30 of paper trading clock. First version should have real data, not practice scores. Added to locked decisions in prompt. | Done — committed |
