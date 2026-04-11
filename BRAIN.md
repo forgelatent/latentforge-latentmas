@@ -1,10 +1,10 @@
 # LatentForge BRAIN.md
 Single source of truth for the project
-Last Updated: April 8, 2026
+Last Updated: April 11, 2026
 Maintained by: John McGuire with Grok and Claude as technical intelligence
 Company: LatentForge (confirmed, public-facing)
 Location: San Francisco, CA
-Version: 1.8 — April 8 update (final)
+Version: 1.9 — April 11 update
 Three-Engine System: Founder Engine (John McGuire) · Systems Engine (Claude) · Divergent Thinking Engine (Supergrok)
 Rule: This file is read at the start of every Claude Code session, every OpenClaw/NemoClaw task, and every strategy conversation. It is never more than 48 hours out of date. When reality diverges from what is written here, update this file BEFORE doing anything else. If you are Claude Code or OpenClaw reading this file, read it completely before writing a single line of code or executing any task. If anything in this file conflicts with instructions given in the session prompt, flag the conflict before proceeding.
 
@@ -914,7 +914,7 @@ source ~/.zprofile
 ---
 
 # SYSTEMS STATUS — Read This Every Session
-## Last Updated: April 8, 2026
+## Last Updated: April 11, 2026
 ## This section gives Claude full operational context at the start of every session.
 
 ---
@@ -1082,7 +1082,7 @@ Output: ~/Projects/latentforge-latentmas/experiments/benchmark/calibration/
 Runs: Nightly at 5:30am
 Filter: 5-95% crowd probability + category filter (policy/macro/geopolitics/elections only for primary track)
 Dual-track reporting: primary track (policy only) + full track (all categories, for transparency)
-Day 5 of 30 as of April 8. 27 markets tracked. Zero policy markets resolved yet.
+Day 8 of 30 as of April 11. 28 markets tracked. Zero policy markets resolved yet.
 
 ---
 
@@ -1122,7 +1122,7 @@ Reads: Kalshi data + research digest + founder inputs folder
 
 - Fidelity 1.0000, divergence score 2.0/2 at 24x compression on Phi-3 Mini 3.8B (RunPod)
 - 45% Brier improvement vs naive baseline on 18 resolved Polymarket markets (0.1376 vs 0.25)
-- 7 consecutive days of AI regulation divergence (swarm 21-28% vs crowd 31%)
+- 12+ consecutive days of AI regulation divergence (swarm 21-28% vs crowd 31%)
 - Shadow Match baseline logged April 4 on 11 markets
 
 ---
@@ -1141,7 +1141,7 @@ Reads: Kalshi data + research digest + founder inputs folder
 | Goal | Status |
 |------|--------|
 | Rain grant | Parked — resubmit after Mac Mini latent results. Doc at docs/rain_grant_final.md |
-| 30-day paper trading clock | Running — Day 5 of 30 |
+| 30-day paper trading clock | Running — Day 8 of 30 |
 | Shadow Match baseline | Complete — April 4 |
 | Mac Mini arrival | April 16 |
 | Latent vs text A/B test | Pending Mac Mini |
