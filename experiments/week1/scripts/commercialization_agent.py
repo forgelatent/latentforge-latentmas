@@ -110,6 +110,13 @@ Founder Engine inputs (signals from X, GitHub, articles):
 
 ---
 
+LOCKED DECISIONS - DO NOT REVISIT THESE:
+- Rain grant: PARKED until Mac Mini latent vs text A/B results exist. Do not recommend submitting it.
+- Public dashboard: Target is May 7 (Day 30). Do not recommend building it earlier.
+- Bayesian Updater: Dropped April 12. Swarm is now 3 agents (Macro, Quant, Contrarian).
+
+---
+
 Your job: Think like a co-founder focused entirely on how LatentForge becomes a real business.
 
 Produce:
