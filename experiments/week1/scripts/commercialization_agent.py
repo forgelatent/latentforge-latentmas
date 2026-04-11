@@ -11,7 +11,7 @@ from datetime import datetime
 from pathlib import Path
 import anthropic
 
-CLIENT = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+CLIENT = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"], timeout=120)
 MODEL = "claude-sonnet-4-6"
 
 BASE = Path.home() / "Projects/latentforge-latentmas"
