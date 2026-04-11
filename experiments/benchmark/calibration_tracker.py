@@ -264,6 +264,13 @@ def run():
         swarm_vs_naive = round((avg_naive - avg_swarm) / avg_naive * 100, 1)
         swarm_vs_crowd = round((avg_crowd - avg_swarm) / avg_crowd * 100, 1) if avg_crowd != 0 else 0.0
         bss = round(1 - (avg_swarm / avg_crowd), 4) if avg_crowd != 0 else 0.0
+        import math
+        swarm_probs = [e["swarm_prob"] for e in log if e.get("swarm_prob") is not None]
+        crowd_probs = [e["crowd_prob"] for e in log if e.get("crowd_prob") is not None]
+        swarm_entropy = round(-sum(p * math.log2(p) + (1-p) * math.log2(1-p) for p in swarm_probs if 0 < p < 1) / len(swarm_probs), 4) if swarm_probs else 0.0
+        swarm_dispersion = round((max(swarm_probs) - min(swarm_probs)) * 100, 1) if len(swarm_probs) > 1 else 0.0
+        crowd_dispersion = round((max(crowd_probs) - min(crowd_probs)) * 100, 1) if len(crowd_probs) > 1 else 0.0
+        avg_divergence = round(sum(abs(e["swarm_prob"] - e["crowd_prob"]) for e in log) / n * 100, 1)
         print(f"  Resolved markets scored: {n}")
         print(f"  Swarm avg Brier:  {avg_swarm}")
         print(f"  Crowd avg Brier:  {avg_crowd}")
@@ -271,6 +278,10 @@ def run():
         print(f"  Swarm vs naive:   {swarm_vs_naive}%")
         print(f"  Swarm vs crowd:   {swarm_vs_crowd}%")
         print(f"  Brier Skill Score:{bss}  (0=crowd-level, 1=perfect, negative=worse than crowd)")
+        print(f"  Swarm entropy:    {swarm_entropy}  (higher = more uncertain)")
+        print(f"  Swarm dispersion: {swarm_dispersion}pts  (range of swarm predictions)")
+        print(f"  Crowd dispersion: {crowd_dispersion}pts  (range of crowd predictions)")
+        print(f"  Avg divergence:   {avg_divergence}pts  (avg |swarm - crowd| on resolved markets)")
 
     print("")
     print("--- PRIMARY TRACK (policy/macro/geopolitics/elections) ---")
