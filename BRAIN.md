@@ -457,6 +457,9 @@ Urgent flag triggers:
 
 ## 15. THE PITCH — ONE SENTENCE VERSIONS
 
+**The one-line framing (for anyone):**
+"Everyone else is breeding a faster horse. We removed the horse."
+
 **For a technical researcher:**
 "Direct Manifold Mapping — agents maintain high-dimensional signal fidelity throughout the entire reasoning chain instead of passing it through the low-pass filter of human language."
 
