@@ -116,7 +116,7 @@ Lower is better. Perfect calibration = 0. Naive baseline = 0.25.
 
 ---
 
-## 4. Results (Auto-updated 2026-04-07 — Day 4 of 30)
+## 4. Results (Auto-updated 2026-04-11 — Day 8 of 30)
 
 ### 4.1 Historical Validation (Pre-Benchmark)
 
@@ -130,11 +130,11 @@ Before the live paper trading clock started, we validated the swarm against 18 r
 
 ---
 
-### 4.2 Live Paper Trading Results (Day 4 of 30 — 2026-04-07)
+### 4.2 Live Paper Trading Results (Day 8 of 30 — 2026-04-11)
 
 **Markets tracked:** 27
 **Markets resolved:** 8
-**Days remaining:** 27
+**Days remaining:** 23
 
 | Market | Date | Swarm Prob | Crowd Prob | Outcome | Swarm Brier | Crowd Brier |
 |--------|------|-----------|-----------|---------|-------------|-------------|
@@ -162,7 +162,7 @@ The resolved markets to date are dominated by near-certain outcomes — sports c
 
 ---
 
-### 4.3 Shadow Match Results (Source: shadow_match_2026-04-07.json)
+### 4.3 Shadow Match Results (Source: shadow_match_2026-04-10.json)
 
 11 policy/macro/geopolitical markets. Single strong model (Shadow) vs 4-agent swarm vs crowd.
 
@@ -170,8 +170,8 @@ The resolved markets to date are dominated by near-certain outcomes — sports c
 
 | Market | Crowd | Shadow | Swarm |
 |--------|-------|--------|-------|
-| Will Bitcoin hit $60k or $80k first? | 65.0% | 62.0% | 52.0% |
-| US-Iran nuclear deal by June 30? | 22.5% | 8.0% | 8.0% |
+| Will Bitcoin hit $60k or $80k first? | 65.0% | 62.0% | 48.7% |
+| US-Iran nuclear deal by June 30? | 22.5% | 8.0% | 7.5% |
 | Will the People Power Party (PPP) win the 2026 South Ko | 4.2% | 8.0% | 10.7% |
 
 
@@ -182,7 +182,7 @@ The resolved markets to date are dominated by near-certain outcomes — sports c
 **Question:** Will an AI regulation bill pass in US Congress before [date]?
 **Crowd probability:** ~31%
 **Swarm estimate:** 21-28%
-**Days of sustained divergence:** 9+ consecutive days
+**Days of sustained divergence:** 12+ consecutive days
 **Direction:** Swarm consistently below crowd
 
 Resolution will determine whether this is genuine information extraction or systematic swarm miscalibration. Both outcomes are publishable.
@@ -195,7 +195,7 @@ Resolution will determine whether this is genuine information extraction or syst
 
 ---
 
-*Auto-updated by benchmark_report_updater.py — 2026-04-07 06:03*
+*Auto-updated by benchmark_report_updater.py — 2026-04-11 06:00*
 *Next update: tomorrow at 6:00am*
 
 ## 5. Discussion

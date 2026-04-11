@@ -15,7 +15,12 @@
     "crowd_prob": 0.084,
     "swarm_prob": 0.15,
     "predicted_date": "2026-04-04",
-    "resolved": false
+    "resolved": true,
+    "outcome": 0,
+    "resolved_date": "2026-04-07",
+    "swarm_brier": 0.0225,
+    "crowd_brier": 0.0071,
+    "naive_brier": 0.25
   },
   "544094": {
     "question": "Will Harvey Weinstein be sentenced to between 5 and 10 years in prison?",
@@ -266,6 +271,24 @@
     "crowd_prob": 0.1,
     "swarm_prob": 0.15,
     "predicted_date": "2026-04-06",
+    "resolved": false
+  },
+  "553866": {
+    "question": "Will the San Antonio Spurs win the 2026 NBA Finals?",
+    "end_date": "2026-07-01",
+    "days_remaining": 84,
+    "crowd_prob": 0.16,
+    "swarm_prob": 0.117,
+    "predicted_date": "2026-04-07",
+    "resolved": false
+  },
+  "553837": {
+    "question": "Will the Ottawa Senators win the 2026 NHL Stanley Cup?",
+    "end_date": "2026-06-30",
+    "days_remaining": 79,
+    "crowd_prob": 0.051,
+    "swarm_prob": 0.1,
+    "predicted_date": "2026-04-11",
     "resolved": false
   }
 }

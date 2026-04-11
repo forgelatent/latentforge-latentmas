@@ -75,5 +75,16 @@
     "swarm_brier": 0.0225,
     "crowd_brier": 0.0028,
     "naive_brier": 0.25
+  },
+  {
+    "date": "2026-04-07",
+    "market_id": "544093",
+    "question": "Will Harvey Weinstein be sentenced to less than 5 years in prison?",
+    "swarm_prob": 0.15,
+    "crowd_prob": 0.084,
+    "outcome": 0,
+    "swarm_brier": 0.0225,
+    "crowd_brier": 0.0071,
+    "naive_brier": 0.25
   }
 ]
