@@ -1,0 +1,1 @@
+VectorArc AVP v0.6.1 shipped overnight — added generate_on_context() latent primitive. Generating directly on context without tokenizing. Two commits in one night. Gap to LatentForge closing. LatentMAS README updated again with new AVP entry — ecosystem converging.

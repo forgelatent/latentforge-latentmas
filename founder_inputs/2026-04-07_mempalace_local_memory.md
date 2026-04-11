@@ -1,0 +1,1 @@
+MemPalace — local memory palace for Claude. 120-token AAAK compression. Community corrected benchmarks: LongMemEval 98.4% honest, LoCoMo 88.9% at top-10 no rerank. Relevant: compression framing, local-first positioning.

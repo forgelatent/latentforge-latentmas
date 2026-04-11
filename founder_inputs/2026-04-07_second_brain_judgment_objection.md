@@ -1,0 +1,1 @@
+Second brain / OpenClaw tooling gaining traction. Vance Lever quote: 'outsourcing your judgment' objection from head of product — exactly the enterprise objection Shadow Self answers with the audit log. Use in Shadow Self pitch framing.
