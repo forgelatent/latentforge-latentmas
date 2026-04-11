@@ -1533,3 +1533,130 @@ Latent communication + Shadow Self is more transparent than text-only systems, n
 
 **Discipline against self-flattery (Grok):**
 The Henry Ford analogy is dangerous if it becomes a shield against criticism. We must not declare victory until the Mac Mini A/B test shows clear, measurable gains in at least two of the four tests above. If latent only matches or slightly beats text, we have a better horse, not the car - and we iterate harder on the latent channel. The analogy disciplines us. It does not protect us.
+
+
+### April 11, 2026 — Mac Mini Experiment Spec Pre-Registered (v2.0)
+
+| Date | Decision | Why | Status |
+|------|----------|-----|--------|
+| Apr 11 2026 | Mac Mini A/B experiment spec locked at v2.0 | Grok independent review found two fatal flaws in v1.0 (statistical underpowering, Echo test not continuous). Both fixed. Spec is now defensible to skeptical technical reviewer. | Pre-registered. No amendments after first run. |
+| Apr 11 2026 | 11-market runs labeled as validation, not out-of-sample | Markets have been tracked 8+ days. Out-of-sample generalization requires fresh market set added post-registration — target Week 5 extension if primary benchmark passes. | Locked in spec |
+| Apr 11 2026 | Test weights made explicit — Scaling + Info Density are load-bearing | Performance alone is horse territory. A verdict requires both load-bearing tests to pass. | Locked in spec |
+
+Full spec: docs/mac_mini_experiment_spec_v2.md
+
+---
+
+### Mac Mini Day 1 Protocol (Updated April 11, 2026 — v2.0)
+
+Execute in this order. No skipping steps.
+
+1. Boot. Update macOS.
+2. Install Docker Desktop.
+3. Install NemoClaw (single command).
+4. git clone latentforge repo.
+5. Run hello.txt — confirm OpenClaw alive.
+6. Pull Phi-3 Mini 3.8B (4-bit quantized). Confirm loads within memory.
+7. Record checkpoint hash, quantization level, temperature setting in
+   experiments/week4/run_manifest.md.
+8. Run Latent Echo Test — must pass (>=0.95 on 3 of 3 markets) before
+   any benchmark. Log in experiments/week4/echo_log.md.
+9. Confirm compute parity: Phi-3 Mini across all four arms, same version,
+   same quantization, same seed.
+10. Run scaling test at 2, 4, 8 agents (text and latent) before full
+    11-market benchmark.
+11. Begin four-arm benchmark on 11 Shadow Match markets with continuous
+    Echo fidelity logging active.
+
+Experiment spec: docs/mac_mini_experiment_spec_v2.md
+Pre-registered: April 11, 2026. No amendments after first run.
+MacBook becomes backup/travel machine only after step 6 confirmed.
+
+---
+
+### Non-Human Reasoning Traces (NHRT) — Dataset Moat Framing
+Source: Four-engine synthesis, April 11, 2026
+
+LatentForge is quietly building a dataset that does not exist anywhere else:
+- Latent delta exchanges between agents (raw mathematical reasoning)
+- Shadow Self translations (English reconstruction of each exchange)
+- Calibration outcomes (ground truth resolution on prediction markets)
+- Echo fidelity scores (quantified gap between latent intent and decoded explanation)
+
+This is Non-Human Reasoning Trace data — high-entropy, structurally
+impossible to generate via text. As model collapse (frontier labs training
+on low-entropy synthetic text) becomes a primary threat, NHRT becomes
+scarce and valuable.
+
+Near-term: Internal benchmark signal and training data.
+Long-term: Licensing to frontier labs as synthetic training fuel. This is
+the compounding moat alongside the governance layer, not instead of it.
+
+Rule: Log every latent exchange + Shadow Self translation + outcome from
+Mac Mini Day 1 onward. Every session that runs without logging is a
+dataset entry lost permanently.
+
+---
+
+### Transparency Inversion — Sharpened (April 11, 2026)
+
+The argument: Latent + Shadow Self is more auditable than text-only
+agent systems, not less.
+
+Why it is true:
+- Text communication appears transparent but is lossy and post-hoc.
+  You see the mask (words the model chose to output), not the reasoning
+  (internal state that generated it).
+- Latent + Shadow Self captures the full internal state, translates it
+  systematically, and produces consistent, replayable, auditable logs.
+
+The three proofs required (do not use this argument externally until
+all three exist):
+1. Deterministic reconstruction — same latent delta produces same English
+   explanation. Proven by Echo test fidelity >=0.90 across full
+   benchmark run (continuous, not just pre-gate).
+2. Drift detection — system reliably flags semantic divergence before
+   it becomes uncontrolled. Proven by Safe Mode trigger accuracy in
+   scaling runs.
+3. Fidelity metrics — quantified gap between raw latent intent and
+   decoded explanation, logged per exchange, reported per arm.
+
+All three proofs come from the Mac Mini benchmark run. They are not
+theoretical claims — they are measured outputs.
+
+Pitch framings (use only after proofs exist):
+- Technical: We separate computation from explanation and make
+  explanation a first-class, testable system.
+- Compliance: Text is a curated performance. Latent + Shadow Self
+  is an MRI of intent.
+- Investor: Every machine-to-machine exchange, decoded to English
+  in real time, with fidelity scores that tell you exactly how
+  well the translation held.
+
+---
+
+### Four-Engine Synthesis — April 11, 2026 (logged per Section 0b protocol)
+
+Decision question: Is the Mac Mini A/B experiment spec defensible as a
+pre-registered benchmark?
+
+Engine inputs:
+- Systems Engine (Claude): Drafted v1.0 spec. Identified gray zone —
+  spec is not routine implementation, it is irreversible once run.
+  Recommended Grok review before lock.
+- Divergent Thinking Engine (Grok): Found two fatal flaws (statistical
+  underpowering, Echo test not continuous). Provided five targeted fixes.
+  Confirmed structure is sound, thresholds need tightening.
+- ChatGPT + Gemini (external): Validated motor-car test framework.
+  Added scaling test as primary car signal, NHRT dataset framing,
+  transparency inversion sharpening.
+
+Decision: Lock v2.0 spec incorporating all five Grok fixes. Both
+load-bearing tests (Scaling + Information Density) explicitly weighted
+as primary car signals. Performance alone insufficient for external claims.
+
+All engines agree. No escalation required.
+
+Locked files:
+- docs/mac_mini_experiment_spec_v2.md (immutable after first Mac Mini boot)
+- experiments/week4/run_manifest.md (populated on Day 1)
