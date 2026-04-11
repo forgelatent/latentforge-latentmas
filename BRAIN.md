@@ -1490,3 +1490,21 @@ Step 2: Confirm compute parity
 LatentMAS proved that latent agent collaboration outperforms text-based coordination on synthetic benchmarks. LatentForge is the first system to validate this in real-world adversarial conditions — prediction markets with ground truth resolution — and the first to add a governance layer that makes it deployable in regulated environments. We built on their architecture and pushed further: 24x compression with maintained fidelity, a 12-day sustained divergence signal on live markets, and a Shadow Self audit layer that produces human-readable logs of every machine-to-machine exchange in real time.
 
 **Jiaru Zou outreach:** Email to first author now ready to draft. Has 12 co-authors including Yejin Choi (top NLP researcher). Contact via LinkedIn DM or email. Send after Mac Mini latent results — approximately April 20-25.
+
+### April 11, 2026 — Business Model Consensus + Publication Triggers (All Engines)
+
+**Business model ranking — pre-registered for Day 30 dual-engine review:**
+All four external reviewers (ChatGPT, Gemini, Grok, Claude) agree:
+1. Shadow Self governance layer — lowest risk, fastest revenue, clearest differentiation today
+2. Dataset moat — build quietly, compounds over time, highest long-term value
+3. Synthetic Alpha Fund — only after statistically robust latent results
+
+Commercialization agent is the outlier (ranks fund first). This disagreement is logged for Day 30 resolution.
+
+**Publication triggers — when to break the dark period (Grok, April 11):**
+Three conditions that would change the recommendation from park to post:
+1. AVP or another group publishes real-world forecasting results with latent communication OR adds a governance layer — post immediately to establish prior art
+2. AI regulation divergence reaches 15+ days with widening gap AND 10-12 resolved policy markets with clearly positive BSS — text swarm results alone are worth signaling
+3. Credible inbound from researcher, fund, or partner (Jiaru Zou replies, Polymarket team reaches out) — light flag post becomes useful context
+
+Current status: Stay dark. Mac Mini latent A/B test is the keystone. Waiting is the higher-EV move.
