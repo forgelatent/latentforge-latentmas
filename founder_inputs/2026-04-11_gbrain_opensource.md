@@ -1,0 +1,1 @@
+Garry Tan open-sourced GBrain — production AI agent memory system, MIT license. github.com/garrytan/gbrain. Text-based memory, horse territory. Validates dataset moat and Shadow Self governance entry point for enterprises with persistent agent memory.
