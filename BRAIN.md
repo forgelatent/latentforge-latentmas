@@ -936,7 +936,7 @@ source ~/.zprofile
 - User account: latentforge
 - Project root: ~/Projects/latentforge-latentmas/
 
-### Mac Mini M4 Pro 32GB 1TB (arriving April 9-16)
+### Mac Mini M4 Pro 32GB 1TB (arriving April 16)
 - Role: Dev machine for initial latent experiments
 - Use 4-bit quantization for Phi-3 Mini to stay within 32GB
 - Run agents sequentially not in parallel if memory is tight
@@ -1462,8 +1462,8 @@ Step 2: Confirm compute parity
 | Mac Mini 32GB constraints | Active — hardware arriving | 4-bit quantization + sequential runs planned |
 | Jiaru Zou outreach timing | Pending | After first latent vs text results — late April |
 | Business model ranking | Deferred to Day 30 | Three engines gave three different rankings. Dual-engine review on Day 30. |
-| LinkedIn/X light flag post | Active — draft this week | Hybrid B+Bridge format, 45% Brier + 9-day divergence signal |
-| arXiv authors email | Active — by Friday April 11 | Commercialization agent recommended. Three-paragraph pitch. |
+| LinkedIn/X light flag post | Parked — John decided not to post yet | Will revisit after Mac Mini latent results |
+| arXiv authors email | Pending | Draft ready. Send after Mac Mini latent results ~April 20-25. |
 
 **Resolved / Closed April 8:**
 - Bayesian Updater → Drop after April 12 (trial complete, no added value)
