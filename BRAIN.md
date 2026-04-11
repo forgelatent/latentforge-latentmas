@@ -203,8 +203,8 @@ Switch day protocol — execute in this order:
 
 | Dates | Hardware | Focus |
 |---|---|---|
-| Now → April 8 | MacBook + RunPod | Foundation, NemoClaw, toy tests, Polymarket data, research sweep, Jiaru Zou |
-| April 9-16 | Switch day | Migration only. One day. |
+| Now → April 16 | MacBook + RunPod | Orchestration, text swarm, calibration, research sweep |
+| April 16 | Switch day | Mac Mini migration. One day. |
 | April 16-30 | Mac Mini | Shadow Self, 8B models, OpenSpiel, Divergence Score v1 |
 | April 30+ | Mac Mini + cloud burst | Polymarket bot live, Rain grant, paper draft |
 
@@ -1032,7 +1032,7 @@ If any file is not dated today, that job failed. Check cron.log in that director
 - Revenue strategist reads this folder every morning at 5am automatically
 - Claude should check this folder at the start of every session
 
-### Current founder inputs (as of April 8):
+### Current founder inputs (as of April 11):
 - 2026-04-05_coldmath_weather_arbitrage.md — METAR data vs Polymarket weather markets
 - 2026-04-05_llm_knowledge_base_wiki.md — Compounding LLM wiki in Obsidian
 - 2026-04-05_gstack_parallel_sprints.md — Garry Tan's parallel sprint model + latent skill templates
@@ -1041,6 +1041,7 @@ If any file is not dated today, that job failed. Check cron.log in that director
 - 2026-04-07_mempalace_local_memory.md — MemPalace local memory system, 120-token compression
 - 2026-04-07_second_brain_judgment_objection.md — Outsourcing judgment objection, Shadow Self pitch framing
 - 2026-04-08_avp_v061_latent_primitive.md — AVP v0.6.1 generate_on_context() shipped overnight
+- 2026-04-11_gbrain_opensource.md — Garry Tan open-sourced GBrain production memory system, MIT license
 
 ### Standing rule:
 When John finds something interesting anywhere (X, GitHub, articles), drop it in
