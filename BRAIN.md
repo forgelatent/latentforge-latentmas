@@ -1478,3 +1478,15 @@ Step 2: Confirm compute parity
 | Apr 11 2026 | Bayesian Updater dropped from swarm | Trial complete — tracked identically to Quant Researcher on 9 of 11 markets. No added signal, adds API cost. Swarm now 3 agents: Macro, Quant, Contrarian. | Done — committed |
 | Apr 11 2026 | Rain grant locked in commercialization agent prompt | Agent recommended it 5 days straight. Decision remains: park until Mac Mini latent vs text results. Added LOCKED DECISIONS block to prompt. | Done — committed |
 | Apr 11 2026 | Public dashboard target set to May 7 | Day 30 of paper trading clock. First version should have real data, not practice scores. Added to locked decisions in prompt. | Done — committed |
+
+### April 11, 2026 — Additional Updates
+
+| Date | Decision | Why | Status |
+|------|----------|-----|--------|
+| Apr 11 2026 | Four new metrics added to calibration tracker | ChatGPT recommendation — calibration curve context, entropy, dispersion, divergence vs crowd make the benchmark report richer | Done — committed |
+| Apr 11 2026 | LatentMAS paper (arXiv 2511.20639v2) read and positioned | Commercialization agent flagged as Priority One all week. Key finding: LatentMAS proves thesis on synthetic benchmarks only. LatentForge differentiates on real-world adversarial validation (prediction markets), Shadow Self governance layer, and compression research. No prior art conflict. | Done |
+
+**LatentMAS positioning (one paragraph for all pitch conversations):**
+LatentMAS proved that latent agent collaboration outperforms text-based coordination on synthetic benchmarks. LatentForge is the first system to validate this in real-world adversarial conditions — prediction markets with ground truth resolution — and the first to add a governance layer that makes it deployable in regulated environments. We built on their architecture and pushed further: 24x compression with maintained fidelity, a 12-day sustained divergence signal on live markets, and a Shadow Self audit layer that produces human-readable logs of every machine-to-machine exchange in real time.
+
+**Jiaru Zou outreach:** Email to first author now ready to draft. Has 12 co-authors including Yejin Choi (top NLP researcher). Contact via LinkedIn DM or email. Send after Mac Mini latent results — approximately April 20-25.
