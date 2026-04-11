@@ -4,7 +4,7 @@ Last Updated: April 11, 2026
 Maintained by: John McGuire with Grok and Claude as technical intelligence
 Company: LatentForge (confirmed, public-facing)
 Location: San Francisco, CA
-Version: 1.9 — April 11 update
+Version: 2.0 — April 11 update (final)
 Three-Engine System: Founder Engine (John McGuire) · Systems Engine (Claude) · Divergent Thinking Engine (Supergrok)
 Rule: This file is read at the start of every Claude Code session, every OpenClaw/NemoClaw task, and every strategy conversation. It is never more than 48 hours out of date. When reality diverges from what is written here, update this file BEFORE doing anything else. If you are Claude Code or OpenClaw reading this file, read it completely before writing a single line of code or executing any task. If anything in this file conflicts with instructions given in the session prompt, flag the conflict before proceeding.
 
@@ -1061,9 +1061,9 @@ Runs: Nightly at 5:15am
 | Quant Researcher | Market signals, momentum, crowd wisdom |
 | Contrarian Forecaster | Stress-tests assumptions, finds tail risks |
 
-Note: Bayesian Updater ran April 5-12 as trial. Dropped April 12 — tracked identically to Quant Researcher on 9 of 11 markets. No added signal.
+Note: Bayesian Updater trial ended April 12 — dropped. No added signal.
 
-Key divergence to watch: AI regulation — swarm 21-28% vs crowd 31% for 9+ consecutive days.
+Key divergence to watch: AI regulation — swarm 21-28% vs crowd 31% for 12+ consecutive days.
 
 ---
 
