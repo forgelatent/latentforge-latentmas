@@ -179,3 +179,44 @@ Information density log — experiments/week4/density/ — Motor-car Test 3, eff
 Shadow Self overhead log — experiments/week4/shadow_overhead/ — Test 3 disclosure, NemoClaw pitch
 Ineffable alpha candidates + human review — experiments/week4/ineffable/ — Qualitative proof, pitch
 Divergence distribution test results — experiments/week4/ineffable/ — Test 4 statistical defense
+
+---
+
+### Section 4.6 — Compression Method Tournament (Optional Day 1-2)
+
+*Added April 12, 2026 — four-engine consensus after EOF proxy test.*
+
+After successful pre-gate Echo Test and main four-arm benchmark, run a
+small compression bake-off on the same 11 Shadow Match markets.
+
+**Methods (all at matched effective compression ratio):**
+1. Top-k sparsity k=128 — current baseline
+2. EOF adaptive — 95% variance threshold, rolling-window PCA
+3. EOF + sparse residual hybrid — project onto low-rank EOF basis,
+   transmit sparse residual with top-k. Four-engine predicted winner.
+4. Product Quantization (PQ) — sub-space quantization with codebook.
+   Implement via faiss or numpy. Gold standard for vector compression.
+5. Tiny learned autoencoder — 1024->64->1024 bottleneck, trained
+   5-10 minutes on first batch of real hidden states.
+
+**Evaluation per method (four layers — must use all four):**
+1. Reconstruction: MSE + cosine similarity
+2. Functional: KL divergence on next-token logits, top-k token agreement
+3. Semantic: Shadow Self summary stability across methods
+4. Efficiency: effective bits transmitted at equal functional fidelity
+
+**Key metric:** equal functional fidelity, not just similar vector distance.
+
+**Verdict criteria:**
+- Winning method = lowest effective bits at matched functional fidelity
+- If EOF + residual hybrid wins → adopt as default compression
+- If PQ wins → implement codebook infrastructure before V0.1
+- If top-k still wins → current architecture confirmed, no change needed
+
+**Context:** EOF proxy test (April 12) was inconclusive — n-gram proxy
+vectors are coordinate-aligned and structurally favor top-k. Real
+transformer hidden states are dense and correlated — the regime where
+EOF and hybrids should show advantage. This tournament is the definitive
+test.
+
+Results logged to: experiments/week4/compression_tournament/
