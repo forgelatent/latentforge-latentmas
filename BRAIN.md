@@ -1699,3 +1699,21 @@ scripts/launchd/. Hardware arrives April 16.
 **Mac Mini Day 1 addition:** brew install python@3.12 before running last30days-skill.
 Test query: "US AI regulation 2026 prediction market" --quick --emit=compact
 Compare output vs our daily research sweep on same day.
+
+### April 12, 2026 — Four-Engine Synthesis (late day)
+
+Key insight logged: Reasoning alpha vs structural alpha.
+Current system targets reasoning alpha only (latent coordination).
+PolyDAO discovery reveals structural alpha exists independently
+(market framing, base rates, resolution mechanics).
+Day 30 dual-engine review should explicitly address this gap.
+
+Mac Mini Day 1 protocol addition — Silicon Delta Verification:
+Before running any benchmark, extract one hidden state on Mac Mini
+and confirm dimensions and dtype match RunPod A40 reference.
+Add this as Step 7.5 between model load and Echo Test.
+
+Logging standard for future founder_inputs:
+- Thesis impact: strengthen / weaken / neutral + one sentence
+- Motor-car linkage: Performance / Scaling / Efficiency / 
+  Ineffable Alpha / Governance / None
