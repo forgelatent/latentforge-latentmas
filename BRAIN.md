@@ -1688,3 +1688,14 @@ All scripts committed. echo_test.py v2.1 ready. Experiment spec v2.0
 scripts/launchd/. Hardware arrives April 16.
 
 **Day 10 of 30 on paper trading clock (April 13).**
+
+### April 12, 2026 — Late Day Additions
+
+| Date | Decision | Why | Status |
+|------|----------|-----|--------|
+| Apr 12 2026 | last30days-skill v3 discovered and evaluated | 21k stars, MIT, strong Polymarket integration, intelligent planning step. Blocked on MacBook — needs Python 3.12+, account has 3.9.6 and no sudo. | Parked — test on Mac Mini Day 1 |
+| Apr 12 2026 | OpenAI API account funded | Needed for last30days-skill reasoning provider. $100 loaded to Human Patterns account. Key obtained (164 chars). | Key at /tmp/oai_test.env — will not survive reboot, re-enter on Mac Mini |
+
+**Mac Mini Day 1 addition:** brew install python@3.12 before running last30days-skill.
+Test query: "US AI regulation 2026 prediction market" --quick --emit=compact
+Compare output vs our daily research sweep on same day.
