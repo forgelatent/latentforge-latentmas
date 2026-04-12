@@ -1660,3 +1660,31 @@ All engines agree. No escalation required.
 Locked files:
 - docs/mac_mini_experiment_spec_v2.md (immutable after first Mac Mini boot)
 - experiments/week4/run_manifest.md (populated on Day 1)
+
+### April 12, 2026 — End of Day Update
+
+| Date | Decision / Result | Why | Status |
+|------|-------------------|-----|--------|
+| Apr 12 2026 | Swarm Bayesian Updater index error fixed | Script referenced all_probs[3] after 4th agent dropped. Fixed, committed, swarm running clean. | Done |
+| Apr 12 2026 | echo_test.py v2.1 committed — four-engine reviewed | Pre-gate + continuous fidelity logging. Key fix: Phi-3 LM head projection for fidelity (not TinyLlama). Warm seed init. MPS cache. All four engines approved. | Done — do not run on MacBook |
+| Apr 12 2026 | EOF proxy test run — inconclusive | Character n-gram proxy vectors are coordinate-aligned and structurally favor top-k. Both hypotheses failed. Diagnosis: proxy failure, not EOF failure. Real test queued for Mac Mini with actual Phi-3 hidden states. | Logged at experiments/week4/eof_compression/results.md |
+| Apr 12 2026 | Compression tournament added to Mac Mini spec | Four-engine consensus. Section 4.6 added to docs/mac_mini_experiment_spec_v2.md. Five methods: top-k, EOF, EOF+residual hybrid, PQ, tiny autoencoder. Four-layer evaluation metric. | Done |
+| Apr 12 2026 | Benchmark report cleaned | Bayesian Updater removed from Section 2.1. Duplicate Day 3 Section 4 removed. | Done |
+
+**Key finding — calibration data (April 12):**
+The 0.0230 avg Brier on 9 resolved markets is accurate but not safe
+to cite externally. Every resolved market is a sports market with
+outcome=0. Crowd is beating swarm on all 9 (crowd avg Brier 0.0017
+vs swarm 0.0230). This is a mathematical artifact of near-certain
+outcomes — not a signal of crowd superiority. Primary track (policy
+only) has zero resolved markets. Do not cite 0.0230 without full
+context. Safe citations remain:
+- 45% Brier improvement over naive baseline (April 4 historical benchmark)
+- 14+ consecutive days AI regulation divergence (swarm 19-22% vs crowd 31%)
+
+**Mac Mini Day 1 protocol — complete. No missing steps.**
+All scripts committed. echo_test.py v2.1 ready. Experiment spec v2.0
++ compression tournament locked. Migration commands saved in
+scripts/launchd/. Hardware arrives April 16.
+
+**Day 10 of 30 on paper trading clock (April 13).**
