@@ -86,5 +86,16 @@
     "swarm_brier": 0.0225,
     "crowd_brier": 0.0071,
     "naive_brier": 0.25
+  },
+  {
+    "date": "2026-04-12",
+    "market_id": "553837",
+    "question": "Will the Ottawa Senators win the 2026 NHL Stanley Cup?",
+    "swarm_prob": 0.1,
+    "crowd_prob": 0.051,
+    "outcome": 0,
+    "swarm_brier": 0.01,
+    "crowd_brier": 0.0026,
+    "naive_brier": 0.25
   }
 ]

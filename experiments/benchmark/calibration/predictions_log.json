@@ -289,6 +289,29 @@
     "crowd_prob": 0.051,
     "swarm_prob": 0.1,
     "predicted_date": "2026-04-11",
+    "resolved": true,
+    "outcome": 0,
+    "resolved_date": "2026-04-12",
+    "swarm_brier": 0.01,
+    "crowd_brier": 0.0026,
+    "naive_brier": 0.25
+  },
+  "553851": {
+    "question": "Will the Buffalo Sabres win the 2026 NHL Stanley Cup?",
+    "end_date": "2026-06-30",
+    "days_remaining": 78,
+    "crowd_prob": 0.056,
+    "swarm_prob": 0.117,
+    "predicted_date": "2026-04-12",
+    "resolved": false
+  },
+  "553871": {
+    "question": "Will the Detroit Pistons win the 2026 NBA Finals?",
+    "end_date": "2026-07-01",
+    "days_remaining": 79,
+    "crowd_prob": 0.063,
+    "swarm_prob": 0.037,
+    "predicted_date": "2026-04-12",
     "resolved": false
   }
 }

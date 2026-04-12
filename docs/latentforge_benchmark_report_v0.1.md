@@ -116,7 +116,7 @@ Lower is better. Perfect calibration = 0. Naive baseline = 0.25.
 
 ---
 
-## 4. Results (Auto-updated 2026-04-11 — Day 8 of 30)
+## 4. Results (Auto-updated 2026-04-12 — Day 9 of 30)
 
 ### 4.1 Historical Validation (Pre-Benchmark)
 
@@ -130,11 +130,11 @@ Before the live paper trading clock started, we validated the swarm against 18 r
 
 ---
 
-### 4.2 Live Paper Trading Results (Day 8 of 30 — 2026-04-11)
+### 4.2 Live Paper Trading Results (Day 9 of 30 — 2026-04-12)
 
-**Markets tracked:** 27
-**Markets resolved:** 8
-**Days remaining:** 23
+**Markets tracked:** 30
+**Markets resolved:** 9
+**Days remaining:** 22
 
 | Market | Date | Swarm Prob | Crowd Prob | Outcome | Swarm Brier | Crowd Brier |
 |--------|------|-----------|-----------|---------|-------------|-------------|
@@ -146,23 +146,24 @@ Before the live paper trading clock started, we validated the swarm against 18 r
 | Will the Minnesota Wild win the 2026 NHL Stanley C... | 2026-04-06 | 10.3% | 5.2% | 0 | 0.0106 | 0.0027 |
 | Will the Montreal Canadiens win the 2026 NHL Stanl... | 2026-04-06 | 15.0% | 5.3% | 0 | 0.0225 | 0.0028 |
 | Will Harvey Weinstein be sentenced to less than 5 ... | 2026-04-07 | 15.0% | 8.4% | 0 | 0.0225 | 0.0071 |
+| Will the Ottawa Senators win the 2026 NHL Stanley ... | 2026-04-12 | 10.0% | 5.1% | 0 | 0.01 | 0.0026 |
 
 **Summary statistics:**
 
 | Metric | Value |
 |--------|-------|
-| Swarm avg Brier (all resolved) | 0.0247 |
-| Crowd avg Brier (all resolved) | 0.0016 |
+| Swarm avg Brier (all resolved) | 0.0230 |
+| Crowd avg Brier (all resolved) | 0.0017 |
 | Naive avg Brier | 0.2500 |
-| Swarm vs naive improvement | 90.1% |
+| Swarm vs naive improvement | 90.8% |
 
 **Honest assessment of current data:**
 
-The resolved markets to date are dominated by near-certain outcomes — sports championship candidates where the crowd was already pricing at 0.1-5.3% probability. The swarm performs well in absolute terms (0.0247 average Brier) but the meaningful comparison will emerge when genuinely uncertain markets resolve (crowd probability 20-80% at prediction time). We have 19 markets currently tracked pending resolution.
+The resolved markets to date are dominated by near-certain outcomes — sports championship candidates where the crowd was already pricing at 0.1-5.3% probability. The swarm performs well in absolute terms (0.0230 average Brier) but the meaningful comparison will emerge when genuinely uncertain markets resolve (crowd probability 20-80% at prediction time). We have 21 markets currently tracked pending resolution.
 
 ---
 
-### 4.3 Shadow Match Results (Source: shadow_match_2026-04-10.json)
+### 4.3 Shadow Match Results (Source: shadow_match_2026-04-11.json)
 
 11 policy/macro/geopolitical markets. Single strong model (Shadow) vs 4-agent swarm vs crowd.
 
@@ -170,8 +171,8 @@ The resolved markets to date are dominated by near-certain outcomes — sports c
 
 | Market | Crowd | Shadow | Swarm |
 |--------|-------|--------|-------|
-| Will Bitcoin hit $60k or $80k first? | 65.0% | 62.0% | 48.7% |
-| US-Iran nuclear deal by June 30? | 22.5% | 8.0% | 7.5% |
+| Will Bitcoin hit $60k or $80k first? | 65.0% | 62.0% | 55.3% |
+| US-Iran nuclear deal by June 30? | 22.5% | 8.0% | 9.3% |
 | Will the People Power Party (PPP) win the 2026 South Ko | 4.2% | 8.0% | 10.7% |
 
 
@@ -182,7 +183,7 @@ The resolved markets to date are dominated by near-certain outcomes — sports c
 **Question:** Will an AI regulation bill pass in US Congress before [date]?
 **Crowd probability:** ~31%
 **Swarm estimate:** 21-28%
-**Days of sustained divergence:** 12+ consecutive days
+**Days of sustained divergence:** 14+ consecutive days
 **Direction:** Swarm consistently below crowd
 
 Resolution will determine whether this is genuine information extraction or systematic swarm miscalibration. Both outcomes are publishable.
@@ -195,7 +196,7 @@ Resolution will determine whether this is genuine information extraction or syst
 
 ---
 
-*Auto-updated by benchmark_report_updater.py — 2026-04-11 06:00*
+*Auto-updated by benchmark_report_updater.py — 2026-04-12 06:11*
 *Next update: tomorrow at 6:00am*
 
 ## 5. Discussion
