@@ -154,7 +154,7 @@ def main():
             crowd_pct = f"{int(float(crowd)*100)}%" if crowd not in ["N/A", None] else str(crowd)
         except:
             crowd_pct = str(crowd)
-        bayesian = f"{all_probs[3][j]}%" if all_probs[3][j] else "-"
+        bayesian = "-"  # Bayesian Updater dropped April 11
         out.write(f"| {j+1} | {q} | {macro} | {quant} | {contra} | {bayesian} | {swarm} | {crowd_pct} |\n")
 
     out.write("\n## Divergence Flags (swarm vs crowd > 10 points)\n\n")
