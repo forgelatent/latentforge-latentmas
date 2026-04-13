@@ -259,6 +259,8 @@ After benchmark passes, run compression bake-off per Section 4.6 of spec:
 3. EOF + sparse residual hybrid
 4. Product Quantization
 5. Predictive Coding Residuals (EMA-delta, Suggestion 1 April 13)
+   Transmit EMA-delta residual instead of raw delta. ~50 lines NumPy.
+   Directly supports Information Density motor-car test.
 
 ---
 
