@@ -36,7 +36,7 @@ This report presents the first external validation of this approach on a measura
 
 1. First 30-day benchmark of latent vector multi-agent communication on real-money prediction markets
 2. First hardware-validated latency/fidelity comparison between latent and text-based agent communication (Apple M4 Pro)
-3. Documentation of a sustained 7+ day directional divergence from crowd consensus on AI regulation markets
+3. Documentation of a sustained 15+ day directional divergence from crowd consensus on AI regulation markets (swarm 20-22% vs crowd 31%, ongoing as of April 13)
 4. Open methodology for reproducing the benchmark on any prediction market platform
 
 ---
@@ -115,7 +115,7 @@ Lower is better. Perfect calibration = 0. Naive baseline = 0.25.
 
 ---
 
-## 4. Results (Auto-updated 2026-04-12 — Day 9 of 30)
+## 4. Results (Auto-updated 2026-04-13 — Day 10 of 30)
 
 ### 4.1 Historical Validation (Pre-Benchmark)
 
@@ -129,11 +129,11 @@ Before the live paper trading clock started, we validated the swarm against 18 r
 
 ---
 
-### 4.2 Live Paper Trading Results (Day 9 of 30 — 2026-04-12)
+### 4.2 Live Paper Trading Results (Day 10 of 30 — 2026-04-13)
 
 **Markets tracked:** 30
 **Markets resolved:** 9
-**Days remaining:** 22
+**Days remaining:** 21
 
 | Market | Date | Swarm Prob | Crowd Prob | Outcome | Swarm Brier | Crowd Brier |
 |--------|------|-----------|-----------|---------|-------------|-------------|
@@ -182,7 +182,7 @@ The resolved markets to date are dominated by near-certain outcomes — sports c
 **Question:** Will an AI regulation bill pass in US Congress before [date]?
 **Crowd probability:** ~31%
 **Swarm estimate:** 21-28%
-**Days of sustained divergence:** 14+ consecutive days
+**Days of sustained divergence:** 15+ consecutive days
 **Direction:** Swarm consistently below crowd
 
 Resolution will determine whether this is genuine information extraction or systematic swarm miscalibration. Both outcomes are publishable.
@@ -195,7 +195,7 @@ Resolution will determine whether this is genuine information extraction or syst
 
 ---
 
-*Auto-updated by benchmark_report_updater.py — 2026-04-12 06:11*
+*Auto-updated by benchmark_report_updater.py — 2026-04-13 06:08*
 *Next update: tomorrow at 6:00am*
 
 ## 5. Discussion
