@@ -147,3 +147,48 @@ Digest: 2026-04-11.md
 --- PREVIEW (first 700 chars) ---
 [API Error: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=120)]
 Sat Apr 11 08:45:25 PDT 2026: SUCCESS on attempt 1
+Sun Apr 12 05:10:32 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/revenue_strategist.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Revenue Strategist for 2026-04-12...
+Kalshi: markets_2026-04-12.json
+Digest: 2026-04-12.md
+
+✅ Saved to /Users/latentforge/Projects/latentforge-latentmas/revenue_ideas/2026-04-12.md
+
+--- PREVIEW (first 700 chars) ---
+# LatentForge Revenue Opportunities — Week of April 12, 2026
+
+---
+
+## 1. Rain Grant Application
+**Timeline: 2–3 weeks to submission, $50K if awarded**
+
+**Edge:**
+Rain funds prediction market research with a technical moat. Your latent delta architecture is a genuine differentiator — you can argue that agents calibrating probability estimates via vector-space consensus (not token voting) reduce overconfidence clustering, a known failure mode in ensemble forecasting bots. Most applicants submit Python wrappers around GPT-4. You submit a protocol.
+
+**Honest caveat:** V0.1 doesn't need to be fully built. The grant funds the build. You need a credible architecture diagram, a clear benchmark hypot
+Sun Apr 12 05:11:09 PDT 2026: SUCCESS on attempt 1
+Mon Apr 13 05:00:29 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/revenue_strategist.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Revenue Strategist for 2026-04-13...
+Kalshi: markets_2026-04-12.json
+Digest: 2026-04-13.md
+
+✅ Saved to /Users/latentforge/Projects/latentforge-latentmas/revenue_ideas/2026-04-13.md
+
+--- PREVIEW (first 700 chars) ---
+# LatentForge Revenue Opportunities — Week of April 13, 2026
+
+---
+
+## 1. Rain Grant Application
+**Timeline: First money in 4–6 weeks if submitted this week**
+
+**The edge:**
+Rain funds prediction market research explicitly. Your framing is differentiated — not "another ML bot" but a testable claim: latent-communicating agents produce less correlated forecast errors than text-based ensembles, which directly improves calibration on correlated market clusters (e.g., the NBA spread/total bundle in today's Kalshi data). That's a specific, falsifiable research pitch, not a product pitch.
+
+**What makes it honest:**
+You don't need a working system to apply. You need a credible research design and a d
+Mon Apr 13 05:01:06 PDT 2026: SUCCESS on attempt 1
