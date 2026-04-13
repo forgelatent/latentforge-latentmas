@@ -157,3 +157,15 @@ The 45% Brier score improvement (0.1376 vs 0.25 naive baseline) across 18 resolv
 ## 2. THESIS UPDATE
 
 **St
+
+---
+## 2026-04-13 Update
+
+# LatentForge Commercialization Intelligence — Day 3 Brief
+### April 13, 2026
+
+---
+
+## 1. PRIMARY STRATEGIC BET
+
+**Convert the 30-day paper trading clock into a publishable benchmark document before Day 30 (May 7), and use the AI regulation divergence resolution as the narrative spine of that document — then open exactly one external conversation before May 7: Polymarket's research team.** The calibration subset result (avg swarm Brier 0.0230 across 9 resolved markets) is now the number that anchors every business conversation. That's not a 45% improvement over naive baseline — that's performance that would place a human forecaster in the top tier of Metaculus superforecasters, achieved by a 3-agent latent swarm running on consumer hardware. The AI regulation divergence trade (swarm 21-28% vs crowd 31%, sustained 7+ days) is still open, which means it will resolve before May 7 — and whether it resolves in the swarm's favor or against it, the documentation of a specific, falsifiable, directional disagreement with crowd consensus on a high-visibility topic is the publishable moment. Everything before May 7 feeds that document. Everything after May 7 uses that document as the opening move in three conversations: Polymarket, one prediction market fund, one enterprise orchestration buyer. The Mac Mini A/B test arriving this week is the first chance to add a hardware-validated claim — latent vs text latency and fidelity comparison on identical tasks — which upgrades the technical r
