@@ -1717,3 +1717,36 @@ Logging standard for future founder_inputs:
 - Thesis impact: strengthen / weaken / neutral + one sentence
 - Motor-car linkage: Performance / Scaling / Efficiency / 
   Ineffable Alpha / Governance / None
+
+
+### April 13, 2026 — Mac Mini Day 1 Technical Constraints (CRITICAL)
+
+**transformers version:** LOCKED at 4.46.0 on Mac Mini. DO NOT upgrade.
+- transformers 5.5.4 is incompatible with Phi-3 Mini modeling code.
+- Install command: pip3.12 install transformers==4.46.0 --break-system-packages
+
+**Phi-3 Mini config patch required before every load:**
+- rope_scaling must be set to null (or valid su type) in config.json before loading.
+- Location: ~/.cache/huggingface/hub/models--microsoft--Phi-3-mini-4k-instruct/snapshots/*/config.json
+- Patch script (create if missing): scripts/patch_phi3_config.py
+
+**modeling_phi3.py patch required:**
+- _init_rope must handle null rope_scaling and su type gracefully.
+- Patch applied to cached module. Re-apply if cache is cleared.
+
+**use_cache rules:**
+- use_cache=False required in forward pass for reliable hidden state extraction.
+- use_cache=True required in generate() for coherent text output.
+- Never mix them incorrectly.
+
+**Prompt format:**
+- Phi-3 Mini requires apply_chat_template(..., add_generation_prompt=True)
+- Raw string prompts produce poor or gibberish output.
+
+**Echo Test pre-gate result (Day 1):**
+- Status: PROVISIONAL NEAR-PASS
+- Hidden sim: 0.9424 / 0.9506 / 0.9590 (avg 0.9507)
+- Formal threshold: 0.95 (unchanged)
+- Hardware recalibration pending (10-20 market set)
+- Coherent reasoning confirmed on all 3 markets.
+- Latent channel: CONFIRMED WORKING on M4 Pro MPS.
