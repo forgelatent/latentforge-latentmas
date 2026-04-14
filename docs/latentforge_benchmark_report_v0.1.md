@@ -115,7 +115,7 @@ Lower is better. Perfect calibration = 0. Naive baseline = 0.25.
 
 ---
 
-## 4. Results (Auto-updated 2026-04-13 — Day 10 of 30)
+## 4. Results (Auto-updated 2026-04-14 — Day 11 of 30)
 
 ### 4.1 Historical Validation (Pre-Benchmark)
 
@@ -129,11 +129,11 @@ Before the live paper trading clock started, we validated the swarm against 18 r
 
 ---
 
-### 4.2 Live Paper Trading Results (Day 10 of 30 — 2026-04-13)
+### 4.2 Live Paper Trading Results (Day 11 of 30 — 2026-04-14)
 
 **Markets tracked:** 30
 **Markets resolved:** 9
-**Days remaining:** 21
+**Days remaining:** 20
 
 | Market | Date | Swarm Prob | Crowd Prob | Outcome | Swarm Brier | Crowd Brier |
 |--------|------|-----------|-----------|---------|-------------|-------------|
@@ -162,7 +162,7 @@ The resolved markets to date are dominated by near-certain outcomes — sports c
 
 ---
 
-### 4.3 Shadow Match Results (Source: shadow_match_2026-04-11.json)
+### 4.3 Shadow Match Results (Source: shadow_match_2026-04-13.json)
 
 11 policy/macro/geopolitical markets. Single strong model (Shadow) vs 4-agent swarm vs crowd.
 
@@ -182,7 +182,7 @@ The resolved markets to date are dominated by near-certain outcomes — sports c
 **Question:** Will an AI regulation bill pass in US Congress before [date]?
 **Crowd probability:** ~31%
 **Swarm estimate:** 21-28%
-**Days of sustained divergence:** 15+ consecutive days
+**Days of sustained divergence:** 16+ consecutive days
 **Direction:** Swarm consistently below crowd
 
 Resolution will determine whether this is genuine information extraction or systematic swarm miscalibration. Both outcomes are publishable.
@@ -195,7 +195,7 @@ Resolution will determine whether this is genuine information extraction or syst
 
 ---
 
-*Auto-updated by benchmark_report_updater.py — 2026-04-13 06:08*
+*Auto-updated by benchmark_report_updater.py — 2026-04-14 06:12*
 *Next update: tomorrow at 6:00am*
 
 ## 5. Discussion
