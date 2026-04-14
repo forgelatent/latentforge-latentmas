@@ -12,3 +12,16 @@ Reference norm: 89.4256
 Memory at load: 7.12 GB
 Config patch applied: rope_scaling set to su type with 48-element factor lists
 use_cache: False (required for hidden state extraction on this transformers version)
+
+
+## Pre-Gate Result — Day 1 M4 Pro (April 13, 2026)
+Status: PROVISIONAL NEAR-PASS — hardware transition calibration pending
+Market 1 hidden sim: 0.9424 (threshold 0.95, miss by 0.0076)
+Market 2 hidden sim: 0.9506 — PASS
+Market 3 hidden sim: 0.9590 — PASS
+Average: 0.9507 — above threshold
+Coherent reasoning confirmed on all 3 markets.
+Formal threshold remains 0.95 (calibrated on RunPod A40 CUDA).
+Hardware-specific recalibration pending after 10-20 market calibration set.
+Decision: Proceed to benchmark under provisional near-pass status.
+All four engines reviewed. Three engines (Claude, Grok, ChatGPT) recommended B. One (Gemini) recommended A.

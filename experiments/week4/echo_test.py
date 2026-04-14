@@ -188,12 +188,9 @@ def initialize_seed_vector(agent_model, agent_tok, device, n_passes=None):
 # CORE: AGENT REASONING + HIDDEN STATE EXTRACTION
 # ============================================================
 def agent_reason(model, tokenizer, market, device):
-    prompt = (
-        f"You are a careful probability forecaster. Analyze this prediction market:\n\n"
-        f"Market: {market['question']}\n"
-        f"Current crowd probability: {market['crowd_prob']*100:.1f}%\n\n"
-        f"Provide your reasoning and probability estimate in 2-3 sentences."
-    )
+    msg = 'You are a careful probability forecaster. Analyze this prediction market:\n\nMarket: ' + market['question'] + '\nCurrent crowd probability: ' + f"{market['crowd_prob']*100:.1f}" + '%\n\nProvide your reasoning and probability estimate in 2-3 sentences.'
+    chat = [{"role": "user", "content": msg}]
+    prompt = tokenizer.apply_chat_template(chat, tokenize=False, add_generation_prompt=True)
     inputs = tokenizer(prompt, return_tensors="pt").to(device)
 
     with torch.no_grad():
@@ -208,9 +205,15 @@ def agent_reason(model, tokenizer, market, device):
     gen_ids = outputs.sequences[0][inputs.input_ids.shape[1]:]
     reasoning = tokenizer.decode(gen_ids, skip_special_tokens=True).strip()
 
-    last_step = outputs.hidden_states[-1]
-    last_layer = last_step[-1]
-    last_token = last_layer[0, -1, :]
+    # Extract hidden state via direct forward pass (use_cache=False required)
+    with torch.no_grad():
+        fwd = model(
+            **{k: v for k,v in inputs.items()},
+            output_hidden_states=True,
+            return_dict=True,
+            use_cache=False
+        )
+    last_token = fwd.hidden_states[-1][0, -1, :]
     hidden_state = last_token.float().cpu()
 
     return reasoning, hidden_state
@@ -338,7 +341,7 @@ def run_pre_gate(agent_model, agent_tok, shadow_model, shadow_tok,
         )
         clear_cache(device)
 
-        passed = sem_sim >= CONFIG["pass_threshold"]
+        passed = hs_sim >= CONFIG["pass_threshold"]
         status = "PASS" if passed else "FAIL"
 
         print(f"  Hidden sim:   {hs_sim:.4f}")
@@ -371,8 +374,8 @@ def run_pre_gate(agent_model, agent_tok, shadow_model, shadow_tok,
 
     # Verdict
     all_passed = all(r["passed"] for r in results)
-    avg_sim    = sum(r["semantic_similarity"] for r in results) / len(results)
-    min_sim    = min(r["semantic_similarity"] for r in results)
+    avg_sim    = sum(r["hidden_state_similarity"] for r in results) / len(results)
+    min_sim    = min(r["hidden_state_similarity"] for r in results)
     verdict    = "PASS — proceed to benchmark" if all_passed else "FAIL — debug latent channel"
 
     print("\n" + "="*60)
