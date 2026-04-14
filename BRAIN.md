@@ -1814,3 +1814,16 @@ DO NOT CITE: 0.9507 echo test score externally (provisional, hardware-specific)
 1. Review overnight outputs (MacBook — already clean, all 8 jobs ran)
 2. Mac Mini hardware recalibration set (10-20 markets)
 3. If recalibration passes threshold decision — proceed to scaling test (Phase 10)
+
+
+### April 14, 2026 — Morning Update (Day 11 of 30)
+
+All 8 launchd jobs clean overnight.
+AI regulation divergence: Day 16 — swarm 19.3% vs crowd 31% (gap widened to 12pts).
+Shadow match Day 16 logged manually — US-Iran and Powell divergences holding.
+Bitcoin: Shadow and Swarm converged at 62% vs crowd 65%.
+
+REMINDER: Shadow match is MANUAL — must run every morning:
+source ~/.latentforge/.env && python3 ~/Projects/latentforge-latentmas/experiments/week1/scripts/shadow_match.py
+
+Today priority: Mac Mini hardware recalibration set (10-20 markets).
