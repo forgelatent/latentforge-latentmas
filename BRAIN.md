@@ -1750,3 +1750,67 @@ Logging standard for future founder_inputs:
 - Hardware recalibration pending (10-20 market set)
 - Coherent reasoning confirmed on all 3 markets.
 - Latent channel: CONFIRMED WORKING on M4 Pro MPS.
+
+
+### April 13, 2026 — Full Day Summary (Day 10 of 30)
+
+**Mac Mini Status:** Arrived April 13, 3 days early. Day 1 sequence complete.
+See technical constraints section above for all Mac Mini debug rules.
+
+**Paper Trading Clock:** Day 10 of 30. All 8 MacBook launchd jobs clean.
+AI regulation divergence: Day 15 — swarm 20.3% vs crowd 31%. Holding strong.
+
+**Echo Test:** Provisional near-pass (avg 0.9507). Four-engine vote: keep 0.95
+threshold, mark as provisional, run hardware recalibration set before changing.
+Next: 10-20 market recalibration on Mac Mini, then scaling test, then benchmark.
+
+**8 Founder Inputs Logged April 13:**
+1. last30days-skill v3 — Python 3.12 blocker, OpenAI funded, Mac Mini Day 1
+2. andrej-karpathy-skills CLAUDE.md — Mac Mini Day 1 plugin install
+3. @polydao weather bot — structural alpha reference (base-rate edge)
+4. TinyGPU eGPU driver — verified real, optional Day 1 stretch goal
+5. NVIDIA free API endpoints — verified real, park until Mac Mini migration
+6. Google TimesFM — best fit weather/crypto, NOT binary markets, Week 4+
+7. Claude Mem — persistent memory plugin, complements BRAIN.md, Mac Mini Day 1
+8. Four-engine synthesis — reasoning vs structural alpha, silicon delta, logging template
+
+**Polymarket Outreach Draft Locked:**
+File: docs/polymarket_outreach_draft.md
+Four-engine reviewed. DO NOT SEND before May 7.
+If AI regulation resolves correctly before May 7, lead with that result.
+No raw Brier numbers — only 45% improvement over naive baseline.
+
+**Additional Tools Logged April 13:**
+- AutoHedge — Shadow Self as execution gate (not just audit log)
+- DEBUG.md skill — persistent debugging rules, Mac Mini Week 1
+- Garry Tan thin harness + fat skills — validates governance layer direction
+
+**Mac Mini Day 1 Completed Phases:**
+Phase 1: Homebrew, Python 3.12, git installed
+Phase 2: latentforge account, repo cloned
+Phase 3: Anthropic API key stored (108 chars)
+Phase 4: transformers 4.46.0, torch, sentence-transformers installed
+Phase 6: Phi-3 Mini loaded on MPS (float16, 7.12GB, hidden size 3072)
+Phase 7: Silicon delta VERIFIED (dim 3072, dtype float32, norm 85.4558)
+Phase 8: Run manifest created
+Phase 9: Echo test PROVISIONAL NEAR-PASS (avg 0.9507)
+
+**Phases NOT yet complete:**
+Phase 5: NemoClaw/Docker (skipped Day 1)
+Phase 10: Scaling test (pending recalibration)
+Phase 11: Four-arm benchmark (pending scaling test)
+Phase 13: Launchd migration MacBook to Mac Mini (pending benchmark)
+Phase 14: Optional tools (last30days-skill, Karpathy, Claude Mem)
+
+**Safe Citations as of April 13:**
+- 45% Brier improvement over naive baseline (April 4 historical benchmark)
+- 15+ consecutive days AI regulation divergence (swarm 20.3% vs crowd 31%)
+- Fidelity 1.0000 at 24x compression on Phi-3 Mini (RunPod A40, March 2026)
+- Latent channel confirmed working on M4 Pro MPS (April 13)
+DO NOT CITE: 0.0230 Brier (sports markets only, crowd beats swarm on all 9)
+DO NOT CITE: 0.9507 echo test score externally (provisional, hardware-specific)
+
+**April 14 Priority:**
+1. Review overnight outputs (MacBook — already clean, all 8 jobs ran)
+2. Mac Mini hardware recalibration set (10-20 markets)
+3. If recalibration passes threshold decision — proceed to scaling test (Phase 10)
