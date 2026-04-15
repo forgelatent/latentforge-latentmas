@@ -25,3 +25,18 @@ Formal threshold remains 0.95 (calibrated on RunPod A40 CUDA).
 Hardware-specific recalibration pending after 10-20 market calibration set.
 Decision: Proceed to benchmark under provisional near-pass status.
 All four engines reviewed. Three engines (Claude, Grok, ChatGPT) recommended B. One (Gemini) recommended A.
+
+
+## Recalibration Set — April 14, 2026 (15 markets)
+Average hidden sim: 0.9780
+Minimum hidden sim: 0.9424 (Market 1: AI regulation — consistent outlier)
+Markets passing 0.95: 14/15
+Formal threshold: 0.95 (unchanged)
+
+Four-engine vote: Option B (2 vs 1)
+Gemini: B, ChatGPT: B, Grok: A, Claude: B
+
+Decision: Keep 0.95. Market 1 flagged as content-specific outlier.
+AI regulation encodes differently — abstract, multi-layered, uncertain timelines.
+Not a hardware issue. Scientifically interesting — investigate separately.
+Status: PROCEED to Phase 10 (scaling test).
