@@ -115,7 +115,7 @@ Lower is better. Perfect calibration = 0. Naive baseline = 0.25.
 
 ---
 
-## 4. Results (Auto-updated 2026-04-14 — Day 11 of 30)
+## 4. Results (Auto-updated 2026-04-15 — Day 12 of 30)
 
 ### 4.1 Historical Validation (Pre-Benchmark)
 
@@ -129,11 +129,11 @@ Before the live paper trading clock started, we validated the swarm against 18 r
 
 ---
 
-### 4.2 Live Paper Trading Results (Day 11 of 30 — 2026-04-14)
+### 4.2 Live Paper Trading Results (Day 12 of 30 — 2026-04-15)
 
 **Markets tracked:** 30
 **Markets resolved:** 9
-**Days remaining:** 20
+**Days remaining:** 19
 
 | Market | Date | Swarm Prob | Crowd Prob | Outcome | Swarm Brier | Crowd Brier |
 |--------|------|-----------|-----------|---------|-------------|-------------|
@@ -162,7 +162,7 @@ The resolved markets to date are dominated by near-certain outcomes — sports c
 
 ---
 
-### 4.3 Shadow Match Results (Source: shadow_match_2026-04-13.json)
+### 4.3 Shadow Match Results (Source: shadow_match_2026-04-14.json)
 
 11 policy/macro/geopolitical markets. Single strong model (Shadow) vs 4-agent swarm vs crowd.
 
@@ -170,7 +170,6 @@ The resolved markets to date are dominated by near-certain outcomes — sports c
 
 | Market | Crowd | Shadow | Swarm |
 |--------|-------|--------|-------|
-| Will Bitcoin hit $60k or $80k first? | 65.0% | 62.0% | 55.3% |
 | US-Iran nuclear deal by June 30? | 22.5% | 8.0% | 9.3% |
 | Will the People Power Party (PPP) win the 2026 South Ko | 4.2% | 8.0% | 10.7% |
 
@@ -195,7 +194,7 @@ Resolution will determine whether this is genuine information extraction or syst
 
 ---
 
-*Auto-updated by benchmark_report_updater.py — 2026-04-14 06:12*
+*Auto-updated by benchmark_report_updater.py — 2026-04-15 06:14*
 *Next update: tomorrow at 6:00am*
 
 ## 5. Discussion

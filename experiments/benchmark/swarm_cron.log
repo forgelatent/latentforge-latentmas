@@ -292,3 +292,31 @@ Swarm probabilities:
   10. Will Democrats win the Senate majority in 2026 mid... -> 48.0% (crowd: 0.44)
   11. Will US voter turnout exceed 50% in 2026 midterms?... -> 32.7% (crowd: 0.38)
 Tue Apr 14 05:17:20 PDT 2026: SUCCESS on attempt 1
+Wed Apr 15 05:24:53 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/03_text_swarm.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running text swarm on 11 markets...
+  Agent 1: Macro Analyst...
+Error: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=120)
+  Raw: [None, None, None, None, None, None, None, None, None, None, None]
+  Agent 2: Quant Researcher...
+  Raw: [65.0, 52.0, 28.0, 72.0, 44.0, 48.0, 42.0, 32.0, 58.0, 46.0, 35.0]
+  Agent 3: Contrarian Forecaster...
+  Raw: [58.0, 45.0, 12.0, 65.0, 52.0, 45.0, 38.0, 38.0, 52.0, 52.0, 28.0]
+Contrarian track updated: /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/contrarian_track.csv
+
+Saved to /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/text_swarm_2026-04-15.md
+
+Swarm probabilities:
+  1. Will the Fed cut rates by at least 50bps in 2026?... -> 61.5% (crowd: 0.68)
+  2. Will Bitcoin reach $150,000 by end of 2026?... -> 48.5% (crowd: 0.55)
+  3. Will AI regulation bill pass in US Congress before... -> 20.0% (crowd: 0.31)
+  4. Will Elon Musk remain CEO of Tesla through 2027?... -> 68.5% (crowd: 0.77)
+  5. Will US CPI inflation be above 3% in April 2026?... -> 48.0% (crowd: 0.41)
+  6. Will S&P 500 be above 5500 at end of April 2026?... -> 46.5% (crowd: 0.51)
+  7. Will Ethereum close above $2000 in April 2026?... -> 40.0% (crowd: 0.45)
+  8. Will US unemployment rate rise above 4.5% in Q2 20... -> 35.0% (crowd: 0.29)
+  9. Will Republicans win the House majority in 2026 mi... -> 55.0% (crowd: 0.61)
+  10. Will Democrats win the Senate majority in 2026 mid... -> 49.0% (crowd: 0.44)
+  11. Will US voter turnout exceed 50% in 2026 midterms?... -> 31.5% (crowd: 0.38)
+Wed Apr 15 07:00:26 PDT 2026: SUCCESS on attempt 1

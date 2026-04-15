@@ -388,3 +388,46 @@ Newly resolved: 0
 
 Logs: /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration
 Tue Apr 14 05:34:48 PDT 2026: SUCCESS on attempt 1
+Wed Apr 15 05:41:25 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-04-15
+
+Checking 30 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Found 22 qualifying markets
+
+=== CALIBRATION SUMMARY ===
+Total markets tracked: 30
+New predictions today: 0
+Newly resolved: 0
+
+--- PRIMARY TRACK (policy/macro/geopolitics/elections) ---
+  Resolved markets scored: 1
+  Swarm avg Brier:  0.01
+  Crowd avg Brier:  0.0026
+  Naive avg Brier:  0.25
+  Swarm vs naive:   96.0%
+  Swarm vs crowd:   -284.6%
+  Brier Skill Score:-2.8462  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.469  (higher = more uncertain)
+  Swarm dispersion: 0.0pts  (range of swarm predictions)
+  Crowd dispersion: 0.0pts  (range of crowd predictions)
+  Avg divergence:   4.9pts  (avg |swarm - crowd| on resolved markets)
+
+--- FULL TRACK (all categories, for transparency) ---
+  Resolved markets scored: 4
+  Swarm avg Brier:  0.0164
+  Crowd avg Brier:  0.0038
+  Naive avg Brier:  0.25
+  Swarm vs naive:   93.4%
+  Swarm vs crowd:   -331.6%
+  Brier Skill Score:-3.3158  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.5418  (higher = more uncertain)
+  Swarm dispersion: 5.0pts  (range of swarm predictions)
+  Crowd dispersion: 3.3pts  (range of crowd predictions)
+  Avg divergence:   6.6pts  (avg |swarm - crowd| on resolved markets)
+
+Logs: /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration
+Wed Apr 15 05:41:29 PDT 2026: SUCCESS on attempt 1
