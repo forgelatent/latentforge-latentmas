@@ -1928,3 +1928,52 @@ requires internal injection, activation steering is the engineering frontier.
 - Role-diverse sequential swarms maintain estimate diversity under scaling (Phase 10)
 DO NOT CITE: latent channel influences agent output (not yet proven)
 DO NOT CITE: Phase 10 divergence as latent channel evidence
+
+
+### April 15, 2026 — Morning Update (Day 12 of 30)
+
+All 8 jobs ran (2 API timeouts re-run manually — compression researcher + revenue strategist).
+AI regulation divergence: Day 17 — swarm 20% vs crowd 31% (11pt gap, holding).
+Shadow match Day 17: US-Iran, Powell, PPP all holding. Bitcoin gap widening.
+
+COMPRESSION RESEARCHER — Day 4 on Predictive Coding Residuals:
+Fourth consecutive day. Today sharpened the framing directly for activation steering:
+Transmit only what Agent B cannot predict from prior history.
+Inject only the surprising residual into B's residual stream during generation.
+This is a stronger, more defensible test than full-seed injection.
+Smaller signal, easier to measure, harder to dismiss as noise.
+
+PARALLAX PAPER (arXiv:2604.12986):
+Title: Why AI Agents That Think Must Never Act
+Cognitive-Executive Separation — Shadow Self sits naturally in the validator position.
+Cite in Day 30 report Section on Shadow Self governance.
+Logged: founder_inputs/2026-04-15_parallax_shadow_self_citation.md
+
+ZENO-EFFECT TRIGGERED TRANSMISSION:
+Compression researcher suggestion — event-driven, only transmit when dimension
+exceeds burst threshold. Architecturally interesting but adds complexity.
+Decision: Park as future optimization. Revisit after activation steering results.
+
+ACTIVATION STEERING — LOCKED NEXT STEP:
+Four-engine unanimous: Activation Steering is the method.
+Grok sharpened to: residual-only injection (predictive coding framing).
+Implementation: inject latent residual (not full seed) into residual stream
+at chosen layers during Phi-3 Mini generation on Mac Mini MPS.
+Goal: prove injected residual changes agent output on identical prompt.
+Test: same prompt, two arms — with and without residual injection.
+If outputs differ: latent channel influences generation. Motor car confirmed.
+If outputs identical: diagnose layer choice or injection magnitude.
+
+AGENTS USING OUTDATED FRAMING:
+Revenue strategist and commercialization agent still pitch latent channel
+as if it influences generation. They do not know about Phase 11.
+Fix: update prompt context with Phase 11 findings. Non-urgent — after activation steering.
+
+SAFE CITATIONS AS OF APRIL 15:
+- 45% Brier improvement over naive baseline (April 4 historical benchmark)
+- 17+ consecutive days AI regulation divergence (swarm 20% vs crowd 31%)
+- Fidelity 1.0000 at 24x compression on Phi-3 Mini (RunPod A40, March 2026)
+- Latent transport confirmed on M4 Pro MPS (capture, compress, reconstruct)
+- Role-diverse sequential swarms maintain estimate diversity under scaling (Phase 10)
+DO NOT CITE: latent channel influences agent output (not yet proven)
+DO NOT CITE: Phase 10 divergence as latent channel evidence
