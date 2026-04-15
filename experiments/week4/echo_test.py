@@ -43,21 +43,21 @@ CONFIG = {
 }
 
 TEST_MARKETS = [
-    {
-        "id": "ai_regulation",
-        "question": "Will an AI regulation bill pass in US Congress before end of 2026?",
-        "crowd_prob": 0.31,
-    },
-    {
-        "id": "us_iran_deal",
-        "question": "Will the US and Iran reach a nuclear deal by June 30, 2026?",
-        "crowd_prob": 0.225,
-    },
-    {
-        "id": "bitcoin_target",
-        "question": "Will Bitcoin reach $60,000 or $80,000 first?",
-        "crowd_prob": 0.65,
-    },
+    {"id": "ai-regulation", "question": "Will an AI regulation bill pass in US Congress before end of 2026?", "crowd_prob": 0.31},
+    {"id": "iran-nuclear", "question": "Will the US and Iran reach a nuclear deal by June 30, 2026?", "crowd_prob": 0.225},
+    {"id": "bitcoin-60-80", "question": "Will Bitcoin reach $60,000 or $80,000 first?", "crowd_prob": 0.65},
+    {"id": "fed-cuts-50bps", "question": "Will the Fed cut rates by at least 50bps in 2026?", "crowd_prob": 0.68},
+    {"id": "us-cpi-april", "question": "Will US CPI inflation be above 3% in April 2026?", "crowd_prob": 0.41},
+    {"id": "sp500-5500", "question": "Will S&P 500 be above 5500 at end of April 2026?", "crowd_prob": 0.51},
+    {"id": "ethereum-2000", "question": "Will Ethereum close above $2000 in April 2026?", "crowd_prob": 0.45},
+    {"id": "unemployment-45", "question": "Will US unemployment rate rise above 4.5% in Q2 2026?", "crowd_prob": 0.28},
+    {"id": "house-republicans", "question": "Will Republicans win the House majority in 2026 midterms?", "crowd_prob": 0.61},
+    {"id": "senate-democrats", "question": "Will Democrats win the Senate majority in 2026 midterms?", "crowd_prob": 0.44},
+    {"id": "voter-turnout", "question": "Will US voter turnout exceed 50% in 2026 midterms?", "crowd_prob": 0.38},
+    {"id": "powell-fed", "question": "Will Jerome Powell be confirmed as Fed Chair?", "crowd_prob": 0.001},
+    {"id": "china-taiwan", "question": "Will China blockade Taiwan by June 30?", "crowd_prob": 0.036},
+    {"id": "vance-nomination", "question": "Will J.D. Vance win the 2028 Republican presidential nomination?", "crowd_prob": 0.367},
+    {"id": "ppp-korea", "question": "Will the People Power Party win the 2026 South Korean local elections?", "crowd_prob": 0.042},
 ]
 
 # ============================================================
@@ -312,7 +312,7 @@ def run_pre_gate(agent_model, agent_tok, shadow_model, shadow_tok,
     results = []
 
     for i, market in enumerate(TEST_MARKETS):
-        print(f"\nMarket {i+1}/3: {market['question'][:60]}...")
+        print(f"\nMarket {i+1}/{len(TEST_MARKETS)}: {market['question'][:60]}...")
 
         # Agent A: reason + extract hidden state
         reasoning, hidden_state = agent_reason(agent_model, agent_tok, market, device)

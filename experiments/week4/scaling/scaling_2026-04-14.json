@@ -1,0 +1,385 @@
+{
+  "date": "2026-04-14",
+  "config": {
+    "model_id": "microsoft/Phi-3-mini-4k-instruct",
+    "agent_counts": [
+      2,
+      4,
+      8
+    ],
+    "top_k": 128,
+    "seed": 42,
+    "max_new_tokens": 150,
+    "output_dir": "experiments/week4/scaling"
+  },
+  "arms": {
+    "2": {
+      "latent": [
+        {
+          "market": "ai-regulation",
+          "mean": 0.45,
+          "estimates": [
+            0.45,
+            0.45
+          ],
+          "crowd": 0.31
+        },
+        {
+          "market": "iran-nuclear",
+          "mean": 0.3,
+          "estimates": [
+            0.35,
+            0.25
+          ],
+          "crowd": 0.225
+        },
+        {
+          "market": "bitcoin-60-80",
+          "mean": 0.625,
+          "estimates": [
+            0.6,
+            0.65
+          ],
+          "crowd": 0.65
+        },
+        {
+          "market": "fed-cuts",
+          "mean": 0.5,
+          "estimates": [
+            0.5,
+            0.5
+          ],
+          "crowd": 0.68
+        },
+        {
+          "market": "cpi-april",
+          "mean": 0.24,
+          "estimates": [
+            0.03,
+            0.45
+          ],
+          "crowd": 0.41
+        }
+      ],
+      "text": [
+        {
+          "market": "ai-regulation",
+          "mean": 0.42500000000000004,
+          "estimates": [
+            0.45,
+            0.4
+          ],
+          "crowd": 0.31
+        },
+        {
+          "market": "iran-nuclear",
+          "mean": 0.3,
+          "estimates": [
+            0.35,
+            0.25
+          ],
+          "crowd": 0.225
+        },
+        {
+          "market": "bitcoin-60-80",
+          "mean": 0.625,
+          "estimates": [
+            0.6,
+            0.65
+          ],
+          "crowd": 0.65
+        },
+        {
+          "market": "fed-cuts",
+          "mean": 0.5900000000000001,
+          "estimates": [
+            0.5,
+            0.68
+          ],
+          "crowd": 0.68
+        },
+        {
+          "market": "cpi-april",
+          "mean": 0.21500000000000002,
+          "estimates": [
+            0.03,
+            0.4
+          ],
+          "crowd": 0.41
+        }
+      ]
+    },
+    "4": {
+      "latent": [
+        {
+          "market": "ai-regulation",
+          "mean": 0.51,
+          "estimates": [
+            0.45,
+            0.45,
+            0.69,
+            0.45
+          ],
+          "crowd": 0.31
+        },
+        {
+          "market": "iran-nuclear",
+          "mean": 0.405,
+          "estimates": [
+            0.35,
+            0.25,
+            0.77,
+            0.25
+          ],
+          "crowd": 0.225
+        },
+        {
+          "market": "bitcoin-60-80",
+          "mean": 0.5625,
+          "estimates": [
+            0.6,
+            0.65,
+            0.35,
+            0.65
+          ],
+          "crowd": 0.65
+        },
+        {
+          "market": "fed-cuts",
+          "mean": 0.5,
+          "estimates": [
+            0.5,
+            0.5,
+            0.32,
+            0.68
+          ],
+          "crowd": 0.68
+        },
+        {
+          "market": "cpi-april",
+          "mean": 0.36999999999999994,
+          "estimates": [
+            0.03,
+            0.45,
+            0.59,
+            0.41
+          ],
+          "crowd": 0.41
+        }
+      ],
+      "text": [
+        {
+          "market": "ai-regulation",
+          "mean": 0.38750000000000007,
+          "estimates": [
+            0.45,
+            0.4,
+            0.35,
+            0.35
+          ],
+          "crowd": 0.31
+        },
+        {
+          "market": "iran-nuclear",
+          "mean": 0.25,
+          "estimates": [
+            0.35,
+            0.25,
+            0.2,
+            0.2
+          ],
+          "crowd": 0.225
+        },
+        {
+          "market": "bitcoin-60-80",
+          "mean": 0.6375,
+          "estimates": [
+            0.6,
+            0.65,
+            0.65,
+            0.65
+          ],
+          "crowd": 0.65
+        },
+        {
+          "market": "fed-cuts",
+          "mean": 0.545,
+          "estimates": [
+            0.5,
+            0.68,
+            0.5,
+            0.5
+          ],
+          "crowd": 0.68
+        },
+        {
+          "market": "cpi-april",
+          "mean": 0.12250000000000003,
+          "estimates": [
+            0.03,
+            0.4,
+            0.03,
+            0.03
+          ],
+          "crowd": 0.41
+        }
+      ]
+    },
+    "8": {
+      "latent": [
+        {
+          "market": "ai-regulation",
+          "mean": 0.48,
+          "estimates": [
+            0.45,
+            0.45,
+            0.69,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45
+          ],
+          "crowd": 0.31
+        },
+        {
+          "market": "iran-nuclear",
+          "mean": 0.35875,
+          "estimates": [
+            0.35,
+            0.25,
+            0.77,
+            0.25,
+            0.35,
+            0.25,
+            0.35,
+            0.3
+          ],
+          "crowd": 0.225
+        },
+        {
+          "market": "bitcoin-60-80",
+          "mean": 0.58125,
+          "estimates": [
+            0.6,
+            0.65,
+            0.35,
+            0.65,
+            0.65,
+            0.65,
+            0.7,
+            0.4
+          ],
+          "crowd": 0.65
+        },
+        {
+          "market": "fed-cuts",
+          "mean": 0.575,
+          "estimates": [
+            0.5,
+            0.5,
+            0.32,
+            0.68,
+            0.7,
+            0.7,
+            0.7,
+            0.5
+          ],
+          "crowd": 0.68
+        },
+        {
+          "market": "cpi-april",
+          "mean": 0.35750000000000004,
+          "estimates": [
+            0.03,
+            0.45,
+            0.59,
+            0.41,
+            0.35,
+            0.45,
+            0.55,
+            0.03
+          ],
+          "crowd": 0.41
+        }
+      ],
+      "text": [
+        {
+          "market": "ai-regulation",
+          "mean": 0.35,
+          "estimates": [
+            0.45,
+            0.4,
+            0.35,
+            0.35,
+            0.3,
+            0.32,
+            0.33,
+            0.3
+          ],
+          "crowd": 0.31
+        },
+        {
+          "market": "iran-nuclear",
+          "mean": 0.21875,
+          "estimates": [
+            0.35,
+            0.25,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.15
+          ],
+          "crowd": 0.225
+        },
+        {
+          "market": "bitcoin-60-80",
+          "mean": 0.60625,
+          "estimates": [
+            0.6,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.35
+          ],
+          "crowd": 0.65
+        },
+        {
+          "market": "fed-cuts",
+          "mean": 0.49125,
+          "estimates": [
+            0.5,
+            0.68,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.25
+          ],
+          "crowd": 0.68
+        },
+        {
+          "market": "cpi-april",
+          "mean": 0.07625000000000001,
+          "estimates": [
+            0.03,
+            0.4,
+            0.03,
+            0.03,
+            0.03,
+            0.03,
+            0.03,
+            0.03
+          ],
+          "crowd": 0.41
+        }
+      ]
+    }
+  }
+}
