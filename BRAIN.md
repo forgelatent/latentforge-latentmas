@@ -1864,3 +1864,67 @@ Do NOT claim yet: better forecasting, alpha generation, replaces text.
 These require resolved-outcome calibration data.
 
 Next: Phase 11 — full four-arm benchmark on 11 Shadow Match markets.
+
+
+### April 14, 2026 — Phase 11 Critical Finding + Four-Engine Synthesis (MILESTONE)
+
+**Status: Major reinterpretation. Project continues on corrected foundation.**
+
+**What Phase 11 showed:**
+Arm 4 (latent swarm) produced 0.0000 divergence across all 11 markets.
+Every agent gave identical estimates. The latent channel is not influencing generation.
+
+**Root cause:**
+Hidden state extraction and text generation are two separate forward passes.
+Updating the seed vector externally has no effect on what the model generates.
+Each agent gets a fresh prompt and generates independently regardless of seed state.
+
+**Implication for Phase 10:**
+The divergence observed in Phase 10 (0.028/0.129/0.132 at 2/4/8 agents)
+came from AGENT ROLE DIVERSITY, not from latent delta chaining.
+The Contrarian agent (Agent 3) consistently produced different estimates
+regardless of whether the latent mechanism was active.
+
+Phase 10 is now relabeled: Role Diversity Scaling Result (not latent channel evidence).
+Defensible claim: Role-diverse sequential swarms maintain estimate diversity under scaling.
+Do NOT cite Phase 10 as evidence that latent communication influenced agent output.
+
+**What is still confirmed:**
+- Fidelity 1.0000 at 24x compression on Phi-3 Mini (RunPod A40) — VALID
+- Latent channel pipeline operational on M4 Pro MPS — VALID
+- Role-diverse text swarms produce divergence that scales with agent count — VALID
+- Latent transport (capture, compress, reconstruct) works — VALID
+
+**What is not yet proven:**
+- Latent communication influences agent output — NOT YET PROVEN
+- Latent channel produces better forecasting than text — NOT YET PROVEN
+
+**The correct framing (ChatGPT, four-engine synthesis April 14):**
+"We confirmed that latent deltas can be captured, compressed, and reconstructed
+with high fidelity, but found that external chaining alone does not influence
+agent outputs. Effective latent communication requires direct injection into
+the model internal computation."
+
+**Next engineering frontier: Activation Steering**
+Four-engine vote: Activation Steering 2 (Gemini, ChatGPT), Prepending 1 (Grok)
+Decision: Activation Steering — add latent delta to residual stream during generation.
+
+Why activation steering:
+- Most direct way to make latent state affect generation
+- No fake tokens, no attention cache surgery
+- Conceptually aligned with thesis: latent message influences model in native space
+- Most feasible on 32GB MPS hardware
+
+**Revised Day 30 deliverable (May 7):**
+Not: proof that latent communication improves swarm forecasting
+Now: proof-of-system with honest result — latent transport proven, latent influence
+requires internal injection, activation steering is the engineering frontier.
+
+**Updated safe citations as of April 14 (evening):**
+- 45% Brier improvement over naive baseline (April 4 historical benchmark)
+- 16+ consecutive days AI regulation divergence (swarm 19.3% vs crowd 31%)
+- Fidelity 1.0000 at 24x compression on Phi-3 Mini (RunPod A40, March 2026)
+- Latent transport confirmed on M4 Pro MPS (capture, compress, reconstruct)
+- Role-diverse sequential swarms maintain estimate diversity under scaling (Phase 10)
+DO NOT CITE: latent channel influences agent output (not yet proven)
+DO NOT CITE: Phase 10 divergence as latent channel evidence
