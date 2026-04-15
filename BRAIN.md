@@ -1827,3 +1827,40 @@ REMINDER: Shadow match is MANUAL — must run every morning:
 source ~/.latentforge/.env && python3 ~/Projects/latentforge-latentmas/experiments/week1/scripts/shadow_match.py
 
 Today priority: Mac Mini hardware recalibration set (10-20 markets).
+
+
+### April 14, 2026 — Phase 10 Scaling Test Results (MILESTONE)
+
+Scaling test complete using Option C (sequential delta chaining).
+5 markets, 2/4/8 agents, Phi-3 Mini on M4 Pro MPS.
+
+Results (avg latent vs text divergence):
+- 2 agents: 0.028
+- 4 agents: 0.129 (0.099 ex-CPI)
+- 8 agents: 0.132 (0.095 ex-CPI)
+
+Key finding:
+Latent coordination preserved substantially more estimate diversity than
+text as agent count increased. Text swarms showed strong consensus collapse
+(especially on CPI, where agents anchored to an early 3% estimate).
+Latent swarms maintained greater spread through the full 8-agent chain.
+
+Mechanism: sequential consensus cascade in text arm. Early agents set the
+reference frame via explicit symbols. Later agents overweight prior estimates
+and collapse variance. Latent arm transmits high-dimensional state, preserves
+uncertainty, enables multi-hypothesis propagation.
+
+Protocol note: sequential Option C amplifies anchoring in text arm. A reviewer
+could note this. Acknowledge in benchmark report: results are under sequential
+shared-state coordination; order effects may contribute to text collapse.
+
+Robustness: pattern holds after removing CPI (strongest single example).
+Effect size moderate but consistent and directionally supportive of thesis.
+
+Defensible claim: latent vector delta communication resists consensus collapse
+better than text coordination as swarms scale (~3.5x divergence at 4-8 agents).
+
+Do NOT claim yet: better forecasting, alpha generation, replaces text.
+These require resolved-outcome calibration data.
+
+Next: Phase 11 — full four-arm benchmark on 11 Shadow Match markets.
