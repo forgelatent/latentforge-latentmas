@@ -40,3 +40,27 @@ Decision: Keep 0.95. Market 1 flagged as content-specific outlier.
 AI regulation encodes differently — abstract, multi-layered, uncertain timelines.
 Not a hardware issue. Scientifically interesting — investigate separately.
 Status: PROCEED to Phase 10 (scaling test).
+
+
+## Phase 11 Result — April 14, 2026 (CRITICAL FINDING)
+Status: INVALIDATES PHASE 10 INTERPRETATION
+
+Phase 11 latent arm (Arm 4) produced 0.0000 divergence across all 11 markets.
+All 3 agents gave identical estimates on every market.
+
+Root cause: seed vector update does not influence text generation.
+Hidden state extraction and text generation are separate forward passes.
+Updating the seed externally has no effect on what the model generates.
+
+Implication for Phase 10: the divergence observed (0.028/0.129/0.132) came
+from agent ROLE diversity, not from latent delta chaining. The Contrarian
+agent (Agent 3) consistently produced different estimates regardless of
+the latent mechanism.
+
+The latent channel is not yet influencing generation. To do so, the
+updated seed must be injected into the model computation — not tracked
+externally. This is the core technical problem to solve next.
+
+DO NOT CITE Phase 10 divergence as latent channel evidence.
+Reframe: Phase 10 shows role-diverse text swarms produce divergence.
+The latent injection mechanism needs to be built properly.

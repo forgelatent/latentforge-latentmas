@@ -1,0 +1,479 @@
+{
+  "run_date": "2026-04-14",
+  "run_timestamp": "2026-04-14T21:13:05.191575",
+  "phase": 11,
+  "protocol": "Option C sequential delta chaining",
+  "num_swarm_agents": 3,
+  "extract_layer": -1,
+  "model": "Phi-3 Mini 3.8B",
+  "device": "mps",
+  "markets": [
+    {
+      "id": 1,
+      "question": "Will Ron DeSantis win the 2028 Republican nomination?",
+      "crowd_prob": 0.026,
+      "arm1_text_single": {
+        "estimate": 0.026,
+        "raw_response": "0.026"
+      },
+      "arm2_text_swarm": {
+        "agents": [
+          0.026,
+          0.026,
+          0.026
+        ],
+        "raw_responses": [
+          "0.026",
+          "0.026",
+          "0.026"
+        ],
+        "mean": 0.026,
+        "divergence": 0.0
+      },
+      "arm3_latent_single": {
+        "estimate": 0.026,
+        "raw_response": "0.026",
+        "mean": 0.026
+      },
+      "arm4_latent_swarm": {
+        "agents": [
+          0.026,
+          0.026,
+          0.026
+        ],
+        "raw_responses": [
+          "0.026",
+          "0.026",
+          "0.026"
+        ],
+        "mean": 0.026,
+        "divergence": 0.0
+      }
+    },
+    {
+      "id": 2,
+      "question": "Will Pete Buttigieg win the 2028 Democratic nomination?",
+      "crowd_prob": 0.038,
+      "arm1_text_single": {
+        "estimate": 0.045,
+        "raw_response": "0.045"
+      },
+      "arm2_text_swarm": {
+        "agents": [
+          0.045,
+          0.038,
+          0.035
+        ],
+        "raw_responses": [
+          "0.045",
+          "0.0380",
+          "0.035"
+        ],
+        "mean": 0.03933333333333333,
+        "divergence": 0.004189935029992176
+      },
+      "arm3_latent_single": {
+        "estimate": 0.045,
+        "raw_response": "0.045",
+        "mean": 0.045
+      },
+      "arm4_latent_swarm": {
+        "agents": [
+          0.045,
+          0.045,
+          0.045
+        ],
+        "raw_responses": [
+          "0.045",
+          "0.045",
+          "0.045"
+        ],
+        "mean": 0.045000000000000005,
+        "divergence": 6.938893903907228e-18
+      }
+    },
+    {
+      "id": 3,
+      "question": "Will J.D. Vance win the 2028 Republican nomination?",
+      "crowd_prob": 0.367,
+      "arm1_text_single": {
+        "estimate": 0.45,
+        "raw_response": "0.450"
+      },
+      "arm2_text_swarm": {
+        "agents": [
+          0.45,
+          0.37,
+          0.4
+        ],
+        "raw_responses": [
+          "0.450",
+          "0.3700",
+          "0.4000"
+        ],
+        "mean": 0.40666666666666673,
+        "divergence": 0.032998316455372226
+      },
+      "arm3_latent_single": {
+        "estimate": 0.45,
+        "raw_response": "0.450",
+        "mean": 0.45
+      },
+      "arm4_latent_swarm": {
+        "agents": [
+          0.45,
+          0.45,
+          0.45
+        ],
+        "raw_responses": [
+          "0.450",
+          "0.450",
+          "0.450"
+        ],
+        "mean": 0.45,
+        "divergence": 0.0
+      }
+    },
+    {
+      "id": 4,
+      "question": "Will Gavin Newsom win the 2028 US Presidential Election?",
+      "crowd_prob": 0.172,
+      "arm1_text_single": {
+        "estimate": 0.172,
+        "raw_response": "0.172"
+      },
+      "arm2_text_swarm": {
+        "agents": [
+          0.172,
+          0.172,
+          0.17
+        ],
+        "raw_responses": [
+          "0.172",
+          "0.172",
+          "0.17"
+        ],
+        "mean": 0.17133333333333334,
+        "divergence": 0.0009428090415820511
+      },
+      "arm3_latent_single": {
+        "estimate": 0.172,
+        "raw_response": "0.172",
+        "mean": 0.172
+      },
+      "arm4_latent_swarm": {
+        "agents": [
+          0.172,
+          0.172,
+          0.172
+        ],
+        "raw_responses": [
+          "0.172",
+          "0.172",
+          "0.172"
+        ],
+        "mean": 0.17200000000000001,
+        "divergence": 2.7755575615628914e-17
+      }
+    },
+    {
+      "id": 5,
+      "question": "Will J.D. Vance win the 2028 US Presidential Election?",
+      "crowd_prob": 0.176,
+      "arm1_text_single": {
+        "estimate": 0.18,
+        "raw_response": "0.18"
+      },
+      "arm2_text_swarm": {
+        "agents": [
+          0.18,
+          0.15,
+          0.165
+        ],
+        "raw_responses": [
+          "0.18",
+          "0.1500\n\nReasoning: Considering the current political climate, J.D. Vance's appeal to a specific demographic, and the historical performance of similar candidates, I estimate a moderate probability of 15.0% for his victory in the 20",
+          "0.165"
+        ],
+        "mean": 0.165,
+        "divergence": 0.01224744871391589
+      },
+      "arm3_latent_single": {
+        "estimate": 0.18,
+        "raw_response": "0.18",
+        "mean": 0.18
+      },
+      "arm4_latent_swarm": {
+        "agents": [
+          0.18,
+          0.18,
+          0.18
+        ],
+        "raw_responses": [
+          "0.18",
+          "0.18",
+          "0.18"
+        ],
+        "mean": 0.18000000000000002,
+        "divergence": 2.7755575615628914e-17
+      }
+    },
+    {
+      "id": 6,
+      "question": "Will Bitcoin hit $60k or $80k first?",
+      "crowd_prob": 0.65,
+      "arm1_text_single": {
+        "estimate": 0.65,
+        "raw_response": "0.650"
+      },
+      "arm2_text_swarm": {
+        "agents": [
+          0.65,
+          0.65,
+          0.65
+        ],
+        "raw_responses": [
+          "0.650",
+          "0.6500",
+          "0.6500"
+        ],
+        "mean": 0.65,
+        "divergence": 0.0
+      },
+      "arm3_latent_single": {
+        "estimate": 0.65,
+        "raw_response": "0.650",
+        "mean": 0.65
+      },
+      "arm4_latent_swarm": {
+        "agents": [
+          0.65,
+          0.65,
+          0.65
+        ],
+        "raw_responses": [
+          "0.650",
+          "0.650",
+          "0.650"
+        ],
+        "mean": 0.65,
+        "divergence": 0.0
+      }
+    },
+    {
+      "id": 7,
+      "question": "Will China blockade Taiwan by June 30?",
+      "crowd_prob": 0.036,
+      "arm1_text_single": {
+        "estimate": 0.036,
+        "raw_response": "0.036"
+      },
+      "arm2_text_swarm": {
+        "agents": [
+          0.036,
+          0.036,
+          0.036
+        ],
+        "raw_responses": [
+          "0.036",
+          "0.036",
+          "0.036"
+        ],
+        "mean": 0.036,
+        "divergence": 0.0
+      },
+      "arm3_latent_single": {
+        "estimate": 0.036,
+        "raw_response": "0.036",
+        "mean": 0.036
+      },
+      "arm4_latent_swarm": {
+        "agents": [
+          0.036,
+          0.036,
+          0.036
+        ],
+        "raw_responses": [
+          "0.036",
+          "0.036",
+          "0.036"
+        ],
+        "mean": 0.036,
+        "divergence": 0.0
+      }
+    },
+    {
+      "id": 8,
+      "question": "Will 9 Fed rate cuts happen in 2026?",
+      "crowd_prob": 0.004,
+      "arm1_text_single": {
+        "estimate": 0.15,
+        "raw_response": "0.150"
+      },
+      "arm2_text_swarm": {
+        "agents": [
+          0.15,
+          0.05,
+          0.05
+        ],
+        "raw_responses": [
+          "0.150",
+          "0.0500\n\nReasoning: Considering the historical context of Fed rate cuts and the current economic indicators, a moderate probability is assigned, reflecting a cautious optimism for potential rate cuts in 2026.",
+          "0.0500"
+        ],
+        "mean": 0.08333333333333333,
+        "divergence": 0.04714045207910316
+      },
+      "arm3_latent_single": {
+        "estimate": 0.15,
+        "raw_response": "0.150",
+        "mean": 0.15
+      },
+      "arm4_latent_swarm": {
+        "agents": [
+          0.15,
+          0.15,
+          0.15
+        ],
+        "raw_responses": [
+          "0.150",
+          "0.150",
+          "0.150"
+        ],
+        "mean": 0.15,
+        "divergence": 0.0
+      }
+    },
+    {
+      "id": 9,
+      "question": "Will Jerome Powell be confirmed as Fed Chair?",
+      "crowd_prob": 0.001,
+      "arm1_text_single": {
+        "estimate": 0.05,
+        "raw_response": "0.050"
+      },
+      "arm2_text_swarm": {
+        "agents": [
+          0.05,
+          0.02,
+          0.03
+        ],
+        "raw_responses": [
+          "0.050",
+          "0.0200\n\n\nReasoning: Given the low crowd probability and considering the historical data where Fed Chair confirmations have been relatively rare events, I would estimate a slightly higher probability than the crowd but still significantly lower than the previous agent's estimate.",
+          "0.0300"
+        ],
+        "mean": 0.03333333333333333,
+        "divergence": 0.012472191289246471
+      },
+      "arm3_latent_single": {
+        "estimate": 0.05,
+        "raw_response": "0.050",
+        "mean": 0.05
+      },
+      "arm4_latent_swarm": {
+        "agents": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "raw_responses": [
+          "0.050",
+          "0.050",
+          "0.050"
+        ],
+        "mean": 0.05000000000000001,
+        "divergence": 6.938893903907228e-18
+      }
+    },
+    {
+      "id": 10,
+      "question": "Will US-Iran nuclear deal happen by June 30?",
+      "crowd_prob": 0.225,
+      "arm1_text_single": {
+        "estimate": 0.225,
+        "raw_response": "0.225"
+      },
+      "arm2_text_swarm": {
+        "agents": [
+          0.225,
+          0.225,
+          0.23
+        ],
+        "raw_responses": [
+          "0.225",
+          "0.225",
+          "0.23"
+        ],
+        "mean": 0.22666666666666668,
+        "divergence": 0.0023570226039551605
+      },
+      "arm3_latent_single": {
+        "estimate": 0.225,
+        "raw_response": "0.225",
+        "mean": 0.225
+      },
+      "arm4_latent_swarm": {
+        "agents": [
+          0.225,
+          0.225,
+          0.225
+        ],
+        "raw_responses": [
+          "0.225",
+          "0.225",
+          "0.225"
+        ],
+        "mean": 0.225,
+        "divergence": 0.0
+      }
+    },
+    {
+      "id": 11,
+      "question": "Will PPP win the 2026 South Korean local elections?",
+      "crowd_prob": 0.042,
+      "arm1_text_single": {
+        "estimate": 0.042,
+        "raw_response": "0.042"
+      },
+      "arm2_text_swarm": {
+        "agents": [
+          0.042,
+          0.042,
+          0.042
+        ],
+        "raw_responses": [
+          "0.042",
+          "0.042",
+          "0.042"
+        ],
+        "mean": 0.042,
+        "divergence": 0.0
+      },
+      "arm3_latent_single": {
+        "estimate": 0.042,
+        "raw_response": "0.042",
+        "mean": 0.042
+      },
+      "arm4_latent_swarm": {
+        "agents": [
+          0.042,
+          0.042,
+          0.042
+        ],
+        "raw_responses": [
+          "0.042",
+          "0.042",
+          "0.042"
+        ],
+        "mean": 0.042,
+        "divergence": 0.0
+      }
+    }
+  ],
+  "summary": {
+    "arm2_text_swarm_mean_divergence": 0.010213470473924284,
+    "arm4_latent_swarm_mean_divergence": 6.308085367188389e-18,
+    "diversity_ratio_latent_vs_text": 6.176240860825299e-16
+  }
+}
