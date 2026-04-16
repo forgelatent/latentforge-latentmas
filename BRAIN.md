@@ -2279,7 +2279,7 @@ Jiaru Zou outreach timing — FOUNDER DECISION REQUIRED:
 - Gemini: send tomorrow
 - ChatGPT: reach out soon, not necessarily May 7
 - Grok: April 18-20 after one replication run
-Decision pending from John.
+Decision: PARKED — John decided not yet. Revisit when bearish direction working and more markets replicated.
 
 NEXT STEPS LOCKED (April 16):
 1. Replicate bullish result once to confirm it holds
@@ -2287,3 +2287,12 @@ NEXT STEPS LOCKED (April 16):
 3. Shadow match morning routine
 4. Draft Jiaru Zou outreach message
 5. Begin three different May 7 narrative drafts (research / governance / quant)
+
+
+### April 16, 2026 — Morning Update
+
+OBF Paper (arXiv:2604.13349) logged. Not competitive — different mechanism.
+OBF added as candidate for compression tournament (Arm 5).
+Jiaru Zou outreach: PARKED per founder decision. Do not revisit until bearish steering working.
+
+BRAIN.md Jiaru entry updated: parked until bidirectional steering confirmed + more markets replicated.
