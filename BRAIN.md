@@ -2252,3 +2252,38 @@ SAFE CITATIONS AS OF APRIL 15 (FINAL):
 - True latent steering confirmed: bullish injection shifts estimate
   35% to 75% with genuine stance-specific reasoning (April 15)
 DO NOT CITE: symmetric bidirectional control (bearish still pending)
+
+
+### April 15, 2026 — Four-Engine Synthesis on TRUE LATENT STEERING (Final)
+
+All three engines responded to the milestone. Key consensus:
+
+Motor-car thesis: Early validated, not fully proven.
+- Gemini: Yes, fully proven. First flight analogy.
+- ChatGPT: First proof-of-possibility. One market, one direction, one config.
+- Grok: Serious result. Not complete, not symmetric, not general. But real.
+Honest position: ChatGPT and Grok correct. Motor car early validated.
+
+Bearish fix — all engines agree:
+1. Normalize/scale the bearish vector first
+2. Build v_bear = h_bear - h_neutral (positive injection, no sign flipping)
+3. Try earlier layers [12,16,20] if normalization fails (Gemini)
+Do NOT use more extreme prompts — risks louder vectors not cleaner ones.
+
+May 7 conversations — unanimous yes, three different pitches:
+- Polymarket research: novel infrastructure, latent steering shifts reasoning
+- Quant fund: new coordination substrate, NOT claiming alpha yet
+- Enterprise governance: strongest story — transport + auditability + controlled influence
+
+Jiaru Zou outreach timing — FOUNDER DECISION REQUIRED:
+- Gemini: send tomorrow
+- ChatGPT: reach out soon, not necessarily May 7
+- Grok: April 18-20 after one replication run
+Decision pending from John.
+
+NEXT STEPS LOCKED (April 16):
+1. Replicate bullish result once to confirm it holds
+2. Normalize bearish vector + build v_bear - h_neutral + test on 2-3 more markets
+3. Shadow match morning routine
+4. Draft Jiaru Zou outreach message
+5. Begin three different May 7 narrative drafts (research / governance / quant)
