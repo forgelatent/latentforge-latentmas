@@ -2114,3 +2114,59 @@ Bitcoin only first, then expand if working.
 Day 30 framing locked (all engines agree):
 Transport confirmed + intensity steering confirmed + directional frontier active.
 Publishable on May 7 with honest framing even without directional success.
+
+
+### April 15, 2026 — Contrastive Injection RESULT (MAJOR MILESTONE)
+
+Script: experiments/week4/contrastive_injection.py
+Results: experiments/week4/activation_steering/contrastive_2026-04-15.json
+
+Method:
+- Contrastive vector = h_bullish - h_bearish
+- Cosine similarity bullish/bearish: 0.9728 (97% similar — tiny directional difference)
+- Contrastive norm: 19.17 (vs 82 for full vectors)
+- Inject +contrastive for bullish, -contrastive for bearish
+
+KEY RESULT:
+Layers [16, 20, 24] Scale 0.45:
+  Control: 65%
+  Bullish: 65% (no shift)
+  Bearish: 35% (30 point DROP)
+
+Bearish contrastive injection shifted estimate from 65% to 35%.
+This is a 30 point directional shift in the correct direction.
+
+Asymmetry observed:
+Bullish direction did not move (both hidden states are 97% similar,
+the contrastive vector may point more toward the bearish pole).
+Bearish direction moved dramatically (35%).
+
+Significance:
+The contrastive vector encodes genuine directional content.
+When injected, it shifts downstream probability estimates in the
+expected direction. This is the first evidence of directional
+semantic control in the latent channel.
+
+HONEST STATE AS OF APRIL 15 LATE EVENING:
+- Latent transport: CONFIRMED
+- Activation steering (intensity): CONFIRMED
+- Directional semantic control (bearish): CONFIRMED (65->35% at scale 0.45)
+- Directional semantic control (bullish): NOT YET WORKING
+- Symmetric bidirectional control: NOT YET CONFIRMED
+
+Next steps:
+1. Explain asymmetry — why does bearish work but not bullish?
+   The contrastive vector (bull-bear) may point in the bearish direction
+   of the latent space. Try reversing: vector = h_bearish - h_bullish
+   and inject +vector for bearish, -vector for bullish.
+2. Test on more markets beyond Bitcoin
+3. If symmetric bidirectional achieved: motor car thesis substantially supported
+
+UPDATED SAFE CITATIONS AS OF APRIL 15:
+- 45% Brier improvement over naive baseline (April 4 historical benchmark)
+- 17+ consecutive days AI regulation divergence (swarm 20% vs crowd 31%)
+- Fidelity 1.0000 at 24x compression on Phi-3 Mini (RunPod A40, March 2026)
+- Latent transport confirmed on M4 Pro MPS
+- Activation steering confirmed: injection shifts probability estimates
+- Directional semantic control confirmed (bearish): 65% to 35% at scale 0.45
+DO NOT CITE YET: symmetric bidirectional control
