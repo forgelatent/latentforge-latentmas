@@ -2091,3 +2091,26 @@ SAFE CITATIONS AS OF APRIL 15 (FINAL):
   (65% to 70-75% at scales 0.3-0.45)
 DO NOT CITE: directional semantic control (not yet working)
 DO NOT CITE: Phase 10 divergence as latent channel evidence
+
+
+### April 15, 2026 — Four-Engine Synthesis: Next Steps Locked
+
+All three engines aligned on contrastive injection as next step.
+Two-step plan for April 16:
+
+Step 1 — Negative-bullish calibration (quick diagnostic):
+Inject -v_bullish (negative of bullish vector) into Agent B.
+If estimate goes BELOW 65%: direction works, bearish prompt was too weak.
+If estimate stays at 70%+: model cannot process negative directions via mid-layer injection.
+This takes 5 minutes and tells us exactly what we are dealing with.
+
+Step 2 — Contrastive injection:
+Compute delta = h_bullish - h_bearish (difference vector).
+Inject +delta for bullish steering, -delta for bearish steering.
+Test at late layers (24, 26, 28) — direction likely encodes closer to output.
+Scale range: 0.3-0.45 (proven stable zone).
+Bitcoin only first, then expand if working.
+
+Day 30 framing locked (all engines agree):
+Transport confirmed + intensity steering confirmed + directional frontier active.
+Publishable on May 7 with honest framing even without directional success.
