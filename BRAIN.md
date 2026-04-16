@@ -2170,3 +2170,36 @@ UPDATED SAFE CITATIONS AS OF APRIL 15:
 - Activation steering confirmed: injection shifts probability estimates
 - Directional semantic control confirmed (bearish): 65% to 35% at scale 0.45
 DO NOT CITE YET: symmetric bidirectional control
+
+
+### April 15, 2026 — Contrastive Injection Correction (Important)
+
+The 35% bearish result was NOT true semantic steering.
+It was complement arithmetic / framing hijack.
+
+Model reasoning: 65% for 80k, so 100% - 65% = 35% for 60k.
+The injection flipped which side of the probability was reported,
+not the underlying belief. No bearish arguments in the reasoning.
+
+REVISED HONEST STATE:
+- Latent transport: CONFIRMED
+- Activation steering (output change): CONFIRMED
+- Directional semantic control: NOT YET CONFIRMED
+  Current results are framing/logit hijacks, not belief updates
+
+TOMORROW PLAN — Semantic Invariance Test:
+Agent B prompt (fixed, forced format):
+After considering all factors, my probability that Bitcoin reaches
+80k first is X%. Then 2-3 sentences of actual reasoning supporting
+the estimate. No complement arithmetic. No crowd anchor in prompt.
+
+Evaluation criteria for TRUE semantic steering:
+1. Probability for 80k first moves up under bullish, down under bearish
+2. Reasoning contains stance-specific arguments (not arithmetic)
+3. No complement flip language
+4. Ordered: bullish > control > bearish
+
+Run: reversed contrastive vector + forced-format Agent B together.
+Test config: layers [16,20,24] scale 0.45 first, then sweep.
+
+DO NOT CITE: directional semantic control (previous 35% was framing hijack)
