@@ -2296,3 +2296,26 @@ OBF added as candidate for compression tournament (Arm 5).
 Jiaru Zou outreach: PARKED per founder decision. Do not revisit until bearish steering working.
 
 BRAIN.md Jiaru entry updated: parked until bidirectional steering confirmed + more markets replicated.
+
+
+### MORNING CHECKLIST — Run Every Day Before Mac Mini (Added April 16, 2026)
+
+Execute in order. Do not skip steps. Do not go to Mac Mini until all 12 are done.
+
+1.  git pull origin main (MacBook sync)
+2.  Overnight jobs check — all 8 files dated today
+3.  Re-run any timeouts manually (compression researcher + revenue strategist most common)
+4.  Shadow match — manual run every morning
+5.  Text swarm output
+6.  Research digest — full file, not just first 60 lines
+7.  Compression researcher output
+8.  Revenue strategist output
+9.  Commercialization agent output
+10. Benchmark report / calibration tracker
+11. GitHub activity — check for emergency triggers
+12. Any founder inputs to log from X/articles?
+
+Only after all 12 → head to Mac Mini.
+
+Morning check command:
+source ~/.latentforge/.env && python3 ~/Projects/latentforge-latentmas/experiments/week1/scripts/shadow_match.py
