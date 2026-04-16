@@ -2203,3 +2203,52 @@ Run: reversed contrastive vector + forced-format Agent B together.
 Test config: layers [16,20,24] scale 0.45 first, then sweep.
 
 DO NOT CITE: directional semantic control (previous 35% was framing hijack)
+
+
+### April 15, 2026 — TRUE LATENT STEERING CONFIRMED (MAJOR MILESTONE)
+
+Script: experiments/week4/semantic_invariance_test.py
+Results: experiments/week4/activation_steering/semantic_test_2026-04-15_2009.json
+
+Test design (semantic invariance — no crowd anchor, forced reasoning):
+Agent B prompt: Will Bitcoin hit 80k or 60k first? Begin with exactly:
+After considering all factors, my probability that Bitcoin reaches 80k
+first is X%. Then 2-3 sentences of actual reasoning. No complement math.
+
+RESULTS at layers [16,20,24]:
+Control (no injection): 35%
+Reasoning: hedged, balanced, moderate
+
+Bullish vector (h_bull - h_bear) injected at scale 0.4:
+Result: 75% — 40 point upward shift
+Reasoning: institutional investments, positive sentiment, strong upward
+trajectory — genuine bullish arguments, no hedging
+
+THIS IS TRUE LATENT STEERING:
+1. 40 point probability shift (35% to 75%)
+2. Reasoning changed to match injected stance
+3. Stance-specific bullish arguments in output
+4. No complement arithmetic — both report P(80k first)
+
+The motor car is moving. Latent vector deltas from one agent
+can influence the reasoning and probability estimates of another.
+
+UPDATED HONEST STATE:
+- Latent transport: CONFIRMED
+- Activation steering (intensity): CONFIRMED
+- Directional semantic control (bullish): CONFIRMED
+  35% to 75% with genuine bullish reasoning at scale 0.4
+- Directional semantic control (bearish): NOT YET WORKING
+  Bearish vector injection breaks coherence
+
+NEXT: Fix bearish direction and test on more markets.
+The bullish pole works. Need to find the bearish injection approach.
+
+SAFE CITATIONS AS OF APRIL 15 (FINAL):
+- 45% Brier improvement over naive baseline (April 4 historical)
+- 17+ consecutive days AI regulation divergence (20% vs 31%)
+- Fidelity 1.0000 at 24x compression (RunPod A40, March 2026)
+- Latent transport confirmed on M4 Pro MPS
+- True latent steering confirmed: bullish injection shifts estimate
+  35% to 75% with genuine stance-specific reasoning (April 15)
+DO NOT CITE: symmetric bidirectional control (bearish still pending)
