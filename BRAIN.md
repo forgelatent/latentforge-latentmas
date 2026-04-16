@@ -2024,3 +2024,70 @@ UPDATED SAFE CITATIONS AS OF APRIL 15 (EVENING):
   on identical prompts (2/5 markets, scale 0.3, layers 16/20/24)
 DO NOT CITE YET: directional semantic influence (next test)
 DO NOT CITE: Phase 10 divergence as latent channel evidence
+
+
+### April 15, 2026 — Directional Steering Test Results (Evening)
+
+Script: experiments/week4/activation_steering_directional.py
+Results: experiments/week4/activation_steering/directional_2026-04-15.json
+
+Test design:
+- Agent A Bullish: strongly bullish Bitcoin forecaster
+- Agent A Bearish: strongly bearish Bitcoin forecaster (v2 with conviction language)
+- Agent B Neutral: forced numeric output (Probability: X%)
+- Scales tested: 0.3, 0.35, 0.4, 0.45, 0.5
+- Injection layers: 16, 20, 24
+
+Results:
+Scale 0.30: Control 65% / Bullish 70% / Bearish 70%
+Scale 0.35: Control 65% / Bullish 70% / Bearish 70%
+Scale 0.40: Control 65% / Bullish 75% / Bearish 75%
+Scale 0.45: Control 65% / Bullish 75% / Bearish 75%
+Scale 0.50: Control 65% / Bullish 7X% / Bearish 7X% (starting to collapse)
+
+Key finding: Activation steering transmits INTENSITY not DIRECTION.
+Bullish and bearish injections produce identical probability shifts.
+Both move estimates up by the same amount at the same scale.
+The directional content of the injected state is not being preserved.
+
+Why this happens:
+Both bullish and bearish prompts activate similar market-analysis regions
+of the latent space. The residual (hidden state minus seed) from either
+prompt points in roughly the same direction. The injection mechanism
+transmits the magnitude of the departure from seed, not the semantic
+direction of that departure.
+
+What this means for the thesis:
+The current injection approach (add residual to residual stream) cannot
+distinguish between opposing semantic directions. A different approach
+is needed to transmit directional content.
+
+Options to investigate:
+1. Layer selection — try different layers (early vs late) that may
+   encode directional content more distinctly
+2. Residual computation — instead of (hidden - seed), compute
+   (bullish_hidden - bearish_hidden) as the directional vector
+3. Contrastive injection — inject the DIFFERENCE between two opposing
+   hidden states rather than the absolute residual from seed
+
+HONEST STATE OF THE THESIS AS OF APRIL 15 EVENING:
+- Latent transport: CONFIRMED
+- Activation steering (intensity): CONFIRMED — injection shifts estimates
+- Directional semantic control: NOT YET WORKING
+  Current mechanism transmits intensity, not direction
+
+Next engineering step: Contrastive injection
+Compute directional vector = bullish_hidden - bearish_hidden
+Inject this difference vector (not the absolute residual)
+This should encode only the directional difference, not the overall
+market-analysis intensity that both prompts share.
+
+SAFE CITATIONS AS OF APRIL 15 (FINAL):
+- 45% Brier improvement over naive baseline (April 4 historical benchmark)
+- 17+ consecutive days AI regulation divergence (swarm 20% vs crowd 31%)
+- Fidelity 1.0000 at 24x compression on Phi-3 Mini (RunPod A40, March 2026)
+- Latent transport confirmed on M4 Pro MPS
+- Activation steering confirmed: injection shifts probability estimates
+  (65% to 70-75% at scales 0.3-0.45)
+DO NOT CITE: directional semantic control (not yet working)
+DO NOT CITE: Phase 10 divergence as latent channel evidence
