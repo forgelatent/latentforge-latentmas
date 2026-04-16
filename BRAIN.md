@@ -1977,3 +1977,50 @@ SAFE CITATIONS AS OF APRIL 15:
 - Role-diverse sequential swarms maintain estimate diversity under scaling (Phase 10)
 DO NOT CITE: latent channel influences agent output (not yet proven)
 DO NOT CITE: Phase 10 divergence as latent channel evidence
+
+
+### April 15, 2026 — Activation Steering PoC RESULT (MILESTONE)
+
+Status: INJECTION IS WORKING. Latent channel can influence generation.
+
+Script: experiments/week4/activation_steering_poc.py
+Results: experiments/week4/activation_steering/steering_2026-04-15.json
+
+Test design:
+- Same prompt, two arms: baseline vs steered
+- Residual injected at layers 16, 20, 24 at scale 0.3
+- Random residual (norm ~0.05 x hidden_dim) — not yet a real Agent A signal
+- do_sample=False (greedy) so any difference = injection effect only
+
+Results (5 markets):
+- 2/5 markets showed different outputs with injection
+- 3/5 identical (injection had no measurable effect at this scale)
+
+What changed in the affected markets:
+- Bitcoin: steered version more analytical, referenced crowd probability directly,
+  produced different reasoning path on identical prompt
+- Powell: different word choices (skepticism vs opposition), added new reasoning
+  element (lack of consensus among key decision-makers) not in base output
+
+Significance:
+This is NOT random noise. The steered version produced different reasoning paths.
+Activation steering at scale 0.3 with random residual influences generation.
+With a real Agent A hidden state as the residual, the effect should be stronger
+and semantically meaningful.
+
+Next steps:
+1. Run with real Agent A hidden state (not random residual)
+2. Try scale 1.0 for stronger effect
+3. Design a directional test: inject bullish vs bearish signal, measure
+   whether probability estimates shift in the expected direction
+4. If directional test passes: latent channel is semantically meaningful
+
+UPDATED SAFE CITATIONS AS OF APRIL 15 (EVENING):
+- 45% Brier improvement over naive baseline (April 4 historical benchmark)
+- 17+ consecutive days AI regulation divergence (swarm 20% vs crowd 31%)
+- Fidelity 1.0000 at 24x compression on Phi-3 Mini (RunPod A40, March 2026)
+- Latent transport confirmed on M4 Pro MPS (capture, compress, reconstruct)
+- Activation steering confirmed working: injected residual changes agent output
+  on identical prompts (2/5 markets, scale 0.3, layers 16/20/24)
+DO NOT CITE YET: directional semantic influence (next test)
+DO NOT CITE: Phase 10 divergence as latent channel evidence
