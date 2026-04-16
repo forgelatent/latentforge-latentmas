@@ -1,0 +1,77 @@
+[
+  {
+    "market": "ai-regulation",
+    "question": "Will an AI regulation bill pass in US Congress before end of 2026?",
+    "crowd_prob": 0.31,
+    "base": "I cannot predict the future.",
+    "steered": "I cannot predict the future.",
+    "identical": true,
+    "residual_norm": 2.7734375,
+    "injection_layers": [
+      16,
+      20,
+      24
+    ],
+    "injection_scale": 0.3
+  },
+  {
+    "market": "iran-nuclear",
+    "question": "Will the US and Iran reach a nuclear deal by June 30 2026?",
+    "crowd_prob": 0.225,
+    "base": "I cannot predict future events.",
+    "steered": "I cannot predict future events.",
+    "identical": true,
+    "residual_norm": 2.748046875,
+    "injection_layers": [
+      16,
+      20,
+      24
+    ],
+    "injection_scale": 0.3
+  },
+  {
+    "market": "bitcoin",
+    "question": "Will Bitcoin hit 60k or 80k first?",
+    "crowd_prob": 0.65,
+    "base": "As an AI, I don't have personal opinions or predictions. However, I can provide information on factors that might influence the price of Bitcoin.\n\nBitcoin's price is influenced by various factors, including market demand, investor sentiment, regulatory news, technological advancements, and macroeconomic trends. It's essential to remember that cryptocurrency markets are highly volatile and unpredictable.\n\nThe probability estimate of Bitcoin hitting 60k or 80k first would depend on the analysis of these factors and the market's overall sentiment. It's crucial to conduct thorough research and consider multiple perspectives before making any investment",
+    "steered": "As an AI, I don't have personal opinions or predictions. However, I can provide information based on historical data and market analysis.\n\nBitcoin's price has experienced significant volatility since its inception, with numerous fluctuations reaching both highs and lows. The question of whether Bitcoin will hit $60,000 or $80,000 first is speculative and depends on various factors, including market sentiment, regulatory developments, technological advancements, and macroeconomic conditions.\n\nThe \"crowd probability\" of 65.0% suggests that, based on available data and market sentiment, there is a slightly higher",
+    "identical": false,
+    "residual_norm": 2.755859375,
+    "injection_layers": [
+      16,
+      20,
+      24
+    ],
+    "injection_scale": 0.3
+  },
+  {
+    "market": "powell",
+    "question": "Will Jerome Powell be confirmed as Fed Chair?",
+    "crowd_prob": 0.001,
+    "base": "The probability estimate for Jerome Powell being confirmed as Fed Chair is 0.1%. This low probability suggests that there is significant uncertainty or skepticism surrounding his confirmation. This could be due to various factors such as political opposition, concerns about his policy stance, or other external influences.",
+    "steered": "The probability estimate for Jerome Powell being confirmed as Fed Chair is 0.1%. This low probability suggests that there is significant uncertainty or opposition surrounding his confirmation. Factors contributing to this low probability could include political disagreements, concerns about his policy stances, or a lack of consensus among key decision-makers.",
+    "identical": false,
+    "residual_norm": 2.763671875,
+    "injection_layers": [
+      16,
+      20,
+      24
+    ],
+    "injection_scale": 0.3
+  },
+  {
+    "market": "vance",
+    "question": "Will JD Vance win the 2028 US Presidential Election?",
+    "crowd_prob": 0.176,
+    "base": "As an AI, I don't have personal opinions or predictive capabilities. The probability of JD Vance winning the 2028 US Presidential Election would depend on various factors such as his political platform, campaign strategy, public opinion, and the political climate at the time. It's essential to consider these factors and analyze current trends to make an informed estimate.",
+    "steered": "As an AI, I don't have personal opinions or predictive capabilities. The probability of JD Vance winning the 2028 US Presidential Election would depend on various factors such as his political platform, campaign strategy, public opinion, and the political climate at the time. It's essential to consider these factors and analyze current trends to make an informed estimate.",
+    "identical": true,
+    "residual_norm": 2.712890625,
+    "injection_layers": [
+      16,
+      20,
+      24
+    ],
+    "injection_scale": 0.3
+  }
+]
