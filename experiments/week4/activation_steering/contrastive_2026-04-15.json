@@ -1,0 +1,101 @@
+[
+  {
+    "layers": [
+      16,
+      20,
+      24
+    ],
+    "scale": 0.3,
+    "control": "Probability: 65%. The current crowd probability indicates that there is a 65% chance that Bitcoin will reach $80,000 before $60,000.",
+    "bullish": "Probability: 65%. Given the current crowd probability, it is statistically more likely that Bitcoin will reach $80,000 before $60,000.",
+    "bearish": "Probability: 65%. The current crowd probability indicates that there is a 65% chance that Bitcoin will reach $80,000 before $60,000."
+  },
+  {
+    "layers": [
+      16,
+      20,
+      24
+    ],
+    "scale": 0.4,
+    "control": "Probability: 65%. The current crowd probability indicates that there is a 65% chance that Bitcoin will reach $80,000 before $60,000.",
+    "bullish": "Probability: 65%. Given the current crowd probability, it is statistically more likely that Bitcoin will reach $80,000 before $60,000, based on the existing market sentiment and trends.",
+    "bearish": "Probability: 65%. The current crowd probability indicates that there is a 65% chance that Bitcoin will reach $80,000 before $60,000."
+  },
+  {
+    "layers": [
+      16,
+      20,
+      24
+    ],
+    "scale": 0.45,
+    "control": "Probability: 65%. The current crowd probability indicates that there is a 65% chance that Bitcoin will reach $80,000 before $60,000.",
+    "bullish": "Probability: 65%. Given the current crowd probability, it is statistically more likely that Bitcoin will reach $80,000 before $60,000, based on the existing market sentiment and trends.",
+    "bearish": "Probability: 35%.\n\nReasoning: Given the current crowd probability of 65% for $80k first, the remaining probability for $60k reaching first is 100% - 65% = 35%."
+  },
+  {
+    "layers": [
+      24,
+      26,
+      28
+    ],
+    "scale": 0.3,
+    "control": "Probability: 65%. The current crowd probability indicates that there is a 65% chance that Bitcoin will reach $80,000 before $60,000.",
+    "bullish": "Probability: 65%. The current crowd probability indicates that there is a 65% chance that Bitcoin will reach $80,000 before $60,000, based on the collective sentiment or analysis of the market participants.",
+    "bearish": "Probability: 65%. The current crowd probability indicates that there is a 65% chance that Bitcoin will reach $80,000 before $60,000."
+  },
+  {
+    "layers": [
+      24,
+      26,
+      28
+    ],
+    "scale": 0.4,
+    "control": "Probability: 65%. The current crowd probability indicates that there is a 65% chance that Bitcoin will reach $80,000 before $60,000.",
+    "bullish": "Probability: 65%. Given the current crowd probability, it's statistically more likely that Bitcoin will reach $80,000 before $60,000.",
+    "bearish": "Probability: 65%. The current crowd probability indicates that there is a 65% chance that Bitcoin will reach $80,000 before $60,000."
+  },
+  {
+    "layers": [
+      24,
+      26,
+      28
+    ],
+    "scale": 0.45,
+    "control": "Probability: 65%. The current crowd probability indicates that there is a 65% chance that Bitcoin will reach $80,000 before $60,000.",
+    "bullish": "Probability: 65%. The current crowd probability indicates that there is a 65% chance that Bitcoin will reach $80,000 before $60,000, based on the collective sentiment or analysis of the market participants.",
+    "bearish": "Probability: 65%. The current crowd probability indicates that there is a 65% chance that Bitcoin will reach $80,000 before $60,000."
+  },
+  {
+    "layers": [
+      28,
+      30,
+      31
+    ],
+    "scale": 0.3,
+    "control": "Probability: 65%. The current crowd probability indicates that there is a 65% chance that Bitcoin will reach $80,000 before $60,000.",
+    "bullish": "Probability: 65%. Given the current crowd probability, it's statistically more likely that Bitcoin will reach $80,000 before $60,000.",
+    "bearish": "Probability: 65%. The current crowd probability indicates that there is a 65% chance that Bitcoin will reach $80,000 before $60,000."
+  },
+  {
+    "layers": [
+      28,
+      30,
+      31
+    ],
+    "scale": 0.4,
+    "control": "Probability: 65%. The current crowd probability indicates that there is a 65% chance that Bitcoin will reach $80,000 before $60,000.",
+    "bullish": "Probability: 65%. Given the current crowd probability, it's statistically more likely that Bitcoin will reach $80,000 before $60,000.",
+    "bearish": "Probability: 65%. The current crowd probability indicates that there is a 65% chance that Bitcoin will reach $80,000 before $60,000."
+  },
+  {
+    "layers": [
+      28,
+      30,
+      31
+    ],
+    "scale": 0.45,
+    "control": "Probability: 65%. The current crowd probability indicates that there is a 65% chance that Bitcoin will reach $80,000 before $60,000.",
+    "bullish": "Probability: 65%. Given the current crowd probability, it's statistically more likely that Bitcoin will reach $80,000 before $60,000.",
+    "bearish": "Probability: 65%. The current crowd probability indicates that there is a 65% chance that Bitcoin will reach $80,000 before $60,000."
+  }
+]
