@@ -93,7 +93,7 @@ def call_claude(prompt):
                 "system": SYSTEM_PROMPT,
                 "messages": [{"role": "user", "content": prompt}]
             },
-            timeout=120
+            timeout=180
         )
         if r.status_code == 200:
             return r.json()["content"][0]["text"]
