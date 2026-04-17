@@ -2319,3 +2319,18 @@ Only after all 12 → head to Mac Mini.
 
 Morning check command:
 source ~/.latentforge/.env && python3 ~/Projects/latentforge-latentmas/experiments/week1/scripts/shadow_match.py
+
+### April 17, 2026 — Infrastructure Fully Operational (Day 14)
+
+All agent timeout issues resolved:
+- Compression researcher: 120s → 180s timeout + retry wrapper, tested working
+- Revenue strategist: 120s → 180s timeout + retry wrapper, tested working
+- Text swarm: All 3 agents (Macro, Quant, Contrarian) fully operational again
+- AI regulation divergence: Day 19 holding strong (swarm 21.3% vs crowd 31%, 9.7pt gap)
+
+Key additions:
+- OBF paper (arXiv:2604.13349) logged and added as Arm 5 in compression tournament
+- Morning checklist complete
+- Strategic priority locked: Mac Mini bidirectional steering replication + bearish fix today
+
+BRAIN.md now current. Ready for Mac Mini execution.
