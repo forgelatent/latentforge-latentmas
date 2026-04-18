@@ -127,7 +127,125 @@ steering on election/abstract markets, Phase 10 as latent channel evidence
 
 ## THREE AUDIENCE NARRATIVES
 
-[To be drafted separately]
+
+---
+
+## THREE AUDIENCE NARRATIVES
+
+---
+
+### NARRATIVE 1: Polymarket / Prediction Market Research Team
+
+HOOK: A new forecasting substrate that bypasses semantic anchoring.
+
+THE PROBLEM WE SOLVE:
+Text-based agent swarms suffer from consensus collapse. When agents
+communicate in natural language, early estimates anchor later ones.
+The crowd probability becomes a gravitational field that pulls all
+agents toward the same number. This is structural — it happens because
+text forces agents to reason inside human conceptual boundaries.
+
+WHAT WE BUILT:
+A latent communication layer where agents share compressed vector deltas
+instead of tokens. The receiving agent's reasoning is influenced directly
+at the level of internal computation — not through the words it reads.
+
+WHAT WE SHOWED:
+- 19+ consecutive days: our swarm estimated AI regulation passage at 21%
+  vs crowd 31%. A sustained, directional disagreement with the market.
+- Directional semantic steering: injecting a latent vector shifts both
+  probability estimates AND reasoning paths on prediction market tasks.
+- 45% Brier improvement over naive baseline on 18 resolved markets.
+
+HONEST LIMITATIONS:
+- Bullish steering confirmed. Bearish not yet reachable via current method.
+- Works on concrete probability markets. Not on election outcomes.
+- Still in research phase — not a production trading system.
+
+THE ASK:
+We want to compare our swarm divergence signal against your resolution
+data. If our estimates systematically outperform crowd on policy markets,
+that is a signal worth understanding together.
+
+---
+
+### NARRATIVE 2: Enterprise Governance Buyer (Defense / Financial Services)
+
+HOOK: The first auditable latent communication layer for AI agent swarms.
+
+THE PROBLEM WE SOLVE:
+When AI agents communicate via text, you can read the words — but you
+cannot read the reasoning. Text is a lossy compression of the internal
+state. You see the mask, not the face. In regulated environments, this
+is a procurement blocker: you cannot certify what you cannot audit.
+
+WHAT WE BUILT:
+A latent communication protocol with a Shadow Self governance layer.
+Every machine-to-machine exchange is translated to human-readable English
+in real time. You get both the raw mathematical exchange and the audit log.
+And because the communication happens in latent space, it is harder to
+manipulate via prompt injection than text-based coordination.
+
+WHAT WE SHOWED:
+- Latent transport at 24x compression with 1.0000 fidelity.
+- Deterministic activation steering: the system can inject controlled
+  semantic influence into agent reasoning without text mediation.
+- Shadow Self produces human-readable logs of every latent exchange.
+
+THE GOVERNANCE PITCH:
+NemoClaw audits what your agents do.
+LatentForge audits what they say to each other.
+Together: the first complete AI agent governance stack.
+
+HONEST LIMITATIONS:
+- Currently validated on Phi-3 Mini. Larger models pending.
+- Shadow Self translation layer not yet production-hardened.
+- Directional control is asymmetric (bullish works, bearish pending).
+
+THE ASK:
+A 60-day pilot on a defined agent coordination task in your environment.
+Full audit log access to your compliance team throughout.
+
+---
+
+### NARRATIVE 3: Quant Fund / Prediction Market Hedge Fund
+
+HOOK: A coordination substrate that finds signals text-based systems
+structurally cannot express.
+
+THE PROBLEM WE SOLVE:
+Every text-based forecasting system reasons inside human conceptual
+boundaries. If a signal exists in the mathematical geometry of the data
+but has no clean linguistic description, text agents are blind to it.
+They can only find what humans can already describe in sentences.
+
+WHAT WE BUILT:
+A multi-agent system where agents communicate via compressed vector deltas
+in continuous high-dimensional space. Agents are not forced to convert
+their reasoning into words before sharing it. The latent channel carries
+signal that text cannot.
+
+WHAT WE SHOWED:
+- 19+ consecutive days: sustained directional divergence from crowd on
+  AI regulation (swarm 21% vs crowd 31%). Not noise — a structural signal.
+- Directional semantic steering: latent injection shifts probability
+  estimates in the expected direction with genuine reasoning changes.
+- 45% Brier improvement over naive baseline on resolved markets.
+
+HONEST FRAMING:
+This is not a proven trading edge. It is a new coordination substrate
+that produces divergent estimates from crowd baselines on policy markets.
+We are at the research validation stage — not the production trading stage.
+We are looking for a methodological collaborator, not capital.
+
+THE ASK:
+A structured conversation about whether our divergence signal overlaps
+with anything in your existing alpha research. If the AI regulation
+divergence resolves correctly on May 5, that is a concrete data point
+to discuss.
+
+---
+
 
 ---
 Generated: April 17, 2026
