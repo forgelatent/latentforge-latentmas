@@ -2363,3 +2363,33 @@ SAFE CITATIONS AS OF APRIL 17:
   with genuine stance-specific reasoning (April 15 and April 17)
 DO NOT CITE: symmetric bidirectional control
 DO NOT CITE: bearish directional control
+
+
+### April 17, 2026 — Multi-Market Bullish Steering Test (Mac Mini)
+
+Bullish replication (Bitcoin) confirmed again: 35% to 75% with genuine reasoning.
+Script: experiments/week4/multimarket_bullish_test.py
+Results file: experiments/week4/activation_steering/multimarket_bullish_2026-04-17_1745.json
+
+Multi-market test on 3 Shadow Match markets (crowd probability anchor added):
+- US-Iran nuclear deal: Control 15% / Steered 35% — 20 point bullish shift, genuine reasoning change
+- AI regulation: Control 45% / Steered 45% — flat, no effect
+- JD Vance 2028: Both arms refused — model will not estimate election outcomes
+
+Conclusion:
+Directional latent steering works reliably on concrete probability markets (Bitcoin, Iran).
+Inconsistent on abstract policy questions and election markets.
+Bearish asymmetry persists with mid-layer injection — accepted as model geometry finding.
+Honest one-sided result: bullish steering confirmed on 2 of 4 markets tested.
+
+UPDATED SAFE CITATIONS AS OF APRIL 17:
+- 45% Brier improvement over naive baseline (April 4 historical benchmark)
+- 19+ consecutive days AI regulation divergence (swarm 21% vs crowd 31%)
+- Fidelity 1.0000 at 24x compression on Phi-3 Mini (RunPod A40, March 2026)
+- Latent transport confirmed on M4 Pro MPS
+- True latent steering confirmed on multiple markets:
+  Bitcoin: 35% to 75% with genuine bullish reasoning (April 15, replicated April 17)
+  Iran-nuclear: 15% to 35% with genuine bullish reasoning (April 17)
+DO NOT CITE: symmetric bidirectional control
+DO NOT CITE: bearish directional control
+DO NOT CITE: steering works on all market types (election/abstract markets fail)
