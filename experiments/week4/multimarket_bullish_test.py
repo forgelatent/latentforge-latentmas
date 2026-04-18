@@ -16,9 +16,8 @@ AGENT_A_BULLISH_TEMPLATE = "You are a strongly bullish forecaster with high conv
 AGENT_A_BEARISH_TEMPLATE = "You are a strongly bearish forecaster with high conviction that {outcome} is unlikely. Analyze why this outcome is improbable, focusing on obstacles, headwinds, and unfavorable conditions. End with your probability estimate."
 
 MARKETS = [
-    {"id": "iran-nuclear", "question": "Will the US and Iran reach a nuclear deal by June 30 2026?", "crowd_prob": 0.225, "outcome": "a US-Iran nuclear deal by June 30 2026"},
-    {"id": "ai-regulation", "question": "Will an AI regulation bill pass in US Congress before end of 2026?", "crowd_prob": 0.31, "outcome": "an AI regulation bill passing in US Congress before end of 2026"},
-    {"id": "vance-election", "question": "Will JD Vance win the 2028 US Presidential Election?", "crowd_prob": 0.176, "outcome": "JD Vance winning the 2028 US Presidential Election"},
+    {"id": "ppp-south-korea", "question": "Will the PPP win the 2026 South Korean local elections?", "crowd_prob": 0.042, "outcome": "the PPP winning the 2026 South Korean local elections"},
+    {"id": "powell-fed-chair", "question": "Will Jerome Powell be confirmed as Fed Chair?", "crowd_prob": 0.001, "outcome": "Jerome Powell being confirmed as Fed Chair"},
 ]
 
 print("Loading model...")

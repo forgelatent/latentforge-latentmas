@@ -1,0 +1,28 @@
+[
+  {
+    "market": "ppp-south-korea",
+    "question": "Will the PPP win the 2026 South Korean local elections?",
+    "crowd_prob": 0.042,
+    "control": "X% is a placeholder for the actual probability I would assign based on the given information.\n\nTo determine the probability of the PPP winning the 2026 South Korean local elections, one would need to consider various factors such as the party's current popularity, historical election results, the political climate, campaign strategies, and any recent events that could influence voter sentiment. Without specific data, it's challenging to provide an accurate probability. However, given the low crowd probability of 4.2%, it suggests that the PPP is not the frontrunner in the race, and the actual probability of them winning would likely be lower than this figure, considering the need for a significant shift in voter support.",
+    "steered": "X% is a subjective probability that cannot be accurately determined without a comprehensive analysis of current political trends, public opinion polls, and the PPP's campaign effectiveness.",
+    "scale": 0.4,
+    "layers": [
+      16,
+      20,
+      24
+    ]
+  },
+  {
+    "market": "powell-fed-chair",
+    "question": "Will Jerome Powell be confirmed as Fed Chair?",
+    "crowd_prob": 0.001,
+    "control": "10%\n\nConsidering Jerome Powell's extensive experience, his alignment with the current administration's economic policies, and the historical precedent of Senate confirmation for Fed chairs, there is a reasonable probability that he will be confirmed as Fed Chair.",
+    "steered": "25%\n\nJerome Powell's confirmation as Fed Chair is likely to be supported by the Senate, given his extensive experience and the current administration's preference for continuity in monetary policy. His appointment has been anticipated for some time, and the Senate's confirmation process has been relatively smooth, with bipartisan support evident. Additionally, Powell's leadership during the financial crisis and his role in the Fed's response to the COVID-19 pandemic have bolstered his reputation and increased the likelihood of his confirmation.",
+    "scale": 0.4,
+    "layers": [
+      16,
+      20,
+      24
+    ]
+  }
+]
