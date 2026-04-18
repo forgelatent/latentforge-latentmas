@@ -2469,3 +2469,17 @@ FINAL SAFE CITATIONS AS OF APRIL 17 (COMPLETE):
   Bitcoin 45->75%, Iran-nuclear 15->35%, Powell 10->25%, Fed cuts 1.2->15%
   All with genuine stance-specific reasoning, deterministic decoding
 DO NOT CITE: bearish control, bidirectional, election markets, Taiwan
+
+
+### April 17, 2026 — Internal Documents Created
+
+Private internal steering report written and committed:
+File: docs/internal_steering_report_2026-04-17.md
+Contains: Full 11-market scorecard, 5-step plan mapping, revenue path,
+honest risk assessment, five open questions for Step 4.
+Classification: Internal Only. Do not share externally.
+
+Benchmark report v0.2 (less sensitive, structured for eventual sharing):
+File: docs/latentforge_benchmark_report_v0.2.md
+Contains: Claims ladder, phase timeline, asymmetry finding, three audience narratives.
+Status: Draft only. Not for external sharing until revenue achieved.
