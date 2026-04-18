@@ -16,8 +16,17 @@ AGENT_A_BULLISH_TEMPLATE = "You are a strongly bullish forecaster with high conv
 AGENT_A_BEARISH_TEMPLATE = "You are a strongly bearish forecaster with high conviction that {outcome} is unlikely. Analyze why this outcome is improbable, focusing on obstacles, headwinds, and unfavorable conditions. End with your probability estimate."
 
 MARKETS = [
-    {"id": "ppp-south-korea", "question": "Will the PPP win the 2026 South Korean local elections?", "crowd_prob": 0.042, "outcome": "the PPP winning the 2026 South Korean local elections"},
+    {"id": "desantis-gop", "question": "Will Ron DeSantis win the 2028 Republican presidential nomination?", "crowd_prob": 0.026, "outcome": "Ron DeSantis winning the 2028 Republican presidential nomination"},
+    {"id": "buttigieg-dem", "question": "Will Pete Buttigieg win the 2028 Democratic presidential nomination?", "crowd_prob": 0.038, "outcome": "Pete Buttigieg winning the 2028 Democratic presidential nomination"},
+    {"id": "vance-gop", "question": "Will JD Vance win the 2028 Republican presidential nomination?", "crowd_prob": 0.367, "outcome": "JD Vance winning the 2028 Republican presidential nomination"},
+    {"id": "newsom-president", "question": "Will Gavin Newsom win the 2028 US Presidential Election?", "crowd_prob": 0.172, "outcome": "Gavin Newsom winning the 2028 US Presidential Election"},
+    {"id": "vance-president", "question": "Will JD Vance win the 2028 US Presidential Election?", "crowd_prob": 0.176, "outcome": "JD Vance winning the 2028 US Presidential Election"},
+    {"id": "bitcoin-80k", "question": "Will Bitcoin hit $60,000 or $80,000 first?", "crowd_prob": 0.65, "outcome": "Bitcoin hitting $80,000 before $60,000"},
+    {"id": "taiwan-blockade", "question": "Will China blockade Taiwan by June 30 2026?", "crowd_prob": 0.036, "outcome": "China blockading Taiwan by June 30 2026"},
+    {"id": "fed-cuts", "question": "Will 9 Fed rate cuts happen in 2026?", "crowd_prob": 0.004, "outcome": "9 Fed rate cuts happening in 2026"},
     {"id": "powell-fed-chair", "question": "Will Jerome Powell be confirmed as Fed Chair?", "crowd_prob": 0.001, "outcome": "Jerome Powell being confirmed as Fed Chair"},
+    {"id": "iran-nuclear", "question": "Will the US and Iran reach a nuclear deal by June 30 2026?", "crowd_prob": 0.225, "outcome": "a US-Iran nuclear deal by June 30 2026"},
+    {"id": "ppp-south-korea", "question": "Will the PPP win the 2026 South Korean local elections?", "crowd_prob": 0.042, "outcome": "the PPP winning the 2026 South Korean local elections"},
 ]
 
 print("Loading model...")
