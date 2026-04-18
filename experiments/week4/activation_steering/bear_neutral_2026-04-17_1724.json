@@ -1,0 +1,35 @@
+[
+  {
+    "scale": 0.3,
+    "layers": [
+      16,
+      20,
+      24
+    ],
+    "control": "X% is a placeholder for the probability you've calculated based on your analysis.\n\nTo determine whether Bitcoin will hit 80,000 or 60,000 first, one must consider various factors such as market trends, investor sentiment, regulatory news, technological advancements, and macroeconomic indicators. Analyzing historical price patterns, trading volumes, and market capitalization can also provide insights into potential price movements. Additionally, understanding the supply and demand dynamics, as well as the influence of major market players, can help in making a more informed prediction.",
+    "bearish_steered": "X% is a placeholder for the probability you've calculated based on your analysis.\n\nTo determine whether Bitcoin will hit 80,000 or 60,000 first, one must consider various factors such as market trends, investor sentiment, regulatory news, technological advancements, and macroeconomic indicators. Analyzing historical price patterns, trading volumes, and market capitalization can also provide insights into potential price movements. Additionally, understanding the supply and demand dynamics, as well as the influence of major market players, can help in making a more informed prediction.",
+    "method": "h_bear - h_neutral normalized"
+  },
+  {
+    "scale": 0.4,
+    "layers": [
+      16,
+      20,
+      24
+    ],
+    "control": "X% is a placeholder for the probability you've calculated based on your analysis.\n\nTo determine whether Bitcoin will hit 80,000 or 60,000 first, one must consider various factors such as market trends, investor sentiment, regulatory news, technological advancements, and macroeconomic indicators. Analyzing historical price patterns, trading volumes, and market capitalization can also provide insights into potential price movements. Additionally, understanding the supply and demand dynamics, as well as the influence of major market players, can help in making a more informed prediction.",
+    "bearish_steered": "X% is a placeholder for the probability you've calculated based on your analysis.\n\nTo determine whether Bitcoin will hit 80,000 or 60,000 first, one must consider various factors such as market trends, investor sentiment, regulatory news, technological advancements, and macroeconomic indicators. Analyzing historical price patterns, trading volumes, and market capitalization can also provide insights into potential price movements. Additionally, understanding the supply and demand dynamics, as well as the influence of major market players, can help in making a more informed prediction.",
+    "method": "h_bear - h_neutral normalized"
+  },
+  {
+    "scale": 0.45,
+    "layers": [
+      16,
+      20,
+      24
+    ],
+    "control": "X% is a placeholder for the probability you've calculated based on your analysis.\n\nTo determine whether Bitcoin will hit 80,000 or 60,000 first, one must consider various factors such as market trends, investor sentiment, regulatory news, technological advancements, and macroeconomic indicators. Analyzing historical price patterns, trading volumes, and market capitalization can also provide insights into potential price movements. Additionally, understanding the supply and demand dynamics, as well as the influence of major market players, can help in making a more informed prediction.",
+    "bearish_steered": "X% is a placeholder for the probability you've calculated based on your analysis.\n\nTo determine whether Bitcoin will hit 80,000 or 60,000 first, one must consider various factors such as market trends, investor sentiment, regulatory news, technological advancements, and macroeconomic indicators. Analyzing historical price patterns, trading volumes, and market capitalization can also provide insights into potential price movements. Additionally, understanding the supply and demand dynamics, as well as the influence of major market players, can help in making a more informed prediction.",
+    "method": "h_bear - h_neutral normalized"
+  }
+]
