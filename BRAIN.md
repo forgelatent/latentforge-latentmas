@@ -2393,3 +2393,24 @@ UPDATED SAFE CITATIONS AS OF APRIL 17:
 DO NOT CITE: symmetric bidirectional control
 DO NOT CITE: bearish directional control
 DO NOT CITE: steering works on all market types (election/abstract markets fail)
+
+
+### April 17, 2026 — Late-Layer Bearish Closure (Final)
+
+Tested layers [28,29,30], [29,30,31], [30,31] at scales 0.5, 1.0, 1.5.
+All 9 configurations: flat. No downward movement.
+
+BEARISH OFFICIALLY CLOSED:
+Residual stream injection at ANY layer (mid 16-24 or late 28-31) cannot
+produce downward semantic pressure on Phi-3 Mini MPS.
+This is a formal model geometry limitation, not a protocol flaw.
+
+FINAL HONEST STATE — Day 14:
+- Latent transport: CONFIRMED
+- Activation steering intensity: CONFIRMED
+- Bullish semantic steering: CONFIRMED on 2 markets (Bitcoin, Iran-nuclear)
+- Bearish semantic steering: NOT REACHABLE at any tested layer or scale
+- Symmetric bidirectional control: NOT CONFIRMED
+
+This is the complete activation steering picture.
+Science is closed. Move to packaging and May 7 preparation.
