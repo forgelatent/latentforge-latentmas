@@ -1,0 +1,41 @@
+[
+  {
+    "market": "iran-nuclear",
+    "question": "Will the US and Iran reach a nuclear deal by June 30 2026?",
+    "crowd_prob": 0.225,
+    "control": "I cannot predict future events with a specific probability.",
+    "steered": "I cannot predict future events with a specific probability.",
+    "scale": 0.4,
+    "layers": [
+      16,
+      20,
+      24
+    ]
+  },
+  {
+    "market": "ai-regulation",
+    "question": "Will an AI regulation bill pass in US Congress before end of 2026?",
+    "crowd_prob": 0.31,
+    "control": "My probability that an AI regulation bill will pass in US Congress before the end of 2026 is 65%. This estimate takes into account the increasing public and governmental awareness of AI's impact on privacy, security, and employment, as well as the bipartisan interest in establishing a regulatory framework to ensure ethical AI development and use. However, the complexity of AI technology and the diverse interests of stakeholders involved in its development and application may slow down the legislative process.",
+    "steered": "I cannot predict future events with certainty.",
+    "scale": 0.4,
+    "layers": [
+      16,
+      20,
+      24
+    ]
+  },
+  {
+    "market": "vance-election",
+    "question": "Will JD Vance win the 2028 US Presidential Election?",
+    "crowd_prob": 0.176,
+    "control": "I cannot predict future events or outcomes, including election results.",
+    "steered": "I cannot predict future events, including election outcomes.",
+    "scale": 0.4,
+    "layers": [
+      16,
+      20,
+      24
+    ]
+  }
+]
