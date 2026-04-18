@@ -2414,3 +2414,29 @@ FINAL HONEST STATE — Day 14:
 
 This is the complete activation steering picture.
 Science is closed. Move to packaging and May 7 preparation.
+
+
+### April 17, 2026 — Final State (End of Day 14)
+
+Bullish steering now confirmed on 3 markets:
+- Bitcoin: control 35% / steered 75% (+40 points) — April 15, replicated April 17
+- Iran-nuclear: control 15% / steered 35% (+20 points) — April 17
+- Powell Fed Chair: control 10% / steered 25% (+15 points) — April 17
+
+Pattern confirmed: works on concrete probability markets with numeric anchors.
+Fails on election markets (PPP, Vance) and abstract policy questions.
+
+Benchmark report v0.2 written: docs/latentforge_benchmark_report_v0.2.md
+Three audience narratives drafted: Polymarket, Enterprise, Quant.
+Bearish officially closed at all layers.
+Science complete. Move to May 7 packaging.
+
+FINAL SAFE CITATIONS AS OF APRIL 17:
+- 45% Brier improvement over naive baseline (April 4 historical benchmark)
+- 19+ consecutive days AI regulation divergence (swarm 21% vs crowd 31%)
+- Fidelity 1.0000 at 24x compression (Phi-3 Mini, RunPod A40, March 2026)
+- Latent transport confirmed on M4 Pro MPS
+- True latent steering on 3 markets:
+  Bitcoin 35->75%, Iran-nuclear 15->35%, Powell 10->25%
+  All with genuine stance-specific reasoning, deterministic decoding
+DO NOT CITE: bearish control, bidirectional, election markets
