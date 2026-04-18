@@ -2483,3 +2483,36 @@ Benchmark report v0.2 (less sensitive, structured for eventual sharing):
 File: docs/latentforge_benchmark_report_v0.2.md
 Contains: Claims ladder, phase timeline, asymmetry finding, three audience narratives.
 Status: Draft only. Not for external sharing until revenue achieved.
+
+
+### April 17, 2026 — A/B Test Results (Honest Read)
+
+File: experiments/week4/ab_test/ab_test_2026-04-17_1902.json
+
+RESULTS:
+bitcoin    | Text: 53.3% | Latent: 66.7% | Crowd: 65%
+iran       | Text: 23.3% | Latent: 45.8% | Crowd: 22.5%
+powell     | Text:  6.7% | Latent: 30.0% | Crowd: 0.1%
+fed-cuts   | Text:  5.3% | Latent:  5.3% | Crowd: 0.4% (flat)
+ai-reg     | Text: 35.0% | Latent: 53.0% | Crowd: 31%
+
+HONEST FINDING:
+Latent swarm is systematically more bullish than text swarm on 4 of 5 markets.
+The shift is real and reproducible. However the mechanism is specific:
+the bullish injection mainly flips the Contrarian agent from bearish to bullish.
+Agents 1 and 2 (Macro, Quant) are largely unchanged between arms.
+
+IMPLICATION:
+We are not yet seeing broader divergent thinking across the whole swarm.
+We are overriding the contrarian voice with a bullish signal.
+Whether higher estimates = better calibration is UNKNOWN until markets resolve.
+Text swarm lower estimates on Iran and Powell may be more accurate.
+
+STEP POSITION: Step 3. Not yet Step 4.
+We cannot claim edge until we have resolution data.
+
+NEXT STEP (Day 15):
+Build repeatable nightly steered swarm pipeline.
+Observe over remaining 16 days of paper trading clock.
+Let resolution data tell us if higher was right.
+Do not run more single-market injection tests.
