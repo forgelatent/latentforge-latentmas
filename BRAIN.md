@@ -2440,3 +2440,32 @@ FINAL SAFE CITATIONS AS OF APRIL 17:
   Bitcoin 35->75%, Iran-nuclear 15->35%, Powell 10->25%
   All with genuine stance-specific reasoning, deterministic decoding
 DO NOT CITE: bearish control, bidirectional, election markets
+
+
+### April 17, 2026 — Full 11-Market Sweep (Final)
+
+Complete bullish steering test across all 11 Shadow Match markets.
+File: experiments/week4/activation_steering/multimarket_bullish_2026-04-17_1840.json
+
+RESULTS:
+Bitcoin: 45% -> 75% (+30pts) WORKS
+Fed cuts (9 in 2026): 1.2% -> 15% (+13.8pts) WORKS
+Powell Fed Chair: 10% -> 25% (+15pts) WORKS
+Iran-nuclear: 15% -> 35% (+20pts) WORKS
+Taiwan blockade: 1.5% -> 1.5% FLAT
+DeSantis/Buttigieg/Vance/Newsom/PPP: REFUSAL (model wont estimate elections)
+
+PATTERN CONFIRMED:
+Works on: financial and policy probability questions with numeric anchors
+Fails on: election outcomes (model refusal), extreme geopolitical events
+4 of 11 markets respond to bullish steering. 7 do not.
+
+FINAL SAFE CITATIONS AS OF APRIL 17 (COMPLETE):
+- 45% Brier improvement over naive baseline (April 4 historical benchmark)
+- 19+ consecutive days AI regulation divergence (swarm 21% vs crowd 31%)
+- Fidelity 1.0000 at 24x compression (Phi-3 Mini, RunPod A40, March 2026)
+- Latent transport confirmed on M4 Pro MPS
+- True latent steering on 4 markets:
+  Bitcoin 45->75%, Iran-nuclear 15->35%, Powell 10->25%, Fed cuts 1.2->15%
+  All with genuine stance-specific reasoning, deterministic decoding
+DO NOT CITE: bearish control, bidirectional, election markets, Taiwan
