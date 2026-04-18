@@ -2334,3 +2334,32 @@ Key additions:
 - Strategic priority locked: Mac Mini bidirectional steering replication + bearish fix today
 
 BRAIN.md now current. Ready for Mac Mini execution.
+
+
+### April 17, 2026 — Bearish Steering Exhaustive Test + Replication (Day 14)
+
+Bullish replication: CONFIRMED. 35% to 75% genuine reasoning. Second clean data point.
+File: experiments/week4/activation_steering/semantic_test_2026-04-17_1716.json
+
+Bearish testing exhaustive:
+1. h_bear - h_neutral normalized: flat at all scales 0.3-2.0
+2. h_bear - h_bull normalized: flat at all scales 0.3-0.45
+
+CONCLUSION: Mid-layer injection asymmetric. Bullish works. Bearish unreachable.
+This is model geometry, not a protocol flaw.
+
+HONEST STATE AS OF APRIL 17:
+- Latent transport: CONFIRMED
+- Activation steering intensity: CONFIRMED
+- Directional control bullish: CONFIRMED AND REPLICATED
+- Directional control bearish: NOT REACHABLE via mid-layer injection
+
+SAFE CITATIONS AS OF APRIL 17:
+- 45% Brier improvement over naive baseline (April 4 historical benchmark)
+- 19+ consecutive days AI regulation divergence (swarm 21% vs crowd 31%)
+- Fidelity 1.0000 at 24x compression on Phi-3 Mini (RunPod A40, March 2026)
+- Latent transport confirmed on M4 Pro MPS
+- True latent steering confirmed and replicated: bullish injection 35% to 75%
+  with genuine stance-specific reasoning (April 15 and April 17)
+DO NOT CITE: symmetric bidirectional control
+DO NOT CITE: bearish directional control
