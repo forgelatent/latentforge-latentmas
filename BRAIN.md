@@ -2516,3 +2516,34 @@ Build repeatable nightly steered swarm pipeline.
 Observe over remaining 16 days of paper trading clock.
 Let resolution data tell us if higher was right.
 Do not run more single-market injection tests.
+
+
+### April 17, 2026 — Four-Engine Final Consensus (End of Day 14)
+
+A/B TEST HONEST FINDING:
+Latent swarm is systematically higher than text swarm on 4 of 5 markets.
+Mechanism: mainly flips Contrarian agent bullish. Agents 1+2 largely unchanged.
+Iran latent 45.8% vs crowd 22.5% — dangerously bullish if deal fails.
+Higher does not mean better until markets resolve.
+Current system = controlled bullish bias, not proven edge.
+
+FOUR-ENGINE UNANIMOUS DECISIONS:
+1. Build nightly steered swarm pipeline (Option A) — passive observation mode
+2. Target Contrarian agent ONLY for injection — make side effect intentional
+3. Do NOT run more single-market injection experiments
+4. Do NOT approach revenue conversations until outcomes validate edge
+5. OBF bearish: parked until M5 Mac Studio (June/July)
+6. Jiaru Zou: parked — no trigger yet
+
+STEP 4 TRIGGER (four-engine consensus — ONE THING ONLY):
+Latent system beats text baseline on resolved outcomes.
+Minimum: 5 resolved markets, latent beats text on majority, no catastrophic misses.
+Current position: Late Step 3.
+
+DAY 15 PRIORITY:
+Build nightly steered swarm pipeline:
+- 3 agents: Macro (text), Quant (text), Contrarian (latent injected only)
+- Same markets nightly
+- Text vs latent logged side by side
+- Frozen config — no mid-stream changes
+- Run passively alongside existing text swarm launchd job
