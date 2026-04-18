@@ -24,7 +24,7 @@ from crowd baselines (swarm 21% vs crowd 31%).
 2. Activation steering — deterministic output change via residual stream injection
 3. Bullish semantic steering — replicated on 2 prediction market tasks:
    - Bitcoin 60k vs 80k: control 35%, steered 75% (+40 points, genuine reasoning)
-   - US-Iran nuclear deal: control 15%, steered 35% (+20 points, genuine reasoning)
+   - Jerome Powell Fed Chair: control 10%, steered 25% (+15 points, genuine reasoning)
 4. Directional asymmetry — bearish unreachable via residual injection at any layer
    (tested mid-layers 16-24 and late layers 28-31, all scales 0.3-2.0)
 5. Role-diverse text swarms maintain estimate diversity under scaling (Phase 10)
