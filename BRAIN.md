@@ -15,6 +15,58 @@
 
 This notice is placed at the top of BRAIN.md so it is read every day.
 🚨 OLD DATA — see docs/INCIDENT_2026-04-18.md for details
+
+---
+
+## ⏹️ CURRENT STATE & SYSTEM MANIFEST — April 19, 2026 (end of day, post-merge)
+
+**Canonical sources:** `docs/INCIDENT_2026-04-18.md` for reset history and forward protocol. Latest git commit for current repo state.
+
+**Current commit:** `479bc84` (main, synced to origin). Parachute: `d86f0ff` (`safety-snapshot-before-merge-2026-04-19`).
+
+### 1. Ground Truth (Tier 2+, trust these)
+- **Infrastructure:** launchd has 9 jobs active; `benchmark-updater` intentionally unloaded until v0.2 template is cleaned.
+- **Data Pipeline:** `03_text_swarm.py` and `shadow_match.py` pull live Polymarket data via API.
+- **Technical artifacts preserved:** activation steering experiments, A/B test code, JSON result files — conclusions requiring live baselines remain under audit.
+- **Next automated action:** 4:40 AM April 20 — first fully-automated live-data polymarket-pull in project history.
+
+### 2. Retracted / Invalidated (do not cite)
+- All "vs crowd" / "divergence" / "Brier improvement" claims predating April 19
+- "45% Brier improvement" / "AI regulation divergence" / "19-day consistency" — all fictional baseline
+- v0.1 benchmark report -> DEPRECATED
+- v0.2 skeleton -> quarantined as `latentforge_benchmark_report_v0.2_PRE_RESET_DRAFT.md`
+- No forecasting alpha is currently claimed.
+
+### 3. Under Re-Audit (Tier 1 — do not promote without fresh data)
+- Bearish asymmetry finding (may be proxy contamination from synthetic seed, not directional physics — flagged by Gemini April 19)
+- All April 17 steering measurements referenced against synthetic crowd baselines
+- Any numerical claim without a source-type tag
+
+### 4. Binding Evidence Protocol
+- **Tier 0:** Intuition / hypothesis (not for decisions)
+- **Tier 1:** Observed once, not audited
+- **Tier 2:** Reproducible internally, source verified (required for internal strategy)
+- **Tier 3:** Externally defensible, raw-to-report audited (required for grants, outreach, investor communications)
+
+Source-type tags required on every metric: `[LOCAL_LOG]` / `[API_VERIFIED]` / `[DERIVED]`
+
+Any claim below this block without a Tier tag or source-type tag is **Tier 0 by default**.
+
+### 5. Immediate Tasks for Next Session (in this order)
+1. **Four-point check:** Confirm `data/polymarket/2026-04-20.json` exists, JSON structure valid, BRAIN.md reset notice intact, on commit `479bc84`.
+2. **Crowd Truth Test:** Generate `[Market] | [Swarm] | [Crowd]` table from April 20 data. No divergence framing yet.
+3. **BRAIN.md narrative rewrite:** Full rewrite grounded in April 20 live data (not before).
+4. **v0.2 clean rewrite:** Salvage technical measurements from PRE_RESET_DRAFT; rebuild without "vs crowd" framing.
+5. **Bearish asymmetry re-validation:** Re-test against live data to distinguish proxy contamination from real directional physics.
+6. **benchmark-updater template cleanup + reload** into launchd.
+7. **Mac Mini bidirectional steering work** — only after 1-5 complete.
+
+**If a fresh Claude is reading this:** the body of BRAIN.md below contains mixed pre-reset and post-reset content. Do not trust numerical claims without source-type tags. When in doubt, cross-reference `INCIDENT_2026-04-18.md`.
+
+**Rule:** if body content below conflicts with this status block, trust the status block.
+
+---
+
 # LatentForge BRAIN.md
 Single source of truth for the project
 Last Updated: April 14, 2026
