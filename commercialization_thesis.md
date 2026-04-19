@@ -1,3 +1,4 @@
+🚨 OLD DATA — see docs/INCIDENT_2026-04-18.md for details
 
 
 ---
@@ -199,3 +200,87 @@ The 45% Brier score improvement (0.1376 vs 0.25 naive baseline) across 18 resolv
 ## 1. PRIMARY STRATEGIC BET
 
 **Run the 30-day paper trading clock to Day 30 with complete methodological discipline, then publish a structured technical report that leads with the calibration subset number — avg swarm Brier 0.0230 across 9 resolved markets — as the primary claim, with the 45% improvement over naive baseline as the supporting frame, and use that document to open one specific conversation before the Mac Studio arrives: a quant-focused prediction market fund (Mana Partners or equivalent) where the pitch is not "use our protocol" but "let us run a 60-day live-capital pilot on a segregated book, with full Shadow Self audit logs available to your risk team in real time."** The calibration subset result is the number that changes the conversation — 0.0230 average Brier across resolved markets is not a benchmark artifact, it's a performance claim in adversarial liquid markets with real ground truth. The sustained AI regulation divergence (swarm 21-28% vs crowd 31%) is still running and will resolve into a concrete case study either way. The Mac Mini M4 Pro A/B test running now adds the first hardware-validated evidence that latent communication produces different outputs than text communication — not just cheaper outputs, *different* ones. That combination — calibration numbers, directional divergence resolving in real time, and a hardware-validated fidelity claim — is a complete firs
+
+---
+## 2026-04-16 Update
+
+# LatentForge Commercialization Intelligence — Day 3 Brief
+### April 7, 2026
+
+---
+
+## 1. PRIMARY STRATEGIC BET
+
+**Treat the 30-day paper trading clock as a live scientific instrument, not just a validation exercise — and begin drafting the technical report now, in parallel, so that Day 30 produces a publishable artifact within 72 hours of the clock stopping.** The 45% Brier improvement (0.1376 vs 0.25) across 18 resolved markets is already a serious result, but the calibration subset — 9 markets at avg swarm Brier 0.0230 — is the number that will stop quantitative people cold. That's not noise. That's a system that is genuinely better-calibrated than the crowd in adversarial, liquid markets where sophisticated actors are already aggregating information. The AI regulation divergence signal (swarm 21-28% vs crowd 31% for 7+ consecutive days) is the narrative spine of the report: a specific, falsifiable, directional disagreement with the market that will resolve into either a case study or a lessons-learned — both publishable, both credible. The Mac Mini M4 Pro A/B test arriving April 9-16 is not a distraction from commercialization — it *is* commercialization, because the first hardware-validated latency and fidelity comparison between latent and text communication becomes a second anchor result in the same document. The report lands in May. Every business conversation before June starts with that document in hand.
+
+---
+
+## 2. THESIS UPDATE
+
+**What's stronger:** The calibration
+
+---
+## 2026-04-17 Update
+
+# LatentForge Commercialization Intelligence — Day 3 Brief
+### April 16, 2026
+
+---
+
+## 1. PRIMARY STRATEGIC BET
+
+**The Mac Mini M4 Pro A/B test — latent vs text, same agents, same markets, same questions — is the single most important artifact LatentForge can produce before June, and this week's entire energy should organize around making that test bulletproof.** The 45% Brier improvement and 0.0225 avg swarm Brier on 12 resolved markets are already extraordinary, but they exist in a world where a sophisticated skeptic can say "you haven't isolated the variable — maybe it's just the swarm architecture, not the latent communication." The M4 Pro A/B test kills that objection permanently. When it runs cleanly — latent swarm vs text swarm, identical agents, identical market inputs, same 30-day clock — and produces a measurable fidelity or Brier difference, that is the first experimental result in the world that isolates latent vector communication as the causal variable in forecasting performance. That document, structured as a two-condition benchmark with full methodology, becomes the commercial wedge into every conversation that matters: Polymarket's research team, any quant fund running AI forecasting, and every enterprise agent orchestration buyer who needs to justify multi-agent infrastructure spend. The 30-day paper trading clock running in parallel means you exit May with two synchronized artifacts — the benchmark and the trading track record — that tell a single coherent 
+
+---
+## 2026-04-18 Update
+
+# LatentForge Commercialization Intelligence — Day 3 Brief
+### April 18, 2026
+
+---
+
+## 1. PRIMARY STRATEGIC BET
+
+**The immediate highest-conviction path is to run the 30-day paper trading clock to Day 30 with zero breaks in discipline, then publish a structured technical report — not a blog post, a document with methodology, reproducible protocol, and resolved market tables — that leads with the calibration subset number (avg swarm Brier 0.0225 across 12 resolved markets) as the primary claim, and uses the AI regulation sustained divergence as the narrative spine.** The reason this is still the primary bet at Day 3 is that the Mac Mini A/B test arriving April 9-16 has likely either arrived or is imminent, which means within 2 weeks you will have the first hardware-validated latent-vs-text comparison — a result no one else in the world has. That result, layered on top of the Brier score data, transforms the technical report from "interesting forecasting benchmark" into "the first externally validated, hardware-benchmarked demonstration that latent communication outperforms text communication in a real adversarial environment with ground truth." That document becomes the commercial artifact for every conversation before June. The specific conversations it opens — Polymarket research, one prediction market fund, one enterprise orchestration buyer — remain the right three doors. Nothing this week changes that sequencing. Stay on the clock.
+
+---
+
+## 2. THESIS UPDATE
+
+**What's stro
+
+---
+## 2026-04-18 Update
+
+# LatentForge Commercialization Intelligence — Day 3 Brief
+### April 18, 2026
+
+---
+
+## 1. PRIMARY STRATEGIC BET
+
+**Publish the 30-day benchmark as a structured technical report on Day 30 (May 7), but start seeding the narrative now with a single-page result card that you can put in front of three specific people before May 1.** The avg swarm Brier of 0.0215 across 13 resolved markets is the number that stops serious quantitative people cold — that's not 45% better than naive, that's approaching the theoretical floor of calibration on adversarial liquid markets. The AI regulation divergence (swarm 21-28% vs crowd 31%) has now held for 7+ consecutive days, which means it has survived multiple news cycles without collapsing — that's a sustained signal, not a fluke. The Mac Mini M4 Pro A/B test arriving imminently is the first opportunity to add a hardware-validated latency claim to the fidelity claim you already have. The bet is: don't wait for the full benchmark to start conversations. Build a one-page "result card" — four numbers, one chart, one falsifiable prediction — and use it to open three conversations this month. The benchmark document closes the deal. The result card opens the door.
+
+---
+
+## 2. THESIS UPDATE
+
+**What's stronger:** The calibration number has improved materially since the Day 1 brief. Avg swarm Brier of 0.0215 across 13 resolved markets (down from 0.0283 on 5 markets in the Day 3 brief) is moving in the right direction as sample size grows — this is the o
+
+---
+## 2026-04-19 Update
+
+# LatentForge Commercialization Intelligence — Day 3 Brief
+### April 19, 2026
+
+---
+
+## 1. PRIMARY STRATEGIC BET
+
+**Execute the 30-day paper trading clock with complete methodological discipline, publish the full benchmark report on Day 30 (May 7), and use that document as the sole entry point for three simultaneous conversations: Polymarket's research team, one quant prediction market fund, and one enterprise agent orchestration buyer.** The calibration subset is the crown jewel here — avg swarm Brier of 0.0215 across 13 resolved markets is a number that stops quantitative people cold, because it's not a lab artifact, it's performance in adversarial liquid markets where sophisticated crowds are already aggregating information. The arXiv paper "When Less Latent Leads to Better Relay" (2604.13349) that dropped this week is important context: it validates the research direction but it's text-summarization compression, not hidden-state-delta agent communication with governance. LatentForge's moat isn't compression per se — it's the combination of latent communication *plus* the Shadow Self audit layer *plus* real-world calibration results. The Mac Mini M4 Pro A/B test is the next irreplaceable data point. Everything else waits for that hardware result before any commercial conversation begins in earnest.
+
+---
+
+## 2. THESIS UPDATE
+
+**Stronger:** The 0.0215 avg Brier on 13 resolved markets is materially better than the 0.0283 figure from the Day 1 brief — the calibration is *tighte

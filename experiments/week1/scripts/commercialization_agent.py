@@ -1,3 +1,4 @@
+🚨 OLD DATA — see docs/INCIDENT_2026-04-18.md for details
 #!/usr/bin/env python3
 """
 LatentForge Commercialization Agent

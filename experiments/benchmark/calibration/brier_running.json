@@ -97,5 +97,49 @@
     "swarm_brier": 0.01,
     "crowd_brier": 0.0026,
     "naive_brier": 0.25
+  },
+  {
+    "date": "2026-04-17",
+    "market_id": "544094",
+    "question": "Will Harvey Weinstein be sentenced to between 5 and 10 years in prison?",
+    "swarm_prob": 0.217,
+    "crowd_prob": 0.077,
+    "outcome": 0,
+    "swarm_brier": 0.0471,
+    "crowd_brier": 0.0059,
+    "naive_brier": 0.25
+  },
+  {
+    "date": "2026-04-17",
+    "market_id": "553851",
+    "question": "Will the Buffalo Sabres win the 2026 NHL Stanley Cup?",
+    "swarm_prob": 0.117,
+    "crowd_prob": 0.056,
+    "outcome": 0,
+    "swarm_brier": 0.0137,
+    "crowd_brier": 0.0031,
+    "naive_brier": 0.25
+  },
+  {
+    "date": "2026-04-17",
+    "market_id": "553871",
+    "question": "Will the Detroit Pistons win the 2026 NBA Finals?",
+    "swarm_prob": 0.037,
+    "crowd_prob": 0.063,
+    "outcome": 0,
+    "swarm_brier": 0.0014,
+    "crowd_brier": 0.004,
+    "naive_brier": 0.25
+  },
+  {
+    "date": "2026-04-18",
+    "market_id": "553827",
+    "question": "Will the Dallas Stars win the 2026 NHL Stanley Cup?",
+    "swarm_prob": 0.103,
+    "crowd_prob": 0.084,
+    "outcome": 0,
+    "swarm_brier": 0.0106,
+    "crowd_brier": 0.0071,
+    "naive_brier": 0.25
   }
 ]

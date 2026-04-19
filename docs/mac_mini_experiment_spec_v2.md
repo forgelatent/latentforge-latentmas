@@ -1,3 +1,4 @@
+🚨 OLD DATA — see docs/INCIDENT_2026-04-18.md for details
 LatentForge Mac Mini A/B Experiment Spec — v2.0
 Pre-registered April 11, 2026. Revised after Grok independent review.
 Lock date: before Mac Mini first boot. No amendments after first run.

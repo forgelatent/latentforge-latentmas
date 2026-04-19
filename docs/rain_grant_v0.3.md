@@ -1,3 +1,4 @@
+🚨 OLD DATA — see docs/INCIDENT_2026-04-18.md for details
 # Rain Grant One-Pager — LatentForge
 **Requested Amount:** $50,000 (non-dilutive)  
 **Submitted:** March 31, 2026

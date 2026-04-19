@@ -1,3 +1,6 @@
+> ⚠️ **[INVALIDATED 2026-04-18]** This file contains claims derived from pre-live synthetic baseline data. See `docs/INCIDENT_2026-04-18.md`.
+
+🚨 OLD DATA — see docs/INCIDENT_2026-04-18.md for details
 # LatentForge Commercialization Briefing — 2026-04-13
 
 *Generated at 07:24*

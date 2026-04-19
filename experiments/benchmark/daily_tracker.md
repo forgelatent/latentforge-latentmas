@@ -1,3 +1,4 @@
+🚨 OLD DATA — see docs/INCIDENT_2026-04-18.md for details
 # LatentForge Divergence vs Crowd Benchmark Tracker
 
 **Start Date:** March 29, 2026

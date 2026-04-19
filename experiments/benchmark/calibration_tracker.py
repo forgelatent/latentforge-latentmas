@@ -1,3 +1,4 @@
+🚨 OLD DATA — see docs/INCIDENT_2026-04-18.md for details
 """
 LatentForge Live Calibration Tracker v1.1
 Fixed: date parsing, 90-day window, GTA VI filter

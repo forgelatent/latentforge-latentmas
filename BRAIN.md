@@ -1,3 +1,20 @@
+> ⚠️ **[INVALIDATED 2026-04-18]** This file contains claims derived from pre-live synthetic baseline data. See `docs/INCIDENT_2026-04-18.md`.
+
+# 🚨 IMPORTANT DATA RESET NOTICE — READ THIS FIRST (April 19, 2026)
+
+**All data and claims before April 19, 2026 are based on fake / fictional seed files.**
+
+- The old benchmark report (v0.1) contained hallucinated "vs crowd" numbers.
+- Those claims have been officially deprecated.
+- See the canonical record: **docs/INCIDENT_2026-04-18.md**
+
+**Rule for all agents (including Claude):**
+- Ignore any "vs crowd", "divergence", or Brier score claims dated before April 19.
+- Only trust live Polymarket data pulled after April 18.
+- Always cross-reference the INCIDENT_2026-04-18.md file before using historical benchmark numbers.
+
+This notice is placed at the top of BRAIN.md so it is read every day.
+🚨 OLD DATA — see docs/INCIDENT_2026-04-18.md for details
 # LatentForge BRAIN.md
 Single source of truth for the project
 Last Updated: April 14, 2026

@@ -1,3 +1,4 @@
+🚨 OLD DATA — see docs/INCIDENT_2026-04-18.md for details
 # Text Baseline Estimates — 2026-04-03
 
 Text-only Claude predictions for today's benchmark markets.

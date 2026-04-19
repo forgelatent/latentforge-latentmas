@@ -1,3 +1,4 @@
+🚨 OLD DATA — see docs/INCIDENT_2026-04-18.md for details
 # Text Swarm Estimates - 2026-04-04
 
 Three agents (Macro, Quant, Contrarian) averaged into swarm estimate.

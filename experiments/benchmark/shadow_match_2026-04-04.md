@@ -1,3 +1,4 @@
+🚨 OLD DATA — see docs/INCIDENT_2026-04-18.md for details
 # Shadow Match Results — 2026-04-04
 
 **Test:** Single superforecaster model vs 3-agent text swarm on 11 seed markets

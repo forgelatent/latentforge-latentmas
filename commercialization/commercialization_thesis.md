@@ -1,3 +1,4 @@
+🚨 OLD DATA — see docs/INCIDENT_2026-04-18.md for details
 # LatentForge Commercialization Thesis — Living Document
 Last Updated: April 5, 2026
 

@@ -1,3 +1,6 @@
+> ⚠️ **[INVALIDATED 2026-04-18]** This file contains claims derived from pre-live synthetic baseline data. See `docs/INCIDENT_2026-04-18.md`.
+
+🚨 OLD DATA — see docs/INCIDENT_2026-04-18.md for details
 # Polymarket Research Team Outreach — Final Draft
 ## Four-engine reviewed April 13, 2026
 ## DO NOT SEND before May 7, 2026

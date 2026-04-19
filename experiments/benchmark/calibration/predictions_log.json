@@ -29,7 +29,12 @@
     "crowd_prob": 0.077,
     "swarm_prob": 0.217,
     "predicted_date": "2026-04-04",
-    "resolved": false
+    "resolved": true,
+    "outcome": 0,
+    "resolved_date": "2026-04-17",
+    "swarm_brier": 0.0471,
+    "crowd_brier": 0.0059,
+    "naive_brier": 0.25
   },
   "544095": {
     "question": "Will Harvey Weinstein be sentenced to between 10 and 20 years in prison?",
@@ -180,7 +185,12 @@
     "crowd_prob": 0.084,
     "swarm_prob": 0.103,
     "predicted_date": "2026-04-04",
-    "resolved": false
+    "resolved": true,
+    "outcome": 0,
+    "resolved_date": "2026-04-18",
+    "swarm_brier": 0.0106,
+    "crowd_brier": 0.0071,
+    "naive_brier": 0.25
   },
   "553828": {
     "question": "Will the Colorado Avalanche win the 2026 NHL Stanley Cup?",
@@ -303,7 +313,12 @@
     "crowd_prob": 0.056,
     "swarm_prob": 0.117,
     "predicted_date": "2026-04-12",
-    "resolved": false
+    "resolved": true,
+    "outcome": 0,
+    "resolved_date": "2026-04-17",
+    "swarm_brier": 0.0137,
+    "crowd_brier": 0.0031,
+    "naive_brier": 0.25
   },
   "553871": {
     "question": "Will the Detroit Pistons win the 2026 NBA Finals?",
@@ -312,6 +327,11 @@
     "crowd_prob": 0.063,
     "swarm_prob": 0.037,
     "predicted_date": "2026-04-12",
-    "resolved": false
+    "resolved": true,
+    "outcome": 0,
+    "resolved_date": "2026-04-17",
+    "swarm_brier": 0.0014,
+    "crowd_brier": 0.004,
+    "naive_brier": 0.25
   }
 }
