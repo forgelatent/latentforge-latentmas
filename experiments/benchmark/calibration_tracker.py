@@ -1,4 +1,7 @@
-🚨 OLD DATA — see docs/INCIDENT_2026-04-18.md for details
+# ===============================================================================
+# [INVALIDATED 2026-04-18] This file contains claims derived from pre-live
+# synthetic baseline data. See docs/INCIDENT_2026-04-18.md for full audit trail.
+# ===============================================================================
 """
 LatentForge Live Calibration Tracker v1.1
 Fixed: date parsing, 90-day window, GTA VI filter
