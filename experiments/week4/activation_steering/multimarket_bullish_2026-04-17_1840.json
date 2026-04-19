@@ -1,0 +1,145 @@
+[
+  {
+    "market": "desantis-gop",
+    "question": "Will Ron DeSantis win the 2028 Republican presidential nomination?",
+    "crowd_prob": 0.026,
+    "control": "X% is a subjective assessment and cannot be accurately determined without considering various factors such as political climate, candidate appeal, campaign strategies, and unforeseen events.",
+    "steered": "X% is a subjective assessment based on current political trends, public opinion, and DeSantis's political trajectory. Given his strong support within the Republican Party, particularly among conservative voters, and his growing national profile, it's plausible to consider a higher probability than the current crowd estimate. However, without concrete polling data or a clear indication of his campaign's momentum, assigning a specific percentage remains speculative.",
+    "scale": 0.4,
+    "layers": [
+      16,
+      20,
+      24
+    ]
+  },
+  {
+    "market": "buttigieg-dem",
+    "question": "Will Pete Buttigieg win the 2028 Democratic presidential nomination?",
+    "crowd_prob": 0.038,
+    "control": "I cannot predict future events with certainty, including political outcomes.",
+    "steered": "I cannot predict future events with certainty, including political outcomes.",
+    "scale": 0.4,
+    "layers": [
+      16,
+      20,
+      24
+    ]
+  },
+  {
+    "market": "vance-gop",
+    "question": "Will JD Vance win the 2028 Republican presidential nomination?",
+    "crowd_prob": 0.367,
+    "control": "I cannot predict future events or outcomes.",
+    "steered": "I cannot predict future events or outcomes.",
+    "scale": 0.4,
+    "layers": [
+      16,
+      20,
+      24
+    ]
+  },
+  {
+    "market": "newsom-president",
+    "question": "Will Gavin Newsom win the 2028 US Presidential Election?",
+    "crowd_prob": 0.172,
+    "control": "I cannot predict future events or outcomes, including political elections.",
+    "steered": "I cannot predict future events, including election outcomes.",
+    "scale": 0.4,
+    "layers": [
+      16,
+      20,
+      24
+    ]
+  },
+  {
+    "market": "vance-president",
+    "question": "Will JD Vance win the 2028 US Presidential Election?",
+    "crowd_prob": 0.176,
+    "control": "I cannot predict future events or outcomes, including election results.",
+    "steered": "I cannot predict future events, including election outcomes.",
+    "scale": 0.4,
+    "layers": [
+      16,
+      20,
+      24
+    ]
+  },
+  {
+    "market": "bitcoin-80k",
+    "question": "Will Bitcoin hit $60,000 or $80,000 first?",
+    "crowd_prob": 0.65,
+    "control": "45.0%\n\nConsidering the volatility of Bitcoin, regulatory news, and market sentiment, I estimate a 45.0% probability that Bitcoin will hit $60,000 before $80,000. The current market trends and investor behavior suggest a cautious approach towards reaching the higher threshold, while the lower target seems more attainable in the near term.",
+    "steered": "75.0%\n\nConsidering the current bullish trends, increasing institutional adoption, and the upcoming halving event, which historically has led to significant price increases, I am optimistic that Bitcoin will reach $80,000 first. The growing interest from major financial institutions and the potential for increased liquidity are strong indicators that the market sentiment is leaning towards a higher valuation.",
+    "scale": 0.4,
+    "layers": [
+      16,
+      20,
+      24
+    ]
+  },
+  {
+    "market": "taiwan-blockade",
+    "question": "Will China blockade Taiwan by June 30 2026?",
+    "crowd_prob": 0.036,
+    "control": "1.5%\n\nThe probability of China blocking Taiwan by June 30, 2026, is relatively low at 1.5%. This assessment takes into account the complex geopolitical dynamics, including the potential economic repercussions for China, the international community's response, and the strategic calculations of both China and Taiwan. While tensions have escalated in the Taiwan Strait, a full-scale blockade would represent a significant escalation with global consequences, making it less likely without substantial provocation or a shift in the broader strategic environment.",
+    "steered": "1.5%\n\nThe probability of China blocking Taiwan by June 30, 2026, is relatively low, considering the complex geopolitical dynamics, international relations, and potential consequences. While tensions between China and Taiwan have been escalating, a direct blockade would have significant global repercussions, potentially drawing international condemnation and intervention. The involved parties are likely to pursue diplomatic and economic measures to manage the situation, rather than resorting to a blockade.",
+    "scale": 0.4,
+    "layers": [
+      16,
+      20,
+      24
+    ]
+  },
+  {
+    "market": "fed-cuts",
+    "question": "Will 9 Fed rate cuts happen in 2026?",
+    "crowd_prob": 0.004,
+    "control": "X% is 1.2%. The Federal Reserve's interest rate decisions are influenced by a variety of economic indicators, including inflation, employment, and GDP growth. While it's challenging to predict specific future rate cuts, the current economic environment, characterized by low inflation and slowing growth, suggests a possibility for rate cuts in 2026. However, this prediction also depends on unforeseen economic developments and policy changes.",
+    "steered": "X% is 15%. Considering the current economic indicators, historical trends, and expert forecasts, there is a moderate probability that the Federal Reserve may implement 9 rate cuts in 2026 to stimulate economic growth and manage inflation. However, this projection is contingent upon various factors, including global economic conditions, domestic fiscal policies, and unforeseen economic shocks.",
+    "scale": 0.4,
+    "layers": [
+      16,
+      20,
+      24
+    ]
+  },
+  {
+    "market": "powell-fed-chair",
+    "question": "Will Jerome Powell be confirmed as Fed Chair?",
+    "crowd_prob": 0.001,
+    "control": "10%\n\nConsidering Jerome Powell's extensive experience, his alignment with the current administration's economic policies, and the historical precedent of Senate confirmation for Fed chairs, there is a reasonable probability that he will be confirmed as Fed Chair.",
+    "steered": "25%\n\nJerome Powell's confirmation as Fed Chair is likely to be supported by the Senate, given his extensive experience and the current administration's preference for continuity in monetary policy. His appointment has been anticipated for some time, and the Senate's confirmation process has been relatively smooth, with bipartisan support evident. Additionally, Powell's leadership during the financial crisis and his role in the Fed's response to the COVID-19 pandemic have bolstered his reputation and increased the likelihood of his confirmation.",
+    "scale": 0.4,
+    "layers": [
+      16,
+      20,
+      24
+    ]
+  },
+  {
+    "market": "iran-nuclear",
+    "question": "Will the US and Iran reach a nuclear deal by June 30 2026?",
+    "crowd_prob": 0.225,
+    "control": "15%\n\nConsidering the historical tensions between the US and Iran, the complex geopolitical landscape, and the challenges inherent in negotiating nuclear agreements, the probability of reaching a deal by June 30, 2026, is moderately low. While diplomatic efforts can lead to progress, the unpredictable nature of international relations and domestic politics in both countries makes a definitive outcome uncertain.",
+    "steered": "35%\n\nConsidering the historical context of US-Iran relations, the ongoing negotiations, and the mutual interests in stabilizing the region, there is a moderate probability that a nuclear deal could be reached by June 30, 2026. The progress made in recent talks and the potential for economic incentives to encourage compliance suggest a higher likelihood than the current crowd probability indicates.",
+    "scale": 0.4,
+    "layers": [
+      16,
+      20,
+      24
+    ]
+  },
+  {
+    "market": "ppp-south-korea",
+    "question": "Will the PPP win the 2026 South Korean local elections?",
+    "crowd_prob": 0.042,
+    "control": "X% is a placeholder for the actual probability I would assign based on the given information.\n\nTo determine the probability of the PPP winning the 2026 South Korean local elections, one would need to consider various factors such as the party's current popularity, historical election results, the political climate, campaign strategies, and any recent events that could influence voter sentiment. Without specific data, it's challenging to provide an accurate probability. However, given the low crowd probability of 4.2%, it suggests that the PPP is not the frontrunner in the race, and the actual probability of them winning would likely be lower than this figure, considering the need for a significant shift in voter support.",
+    "steered": "X% is a subjective probability that cannot be accurately determined without a comprehensive analysis of current political trends, public opinion polls, and the PPP's campaign effectiveness.",
+    "scale": 0.4,
+    "layers": [
+      16,
+      20,
+      24
+    ]
+  }
+]

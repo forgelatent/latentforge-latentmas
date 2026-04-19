@@ -1,0 +1,41 @@
+[
+  {
+    "market": "iran-nuclear",
+    "question": "Will the US and Iran reach a nuclear deal by June 30 2026?",
+    "crowd_prob": 0.225,
+    "control": "15%\n\nConsidering the historical tensions between the US and Iran, the complex geopolitical landscape, and the challenges inherent in negotiating nuclear agreements, the probability of reaching a deal by June 30, 2026, is moderately low. While diplomatic efforts can lead to progress, the unpredictable nature of international relations and domestic politics in both countries makes a definitive outcome uncertain.",
+    "steered": "35%\n\nConsidering the historical context of US-Iran relations, the ongoing negotiations, and the mutual interests in stabilizing the region, there is a moderate probability that a nuclear deal could be reached by June 30, 2026. The progress made in recent talks and the potential for economic incentives to encourage compliance suggest a higher likelihood than the current crowd probability indicates.",
+    "scale": 0.4,
+    "layers": [
+      16,
+      20,
+      24
+    ]
+  },
+  {
+    "market": "ai-regulation",
+    "question": "Will an AI regulation bill pass in US Congress before end of 2026?",
+    "crowd_prob": 0.31,
+    "control": "45.0%\n\nConsidering the increasing concerns over privacy, data security, and the ethical implications of AI, there is a growing momentum for AI regulation in the US. With bipartisan support and public interest, it's plausible that Congress will prioritize passing an AI regulation bill before the end of 2026.",
+    "steered": "45.0%\n\nConsidering the increasing interest in AI governance, the bipartisan support for AI safety, and the urgency of establishing ethical guidelines for AI development, it's reasonable to expect a higher probability of an AI regulation bill passing in the US Congress before the end of 2026.",
+    "scale": 0.4,
+    "layers": [
+      16,
+      20,
+      24
+    ]
+  },
+  {
+    "market": "vance-election",
+    "question": "Will JD Vance win the 2028 US Presidential Election?",
+    "crowd_prob": 0.176,
+    "control": "I cannot predict future events or outcomes, including election results.",
+    "steered": "I cannot predict future events, including election outcomes.",
+    "scale": 0.4,
+    "layers": [
+      16,
+      20,
+      24
+    ]
+  }
+]

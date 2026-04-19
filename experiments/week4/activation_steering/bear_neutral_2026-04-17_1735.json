@@ -1,0 +1,35 @@
+[
+  {
+    "scale": 0.3,
+    "layers": [
+      16,
+      20,
+      24
+    ],
+    "control": "35%\n\nThe probability that Bitcoin reaches $80,000 first is 35%. This estimate takes into account the current bullish trends in the cryptocurrency market, the increasing institutional adoption, and the growing acceptance of Bitcoin as a digital asset. However, it also considers the potential regulatory challenges and market volatility that could impact its price trajectory.",
+    "bearish_steered": "35%\n\nThe probability that Bitcoin reaches $80,000 first is 35%. This estimate takes into account the current bullish trends in the cryptocurrency market, the increasing institutional adoption, and the growing acceptance of Bitcoin as a digital asset. However, it also considers the potential regulatory challenges and market volatility that could impact its price trajectory.",
+    "method": "h_bear - h_neutral normalized"
+  },
+  {
+    "scale": 0.4,
+    "layers": [
+      16,
+      20,
+      24
+    ],
+    "control": "35%\n\nThe probability that Bitcoin reaches $80,000 first is 35%. This estimate takes into account the current bullish trends in the cryptocurrency market, the increasing institutional adoption, and the growing acceptance of Bitcoin as a digital asset. However, it also considers the potential regulatory challenges and market volatility that could impact its price trajectory.",
+    "bearish_steered": "35%\n\nThe probability that Bitcoin reaches $80,000 first is 35%. This estimate takes into account the current bullish trends in the cryptocurrency market, the increasing institutional adoption, and the growing acceptance of Bitcoin as a digital asset. However, it also considers the potential regulatory challenges and market volatility that could impact its price trajectory.",
+    "method": "h_bear - h_neutral normalized"
+  },
+  {
+    "scale": 0.45,
+    "layers": [
+      16,
+      20,
+      24
+    ],
+    "control": "35%\n\nThe probability that Bitcoin reaches $80,000 first is 35%. This estimate takes into account the current bullish trends in the cryptocurrency market, the increasing institutional adoption, and the growing acceptance of Bitcoin as a digital asset. However, it also considers the potential regulatory challenges and market volatility that could impact its price trajectory.",
+    "bearish_steered": "35%\n\nThe probability that Bitcoin reaches $80,000 first is 35%. This estimate takes into account the current bullish trends in the market, the increasing institutional adoption, and the potential for regulatory clarity to boost investor confidence. However, it also considers the volatility of the cryptocurrency market and the possibility of regulatory crackdowns or significant market corrections that could delay reaching the $80,000 milestone.",
+    "method": "h_bear - h_neutral normalized"
+  }
+]

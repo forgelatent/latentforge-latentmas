@@ -1,5 +1,9 @@
-🚨 OLD DATA — see docs/INCIDENT_2026-04-18.md for details
 #!/usr/bin/env python3
+# ===============================================================================
+# [INVALIDATED 2026-04-18] This file contains claims derived from pre-live
+# synthetic baseline data. See docs/INCIDENT_2026-04-18.md for full audit trail.
+# ===============================================================================
+
 """
 LatentForge Commercialization Agent
 Runs nightly. Reads all data sources + previous thesis and updates
