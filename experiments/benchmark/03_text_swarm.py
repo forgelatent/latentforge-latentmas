@@ -41,6 +41,35 @@ BENCHMARK_MARKETS = [
     {"id": 11, "question": "Will US voter turnout exceed 50% in 2026 midterms?"},
 ]
 
+def _extract_price(m):
+    """Read live Polymarket price. Returns 0.5 only if nothing is usable."""
+    outcome = m.get("outcomePrices")
+    if isinstance(outcome, str):
+        try:
+            parsed = json.loads(outcome)
+            if isinstance(parsed, list) and parsed:
+                return float(parsed[0])
+        except Exception:
+            pass
+    elif isinstance(outcome, list) and outcome:
+        try:
+            return float(outcome[0])
+        except Exception:
+            pass
+    bid, ask = m.get("bestBid"), m.get("bestAsk")
+    if bid is not None and ask is not None:
+        try:
+            return (float(bid) + float(ask)) / 2
+        except Exception:
+            pass
+    ltp = m.get("lastTradePrice")
+    if ltp is not None:
+        try:
+            return float(ltp)
+        except Exception:
+            pass
+    return 0.5
+
 def get_live_crowd_price(question):
     """Pull current YES price from latest Polymarket JSON."""
     if not LIVE_FILE or not LIVE_FILE.exists():
@@ -52,12 +81,8 @@ def get_live_crowd_price(question):
         q_lower = question.lower()
         for m in markets:
             api_q = m.get("question", "").lower()
-            # Better loose matching for long-term markets
             if any(word in api_q for word in q_lower.split() if len(word) > 3):
-                price = m.get("current_price") or (m.get("outcomePrices", [0.5])[0] if isinstance(m.get("outcomePrices"), list) else 0.5)
-                if isinstance(price, str):
-                    price = float(price)
-                return float(price)
+                return _extract_price(m)
         return 0.50
     except:
         return 0.50
@@ -103,4 +128,3 @@ with open(output_file, "w") as f:
         f.write(f"   Swarm: {swarm_probs[i]}% (crowd: {crowd*100:.1f}%)\n\n")
 
 print(f"\n✅ Saved to {output_file}")
-print("✅ Now using fully live Polymarket data!")
