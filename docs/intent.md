@@ -163,6 +163,22 @@ This rule exists because the April 21 morning session produced three design opti
 
 ---
 
+## Verification output safety
+
+Verification commands issued by Claude must be designed to produce paste-safe output by default. Commands that read configuration files, environment variables, credential stores, dotfiles, or any location that may contain secrets must not return raw content. They must use redaction techniques — match-count (`grep -c`), structural questions ("does line 4 start with `export`?"), or substitution (`sed`, `awk` filtering) — instead.
+
+If it is unclear whether output may contain sensitive data, the command must be treated as unsafe and redesigned.
+
+Commands must also be safe in their *invocation*, not only their output. Secrets passed as command arguments enter shell history (`.zsh_history`) and are exposed there. Commands that take secrets as arguments must use environment variable substitution or stdin piping, not literal values.
+
+High-sensitivity paths to flag explicitly when designing verification: `~/.zshrc`, `~/.zprofile`, `~/.ssh/`, any `.env` file, anything in Keychain, any path beginning with `~/.latentforge/`.
+
+The requester (Claude) is responsible for designing the command. The operator is not expected to redact in the moment — flow-state operators paste raw output, and that's the failure mode this rule defends against.
+
+**Reproducer:** before issuing a command, ask: "If the operator runs this exactly and pastes the full terminal output back into chat, would any secret be exposed?" If yes or uncertain, redesign.
+
+This rule was ratified April 29, 2026 in response to a near-miss: a `grep -n -i "kalshi" ~/.zshrc` command exposed a live API key in chat. Mitigated by immediate revocation. The underlying workflow assumption (paste-back-loop is safe by default) was the failure. See `docs/incident_ledger.md`.
+
 ## How to use this file (fresh Claude session)
 
 This file tells you what LatentForge is *for*. It does not tell you the current operational state (which launchd jobs are active, which are unloaded, what today commit hash is) — that lives in `state_manifest.md`. It does not tell you the incident history in detail — that lives in `incident_ledger.md`.
