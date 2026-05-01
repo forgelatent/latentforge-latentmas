@@ -1,3 +1,5 @@
+> Archived 2026-05-01. Consolidated into docs/incident_ledger.md. Preserved verbatim for audit trail.
+
 # INCIDENT SUPPLEMENT — April 20, 2026
 ## Grok Confabulation + Discovery of Unremediated shadow_match.py
 

@@ -1,3 +1,5 @@
+> Archived 2026-05-01. Consolidated into docs/incident_ledger.md. Preserved verbatim for audit trail.
+
 # INCIDENT SUPPLEMENT — April 19, 2026
 ## Manual Pipeline Simulation & Follow-up Findings
 
