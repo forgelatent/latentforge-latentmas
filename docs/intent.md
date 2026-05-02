@@ -51,6 +51,18 @@ That last result is the "first flight" moment. It is not yet "the motor car." It
 
 ---
 
+## Measurable proof targets
+
+The motor-car claim resolves to two measurable thresholds. They were specified at project founding (March 2026) and remain operative post-reset. Until both are met against the proof architecture's measurement instruments, the thesis is not proven internally — and meeting them is necessary but not sufficient for external claims, which are governed by the separate $10M real-world performance threshold (see "The Primary Strategic Bet" section above).
+
+- **Divergence target.** Latent agents must be >1.5× more divergent than the text baseline on OpenSpiel. This is the proof that latent coordination produces *useful divergence* — the open question named in "What we are proving next" above. The four-arm benchmark (text single-agent, text swarm, latent single-agent, latent swarm) is a parallel measurement instrument on live adversarial markets; OpenSpiel is the synthetic-domain instrument for the same underlying claim.
+
+- **V0.1 proof target.** The minimum credible demo — two agents communicating via latent deltas with Shadow Self translation, drift detection, and logging — must show compute savings ≥30% per turn plus a novel-solutions count distinguishable from text-only communication. This is the V0.1 acceptance criterion. Compute-savings is the "cheaper coordination" half of the motor-car claim; novel-solutions count is the "useful divergence" half at the V0.1 scope.
+
+Current measurement status against these targets is tracked in `state_manifest.md` ("Measurable proof target status" section). Status updates as infrastructure is built and measurements are taken.
+
+---
+
 ## The proof architecture
 
 Two arms, both running. Neither is optional.

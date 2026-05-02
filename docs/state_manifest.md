@@ -205,6 +205,35 @@ Purpose: to show a fresh session the *Operational Delta* — the gap between whe
 
 ---
 
+## Measurable proof target status
+
+Per `intent.md` "Measurable proof targets" section. This section tracks current measurement status — what is measured, what is not measured, what blocks measurement. Update cadence: when measurement infrastructure is built, when measurements are taken, or when target operativeness is reviewed. Not a daily-updated section.
+
+**Status legend:**
+- `MEASURED: yes` — measurement taken against operative infrastructure, result recorded
+- `MEASURED: in-progress` — infrastructure built, measurement underway, result not yet final
+- `MEASURED: no` — infrastructure not yet built or measurement not yet attempted
+
+### OpenSpiel divergence target
+
+- **Threshold:** latent agents >1.5× more divergent than text baseline on OpenSpiel.
+- **Status: `MEASURED: no`.**
+- **Required infrastructure:** OpenSpiel benchmark setup; latent-vs-text agent comparison harness; reproducible divergence-score measurement methodology.
+- **Blocked by:** infrastructure not built. Mac Mini experimental work paused since April 17, 2026. Mac Mini work is Founder-initiated only per Hosts section above.
+- **Not blocked by:** the post-April-19 contamination remediation (this target is independent of the Polymarket benchmark layer).
+
+### V0.1 proof target
+
+- **Threshold:** compute savings ≥30% per turn AND a novel-solutions count distinguishable from text-only communication, on the V0.1 demo (two agents communicating via latent deltas with Shadow Self translation, drift detection, and logging).
+- **Status: `MEASURED: no`.**
+- **Required infrastructure:** V0.1 demo not yet built. The April 17 work on Mac Mini M4 Pro produced verified components (latent transport, activation steering, unidirectional semantic steering on a single market) but did not constitute the V0.1 demo.
+- **Blocked by:** V0.1 demo not yet built. Mac Mini work required. Mac Mini Autonomy Rule applies.
+- **Sub-target progress:**
+  - Compute-savings half: not yet measured. Compression fidelity work (24x compression with fidelity 1.0000 on Phi-3 Mini 3.8B) is foundational but not the same measurement.
+  - Novel-solutions half: not yet measured. The four-arm benchmark architecture on prediction markets is the parallel measurement instrument for "useful divergence" but is currently blocked by text-swarm matching contract (per text-swarm component entry above).
+
+---
+
 ## How to use this file
 
 This file is not a source of truth — it is a consistency checker between `intent.md` and live system state.
