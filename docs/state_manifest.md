@@ -11,7 +11,7 @@ Maintained by: John McGuire (Founder Engine), with Systems Engine (Claude) and D
 
 ## HEAD
 
-**HEAD:** `41e5429` — founder_inputs: end-of-day handoff note for April 22 restart
+**HEAD:** `860fa04` — docs(state_manifest): rename Trinity check to Bootstrap check, all 5 bundle files now required
 *(Use `git log -1 HEAD` for timestamp.)*
 
 ---
