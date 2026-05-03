@@ -16,11 +16,19 @@ Maintained by: John McGuire (Founder Engine), with Systems Engine (Claude) and D
 
 ---
 
-## Handoff integrity check
+## Bootstrap integrity check
 
-This file is one leg of the Trinity of Truth bootstrap: `docs/intent.md` + `docs/state_manifest.md` + `docs/incident_ledger.md`. A fresh session must confirm all three files are loaded before trusting any section below.
+A fresh session is initialized via the **bootstrap bundle**: five canonical documents loaded together by the `brainload_handoff` alias.
 
-If any of the three is missing from context, declare the session UNINITIALIZED and halt. Do not reason from a partial Trinity.
+| Role | Files |
+|---|---|
+| **Trinity** (3) | `docs/intent.md` (purpose) + `docs/state_manifest.md` (current state) + `docs/incident_ledger.md` (incident history) |
+| **Referenced** (1) | `docs/INCIDENT_2026-04-18.md` (root incident record, preserved at original path because 20+ inline disclaimer headers across the codebase cite it) |
+| **Complementary** (1) | `docs/build_log.md` (architectural and per-component design rationale) |
+
+All five files are required. If any of the five is missing from context, declare the session UNINITIALIZED and halt. Do not reason from a partial bundle.
+
+The "Trinity of Truth" remains the integrity-critical core — the three files that together define what the project is for, what is currently true, and what has gone wrong — but the bundle is the full session-initialization context. A session missing any single file from the bundle is incomplete and unsafe to reason from.
 
 If only `BRAIN.md` is present, the legacy `brainload` alias was used — close the session and restart with `brainload_handoff`.
 
