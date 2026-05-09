@@ -4,14 +4,14 @@
 
 Companion to `docs/intent.md`. Where `intent.md` defines what the project is *for* (permanent), this file defines what is *currently true* (volatile — operational state + session hygiene). Fresh Claude sessions read both at the start of every session.
 
-Last meaningful update: April 29, 2026
+Last meaningful update: May 9, 2026
 Maintained by: John McGuire (Founder Engine), with Systems Engine (Claude) and Divergent Thinking Engine (Grok)
 
 ---
 
 ## HEAD
 
-**HEAD:** `860fa04` — docs(state_manifest): rename Trinity check to Bootstrap check, all 5 bundle files now required
+**HEAD:** `bd5dd63` — docs(build_log): correct text-swarm and Day 30 dates; reorder research-sweep threshold framing (preceded by `eae4846`: revenue-strategist date + bootstrap pattern broadening)
 *(Use `git log -1 HEAD` for timestamp.)*
 
 ---
@@ -132,9 +132,10 @@ Purpose: to show a fresh session the *Operational Delta* — the gap between whe
   - Live pulls verified April 28-29 (consistent across two consecutive days post-travel-recovery)
   - `depends-on: (none — root)`
 
-- kalshi-pull `[LOADED: yes | VALID: yes]`
-  - Live pulls verified April 28-29
+- kalshi-pull `[LOADED: yes | VALID: limited | scope: trustworthy when network reachable; wrapper masks fatal errors as SUCCESS]`
+  - Live pulls verified April 28-29 (consistent across two consecutive days post-travel-recovery)
   - `kalshi-pull` uses public endpoints only. Kalshi's authenticated endpoints (RSA-based) are not currently configured.
+  - **VALID downgraded May 9, 2026** per incident_ledger.md "May 9, 2026 audit findings": cron log inspection revealed the wrapper logs `SUCCESS on attempt 1` after fatal `NameResolutionError` on May 5 and May 6, with no retry and exit code 0. The launchctl exit status that supports VALID: yes is unreliable when DNS or other network errors occur during laptop-closed wake. Component is trustworthy on days when network is reachable at job-fire time, but a fresh session cannot trust the launchctl exit status as a freshness signal. Pending wrapper fix to make failure reporting structurally parallel to polymarket-pull.
   - `depends-on: (none — root)`
 
 - compression-researcher `[LOADED: yes | VALID: limited | scope: research-only, no downstream impact]`
