@@ -29,6 +29,10 @@ Sequence:
 
 `kalshi_pull.py` wrapped its API call in `try/except Exception as e:` which swallowed exceptions and let the function return normally (exit code 0). The shared wrapper `scripts/run_with_key.sh` correctly handles retry/exit-code logic — but only fires retries on non-zero exit. The script-level exception swallow prevented the wrapper from ever seeing failures. Fix: add `import sys` and `sys.exit(1)` in the except handler (lines 7 and 55). After the fix, kalshi-pull behaves structurally identical to polymarket-pull on the same exception types: any unhandled exception causes the wrapper to log FAILED, retry up to 3 times with 5-minute delays, and finally log PERMANENT FAILURE if all attempts fail.
 
+## Late-session finding: Kalshi data is sports, not policy
+
+After tonight's fix was committed, a grep of BRAIN.md for "kalshi" surfaced a finding worth carrying into tomorrow's question-set-audit work. Per BRAIN.md April 4, 2026 "Kalshi Parked" entry (line 697+): kalshi-pull's current endpoint (api.elections.kalshi.com) returns sports markets only. The policy/political markets needed for the benchmark questions require RSA auth, which had "persistent 401 issues despite correct RSA" in March/April and was parked. Implication: tonight's `VALID: yes` restoration is technically correct for the pull, but Kalshi data is not currently part of text-swarm matching scope — it's sports prop bets, not Fed/election/macro markets. The Sunday-morning matching contract decisions (Decision 1 question set audit, Decision 2 multi-market aggregation, Decision 3 data-pull scope expansion) assumed Kalshi was a second policy-market data source. It isn't, currently. Either un-park RSA auth work (substantial, not quick) or accept that the four-arm benchmark's crowd-baseline comes from Polymarket alone for now.
+
 ## What's still queued (unchanged from Saturday evening note)
 
 The Sunday-morning decisions from Saturday evening's note remain the canonical next-action items:
