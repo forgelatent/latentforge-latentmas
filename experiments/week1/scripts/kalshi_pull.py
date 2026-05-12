@@ -4,6 +4,7 @@ Kalshi Pull — Simple and robust version
 Fetches active markets and saves them cleanly as a list.
 """
 
+import sys
 import requests
 import json
 from datetime import datetime
@@ -51,6 +52,7 @@ def main():
 
     except Exception as e:
         print(f"Error fetching Kalshi data: {e}")
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()

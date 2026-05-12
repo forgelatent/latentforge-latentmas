@@ -4,14 +4,14 @@
 
 Companion to `docs/intent.md`. Where `intent.md` defines what the project is *for* (permanent), this file defines what is *currently true* (volatile — operational state + session hygiene). Fresh Claude sessions read both at the start of every session.
 
-Last meaningful update: May 9, 2026
+Last meaningful update: May 11, 2026
 Maintained by: John McGuire (Founder Engine), with Systems Engine (Claude) and Divergent Thinking Engine (Grok)
 
 ---
 
 ## HEAD
 
-**HEAD:** `bd5dd63` — docs(build_log): correct text-swarm and Day 30 dates; reorder research-sweep threshold framing (preceded by `eae4846`: revenue-strategist date + bootstrap pattern broadening)
+**HEAD:** `42830a1` — docs(founder_inputs): commit weekly continuity notes (May 3, 6, 9) (preceded by `46b2467`: May 9 kalshi-pull finding documentation)
 *(Use `git log -1 HEAD` for timestamp.)*
 
 ---
@@ -132,10 +132,10 @@ Purpose: to show a fresh session the *Operational Delta* — the gap between whe
   - Live pulls verified April 28-29 (consistent across two consecutive days post-travel-recovery)
   - `depends-on: (none — root)`
 
-- kalshi-pull `[LOADED: yes | VALID: limited | scope: trustworthy when network reachable; wrapper masks fatal errors as SUCCESS]`
-  - Live pulls verified April 28-29 (consistent across two consecutive days post-travel-recovery)
+- kalshi-pull `[LOADED: yes | VALID: yes]`
+  - Live pulls verified April 28-29; silent-success bug fixed May 11 (see resolution note below)
   - `kalshi-pull` uses public endpoints only. Kalshi's authenticated endpoints (RSA-based) are not currently configured.
-  - **VALID downgraded May 9, 2026** per incident_ledger.md "May 9, 2026 audit findings": cron log inspection revealed the wrapper logs `SUCCESS on attempt 1` after fatal `NameResolutionError` on May 5 and May 6, with no retry and exit code 0. The launchctl exit status that supports VALID: yes is unreliable when DNS or other network errors occur during laptop-closed wake. Component is trustworthy on days when network is reachable at job-fire time, but a fresh session cannot trust the launchctl exit status as a freshness signal. Pending wrapper fix to make failure reporting structurally parallel to polymarket-pull.
+  - **VALID restored May 11, 2026** per incident_ledger.md "May 9, 2026 audit findings" resolution. Script-level fix shipped in `kalshi_pull.py` (added `sys.exit(1)` to the `except` handler). After fix, kalshi-pull now exits non-zero on exceptions, triggering the wrapper's 3-attempt retry, structurally parallel to polymarket-pull. Verified May 11 via happy-path (exit 0, 1000 markets saved) and failure-path (WiFi off, exit 1, NameResolutionError logged) tests. A separate follow-on observation (kalshi_pull treats empty-data API response as success) is documented in the same May 9 audit findings subsection as a deferred Tier 3 ticket; this does not affect VALID: yes designation under normal API behavior.
   - `depends-on: (none — root)`
 
 - compression-researcher `[LOADED: yes | VALID: limited | scope: research-only, no downstream impact]`
