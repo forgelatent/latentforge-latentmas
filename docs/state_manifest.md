@@ -164,7 +164,19 @@ Purpose: to show a fresh session the *Operational Delta* — the gap between whe
 **Unloaded, pending remediation:**
 
 - text-swarm `[LOADED: no | VALID: no]`
-  - Issue: matching logic broken (bimodal fallback output); pending matching contract
+  - **Issue 1 (matching layer):** Matching logic broken (bimodal fallback output); pending matching contract. Per Apr 20 Pending Item 1.
+  - **Issue 2 (swarm layer, surfaced May 23, 2026):** Swarm logic replaced with random number generation (`random.uniform(35, 75)` with per-persona multipliers) in commit `6457e02` (Apr 18, 6:32 PM Pacific). The three personas (Macro Analyst, Quant Researcher, Contrarian Forecaster) are name-only — no Anthropic API calls, no model, no reasoning. The script produced 2 days of undetected fake output (April 19, 20) before going dormant; has not been executed since April 20. Real swarm logic survives in `experiments/benchmark/calibration_tracker.py` lines 110-141 (function `swarm_estimate`), but uses model `claude-sonnet-4-20250514` vs. the deleted text-swarm's `claude-sonnet-4-6` — never identical implementations.
+  - **Engine-prescribed-during-emergency context:** This commit was made during the April 18 contamination response under engine prescription; the Founder authored the commit (per git) but does not specifically recall the swarm-replacement decision. See `incident_ledger.md` May 23, 2026 entry for full pattern analysis.
+  - **Reproducers:**
+    - Swarm stub: `grep -n "random.uniform" experiments/benchmark/03_text_swarm.py` returns line 99
+    - Commit history: `git log -p -S "random.uniform" -- experiments/benchmark/03_text_swarm.py` shows commit `6457e02` as the introduction point
+    - Output file dates: `ls -la experiments/benchmark/text_swarm_*.md | awk '{print $9}'` shows March 30 through April 20 only; no executions since April 20
+    - Surviving swarm: `grep -n "anthropic\|claude\|swarm_estimate" experiments/benchmark/calibration_tracker.py` returns hits at lines 110, 122, 128, 133, 232
+  - **Cross-reference:** `incident_ledger.md` May 23, 2026 entry for full Tier 1 chain and pattern analysis.
+  - **Restoration prerequisites (expanded from Apr 20 Pending Item 1):**
+    1. Matching contract design (original Apr 20 scope)
+    2. Swarm restoration architecture (new, May 23 scope) — decision between parallel implementation vs. shared module with calibration_tracker
+    3. Audit-trail design — what gets logged per swarm run (model identifier, individual agent responses, system prompts version)
   - `depends-on: polymarket-pull`
 
 - benchmark-updater `[LOADED: no | VALID: no]`
