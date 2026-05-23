@@ -700,7 +700,7 @@ The April 12 evaluation showed exactly the predicted pattern: the Bayesian Updat
 
 The design lesson is the *pre-committed evaluation* shape. The trial was structured so that the project could not rationalize keeping the Bayesian Updater after observing its behavior — the drop criteria were specified in writing before any data came in, and the data either fired the criteria or did not. The same pattern recurs throughout the project's later history: Mac Mini experiment spec v2.0 pre-registration (April 11), motor-car tests with two-of-four threshold (April 11), the 30-day paper trading clock (April 4 forward). Each is a pre-committed evaluation that closes off post-hoc rationalization at the moment of evaluation.
 
-*Reproducer: BRAIN.md April 5 entry "4th Agent Added to Text Swarm" with the pre-committed trial; April 8 entry "Bayesian	 Updater — drop after April 12" with confirmed criteria; April 11 entry "Bayesian Updater dropped from swarm" with execution.*
+*Reproducer: BRAIN.md April 5 entry "4th Agent Added to Text Swarm" with the pre-committed trial; April 8 entry "Bayesian Updater — drop after April 12" with confirmed criteria; April 11 entry "Bayesian Updater dropped from swarm" with execution.*
 
 ## 5.2 The Rain grant compounding pressure — April 11, 2026
 
