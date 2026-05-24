@@ -1,10 +1,18 @@
-# End-of-session handoff — May 24, 2026 evening
+# End-of-session handoff — May 24, 2026 afternoon (second block)
 
-**Session type:** Evening fresh-context session picking up from the lunch handoff. Started with shadow_match reload-gate decision (the one open question from lunch). Surfaced a finding bigger than the original question. Multi-engine review run. Stopped before deciding.
+**Session type:** Afternoon fresh-context session picking up from the lunch handoff. Started with shadow_match reload-gate decision (the one open question from lunch). Surfaced a finding bigger than the original question. Multi-engine review run. Stopped before deciding.
 
-**Outgoing context:** Claude (Systems Engine) session that ran approximately 6pm–9pm Pacific.
+**Outgoing context:** Claude (Systems Engine) session that ran approximately 1:30pm–2:30pm Pacific.
 
-**Reason for handoff:** Pattern D guard. Tonight's diagnostic surfaced that the project's 11 fixed benchmark questions are not present in either the Polymarket or Kalshi daily pulls. Three engines responded. All three recommended Option D (architectural reconsideration) but with three different D variants. Founder elected to capture session state and break rather than decide under cognitive pressure of the discovery + three fresh engine responses in the same session. Walking, then sleep.
+**Reason for handoff:** Pattern D guard. The afternoon's diagnostic surfaced that the project's 11 fixed benchmark questions are not present in either the Polymarket or Kalshi daily pulls. Three engines responded. All three recommended Option D (architectural reconsideration) but with three different D variants. Founder elected to capture session state and break rather than decide under cognitive pressure of the discovery + three fresh engine responses in the same session. Walk after this note; the next session is part of today's work, not tomorrow's.
+
+---
+
+## Correction note (added during handoff write)
+
+An earlier draft of this file labelled this session "evening" and used "6pm–9pm Pacific" plus phrasing like "tonight," "tomorrow-you," and "sleep second" throughout. That framing was a Systems Engine inference error — Claude built a mental picture of a late-night session and let it leak into the document. Founder caught it. The real session window is afternoon (~1:30–2:30pm Pacific). The Founder explicitly does *not* intend to stop for the day; the walk is a break between work blocks, consistent with the lunch handoff. The next fresh-context session is later today, not tomorrow.
+
+This correction note is preserved as a small CFM-slip record. Worth a future-session decision on whether to log it formally in `incident_ledger.md`.
 
 ---
 
@@ -14,8 +22,8 @@ The next session needs:
 
 1. The session-state context the bootstrap bundle alone won't provide
 2. The two locked decisions from the lunch session that were *not* folded into the review file yet (carried forward from lunch handoff plan-item 5)
-3. The three engine responses from tonight, ready for cold comparison
-4. A decision still to be made on the original lunch deferred question (reload gate), now substantially reframed by tonight's finding
+3. The three engine responses from this afternoon's second block, ready for cold comparison
+4. A decision still to be made on the original lunch deferred question (reload gate), now substantially reframed by this session's finding
 
 Bootstrap with `brainload_handoff`. Then read the four files listed at the end of this note before doing any work.
 
@@ -28,14 +36,19 @@ Multi-day arc (carrying forward from lunch handoff):
 - **May 23:** text-swarm random-number swarm finding
 - **May 24 morning:** shadow_match audit (Pro-Thesis Optimization Loop)
 - **May 24 morning continued:** calibration_tracker audit (clean — VALID restored)
-- **May 24 afternoon (lunch session):** shadow_match restoration multi-engine review; five decisions locked, one deferred (reload gate). Two new findings surfaced (silent-parse bug + polymarket-pull-unfiltered).
-- **May 24 evening (this session):** Attempting to answer the reload-gate question surfaced that the 11 benchmark questions are not in either data pull. Multi-engine review on the bigger question. Three responses captured. No decisions made tonight.
+- **May 24 lunch (first afternoon block):** shadow_match restoration multi-engine review; five decisions locked, one deferred (reload gate). Two new findings surfaced (silent-parse bug + polymarket-pull-unfiltered).
+- **May 24 second afternoon block (this session):** Attempting to answer the reload-gate question surfaced that the 11 benchmark questions are not in either data pull. Multi-engine review on the bigger question. Three responses captured. No decisions made this session.
 
 ---
 
 ## What this session got done
 
-No commits tonight. All work was investigative and captured in this note + the briefing file + the three engine responses (stored in session memory of this Claude conversation, to be moved to founder_inputs by next session).
+Two commits this session (plus the correction commit this handoff is part of):
+
+1. **`8dc7361`** — `docs(founder_inputs): evening session handoff + multi-engine briefing on benchmark-set-vs-data-pull mismatch` — the briefing file was committed; the handoff file was supposed to be in the same commit but didn't actually move because the local file rename failed silently. Commit message contains the wrong word "evening" — a corollary of the same time-inference error described in the Correction note above.
+2. **`f93d77b`** — `docs(founder_inputs): add evening end-of-session handoff (was missing from prior commit)` — added the (incorrectly-labelled-evening) handoff file to the repo. The file was overwritten by the corrected afternoon version in a subsequent commit (this one or a follow-on).
+
+All other work was investigative and is captured in this note + the briefing file + the three engine responses (currently only in chat history of the originating Claude conversation, to be captured as a separate file by the next session).
 
 ### The diagnostic chain
 
@@ -53,7 +66,7 @@ No commits tonight. All work was investigative and captured in this note + the b
 
 text-swarm's silent fallback to `0.5` at `03_text_swarm.py` line 45 means every run of text-swarm — across the period when it was loaded — produced output against fake coin-flip crowd values whenever its matching layer couldn't find a market. The April 18 contamination response (per `incident_ledger.md` April 18 entry) replaced the seed-file data source with live Polymarket reads but did not verify that the live data contained the markets the scripts measure.
 
-This is a Pattern A shape (silent fallback producing structurally legitimate output against semantically invalid input) at a much larger scope than the May 24 morning shadow_match finding or tonight's earlier diagnostic-script Finding 1. Whether it warrants pattern elevation in `incident_ledger.md` Section 8 is a fresh-session decision (Pattern D guard: do not elevate during the discovery session).
+This is a Pattern A shape (silent fallback producing structurally legitimate output against semantically invalid input) at a much larger scope than the May 24 morning shadow_match finding or this session's earlier diagnostic-script Finding 1. Whether it warrants pattern elevation in `incident_ledger.md` Section 8 is a fresh-session decision (Pattern D guard: do not elevate during the discovery session).
 
 ### The multi-engine briefing
 
@@ -67,7 +80,7 @@ Drafted using the v2 hallucination-resistant format established this morning dur
 - Anti-bias check requested in response format
 - Five framing notes including "this is not a fire" and "Pattern D guard applies to your response too"
 
-File saved at `/mnt/user-data/outputs/briefing_final.md` (this session's Claude container; will need to be moved to repo founder_inputs by next session).
+File saved at `founder_inputs/2026-05-24_evening_briefing_to_engines.md` in the repo (committed in `8dc7361`). The filename contains the word "evening," which is from the time-inference error described in the Correction note. A future session may want to rename it to `2026-05-24_afternoon2_briefing_to_engines.md` for accuracy; this is low priority cleanup.
 
 ### The three engine responses
 
@@ -113,7 +126,7 @@ All three engines recommended Option D. The variants differ:
 
 ### Discipline observations
 
-- All three engines cited specific embedded line tags as requested. v2 briefing format defeated last morning's failure mode again.
+- All three engines cited specific embedded line tags as requested. v2 briefing format defeated this morning's failure mode again.
 - None of the three flagged their own response as Pattern-D-rushed. Framing note #2 did not produce a self-flag from any engine. Worth noticing but not necessarily concerning — all three recommendations are aligned with a single architectural direction, which makes "feels rushed" less likely.
 - ChatGPT and Grok both independently flagged that the briefing's framing anchored toward preserving the 11-question set. Two engines surfacing the same anti-bias observation is a stronger signal than one.
 - ChatGPT introduced a Phase 1 not in the briefing (kill the 0.5 fallback before deciding architecture). The other two did not. This is a separable, urgent action that could be done independent of the broader architectural decision.
@@ -129,7 +142,7 @@ Carried forward from the lunch handoff (plan-item 5 still open):
 
 These belong in `founder_inputs/2026-05-24_shadow_match_restoration_review.md` Part 4. They should move from "Genuinely open" to a new "Locked by Founder decision after multi-engine review" subsection.
 
-**The fresh session should also note:** tonight's finding may change whether shadow_match restoration even proceeds along the path the lunch session decided. If a future decision goes with Gemini's D (absorb into calibration-tracker), the shadow_match restoration sequence is moot. If ChatGPT's D (diagnostic overlay), the restoration sequence still applies but the data-layer (Decision 1: 1A) needs significant rethinking. If Grok's D (lightweight comparator), the restoration sequence simplifies. The fresh session needs to make the architectural decision *before* folding the lunch-session locked decisions, because the sequencing might not be needed anymore.
+**The fresh session should also note:** this session's finding may change whether shadow_match restoration even proceeds along the path the lunch session decided. If a future decision goes with Gemini's D (absorb into calibration-tracker), the shadow_match restoration sequence is moot. If ChatGPT's D (diagnostic overlay), the restoration sequence still applies but the data-layer (Decision 1: 1A) needs significant rethinking. If Grok's D (lightweight comparator), the restoration sequence simplifies. The fresh session needs to make the architectural decision *before* folding the lunch-session locked decisions, because the sequencing might not be needed anymore.
 
 ---
 
@@ -137,10 +150,10 @@ These belong in `founder_inputs/2026-05-24_shadow_match_restoration_review.md` P
 
 Order matters. These have dependencies.
 
-### 1. Read tonight's files
+### 1. Read this session's files
 
-- `/mnt/user-data/outputs/briefing_final.md` (this session's container) — the briefing sent to all three engines. Move to `founder_inputs/2026-05-24_evening_briefing_to_engines.md` in the repo.
-- The three engine responses (currently only in chat history of this conversation; not yet captured as a separate file). The fresh session should capture them as `founder_inputs/2026-05-24_evening_engine_responses.md` before doing other work.
+- `founder_inputs/2026-05-24_evening_briefing_to_engines.md` (in repo; despite the filename, this is the afternoon-second-block briefing) — the briefing sent to all three engines.
+- The three engine responses (currently only in chat history of the originating conversation; not yet captured as a separate file). The fresh session should capture them as `founder_inputs/2026-05-24_afternoon2_engine_responses.md` before doing other work.
 - This handoff note.
 - Lunch handoff (`founder_inputs/2026-05-24_end_of_session_handoff.md`) for context on the deferred decisions.
 
@@ -152,7 +165,7 @@ Read all three engine responses *cold* before forming a position. The whole poin
 
 ChatGPT introduced a phase the briefing didn't have: kill the silent 0.5 fallback at `03_text_swarm.py` line 45 *before* any architectural decision. The fix is small (replace `return 0.5` with explicit hard-fail and explicit state). The benefit is integrity-critical. The cost is small.
 
-If this is separable (likely yes), it could be a first-thing-tomorrow commit that's independent of the larger architectural decision. *But:* doing it tomorrow means doing it while the architectural decision is still open. The risk is the fix design might constrain or be constrained by the architectural decision. The fresh session should think about this before acting.
+If this is separable (likely yes), it could be a first-thing-next-session commit that's independent of the larger architectural decision. *But:* doing it before the architectural direction is set means the fix design might constrain or be constrained by the architectural decision. The fresh session should think about this before acting.
 
 ### 4. Decide the architectural direction (the deferred decision)
 
@@ -170,11 +183,11 @@ The five lunch-locked decisions (Decisions 1A, 2B, 3B, 4A, and Gemini's sequenci
 
 ### 6. Update review file Part 4
 
-The lunch-session locked decisions need to move out of the "Genuinely open" subsection in `founder_inputs/2026-05-24_shadow_match_restoration_review.md`. Whether they move to "Locked" or "Superseded by evening session" depends on the architectural direction chosen in step 4.
+The lunch-session locked decisions need to move out of the "Genuinely open" subsection in `founder_inputs/2026-05-24_shadow_match_restoration_review.md`. Whether they move to "Locked" or "Superseded by afternoon2 session" depends on the architectural direction chosen in step 4.
 
-### 7. Decide ledger-elevation for tonight's findings
+### 7. Decide ledger-elevation for this session's findings
 
-The tonight-finding (11 questions not in either pull + Pattern A silent fallback in production) is structurally substantive. Possible homes:
+The afternoon2-finding (11 questions not in either pull + Pattern A silent fallback in production) is structurally substantive. Possible homes:
 
 - Standalone Section 4 entry under May 24 (third May 24 entry — would join shadow_match audit and calibration_tracker audit)
 - Section 8 pattern entry if elevated as a new Pattern A instance at production-component scope
@@ -183,18 +196,20 @@ The tonight-finding (11 questions not in either pull + Pattern A silent fallback
 
 Pattern D applies here. The fresh session can *decide whether* to elevate; the actual ledger writing should be a separate work block.
 
-### 8. Capture tonight's CFM observations
+### 8. Capture this session's CFM observations
 
-Tonight's session had no CFM slips that I noticed, but Claude introducing "Phase 1" thinking (in response to ChatGPT's response) before passing the question back to Founder is worth a note. The fresh session should review the transcript and decide whether to log it.
+This session had no substantive CFM slips on the core work, but Claude (this session) made a significant time-inference error toward the end of the session: assumed the session was an "evening" session running "6pm–9pm Pacific," when the actual window was afternoon (~1:30–2:30pm Pacific). The error leaked into the original handoff file (since corrected), into commit messages (`8dc7361`, `f93d77b` — both contain the word "evening"), and into the filename of the committed briefing (`2026-05-24_evening_briefing_to_engines.md`). The Founder caught the error and instructed correction. This handoff is the corrected version.
+
+The CFM-slip class here is a small one: Claude inferred a scene (tired Founder, late at night, ready for sleep) without evidence, and let the inference shape language. Worth a future-session decision on whether to log it formally in `incident_ledger.md` as a Section 4 entry; the catch worked, and the discipline implication is just *Systems Engine should not infer time-of-day or Founder-state without evidence*.
 
 ---
 
 ## What the fresh session should NOT do
 
-- **Do not decide the architectural direction in the same session that picks up this handoff.** That decision deserves its own focused work block, ideally after sleep.
-- **Do not implement any code tonight or first-thing tomorrow before architectural decision is made.** Even ChatGPT's "kill the 0.5 fallback" phase, while urgent, can wait a few hours for the fresh session to think it through.
-- **Do not start text-swarm restoration code.** Tonight's finding affects the entire data layer; restoration work cannot proceed without architectural decision.
-- **Do not write canonical ledger entries about tonight's findings in the same session that picks them up.** Pattern D.
+- **Do not decide the architectural direction in the same session that picks up this handoff.** That decision deserves its own focused work block.
+- **Do not implement any code in the same session that picks up this handoff before architectural decision is made.** Even ChatGPT's "kill the 0.5 fallback" phase, while urgent, can wait for the fresh session to think it through.
+- **Do not start text-swarm restoration code.** This session's finding affects the entire data layer; restoration work cannot proceed without architectural decision.
+- **Do not write canonical ledger entries about this session's findings in the same session that picks them up.** Pattern D.
 
 ---
 
@@ -202,29 +217,32 @@ Tonight's session had no CFM slips that I noticed, but Claude introducing "Phase
 
 Listed for visibility, not to be addressed by the immediate fresh session:
 
-- **The 11-question benchmark set fit-for-purpose audit** (originally flagged by Gemini and ChatGPT at lunch; now substantially advanced by tonight's evidence). If the architectural direction preserves any fixed set, this audit becomes the next blocking question.
+- **The 11-question benchmark set fit-for-purpose audit** (originally flagged by Gemini and ChatGPT at lunch; now substantially advanced by this session's evidence). If the architectural direction preserves any fixed set, this audit becomes the next blocking question.
 
 - **The CFM hallucination event from earlier today** (calibration_tracker v1 briefing). Still not folded into incident_ledger.md as a standalone entry. Possible Section 4 entry pending fresh-context decision.
 
-- **Three deferred-pattern markers in the ledger** (Pattern F candidate, Pro-Thesis Optimization Loop candidate, v1-hallucination event). Tonight may add a fourth: the production-scope Pattern A instance (silent 0.5 fallback in text-swarm). At four deferred markers, the deferral discipline itself may need a review mechanism.
+- **The CFM time-inference event from this session** (Claude assumed evening when reality was afternoon). Smaller-scope CFM slip; possible Section 4 entry, possible fold into a broader "Systems Engine inference discipline" note.
 
-- **"Should shadow_match exist at all?"** (Grok's anti-bias flag from lunch). Tonight's three engine responses bear directly on this — Gemini's D effectively kills shadow_match; ChatGPT's D thins it dramatically; Grok's D keeps it but lightweight. The question is no longer abstract.
+- **Three deferred-pattern markers in the ledger** (Pattern F candidate, Pro-Thesis Optimization Loop candidate, v1-hallucination event). This session may add a fourth: the production-scope Pattern A instance (silent 0.5 fallback in text-swarm). At four deferred markers, the deferral discipline itself may need a review mechanism.
 
-- **Whether text-swarm restoration is the right project at all** given tonight's finding. The May 23 finding documented text-swarm's random-number swarm replacement. Tonight's finding documents the data underneath text-swarm not containing the markets text-swarm is supposed to measure. Two structural problems, in the same component, surfaced 24 hours apart. Worth a future-session "should this be restored?" question — separate from but parallel to Grok's shadow_match question.
+- **"Should shadow_match exist at all?"** (Grok's anti-bias flag from lunch). This session's three engine responses bear directly on this — Gemini's D effectively kills shadow_match; ChatGPT's D thins it dramatically; Grok's D keeps it but lightweight. The question is no longer abstract.
+
+- **Whether text-swarm restoration is the right project at all** given this session's finding. The May 23 finding documented text-swarm's random-number swarm replacement. This session's finding documents the data underneath text-swarm not containing the markets text-swarm is supposed to measure. Two structural problems, in the same component, surfaced 24 hours apart. Worth a future-session "should this be restored?" question — separate from but parallel to Grok's shadow_match question.
 
 ---
 
 ## Founder context for the fresh session
 
-The Founder is going for a walk after writing this note, then sleep. The break is the Pattern D-respecting separation. The fresh session is part of tomorrow's work, not tonight's.
+The Founder is going for a walk after writing this note. The walk is a break between work blocks, consistent with the lunch handoff pattern. The fresh session is part of today's continued work, not tomorrow's.
 
-Operational notes (carrying forward from lunch handoff):
+Operational notes (carrying forward from lunch handoff, with one additional note from this session):
 
 - Founder prefers plain-language explanations ("explain as if I am 12"). Default to plain language; technical precision available on request.
 - Founder repeatedly redirected Claude (this session) toward plain language during the work block. The fresh session should default plainer than feels natural.
-- Founder caught one moment tonight where Claude pushed back against "let's fix this tonight" with the Pattern D guard. The pushback held — Founder chose multi-engine review over immediate fix. The discipline implication: Systems Engine pushback against premature action is operating correctly and should continue.
-- Founder explicitly *does* want to keep moving on this project. The pause is not a stop. Tomorrow continues the same arc.
+- Founder caught one moment this session where Claude pushed back against "let's fix this immediately" with the Pattern D guard. The pushback held — Founder chose multi-engine review over immediate fix. The discipline implication: Systems Engine pushback against premature action is operating correctly and should continue.
+- Founder caught the time-inference error described in the Correction note. The discipline implication is *Systems Engine should not infer time-of-day or Founder-state without evidence.*
+- Founder explicitly *does* want to keep moving on this project. The pause is a break between work blocks, not a stop.
 
 ---
 
-*End of handoff. Walk first, sleep second, fresh session third.*
+*End of handoff. Walk, then next work block.*
