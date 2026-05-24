@@ -80,7 +80,7 @@ Drafted using the v2 hallucination-resistant format established this morning dur
 - Anti-bias check requested in response format
 - Five framing notes including "this is not a fire" and "Pattern D guard applies to your response too"
 
-File saved at `founder_inputs/2026-05-24_evening_briefing_to_engines.md` in the repo (committed in `8dc7361`). The filename contains the word "evening," which is from the time-inference error described in the Correction note. A future session may want to rename it to `2026-05-24_afternoon2_briefing_to_engines.md` for accuracy; this is low priority cleanup.
+File saved at `founder_inputs/2026-05-24_afternoon2_briefing_to_engines.md` in the repo. Originally committed in `8dc7361` under the filename `2026-05-24_evening_briefing_to_engines.md` (a corollary of the time-inference error described in the Correction note above); renamed via `git mv` in commit `20cc584` to the correct afternoon2 filename.
 
 ### The three engine responses
 
@@ -152,7 +152,7 @@ Order matters. These have dependencies.
 
 ### 1. Read this session's files
 
-- `founder_inputs/2026-05-24_evening_briefing_to_engines.md` (in repo; despite the filename, this is the afternoon-second-block briefing) — the briefing sent to all three engines.
+- `founder_inputs/2026-05-24_afternoon2_briefing_to_engines.md` — the briefing sent to all three engines.
 - The three engine responses (currently only in chat history of the originating conversation; not yet captured as a separate file). The fresh session should capture them as `founder_inputs/2026-05-24_afternoon2_engine_responses.md` before doing other work.
 - This handoff note.
 - Lunch handoff (`founder_inputs/2026-05-24_end_of_session_handoff.md`) for context on the deferred decisions.
@@ -198,7 +198,7 @@ Pattern D applies here. The fresh session can *decide whether* to elevate; the a
 
 ### 8. Capture this session's CFM observations
 
-This session had no substantive CFM slips on the core work, but Claude (this session) made a significant time-inference error toward the end of the session: assumed the session was an "evening" session running "6pm–9pm Pacific," when the actual window was afternoon (~1:30–2:30pm Pacific). The error leaked into the original handoff file (since corrected), into commit messages (`8dc7361`, `f93d77b` — both contain the word "evening"), and into the filename of the committed briefing (`2026-05-24_evening_briefing_to_engines.md`). The Founder caught the error and instructed correction. This handoff is the corrected version.
+This session had no substantive CFM slips on the core work, but Claude (this session) made a significant time-inference error toward the end of the session: assumed the session was an "evening" session running "6pm–9pm Pacific," when the actual window was afternoon (~1:30–2:30pm Pacific). The error leaked into the original handoff file (since corrected in commit `cb873d4`), into commit messages (`8dc7361`, `f93d77b` — both contain the word "evening"), and into the filenames of the committed briefing and handoff (both originally containing `_evening_`, both later renamed to `_afternoon2_` via `git mv` in commit `20cc584`). The Founder caught the error and instructed correction. This handoff is the corrected version. Commit messages from `8dc7361` and `f93d77b` remain in git history with the wrong word "evening" — git history is append-only, so those messages cannot be rewritten without history rewrite; the messages are preserved as historical record of the slip.
 
 The CFM-slip class here is a small one: Claude inferred a scene (tired Founder, late at night, ready for sleep) without evidence, and let the inference shape language. Worth a future-session decision on whether to log it formally in `incident_ledger.md` as a Section 4 entry; the catch worked, and the discipline implication is just *Systems Engine should not infer time-of-day or Founder-state without evidence*.
 
