@@ -214,7 +214,7 @@ Purpose: to show a fresh session the *Operational Delta* — the gap between whe
 **Manual-only, pending remediation:**
 
 - shadow_match `[not in launchd | VALID: no]`
-  - Issue: still reads quarantined `policy_markets_seed.json`; pending rewrite to live-data source
+  - Issue: structural invalidity across four layers (data, scoring, cost, narrative) per May 24 audit — see `incident_ledger.md` Section 4 May 24, 2026 entry ("shadow_match.py audited; Pro-Thesis Optimization Loop candidate pattern"). Reload requires four prerequisites: (1) live-data rewrite (replace seed-file load with polymarket-pull read); (2) scoring layer rewritten against resolved-outcome data rather than `abs()` distance from anchor; (3) cost-comparison layer rewritten to use measured tokens rather than hardcoded `0.003` constants; (4) hardcoded `grant_line` output (lines 226, 229, 232 + docstring lines 4, 9 self-documenting "Strengthens the Rain grant narrative") removed entirely. Addressing only prerequisite (1) would leave the Pro-Thesis Optimization Loop intact.
   - `depends-on: (currently) policy_markets_seed.json (quarantined); (post-rewrite) polymarket-pull`
 
 **Experimental hosts (not in production pipeline):**
