@@ -4,14 +4,14 @@
 
 Companion to `docs/intent.md`. Where `intent.md` defines what the project is *for* (permanent), this file defines what is *currently true* (volatile — operational state + session hygiene). Fresh Claude sessions read both at the start of every session.
 
-Last meaningful update: May 11, 2026
+Last meaningful update: May 24, 2026
 Maintained by: John McGuire (Founder Engine), with Systems Engine (Claude) and Divergent Thinking Engine (Grok)
 
 ---
 
 ## HEAD
 
-**HEAD:** `42830a1` — docs(founder_inputs): commit weekly continuity notes (May 3, 6, 9) (preceded by `46b2467`: May 9 kalshi-pull finding documentation)
+**HEAD:** `5407ed6` — docs(incident_ledger): calibration_tracker audited; VALID restored (preceded by `1690f95`: state_manifest calibration-tracker VALID restored to yes)
 *(Use `git log -1 HEAD` for timestamp.)*
 
 ---
@@ -173,6 +173,8 @@ Purpose: to show a fresh session the *Operational Delta* — the gap between whe
   - Cross-reference: `incident_ledger.md` Section 4 May 24, 2026 second entry ("calibration_tracker.py audited; VALID restored").
 
 **Active, untrusted:**
+
+*Currently empty. Calibration-tracker promoted to "Active and trusted" on May 24, 2026 per incident_ledger.md Section 4 May 24 second entry; no other components currently in this category.*
 
 
 **Unloaded, pending remediation:**
