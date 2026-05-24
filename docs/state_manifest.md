@@ -153,13 +153,27 @@ Purpose: to show a fresh session the *Operational Delta* — the gap between whe
   - **Not** dependent on: BRAIN.md (no read), previous research-sweep output (no self-dependency), founder_inputs/, any other launchd component.
   - **Note on absolute-path rule compliance:** Script uses absolute path for OUTPUT_DIR (line 8). Has no read paths to violate. Modified April 5, 2026 — same day the absolute-path rule was added to BRAIN.md.
   - Verified by script audit, April 29 2026: `research_sweep.py` lines 5-10 (path constants and OUTPUT_FILE construction), 160 (write site). No file-read sites in the script (verified by grep returning zero matches for read patterns).
+- calibration-tracker `[LOADED: yes | VALID: yes]`
+  - **VALID restored May 24, 2026** per Tier 1 source audit + three-engine review + five verification checks (see `incident_ledger.md` Section 4 May 24 second entry). Previous "VALID: no" framing rested on two assumptions, both disproved against source: (a) "scoring against contaminated or fallback baselines" — script pulls `crowd_prob` directly from live Polymarket Gamma API (lines 50 and 89), no `policy_markets_seed` reads; April 5 log entries from inside the contamination window show realistic near-zero crowd probabilities on NBA rookie markets, confirming live-data sourcing from script inception; fallback-to-0.5 density in the resolved Brier log is 1 of 27 entries (3.7%), not flattening aggregate scoring. (b) "Pending text-swarm matching fix" — script does not read text-swarm output or any text-swarm-derived file; the `swarm_estimate` function (lines 110-141) makes three independent Anthropic API calls per market with three distinct persona system prompts and averages results.
+  - Scoring layer is structurally honest: lines 193-198 compute Brier scores against `outcome` (the actual market resolution fetched via `check_resolution()` at line 87, which calls the live Polymarket API at line 89). The script is structurally capable of failing — recent log entries (May 20 Cornyn loss, May 24 Paxton win) show the swarm defaulting to 0.5 against directionally-correct crowd on Texas Republican Primary markets, producing swarm Brier 0.25 = naive Brier 0.25 > crowd Brier 0.18 — exactly the "honest measurement showing swarm losing to crowd" shape that a non-rigged system produces. Brier Skill Score output explicitly names negative-skill-means-worse semantics (line 284).
+  - Three independent engine reviews (Gemini, ChatGPT, Grok) on the v2 briefing converged: no evidence of seed-file contamination, divergence-from-anchor scoring, random-number substitution, or hardcoded narrative output. Audit is structurally sound; operational quality confirmed by five verification checks.
+  - **Operational health observations (not structural concerns):** swarm-default-to-0.5 behavior on some market types is a forecasting-quality finding the script surfaces correctly via Brier scoring — separate question from structural validity. Agent API errors (12 in 2,610 log lines across 36 days) are rare and known-transient causes (401 auth, timeout, DNS); the script's structural design (`return None` on full-failure, `continue` on `None` swarm_prob) makes silent-failure-as-0.5 impossible.
+  - **Reproducers (verified May 24):**
+    - Live-data sourcing: `grep -n "polymarket\|policy_markets_seed" experiments/benchmark/calibration_tracker.py` returns only `gamma-api.polymarket.com` URLs at lines 50 and 89; zero matches for `policy_markets_seed`.
+    - Outcome-based scoring: `grep -n -E "outcome|resolved|resolution|brier" experiments/benchmark/calibration_tracker.py` returns 47 matches including Brier formulas at lines 193-195.
+    - Real AI calls: `sed -n '110,145p' experiments/benchmark/calibration_tracker.py` shows three persona prompts + three API calls to `api.anthropic.com/v1/messages`; `grep -n "random"` returns zero matches.
+    - No internal dependencies: `grep -n "text_swarm\|shadow_match\|data/polymarket" experiments/benchmark/calibration_tracker.py` returns zero matches.
+    - Fallback density: `grep -c '"crowd_prob": 0.5' experiments/benchmark/calibration/brier_running.json` returns 1 (of 27 entries).
+    - Import surface: `head -n 35 experiments/benchmark/calibration_tracker.py` shows 5 stdlib imports, no internal modules.
+    - Git history since reset: `git log --oneline --since="2026-04-18" experiments/benchmark/calibration_tracker.py` returns only `f548904` (April 19 syntax fix) and `d86f0ff` (April 18 reset snapshot) — no logic changes in 36 days.
+    - Agent error frequency: `grep -c "Agent error:" experiments/benchmark/calibration/cron.log` returns 12 in a 2,610-line log.
+    - Live operation: `tail -25 experiments/benchmark/calibration/brier_running.json` shows entries from May 24, 2026 (today).
+  - **Open observation (not gating, separate cleanup):** the file carries an `[INVALIDATED 2026-04-18]` banner at lines 1-4 from the post-contamination blanket annotation. The audit demonstrates the banner is incorrect against source for this specific file — the script has read live Polymarket data since inception. Banner removal is a separate cleanup task, not part of this VALID: yes promotion.
+  - `depends-on:` Anthropic API, Polymarket Gamma API (both via direct HTTPS calls). Does **not** depend on: text-swarm, shadow_match, polymarket-pull (the launchd job — calibration-tracker calls Polymarket directly, not via stored files), commercialization-agent, BRAIN.md.
+  - Cross-reference: `incident_ledger.md` Section 4 May 24, 2026 second entry ("calibration_tracker.py audited; VALID restored").
 
 **Active, untrusted:**
 
-- calibration-tracker `[LOADED: yes | VALID: no]`
-  - Issue: scoring against contaminated or fallback baselines; pending text-swarm matching fix
-  - Per Failure handling rule: do not use outputs for reasoning. VALID: no propagates downstream along the depends-on chain. No components currently depend on calibration-tracker, so propagation is a no-op tonight.
-  - `depends-on: text-swarm, polymarket-pull`
 
 **Unloaded, pending remediation:**
 
