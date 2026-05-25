@@ -672,34 +672,61 @@ The briefing is reasonably balanced and does not strongly rule out aggressive si
 
 # Part 4: Open decisions requiring Founder synthesis
 
-## Locked (no Founder decision needed)
+*Updated May 25, 2026: Lunch decisions reconciled against the afternoon3 architectural direction. The two-mode structure (Mode 1 controlled longitudinal benchmark on Variant A's explicit Polymarket slug registry + Mode 2 calibration-tracker unchanged) and shadow_match-as-thin-overlay are now locked. Some lunch decisions carry forward unchanged; some are superseded by the architectural shift. See `founder_inputs/2026-05-24_afternoon3_engine_responses.md` for the architectural record.*
+
+## Locked at lunch (no Founder decision needed)
 
 - **Decision 1: 1A** — shared benchmark-questions module between shadow_match and text-swarm. All three engines converged on the same module pattern.
 - **Decision 2: 2B** — Brier primary, divergence secondary. All three engines agreed; structural requirement of a persistent state file (shadow_match_history.json or similar) is named by all three.
+
+*See "Superseded by afternoon3 architectural decision" below for how these lunch lockings carry forward (or don't) into the new architecture.*
 
 ## 2-to-1 majority with sound dissent
 
 - **Decision 4: 4A** — remove grant prose entirely. Gemini and Grok independently chose 4A; ChatGPT's 4B (blank Founder Notes section) is a reasonable middle path. Practical difference is small.
 
+## Locked by Founder at lunch (folded in May 25)
+
+These were locked by the Founder during the lunch session but were not previously moved out of "Genuinely open":
+
+- **Decision 3: 3B** — remove cost-comparison layer entirely. Founder-locked at lunch. Carries forward unchanged under the afternoon3 architecture (cost-comparison was always optional scope; removing it is not affected by the architectural shift).
+- **Sequencing: Gemini's order** (Data -> strip bias -> scoring) — Founder-locked at lunch. Superseded by the afternoon3 architecture; see below.
+
+## Superseded by afternoon3 architectural decision
+
+The afternoon3 multi-engine critique pass (May 24 afternoon, third work block) locked a new architectural direction: two-mode structure (Mode 1 controlled longitudinal benchmark on Variant A's explicit Polymarket slug registry + Mode 2 calibration-tracker unchanged), with shadow_match as a thin diagnostic overlay running against whichever mode is active. The original eleven benchmark questions are retired.
+
+Three lunch-session decisions become moot or change shape under this architecture:
+
+- **Decision 1 (1A) — moot in its lunch form.** shadow_match no longer reads from polymarket-pull directly under the new architecture; it overlays Mode 1 or Mode 2, which read Polymarket on shadow_match's behalf. The "filter to the eleven-market benchmark set" half is also moot because the eleven questions are retired. The intent of 1A (shadow_match reading the same surface as text-swarm for ensemble-vs-individual comparison) is preserved by both components consuming Mode 1, but the implementation pattern is no longer "shared eleven-question module." The new shared surface is the Variant A registry (`benchmark_registry_v1.json` or wherever it lands).
+- **Sequencing (Gemini's order) — moot in its lunch form.** The lunch sequencing assumed standalone-restored shadow_match. The new sequencing: build Mode 1 first (Variant A registry built, loader producing hard-fail-visible structure, no silent 0.5), then build shadow_match overlay on top.
+- **Decision 2 (2B) — carries forward with a sharpening.** Brier-against-resolved-outcomes as primary metric is the right scoring direction under the new architecture (Variant A registry markets are chosen for long horizons / high liquidity, which makes eventual resolutions reachable). The lunch session named a state file as a structural requirement; the new architecture introduces a sub-question — does the overlay own its own state file, or inherit state from Mode 1? The answer is the overlay owns its own state file, because the overlay's purpose (ensemble-vs-individual diagnostic) requires logging Shadow's predictions paired against Mode 1's swarm predictions and crowd values at the same point in time. Mode 1's state file holds swarm and crowd predictions; shadow_match's state file holds Shadow predictions linked to the same registry markets.
+
+Two lunch-session decisions carry forward unchanged:
+
+- **Decision 3 (3B) — remove cost-comparison entirely.** Not affected by the architectural shift. Lunch-locking holds.
+- **Decision 4 (4A) — remove grant_line strings entirely.** Not affected by the architectural shift. Lunch-locking holds (2-to-1 with ChatGPT's 4B as reasonable dissent).
+
 ## Genuinely open — Founder must decide
 
-- **Decision 3 (cost):** Three positions on a spectrum:
-  - 3B (Gemini): remove entirely — fake precision is worse than no metric
-  - 3B+optional later 3A (ChatGPT): remove now, optionally measure later
-  - 3A (Grok): capture real token usage from API now
-  Structural concern Grok raised: requires maintaining current Anthropic pricing rates as a hidden dependency.
+- **Reload gate stringency.** Three positions on a spectrum from the lunch session:
+  - 2 successful runs + state file validation (Gemini)
+  - 5 conditions including resolved-outcome test (ChatGPT)
+  - 1 clean run + Founder review (Grok)
 
-- **Sequencing order:** Three orderings, all defensible. Gemini puts strip-bias before scoring; ChatGPT puts logging-first then build-up; Grok goes 1-2-3-4 in order. Choice depends on which sub-goal is most important — clean before measure, or measure first then clean.
+  Under the new architecture, the reload gate sequencing becomes: Mode 1 must be verified first (Variant A registry built, loader producing hard-fail-visible structure, no silent 0.5), then shadow_match overlay can be reload-gated against Mode 1. The substance of the gate (how many runs, how many conditions) remains genuinely open and is not locked here; suggest deferring this decision until Mode 1 is operational, at which point the gate can be specified concretely against Mode 1's actual behavior rather than abstractly against a yet-to-be-built surface.
 
-- **Reload gate stringency:** Range from 1 clean run (Grok) to 5 conditions including resolved-outcome test (ChatGPT). Trade-off is between speed-of-promotion and depth-of-verification.
+- **Should shadow_match restoration be deferred until Mode 1 is built, or can the overlay be built in parallel?**
+
+  Systems Engine recommendation: defer. Three reasons. (a) Variant A's registry is the surface shadow_match overlays; until the registry exists with real slugs, there's nothing to overlay. (b) The market-selection decision for Variant A is itself substantive (the afternoon3 handoff flags it may deserve its own multi-engine review); doing market-selection while shadow_match overlay is being rebuilt is the kind of cognitive-load split that produces CFM slips. (c) shadow_match is manual-by-design and not blocking any automated pipeline; deferral has zero operational cost. Founder decision needed.
 
 ## Structural points to carry forward regardless of synthesis choices
 
-1. **The eleven-market benchmark set itself should be audited later** (Gemini and ChatGPT both flagged independently; meta-commentary from ChatGPT's first response raised the same point). Before shadow_match restoration ships, decide whether the original March 30 benchmark questions are still fit-for-purpose.
+1. **The eleven-market benchmark set itself should be audited later** *(Gemini and ChatGPT both flagged independently; meta-commentary from ChatGPT's first response raised the same point)*. **Note May 25:** the afternoon3 architectural decision retires the eleven entirely. The replacement question is no longer "are these still fit-for-purpose" but "which 8-12 markets best serve Mode 1 under Variant A." This is the market-selection decision flagged in the afternoon3 handoff's Step 7.
 
-2. **shadow_match becomes a two-mode tool** (ChatGPT named this most clearly): log-now mode (run daily, capture predictions, no immediate scoring) and retrospective-scoring mode (run when markets resolve, compute Brier). This is a change in what shadow_match *is*, not just an implementation detail.
+2. **shadow_match becomes a two-mode tool** *(ChatGPT named this most clearly): log-now mode (run daily, capture predictions, no immediate scoring) and retrospective-scoring mode (run when markets resolve, compute Brier).* **Note May 25:** carries forward under the new architecture. The log-now / score-later split is even cleaner when shadow_match is overlaying Mode 1's stable Variant A registry.
 
-3. **Grok's anti-bias flag is worth preserving:** "the options lean toward preserving existing layers rather than radical simplification." The briefing assumed shadow_match should be fixed rather than asking whether it should exist at all. Tonight's path is "fix completely," but the question of whether the diagnostic value can be served by another component (calibration_tracker + a small derived script) remains open for a future fresh-context session.
+3. **Grok's anti-bias flag is worth preserving:** *"the options lean toward preserving existing layers rather than radical simplification." The briefing assumed shadow_match should be fixed rather than asking whether it should exist at all. Tonight's path is "fix completely," but the question of whether the diagnostic value can be served by another component (calibration_tracker + a small derived script) remains open for a future fresh-context session.* **Note May 25:** the afternoon3 architecture answers this softly ("shadow_match exists, but barely — thin overlay only"). The deeper question of whether even the thin overlay justifies its operational cost remains a parked structural question, called out in the afternoon3 handoff under "Open structural questions parked for future sessions."
 
 ---
 
