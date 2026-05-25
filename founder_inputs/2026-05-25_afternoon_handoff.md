@@ -33,8 +33,8 @@ If you are future-John reading this: the Round 1 record file has the engine resp
 
 ## What did NOT get done
 
-- **Step 7 Founder synthesis on six decisions (Q1 role, Q2 surface, Q3 convergent criteria lock, Q3 divergent criteria decisions, Q4 number, meta-decision on Round 2 design).** Engines split materially; Founder chose to defer to a fresh head.
-- **Step 7 Round 2 (specific market selection).** Blocked on Round 1 synthesis. Was always scoped as a future session.
+- **Step 7 Founder synthesis** — CLOSED in this same session. All six decisions locked. See `founder_inputs/2026-05-25_afternoon_step7_founder_synthesis.md` for the canonical record. Decision 2 was a Founder Engine override against triple-engine convergence (engines all recommended hybrid; Founder locked Polymarket-primary).
+- **Round 3 (specific market selection).** Blocked on Step 7 synthesis being committed (which happens in the same commit as this handoff update). Will be a future session.
 - **Actual `incident_ledger.md` edits per Step 5 lock.** Pattern D firewall — wait for fresh session.
 - **CFM family file creation** — Step 6 observations parked in this handoff, not yet captured in a standalone document.
 
@@ -108,6 +108,14 @@ This is Systems Engine recommendation, not Founder lock:
 3. **TextEdit/clipboard friction.** Three paste failures during heredoc construction. Workaround: Python heredoc with explicit string concatenation works reliably; bash heredocs with backticks or large content fail. Workflow note.
 
 4. **Plain-language drift across sessions despite explicit bootstrap instruction.** Most substantive observation from May 25. Founder requested "explain as if I am 12" multiple times. Bootstrap-level instruction insufficient against language-style drift. Candidate for stronger enforcement mechanism (Systems Engine self-check at start of each long response: is this plain enough?).
+
+5. **Plain-language drift recurred in the synthesis session.** The May 25 afternoon synthesis session (after handoff was written) saw the same plain-language drift fire multiple times. Even with the handoff explicitly flagging this as the most substantive observation of the morning, Systems Engine defaulted to dense framing on Decision 1 (Mode 1 role), Decision 2 (surface selection), and the synthesis-doc draft. Founder corrected each time with "explain as if I am 12." Carry-forward continues to apply.
+
+6. **Five-option drift during Decision 2 synthesis.** Mid-synthesis, Systems Engine offered the Founder five sequential options for Decision 2 ((a), (b), (c), (d), and pure staging). The Founder's gut answer was (d) Polymarket-primary before the optionality began. The Systems Engine generated options apparently to avoid doing-the-synthesis-on-the-Founder's-behalf and ended up making the synthesis harder, not easier. The five options spanned multiple framings of the same underlying question (staging vs mixing) and the Founder's reasoning shifted three times in 15 minutes before returning to gut. CFM-shaped: generating plausible options under cognitive pressure of "I must make this easier without deciding for them." Watch for this pattern.
+
+7. **"M-blocks-commercial" misreading caught by Reproducer Requirement.** During Decision 2 synthesis, Founder briefly articulated "no company will buy until we hit M" as reasoning for staging. This contradicted intent.md P-4 ("M from whatever channels work"). Systems Engine flagged the contradiction; Founder corrected and re-grounded in actual project docs. The Reproducer Requirement worked as designed — intent.md was queryable and the contradiction was catchable. This is the discipline working, not a slip. Recorded as a positive case for future-session reference.
+
+8. **Founder Engine override on Decision 2 with explicit reasoning.** Founder overrode three-engine convergent recommendation (hybrid surface) and locked Polymarket-primary. Override was not gut-alone — Founder articulated four distinct reasons (real-money adversarial pressure as the only true test, prior Rain-grant override pattern, engines unable to solve experimental-identity in their hybrid recommendation, weak-language-priors argument allowed as future watch item but not allowed to overturn the lock). This override is captured in the synthesis doc (Decision 2 section) with all four reasons preserved. Stronger override pattern than pure-gut, produces an auditable record. Worth noting as the second strong Founder Engine override in two days (Variant A locked May 24 against engine-preferred concept-based approach).
 
 These should be captured in either a CFM family note or a workflow-observations document in a future session per the Step 6 decisions locked today.
 
