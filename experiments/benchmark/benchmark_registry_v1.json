@@ -1,0 +1,199 @@
+{
+  "version": "v1",
+  "created": "2026-05-26",
+  "source_pool": "scratch/qualifying_pool_2026-05-26.json",
+  "synthesis_doc": "founder_inputs/2026-05-26_round3_founder_synthesis.md",
+  "step7_decisions": "founder_inputs/2026-05-25_afternoon_step7_founder_synthesis.md",
+  "liquidity_floor_usd": 10000,
+  "domain_mix_target": {
+    "macro": 3,
+    "policy": 1,
+    "geopolitics": 2,
+    "ai-tech": 2
+  },
+  "markets": [
+    {
+      "registry_index": 1,
+      "slug": "will-china-gdp-growth-in-q2-2026-be-between-4pt6-and-4pt9",
+      "condition_id": "0x800be7611c7efcdf5827c049e0baac8b6047b506af412e283dbac9ce7e202560",
+      "question": "Will China GDP growth in Q2 2026 be between 4.6% and 4.9%?",
+      "synthesis_domain": "macro",
+      "pool_tags": ["macro", "geopolitics"],
+      "end_date": "2026-07-16",
+      "selection_snapshot": {
+        "date": "2026-05-26",
+        "yes_price": 0.505,
+        "liquidity_usd": 4094.30,
+        "volume_usd": 8580.89,
+        "days_to_resolution": 51
+      },
+      "engine_support": "all_3",
+      "liquidity_exception": {
+        "is_exception": true,
+        "reason": "Sole numerical-band macro market with 50% uncertainty and 51-day horizon. Below $10K floor; admitted per soft-exception structure proposed by ChatGPT Round 3 Q2."
+      }
+    },
+    {
+      "registry_index": 2,
+      "slug": "scotus-bars-counting-mail-ballots-after-election-day",
+      "condition_id": "0xd73237bb27cdc455578e9a0788c358bd79609d394f43a270bde10cde4788105f",
+      "question": "SCOTUS bars counting mail ballots after election day?",
+      "synthesis_domain": "policy",
+      "pool_tags": ["policy", "geopolitics"],
+      "end_date": "2026-08-01",
+      "selection_snapshot": {
+        "date": "2026-05-26",
+        "yes_price": 0.72,
+        "liquidity_usd": 5348.60,
+        "volume_usd": 40189.46,
+        "days_to_resolution": 67
+      },
+      "engine_support": "all_3",
+      "liquidity_exception": {
+        "is_exception": true,
+        "reason": "Sole policy market with three-engine convergence and 67-day horizon. Below $10K floor; admitted per soft-exception structure proposed by ChatGPT Round 3 Q2."
+      }
+    },
+    {
+      "registry_index": 3,
+      "slug": "israel-x-iran-permanent-peace-deal-by-june-30-2026-262",
+      "condition_id": "0x5efa976ebe94080bbda7e45605333ff8f30156cc91604d66c41eb52fd3e25f3e",
+      "question": "Israel x Iran permanent peace deal by June 30, 2026?",
+      "synthesis_domain": "geopolitics",
+      "pool_tags": ["geopolitics"],
+      "end_date": "2026-06-30",
+      "selection_snapshot": {
+        "date": "2026-05-26",
+        "yes_price": 0.1585,
+        "liquidity_usd": 102133.45,
+        "volume_usd": 557851.78,
+        "days_to_resolution": 35
+      },
+      "engine_support": "all_3",
+      "liquidity_exception": {
+        "is_exception": false
+      }
+    },
+    {
+      "registry_index": 4,
+      "slug": "will-anthropic-have-the-best-ai-model-at-the-end-of-june-2026",
+      "condition_id": "0xa4d72632ac0ddadcac5247ffc586a193f1bc3bc839cf9ce993c2471e0d599cca",
+      "question": "Will Anthropic have the best AI model at the end of June 2026?",
+      "synthesis_domain": "ai-tech",
+      "pool_tags": ["ai-tech"],
+      "end_date": "2026-06-30",
+      "selection_snapshot": {
+        "date": "2026-05-26",
+        "yes_price": 0.7775,
+        "liquidity_usd": 27642.80,
+        "volume_usd": 1074450.85,
+        "days_to_resolution": 35
+      },
+      "engine_support": "all_3",
+      "liquidity_exception": {
+        "is_exception": false
+      }
+    },
+    {
+      "registry_index": 5,
+      "slug": "iran-agrees-to-surrender-enriched-uranium-stockpile-by-june-30-2026",
+      "condition_id": "0x6cb3ec9e0fb1c258898f648f8b33422f59ba3e8a71aee551449d7cb147bb8ead",
+      "question": "Iran agrees to surrender enriched uranium stockpile by June 30, 2026?",
+      "synthesis_domain": "geopolitics",
+      "pool_tags": ["geopolitics"],
+      "end_date": "2026-06-30",
+      "selection_snapshot": {
+        "date": "2026-05-26",
+        "yes_price": 0.195,
+        "liquidity_usd": 63806.14,
+        "volume_usd": 2659087.94,
+        "days_to_resolution": 35
+      },
+      "engine_support": "chatgpt_grok",
+      "liquidity_exception": {
+        "is_exception": false
+      }
+    },
+    {
+      "registry_index": 6,
+      "slug": "will-crude-oil-cl-hit-high-120-by-end-of-june",
+      "condition_id": "0xba8af64c1b08f322ca7f66f3cfdbdfd50c0eae6fc88d2fcf29c30ceb62682421",
+      "question": "Will Crude Oil (CL) hit (HIGH) $120 by end of June?",
+      "synthesis_domain": "macro",
+      "pool_tags": ["other"],
+      "end_date": "2026-06-30",
+      "selection_snapshot": {
+        "date": "2026-05-26",
+        "yes_price": 0.205,
+        "liquidity_usd": 29068.01,
+        "volume_usd": 718228.50,
+        "days_to_resolution": 35
+      },
+      "engine_support": "chatgpt_grok",
+      "liquidity_exception": {
+        "is_exception": false
+      }
+    },
+    {
+      "registry_index": 7,
+      "slug": "will-gpt-6-be-released",
+      "condition_id": "0x0ea8005efbc460378340a2f28a6d97b0d1d9d9d7fba4d16f529b8a415dca77a2",
+      "question": "Will GPT-6 be released before GTA VI?",
+      "synthesis_domain": "ai-tech",
+      "pool_tags": ["ai-tech"],
+      "end_date": "2026-07-31",
+      "selection_snapshot": {
+        "date": "2026-05-26",
+        "yes_price": 0.655,
+        "liquidity_usd": 39715.31,
+        "volume_usd": 628778.68,
+        "days_to_resolution": 66
+      },
+      "engine_support": "chatgpt_solo",
+      "liquidity_exception": {
+        "is_exception": false
+      }
+    },
+    {
+      "registry_index": 8,
+      "slug": "fed-rate-cut-by-december-2026-meeting",
+      "condition_id": "0xc60022fe066abd6f96c375adb09f38d92c4931f09c10b805354581b4e5465e93",
+      "question": "Fed rate cut by December 2026 meeting?",
+      "synthesis_domain": "macro",
+      "pool_tags": ["macro"],
+      "end_date": "2026-06-17",
+      "selection_snapshot": {
+        "date": "2026-05-26",
+        "yes_price": 0.325,
+        "liquidity_usd": 15733.23,
+        "volume_usd": 120717.69,
+        "days_to_resolution": 22
+      },
+      "engine_support": "gemini_solo",
+      "liquidity_exception": {
+        "is_exception": false
+      }
+    }
+  ],
+  "exceptions_summary": {
+    "count": 2,
+    "framing_source": "ChatGPT Round 3 Q2: sub-$10K market may enter only if uniquely valuable for domain diversity and unusually strong resolution clarity",
+    "named_slugs": [
+      "will-china-gdp-growth-in-q2-2026-be-between-4pt6-and-4pt9",
+      "scotus-bars-counting-mail-ballots-after-election-day"
+    ]
+  },
+  "accepted_tradeoffs": [
+    "June 30 cluster: 5 of 8 markets resolve on 2026-06-30; mitigation is 3 non-cluster markets (June 17, July 16, August 1) preserving longitudinal capability across June-July-August",
+    "Macro thinness: 3 macro picks but China GDP is sub-floor and Fed Dec is 22-day horizon (1-2 cycles before resolution); v2 may revisit if surface composition shifts",
+    "AI-tech weak-language-priors exposure: Anthropic best-model and (partially) GPT-6 carry significant exposure; treated as deliberate stress tests against A-1 future-audit watch item",
+    "Sub-floor exceptions named: 2 markets below $10K; mitigation is minimum-stake paper-trading and separate calibration weighting if depth-related noise apparent"
+  ],
+  "reopen_triggers": [
+    "Condition IDs cannot be retrieved or have changed at registry-construction time",
+    "One of the 8 markets resolves before registry construction completes",
+    "polymarket-pull structural finding (per 2026-05-26 morning session handoff) produces evidence the qualifying pool itself was biased",
+    "After 30+ days of Mode 1 v1 operation, four-arm benchmark surfaces evidence selected markets are systematically wrong for latent thesis"
+  ],
+  "explicitly_not_a_reopen_trigger": "Founder cognitive doubt about the selection itself"
+}
