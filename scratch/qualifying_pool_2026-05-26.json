@@ -1,0 +1,4181 @@
+[
+  {
+    "question": "New Rihanna Album before GTA VI?",
+    "slug": "new-rhianna-album-before-gta-vi-926",
+    "conditionId": "0x1fad72fae204143ff1c3035e99e7c0f65ea8d5cd9bd1070987bd1a3316f772be",
+    "yes_price": 0.535,
+    "days_to_resolution": 66,
+    "end_date": "2026-07-31",
+    "tags": [
+      "other"
+    ],
+    "volume": 763210.8827079975,
+    "liquidity": 27380.9422,
+    "category": null
+  },
+  {
+    "question": "New Playboi Carti Album before GTA VI?",
+    "slug": "new-playboi-carti-album-before-gta-vi-421",
+    "conditionId": "0x50ddb9cd80d5c271664a2ebb7fcaed1d0a148d82c8e8d314d830f75a944c3dcc",
+    "yes_price": 0.57,
+    "days_to_resolution": 66,
+    "end_date": "2026-07-31",
+    "tags": [
+      "other"
+    ],
+    "volume": 736465.3769479467,
+    "liquidity": 21552.0053,
+    "category": null
+  },
+  {
+    "question": "Will Jesus Christ return before GTA VI?",
+    "slug": "will-jesus-christ-return-before-gta-vi-665",
+    "conditionId": "0x32b09f6390252b37d674501527e709016d55581b2c1e544bd4b8167f5f732f4c",
+    "yes_price": 0.485,
+    "days_to_resolution": 66,
+    "end_date": "2026-07-31",
+    "tags": [
+      "other"
+    ],
+    "volume": 11481051.976433782,
+    "liquidity": 425506.395,
+    "category": null
+  },
+  {
+    "question": "Trump out as President before GTA VI?",
+    "slug": "trump-out-as-president-before-gta-vi-846",
+    "conditionId": "0x84f8b70331323c2fba97d7ceaa9a35fb645a0770d0dbff169d07f24f376766e9",
+    "yes_price": 0.505,
+    "days_to_resolution": 66,
+    "end_date": "2026-07-31",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 658231.6131520076,
+    "liquidity": 32951.3681,
+    "category": null
+  },
+  {
+    "question": "Will China invades Taiwan before GTA VI?",
+    "slug": "will-china-invades-taiwan-before-gta-vi-716-644",
+    "conditionId": "0x7b49b9bacb5f435bc10f3b100ff59e2fdd346f7f92a9001881bc9825a0af0f11",
+    "yes_price": 0.505,
+    "days_to_resolution": 66,
+    "end_date": "2026-07-31",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 1843496.9000210618,
+    "liquidity": 52464.7585,
+    "category": null
+  },
+  {
+    "question": "Will bitcoin hit $1m before GTA VI?",
+    "slug": "will-bitcoin-hit-1m-before-gta-vi-872-424",
+    "conditionId": "0xbb57ccf5853a85487bc3d83d04d669310d28c6c810758953b9d9b91d1aee89d2",
+    "yes_price": 0.4925,
+    "days_to_resolution": 66,
+    "end_date": "2026-07-31",
+    "tags": [
+      "crypto"
+    ],
+    "volume": 4420580.035397521,
+    "liquidity": 144166.83511,
+    "category": null
+  },
+  {
+    "question": "Will MegaETH perform an airdrop by June 30? ",
+    "slug": "will-megaeth-perform-an-airdrop-by-june-30-143-229-513-574-212-254",
+    "conditionId": "0xe459d1b598da754c9fd5fc155b6efe3a144aa80abbc7d041fce7d35d903d3c8e",
+    "yes_price": 0.1795,
+    "days_to_resolution": 36,
+    "end_date": "2026-07-01",
+    "tags": [
+      "crypto"
+    ],
+    "volume": 1546689.4370869966,
+    "liquidity": 4147.13775,
+    "category": null
+  },
+  {
+    "question": "Will Abelardo de la Espriella  win the 2026 Colombian presidential election?",
+    "slug": "will-abelardo-de-la-espriella-win-the-2026-colombian-presidential-election",
+    "conditionId": "0xfbe85201ab2b4acff01cd5a3639039fc813d3448c64db081f70926bd9b9e74e9",
+    "yes_price": 0.705,
+    "days_to_resolution": 26,
+    "end_date": "2026-06-21",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 1577283.1713989913,
+    "liquidity": 80992.9598,
+    "category": null
+  },
+  {
+    "question": "Will Ivan Cepeda Castro win the 2026 Colombian presidential election?",
+    "slug": "will-ivan-cepeda-castro-win-the-2026-colombian-presidential-election",
+    "conditionId": "0x0fb006e0c06caa4db12f7e30ec8c2483d658f83eb57b2ee8eb478e39beca3dfd",
+    "yes_price": 0.275,
+    "days_to_resolution": 26,
+    "end_date": "2026-06-21",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 1419208.753109004,
+    "liquidity": 84484.4088,
+    "category": null
+  },
+  {
+    "question": "No one announced as next James Bond?",
+    "slug": "no-one-announced-as-next-james-bond-962",
+    "conditionId": "0x6a01c1687c781829cc90198cfd3c73f9ce64bca2a8960527868b0ad737e53f89",
+    "yes_price": 0.72,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 288110.85590000014,
+    "liquidity": 2555.4454,
+    "category": null
+  },
+  {
+    "question": "Will GPT-6 be released before GTA VI?",
+    "slug": "will-gpt-6-be-released",
+    "conditionId": "0x0ea8005efbc460378340a2f28a6d97b0d1d9d9d7fba4d16f529b8a415dca77a2",
+    "yes_price": 0.655,
+    "days_to_resolution": 66,
+    "end_date": "2026-07-31",
+    "tags": [
+      "ai-tech"
+    ],
+    "volume": 628778.6817549984,
+    "liquidity": 39715.308,
+    "category": null
+  },
+  {
+    "question": "Starmer out by June 30, 2026?",
+    "slug": "starmer-out-by-june-30-2026-862-594-548-219",
+    "conditionId": "0xbee2cd40473495f713c69b9dfbce9fc2837fa4011568222c83c83bb773e35053",
+    "yes_price": 0.235,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 4740867.076423003,
+    "liquidity": 97971.6298,
+    "category": null
+  },
+  {
+    "question": "Will Mallory McMorrow win the 2026 Michigan Democratic Primary?",
+    "slug": "will-mallory-mcmorrow-win-the-2026-michigan-democratic-primary",
+    "conditionId": "0xeb44a06c677ce7a47e5fd2007182e020a577395dc3613ad55d3d576e33964c3d",
+    "yes_price": 0.23,
+    "days_to_resolution": 70,
+    "end_date": "2026-08-04",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 43267.784336,
+    "liquidity": 6843.3042,
+    "category": null
+  },
+  {
+    "question": "Will Haley Stevens win the 2026 Michigan Democratic Primary?",
+    "slug": "will-haley-stevens-win-the-2026-michigan-democratic-primary",
+    "conditionId": "0x0bde18e0a0220d1f97173850504a1ed4fa90ef2c6a7bc0932952790053ca0c0e",
+    "yes_price": 0.1545,
+    "days_to_resolution": 70,
+    "end_date": "2026-08-04",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 35884.069810999994,
+    "liquidity": 16619.0242,
+    "category": null
+  },
+  {
+    "question": "Will Abdul El-Sayed win the 2026 Michigan Democratic Primary?",
+    "slug": "will-abdul-el-sayed-win-the-2026-michigan-democratic-primary",
+    "conditionId": "0xca0329cd4392d91e39df0702949229573d2415ae4a37b0103d0c6e9d03b8dd44",
+    "yes_price": 0.545,
+    "days_to_resolution": 70,
+    "end_date": "2026-08-04",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 127374.93356700022,
+    "liquidity": 6945.093,
+    "category": null
+  },
+  {
+    "question": "Will OpenAI\u2019s market cap be $1.5T or greater at market close on IPO day?",
+    "slug": "will-openais-market-cap-be-greater-than-1pt5t-at-market-close-on-ipo-day",
+    "conditionId": "0x4a8005d19b41af72c1cd5c619640d9d51da548dd7c3544b12ae0c520d9e6805b",
+    "yes_price": 0.2645,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "ai-tech"
+    ],
+    "volume": 108712.95704300028,
+    "liquidity": 8539.319,
+    "category": null
+  },
+  {
+    "question": "Will OpenAI not IPO by December 31, 2026?",
+    "slug": "will-openai-not-ipo-by-december-31-2026",
+    "conditionId": "0x3849e1d62e0807801913d3e2427e8caf3cc6dd1c8ef42d8d5c08c6f9c449dc5e",
+    "yes_price": 0.25,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "ai-tech"
+    ],
+    "volume": 321679.7345689992,
+    "liquidity": 8436.9437,
+    "category": null
+  },
+  {
+    "question": "Will Google have the top AI model at the end of June 2026?",
+    "slug": "will-google-have-the-top-ai-model-at-the-end-of-june-2026",
+    "conditionId": "0xa3681c6be3faf6b4f05918ed0bc9786e41e600d9882c335907b5a3402bf93494",
+    "yes_price": 0.18,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "ai-tech"
+    ],
+    "volume": 22415.535929000012,
+    "liquidity": 3737.1294,
+    "category": null
+  },
+  {
+    "question": "Will Anthropic have the top AI model at the end of June 2026?",
+    "slug": "will-anthropic-have-the-top-ai-model-at-the-end-of-june-2026-475",
+    "conditionId": "0x0811ed7f71c2466d04f9ba801c0e21c9cfb016385cdff97b5c9984df0fa5801e",
+    "yes_price": 0.755,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "ai-tech"
+    ],
+    "volume": 35358.40900900003,
+    "liquidity": 3606.1589,
+    "category": null
+  },
+  {
+    "question": "Will Google have the best AI model at the end of June 2026?",
+    "slug": "will-google-have-the-best-ai-model-at-the-end-of-june-2026",
+    "conditionId": "0x0bd1b836a2494f80aaee62927cf01e5f6fceb19114e96fc517c6440aea4576e4",
+    "yes_price": 0.175,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "ai-tech"
+    ],
+    "volume": 688272.9252370015,
+    "liquidity": 23743.1355,
+    "category": null
+  },
+  {
+    "question": "Will Anthropic have the best AI model at the end of June 2026?",
+    "slug": "will-anthropic-have-the-best-ai-model-at-the-end-of-june-2026",
+    "conditionId": "0xa4d72632ac0ddadcac5247ffc586a193f1bc3bc839cf9ce993c2471e0d599cca",
+    "yes_price": 0.7775,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "ai-tech"
+    ],
+    "volume": 1074450.8541809975,
+    "liquidity": 27642.79607,
+    "category": null
+  },
+  {
+    "question": "Will Waymo launch in Dallas by June 30 2026?",
+    "slug": "will-waymo-launch-in-dallas-by-june-30-2026",
+    "conditionId": "0xac7a4b01ad2ee4a742f8cfca7632e02c8008d5149f8523d8799621955ee5c67b",
+    "yes_price": 0.675,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 27215.123760000002,
+    "liquidity": 2587.4522,
+    "category": null
+  },
+  {
+    "question": "Will Waymo operate in 10 cities on June 30 2026?",
+    "slug": "will-waymo-operate-in-10-cities-on-june-30-2026",
+    "conditionId": "0xfde12c3be62901d1b00ed4aa2f686d7ccd71f678c7c4376f4eb59a3272279f48",
+    "yes_price": 0.1535,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 14312.126244000003,
+    "liquidity": 1772.06709,
+    "category": null
+  },
+  {
+    "question": "Will Waymo operate in 11 cities on June 30 2026?",
+    "slug": "will-waymo-operate-in-11-cities-on-june-30-2026",
+    "conditionId": "0xdcbb85388b085905980195fcdd3beadf36e59c4b7f67e8969a5fba467a126dc6",
+    "yes_price": 0.315,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 20836.88506,
+    "liquidity": 3167.0557,
+    "category": null
+  },
+  {
+    "question": "Will Sam Altman get OpenAI equity by June 30?",
+    "slug": "will-sam-altman-get-openai-equity-by-june-30",
+    "conditionId": "0xbb3097da94d7eaf185196f9b384c8e37499248ada1fcd0465b30531cca30d269",
+    "yes_price": 0.38,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "ai-tech"
+    ],
+    "volume": 4916.316154000001,
+    "liquidity": 351.9106,
+    "category": null
+  },
+  {
+    "question": "Will another AI-generated song reach number 1 on any Billboard chart by June 30?",
+    "slug": "will-another-ai-generated-song-reach-number-1-on-any-billboard-chart-by-june-30",
+    "conditionId": "0x5074bb49c52a2d552bc45f044419f2168ade7cc5072762a47b257d076ca820bf",
+    "yes_price": 0.35,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "policy"
+    ],
+    "volume": 6218.959590000001,
+    "liquidity": 646.103,
+    "category": null
+  },
+  {
+    "question": "Will a new country buy Bitcoin by June 30, 2026?",
+    "slug": "will-a-new-country-buy-bitcoin-by-june-30-2026-493",
+    "conditionId": "0xabbcf4b109800ea512cbe08aa5efe734131855da2847fcb497d763778de4f654",
+    "yes_price": 0.25,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "crypto"
+    ],
+    "volume": 371.292096,
+    "liquidity": 64.924,
+    "category": null
+  },
+  {
+    "question": "Miguel D\u00edaz-Canel out as President of Cuba by June 30?",
+    "slug": "miguel-daz-canel-out-as-president-of-cuba-by-june-30",
+    "conditionId": "0x48874462b88af831a4d90479286c6c1d4cd683a6b119d926f85ac66549385b21",
+    "yes_price": 0.175,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 263180.3318800009,
+    "liquidity": 15640.9423,
+    "category": null
+  },
+  {
+    "question": "MicroStrategy sells any Bitcoin by June 30, 2026?",
+    "slug": "microstrategy-sells-any-bitcoin-by-june-30-2026",
+    "conditionId": "0x8e7a03cb1970e2ad6533b01892403516b6b3f5b5fa90ed7d104c28b27e40ba00",
+    "yes_price": 0.3255,
+    "days_to_resolution": 36,
+    "end_date": "2026-07-01",
+    "tags": [
+      "crypto"
+    ],
+    "volume": 4006034.36758896,
+    "liquidity": 64185.08955,
+    "category": null
+  },
+  {
+    "question": "New Half-Life game by June 30?",
+    "slug": "new-half-life-game-by-june-30",
+    "conditionId": "0x56f57a25cb3788c5468b0463914b28294f49223981a082aa732e154dbca64c97",
+    "yes_price": 0.2905,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 4332.627987,
+    "liquidity": 247.48963,
+    "category": null
+  },
+  {
+    "question": "Will Micah Lasher be the democratic nominee for NY-12?",
+    "slug": "will-micah-lasher-be-the-democratic-nominee-for-ny-12",
+    "conditionId": "0x3ff129c6f6737846a0b7912778da9c68f3766fbe4c8056224bd12de7e3ecfc10",
+    "yes_price": 0.445,
+    "days_to_resolution": 28,
+    "end_date": "2026-06-23",
+    "tags": [
+      "other"
+    ],
+    "volume": 17611.404142000003,
+    "liquidity": 1983.2453,
+    "category": null
+  },
+  {
+    "question": "Will Alex Bores be the democratic nominee for NY-12?",
+    "slug": "will-alex-bores-be-the-democratic-nominee-for-ny-12",
+    "conditionId": "0x1af009052969324fe877b8339e173ae39c8c8c6b7db75a41cd091bfe4ec04265",
+    "yes_price": 0.42,
+    "days_to_resolution": 28,
+    "end_date": "2026-06-23",
+    "tags": [
+      "other"
+    ],
+    "volume": 8511.606698,
+    "liquidity": 5004.5715,
+    "category": null
+  },
+  {
+    "question": "Labour leadership election scheduled by June 30?",
+    "slug": "labour-leadership-election-scheduled-by-june-30",
+    "conditionId": "0x6bc2c22c0200475f44030c497e48617311d87c299d8c65d039897a912ebc05b2",
+    "yes_price": 0.63,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 21921.08451099997,
+    "liquidity": 1637.43,
+    "category": null
+  },
+  {
+    "question": "Will Antonio Reynoso be the Democratic nominee for NY-07?",
+    "slug": "will-antonio-reynoso-be-the-democratic-nominee-for-ny-07",
+    "conditionId": "0xdc00146a77dbe0f17e69b4c5d71e9358b0e9eaae4908ab993e0fff0c566abb11",
+    "yes_price": 0.265,
+    "days_to_resolution": 28,
+    "end_date": "2026-06-23",
+    "tags": [
+      "other"
+    ],
+    "volume": 11430.000554999997,
+    "liquidity": 8293.5578,
+    "category": null
+  },
+  {
+    "question": "Will Claire Valdez be the Democratic nominee for NY-07?",
+    "slug": "will-claire-valdez-be-the-democratic-nominee-for-ny-07",
+    "conditionId": "0xc47d5386411a75a6b87c78cafd47993a42ad8b8b0df166e9722a275269449612",
+    "yes_price": 0.705,
+    "days_to_resolution": 28,
+    "end_date": "2026-06-23",
+    "tags": [
+      "other"
+    ],
+    "volume": 13283.036226000002,
+    "liquidity": 6906.6492,
+    "category": null
+  },
+  {
+    "question": "Will Cait Conley be the Democratic nominee for NY-17?",
+    "slug": "will-cait-conley-be-the-democratic-nominee-for-ny-17",
+    "conditionId": "0xed5dbf2e63a4222099bcbaf60c4c70333b29c2940d0f127c8da2ee0920632d34",
+    "yes_price": 0.265,
+    "days_to_resolution": 28,
+    "end_date": "2026-06-23",
+    "tags": [
+      "other"
+    ],
+    "volume": 28138.541470000004,
+    "liquidity": 3930.4822,
+    "category": null
+  },
+  {
+    "question": "Will Beth Davidson be the Democratic nominee for NY-17?",
+    "slug": "will-beth-davidson-be-the-democratic-nominee-for-ny-17",
+    "conditionId": "0xd81e304a53cfdac107189a8ab1fe862416c4f6de3a009b3243d057eb89fa8491",
+    "yes_price": 0.38,
+    "days_to_resolution": 28,
+    "end_date": "2026-06-23",
+    "tags": [
+      "crypto"
+    ],
+    "volume": 23799.0425,
+    "liquidity": 2472.8635,
+    "category": null
+  },
+  {
+    "question": "Will Shannon Bird be the Democratic nominee for CO-08?",
+    "slug": "will-shannon-bird-be-the-democratic-nominee-for-co-08",
+    "conditionId": "0x892127ba72668ea5da29a1a21cd0e78210d54390dbd8cb564f4c960e48b6eaa4",
+    "yes_price": 0.195,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 2864.5031849999996,
+    "liquidity": 11636.3361,
+    "category": null
+  },
+  {
+    "question": "Will Manny Rutinel be the Democratic nominee for CO-08?",
+    "slug": "will-manny-rutinel-be-the-democratic-nominee-for-co-08",
+    "conditionId": "0x1f5b9dd89471579b5eef1bbee88a966e50a843d7f79e8278a6426ddad1685b3b",
+    "yes_price": 0.75,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 13842.166606999997,
+    "liquidity": 2751.878,
+    "category": null
+  },
+  {
+    "question": "Will Wesley Bell be the Democratic nominee for MO-01?",
+    "slug": "will-wesley-bell-be-the-democratic-nominee-for-mo-01",
+    "conditionId": "0x0d62a8571af67005063a9182c72ede090f29f6e82d8680d61060d9756b49140f",
+    "yes_price": 0.665,
+    "days_to_resolution": 70,
+    "end_date": "2026-08-04",
+    "tags": [
+      "other"
+    ],
+    "volume": 5940.291576000003,
+    "liquidity": 5507.3541,
+    "category": null
+  },
+  {
+    "question": "Will Cori Bush be the Democratic nominee for MO-01?",
+    "slug": "will-cori-bush-be-the-democratic-nominee-for-mo-01",
+    "conditionId": "0x74efaa758c3c08921bd143b0a1696b54890834d073fc6df01dfb75f6f4e38528",
+    "yes_price": 0.345,
+    "days_to_resolution": 70,
+    "end_date": "2026-08-04",
+    "tags": [
+      "other"
+    ],
+    "volume": 5195.500974999998,
+    "liquidity": 5415.5271,
+    "category": null
+  },
+  {
+    "question": "Will Ben McAdams be the Democratic nominee for UT-01?",
+    "slug": "will-ben-mcadams-be-the-democratic-nominee-for-ut-01",
+    "conditionId": "0x89c32a0f93d0fb5b46225e4ac76f3e00a8614f55e6aa365e0152d5ee92722a81",
+    "yes_price": 0.695,
+    "days_to_resolution": 28,
+    "end_date": "2026-06-23",
+    "tags": [
+      "other"
+    ],
+    "volume": 10317.364028999995,
+    "liquidity": 1671.6288,
+    "category": null
+  },
+  {
+    "question": "Will Nate Blouin be the Democratic nominee for UT-01?",
+    "slug": "will-nate-blouin-be-the-democratic-nominee-for-ut-01",
+    "conditionId": "0x49f4f5e99bc76806bdce33713e6958a3a35c55405d909b9f546b2632d9ec55c3",
+    "yes_price": 0.235,
+    "days_to_resolution": 28,
+    "end_date": "2026-06-23",
+    "tags": [
+      "other"
+    ],
+    "volume": 4564.668606000003,
+    "liquidity": 2066.2237,
+    "category": null
+  },
+  {
+    "question": "Will Jay Feely be the Republican nominee for AZ-01?",
+    "slug": "will-jay-feely-be-the-republican-nominee-for-az-01",
+    "conditionId": "0x50cacbab136ddc10400b43c4509e3e3553968027eded0736ab1413caa0e85f6e",
+    "yes_price": 0.795,
+    "days_to_resolution": 70,
+    "end_date": "2026-08-04",
+    "tags": [
+      "other"
+    ],
+    "volume": 8375.051477,
+    "liquidity": 8894.2637,
+    "category": null
+  },
+  {
+    "question": "Will Mark Lamb be the Republican nominee for AZ-05?",
+    "slug": "will-mark-lamb-be-the-republican-nominee-for-az-05",
+    "conditionId": "0xbd6602e1152e6557a87e6d0bad683a21a2d5fa9132872543170ed6c5d1c53ed0",
+    "yes_price": 0.6665,
+    "days_to_resolution": 70,
+    "end_date": "2026-08-04",
+    "tags": [
+      "other"
+    ],
+    "volume": 5231.202220000001,
+    "liquidity": 35.06985,
+    "category": null
+  },
+  {
+    "question": "Will Catalina Lauf be the Republican nominee for FL-19?",
+    "slug": "will-catalina-lauf-be-the-republican-nominee-for-fl-19",
+    "conditionId": "0xf43d99c0b796e0e5226dffa31c71c9fab943e3f79c0182c144eea93dc6b77ae2",
+    "yes_price": 0.51,
+    "days_to_resolution": 84,
+    "end_date": "2026-08-18",
+    "tags": [
+      "other"
+    ],
+    "volume": 17393.20999700001,
+    "liquidity": 5750.5212,
+    "category": null
+  },
+  {
+    "question": "Will Kim Farington be the Republican nominee for Senate in Virginia?",
+    "slug": "will-kim-farington-be-the-republican-nominee-for-senate-in-virginia",
+    "conditionId": "0x151f00b091b2e346656190b49c06644920fdba4f1280f7976e7f5f6bdfec7bb3",
+    "yes_price": 0.3015,
+    "days_to_resolution": 21,
+    "end_date": "2026-06-16",
+    "tags": [
+      "policy"
+    ],
+    "volume": 458187.94649599964,
+    "liquidity": 22598.65501,
+    "category": null
+  },
+  {
+    "question": "Will Bert Mizusawa be the Republican nominee for Senate in Virginia?",
+    "slug": "will-bert-mizusawa-be-the-republican-nominee-for-senate-in-virginia",
+    "conditionId": "0x114ba3133f9949f6a34f75caf515b6eb43eecf19a71958fdb0950f4bd94cf10e",
+    "yes_price": 0.495,
+    "days_to_resolution": 21,
+    "end_date": "2026-06-16",
+    "tags": [
+      "policy"
+    ],
+    "volume": 11283.928404000008,
+    "liquidity": 6367.0032,
+    "category": null
+  },
+  {
+    "question": "Will Matt Klein be the Democratic nominee for MN-02?",
+    "slug": "will-matt-klein-be-the-democratic-nominee-for-mn-02",
+    "conditionId": "0x33c3b9a093ed165a022c0cece1dfbc75aacfc7d02b32ec2b60f33b83a83b584e",
+    "yes_price": 0.175,
+    "days_to_resolution": 77,
+    "end_date": "2026-08-11",
+    "tags": [
+      "other"
+    ],
+    "volume": 7804.484626000003,
+    "liquidity": 3591.5742,
+    "category": null
+  },
+  {
+    "question": "Will Matt Little be the Democratic nominee for MN-02?",
+    "slug": "will-matt-little-be-the-democratic-nominee-for-mn-02",
+    "conditionId": "0x822409787697144b96f53af76e6419655f5704d5a1382c0604aa01fb331e2ca5",
+    "yes_price": 0.775,
+    "days_to_resolution": 77,
+    "end_date": "2026-08-11",
+    "tags": [
+      "other"
+    ],
+    "volume": 21303.449894999976,
+    "liquidity": 2065.5167,
+    "category": null
+  },
+  {
+    "question": "Will Elon Musk go on Joe Rogan before June 30?",
+    "slug": "will-elon-musk-go-on-joe-rogan-before-june-30",
+    "conditionId": "0x020d7d54652f796ff8e45753895a7e47aa41a967059f3aedfaa28e9b15917ac8",
+    "yes_price": 0.15,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 4014.097286000002,
+    "liquidity": 2693.06,
+    "category": null
+  },
+  {
+    "question": "Will there be 8 or more earthquakes of magnitude 7.0 or higher worldwide by June 30?",
+    "slug": "will-there-be-8-or-more-earthquakes-of-magnitude-7pt0-or-higher-worldwide-by-june-30",
+    "conditionId": "0x897a2f88e1b65776ac5af0440833eea638395f0af0df4bed47e83f64c9b9a1e3",
+    "yes_price": 0.7275,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 553466.7349990003,
+    "liquidity": 1792.22748,
+    "category": null
+  },
+  {
+    "question": "Will there be exactly 7 earthquakes of magnitude 7.0 or higher worldwide by June 30?",
+    "slug": "will-there-be-exactly-7-earthquakes-of-magnitude-7pt0-or-higher-worldwide-by-june-30",
+    "conditionId": "0x3acc06a95895e69efeeaae4dfdce738b91702c94556b230208b4f0438be8e4e5",
+    "yes_price": 0.2325,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 291179.50081399956,
+    "liquidity": 4435.25662,
+    "category": null
+  },
+  {
+    "question": "Will Genter Drummond win the 2026 Oklahoma Governor Republican primary election?",
+    "slug": "will-genter-drummond-win-the-2026-oklahoma-governor-republican-primary-election",
+    "conditionId": "0x6f78fd69fd6dafb695a8f4074dac11971b1da612bd150aa0c837efbd86417292",
+    "yes_price": 0.48,
+    "days_to_resolution": 21,
+    "end_date": "2026-06-16",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 116328.39054500002,
+    "liquidity": 6149.5932,
+    "category": null
+  },
+  {
+    "question": "Will Chip Keating win the 2026 Oklahoma Governor Republican primary election?",
+    "slug": "will-chip-keating-win-the-2026-oklahoma-governor-republican-primary-election",
+    "conditionId": "0x6c0b425903eab2fd17e3171fedb3fe557497de75a2da23dd2db21f2624e9b20a",
+    "yes_price": 0.305,
+    "days_to_resolution": 21,
+    "end_date": "2026-06-16",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 3483.000994,
+    "liquidity": 5027.80222,
+    "category": null
+  },
+  {
+    "question": "Will Phil Weiser win the 2026 Colorado Governor Democratic primary election?",
+    "slug": "will-phil-weiser-win-the-2026-colorado-governor-democratic-primary-election",
+    "conditionId": "0x6b59b736ef8ec2c0f88139eb426dfcdbe7a0549e3415884f28b07a9b66602544",
+    "yes_price": 0.175,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 14500.823143000007,
+    "liquidity": 13017.3833,
+    "category": null
+  },
+  {
+    "question": "Will Victor Marx win the 2026 Colorado Governor Republican primary election?",
+    "slug": "will-victor-marx-win-the-2026-colorado-governor-republican-primary-election",
+    "conditionId": "0x0b94b4e361a4797c94c4802dec1080f7d60005c04885a8930e931e62b12ea879",
+    "yes_price": 0.755,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 6692.5790979999965,
+    "liquidity": 3391.1469,
+    "category": null
+  },
+  {
+    "question": "Taylor Swift x Travis Kelce get married by June 30?",
+    "slug": "taylor-swift-x-travis-kelce-get-married-by-june-30",
+    "conditionId": "0x46eb6b4907d9fc0ba8bf1758ab37db500de95fa003ad70a0e6afe5d93df5a947",
+    "yes_price": 0.161,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 151093.9808469994,
+    "liquidity": 2869.5135,
+    "category": null
+  },
+  {
+    "question": "Will Ethan Corson win the 2026 Kansas Governor Democratic primary election?",
+    "slug": "will-ethan-corson-win-the-2026-kansas-governor-democratic-primary-election",
+    "conditionId": "0xb83df8ea773e1f6693320c4ee94f28ab3fbe10d270d695b6e0f76d03cabeed4d",
+    "yes_price": 0.65,
+    "days_to_resolution": 70,
+    "end_date": "2026-08-04",
+    "tags": [
+      "geopolitics",
+      "crypto"
+    ],
+    "volume": 2882.8429149999997,
+    "liquidity": 2782.1571,
+    "category": null
+  },
+  {
+    "question": "Will Cindy Holscher win the 2026 Kansas Governor Democratic primary election?",
+    "slug": "will-cindy-holscher-win-the-2026-kansas-governor-democratic-primary-election",
+    "conditionId": "0x8bb083247bc0525ae99c364b72394f3cd8e8d15bd4ed7ce08bd71079bba2bda6",
+    "yes_price": 0.32,
+    "days_to_resolution": 70,
+    "end_date": "2026-08-04",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 3148.5311970000007,
+    "liquidity": 4384.5158,
+    "category": null
+  },
+  {
+    "question": "Will Troy Jackson win the 2026 Maine Governor Democratic primary election?",
+    "slug": "will-troy-jackson-win-the-2026-maine-governor-democratic-primary-election",
+    "conditionId": "0x9e7946bfbc35a400efea548fe34b649fc96893f80c899ae87cb6b5a650907032",
+    "yes_price": 0.42,
+    "days_to_resolution": 14,
+    "end_date": "2026-06-09",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 11624.809080999989,
+    "liquidity": 6436.8147,
+    "category": null
+  },
+  {
+    "question": "Will Nirav Shah win the 2026 Maine Governor Democratic primary election?",
+    "slug": "will-nirav-shah-win-the-2026-maine-governor-democratic-primary-election",
+    "conditionId": "0x906842f0acae58e8633c17e933010e1662ca6616fbb3de89f61ff7a3718f5cc7",
+    "yes_price": 0.375,
+    "days_to_resolution": 14,
+    "end_date": "2026-06-09",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 10444.532544000016,
+    "liquidity": 5332.4704,
+    "category": null
+  },
+  {
+    "question": "Will Jonathan Bush win the 2026 Maine Governor Republican primary election?",
+    "slug": "will-jonathan-bush-win-the-2026-maine-governor-republican-primary-election",
+    "conditionId": "0xfc500f154bcf7019dbddc34b05266048b5e7a7445f574a89b9d6e16a83ef264d",
+    "yes_price": 0.188,
+    "days_to_resolution": 14,
+    "end_date": "2026-06-09",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 16062.831889000005,
+    "liquidity": 14001.13787,
+    "category": null
+  },
+  {
+    "question": "Will Robert Charles win the 2026 Maine Governor Republican primary election?",
+    "slug": "will-robert-charles-win-the-2026-maine-governor-republican-primary-election",
+    "conditionId": "0xfbe834154a7b7d8ec4ccd0f5468b58a113bdbf0e7c0a41876ae8b014ab94631b",
+    "yes_price": 0.7,
+    "days_to_resolution": 14,
+    "end_date": "2026-06-09",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 9152.34105,
+    "liquidity": 5254.7078,
+    "category": null
+  },
+  {
+    "question": "Will Jermaine Johnson win the 2026 South Carolina Governor Democratic primary election?",
+    "slug": "will-jermaine-johnson-win-the-2026-south-carolina-governor-democratic-primary-election",
+    "conditionId": "0xf688606e6f30e1c55c595ccb992d095e8c9ffe2153154aeec6609eb002f201ee",
+    "yes_price": 0.685,
+    "days_to_resolution": 14,
+    "end_date": "2026-06-09",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 11012.982564000005,
+    "liquidity": 1499.8314,
+    "category": null
+  },
+  {
+    "question": "Will Billy Webster win the 2026 South Carolina Governor Democratic primary election?",
+    "slug": "will-billy-webster-win-the-2026-south-carolina-governor-democratic-primary-election",
+    "conditionId": "0x5c8dc748cfec530d07f450add0f80996a742d36d532058b39bd561cd6e67d841",
+    "yes_price": 0.16,
+    "days_to_resolution": 14,
+    "end_date": "2026-06-09",
+    "tags": [
+      "policy",
+      "geopolitics"
+    ],
+    "volume": 299.722844,
+    "liquidity": 798.7166,
+    "category": null
+  },
+  {
+    "question": "Will Pamela Evette win the 2026 South Carolina Governor Republican primary election?",
+    "slug": "will-pamela-evette-win-the-2026-south-carolina-governor-republican-primary-election-972",
+    "conditionId": "0x2ff32cec61a2e9924b5e1207974fdb171efe4568bff1aff58b3d15b26237b36b",
+    "yes_price": 0.36,
+    "days_to_resolution": 14,
+    "end_date": "2026-06-09",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 10036.597521,
+    "liquidity": 10590.2435,
+    "category": null
+  },
+  {
+    "question": "Will Alan Wilson win the 2026 South Carolina Governor Republican primary election?",
+    "slug": "will-alan-wilson-win-the-2026-south-carolina-governor-republican-primary-election-725",
+    "conditionId": "0xfec5e4fb10dd82bc4fb945dfed9c126a244f1bc3311a6a28c7a1515580ebc190",
+    "yes_price": 0.385,
+    "days_to_resolution": 14,
+    "end_date": "2026-06-09",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 4934.095741000003,
+    "liquidity": 6976.4556,
+    "category": null
+  },
+  {
+    "question": "Will Jerri Green win the 2026 Tennessee Governor Democratic primary election?",
+    "slug": "will-jerri-green-win-the-2026-tennessee-governor-democratic-primary-election",
+    "conditionId": "0x22776ecdacca07302e6cc578cdcf26df93b4233d5a8166cbf131cb32fec425b9",
+    "yes_price": 0.78,
+    "days_to_resolution": 72,
+    "end_date": "2026-08-06",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 34241.96042200023,
+    "liquidity": 4316.9674,
+    "category": null
+  },
+  {
+    "question": "Will Ed Hale win the 2026 Maryland Governor Republican primary election?",
+    "slug": "will-ed-hale-win-the-2026-maryland-governor-republican-primary-election",
+    "conditionId": "0x16711932e48692c37b0be92837cc09c015063d8cbf124e916f393f143d741af0",
+    "yes_price": 0.283,
+    "days_to_resolution": 28,
+    "end_date": "2026-06-23",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 14681.990380000005,
+    "liquidity": 4528.92541,
+    "category": null
+  },
+  {
+    "question": "Will Dan Cox win the 2026 Maryland Governor Republican primary election?",
+    "slug": "will-dan-cox-win-the-2026-maryland-governor-republican-primary-election",
+    "conditionId": "0x3d6221450862c69f69e9b278a9119fc3e11f1c794650f7cddf283d4adefeee20",
+    "yes_price": 0.675,
+    "days_to_resolution": 28,
+    "end_date": "2026-06-23",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 96150.42906399995,
+    "liquidity": 5068.0997,
+    "category": null
+  },
+  {
+    "question": "Will Aly Richards win the 2026 Vermont Governor Democratic primary election?",
+    "slug": "will-aly-richards-win-the-2026-vermont-governor-democratic-primary-election",
+    "conditionId": "0xf77bd5682beec44a135a9ab814a28e4b69481e84365243bc6a86f1cea39dfd76",
+    "yes_price": 0.72,
+    "days_to_resolution": 77,
+    "end_date": "2026-08-11",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 52.0,
+    "liquidity": 378.81,
+    "category": null
+  },
+  {
+    "question": "Will Mandela Barnes win the 2026 Wisconsin Governor Democratic primary election?",
+    "slug": "will-mandela-barnes-win-the-2026-wisconsin-governor-democratic-primary-election",
+    "conditionId": "0x0f1843cae1fa85c263c1f8118554fcff73f8af53d58d0f9fa5283490e69a7d94",
+    "yes_price": 0.545,
+    "days_to_resolution": 77,
+    "end_date": "2026-08-11",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 10547.897636999998,
+    "liquidity": 5726.4338,
+    "category": null
+  },
+  {
+    "question": "Will Francesca Hong win the 2026 Wisconsin Governor Democratic primary election?",
+    "slug": "will-francesca-hong-win-the-2026-wisconsin-governor-democratic-primary-election",
+    "conditionId": "0x00925aafdbb3fbec14b49f343eb430ddb9cc1f827e5934b5513703d13f2851de",
+    "yes_price": 0.27,
+    "days_to_resolution": 77,
+    "end_date": "2026-08-11",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 9940.324642,
+    "liquidity": 15797.87121,
+    "category": null
+  },
+  {
+    "question": "Will Eric Barlow win the 2026 Wyoming Governor Republican primary election?",
+    "slug": "will-eric-barlow-win-the-2026-wyoming-governor-republican-primary-election",
+    "conditionId": "0xfb481845055afdf15febad269fcb534be4c5e79d5789b72659a036660b46e11b",
+    "yes_price": 0.1565,
+    "days_to_resolution": 84,
+    "end_date": "2026-08-18",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 18101.246447999994,
+    "liquidity": 14402.30784,
+    "category": null
+  },
+  {
+    "question": "Will Josh Tenorio win the 2026 Guam Governor Democratic primary election?",
+    "slug": "will-josh-tenorio-win-the-2026-guam-governor-democratic-primary-election",
+    "conditionId": "0x8d240de0d0ab5a55bc688eb09ca7066a023fc0942a08d6cb2607971eb87d936f",
+    "yes_price": 0.16,
+    "days_to_resolution": 67,
+    "end_date": "2026-08-01",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 9201.793215999996,
+    "liquidity": 3017.0388,
+    "category": null
+  },
+  {
+    "question": "Will Therese Terlaje win the 2026 Guam Governor Democratic primary election?",
+    "slug": "will-therese-terlaje-win-the-2026-guam-governor-democratic-primary-election",
+    "conditionId": "0xa34f2fb5664f2cc079ba616597ab300bbbe6dd91e3d597f5bc45693c6ea20082",
+    "yes_price": 0.765,
+    "days_to_resolution": 67,
+    "end_date": "2026-08-01",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 5577.457069999999,
+    "liquidity": 3235.9346,
+    "category": null
+  },
+  {
+    "question": "Will John James win the 2026 Michigan Governor Republican primary election?",
+    "slug": "will-john-james-win-the-2026-michigan-governor-republican-primary-election",
+    "conditionId": "0xbc63ab257269b6d88696a7c395c22a032dd8bcaec0f20b22083ac17dd8a9221c",
+    "yes_price": 0.35,
+    "days_to_resolution": 70,
+    "end_date": "2026-08-04",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 11922.614934999992,
+    "liquidity": 4817.1456,
+    "category": null
+  },
+  {
+    "question": "Will Perry Johnson win the 2026 Michigan Governor Republican primary election?",
+    "slug": "will-perry-johnson-win-the-2026-michigan-governor-republican-primary-election",
+    "conditionId": "0xd4607b688346dfbe7b5fa5e805d16e5b7878d60bf2e1d4c7c0192665ffeafdf9",
+    "yes_price": 0.43,
+    "days_to_resolution": 70,
+    "end_date": "2026-08-04",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 12005.674855999998,
+    "liquidity": 3255.6298,
+    "category": null
+  },
+  {
+    "question": "Will Lisa Demuth win the 2026 Minnesota Governor Republican primary election?",
+    "slug": "will-lisa-demuth-win-the-2026-minnesota-governor-republican-primary-election",
+    "conditionId": "0xd25c820d3aee1c735c0fa62c36f4905632ab8c6988653b5b4134593b3209eb7f",
+    "yes_price": 0.615,
+    "days_to_resolution": 77,
+    "end_date": "2026-08-11",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 58129.920112000014,
+    "liquidity": 3026.6991,
+    "category": null
+  },
+  {
+    "question": "Will Mike Lindell win the 2026 Minnesota Governor Republican primary election?",
+    "slug": "will-mike-lindell-win-the-2026-minnesota-governor-republican-primary-election",
+    "conditionId": "0xbbd623c4191ca76dec466507375d6df85b403b7e14f9cbd3d09f2c450ae0cd96",
+    "yes_price": 0.265,
+    "days_to_resolution": 77,
+    "end_date": "2026-08-11",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 92145.18350399999,
+    "liquidity": 15482.8322,
+    "category": null
+  },
+  {
+    "question": "Will Click Bishop advance from the 2026 Alaska Governor primary election?",
+    "slug": "will-click-bishop-advance-from-the-2026-alaska-governor-primary-election",
+    "conditionId": "0x3342ecddb31d790a0aa690a12b3ef674d0c5014fcd5c3a50afb828b30f982170",
+    "yes_price": 0.55,
+    "days_to_resolution": 84,
+    "end_date": "2026-08-18",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 40596.43136399995,
+    "liquidity": 2719.5278,
+    "category": null
+  },
+  {
+    "question": "Will Dave Bronson advance from the 2026 Alaska Governor primary election?",
+    "slug": "will-dave-bronson-advance-from-the-2026-alaska-governor-primary-election",
+    "conditionId": "0x7fdfdf3089f2926e189998489f530a1a4b3f90ee8d2d52f81d8774757f8ca762",
+    "yes_price": 0.345,
+    "days_to_resolution": 84,
+    "end_date": "2026-08-18",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 2203.2233279999996,
+    "liquidity": 1724.3753,
+    "category": null
+  },
+  {
+    "question": "Will Nancy Dahlstrom advance from the 2026 Alaska Governor primary election?",
+    "slug": "will-nancy-dahlstrom-advance-from-the-2026-alaska-governor-primary-election",
+    "conditionId": "0xc42165d729164b01fe0f147307731c8d1cfb0c3e7db1920a83dbf04f751c1127",
+    "yes_price": 0.17,
+    "days_to_resolution": 84,
+    "end_date": "2026-08-18",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 12118.192969000002,
+    "liquidity": 9421.3786,
+    "category": null
+  },
+  {
+    "question": "Will Treg Taylor advance from the 2026 Alaska Governor primary election?",
+    "slug": "will-treg-taylor-advance-from-the-2026-alaska-governor-primary-election",
+    "conditionId": "0x77396e9b7a44481197718658079006c7b1eff3e9e763007d6b4755fcbaf7c4df",
+    "yes_price": 0.285,
+    "days_to_resolution": 84,
+    "end_date": "2026-08-18",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 56386.15174900001,
+    "liquidity": 1344.5507,
+    "category": null
+  },
+  {
+    "question": "Will Bernadette Wilson advance from the 2026 Alaska Governor primary election?",
+    "slug": "will-bernadette-wilson-advance-from-the-2026-alaska-governor-primary-election",
+    "conditionId": "0x39dc2c86efd159ae5b0fddc70b0b15af308993353eff43b5725bf6a0e473ca83",
+    "yes_price": 0.67,
+    "days_to_resolution": 84,
+    "end_date": "2026-08-18",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 14145.888839,
+    "liquidity": 1400.2328,
+    "category": null
+  },
+  {
+    "question": "Will Matt Claman advance from the 2026 Alaska Governor primary election?",
+    "slug": "will-matt-claman-advance-from-the-2026-alaska-governor-primary-election",
+    "conditionId": "0x4427ce55f5fc0cc00f2708f914c585442bce7eede689d5daec4671449dc25f8d",
+    "yes_price": 0.39,
+    "days_to_resolution": 84,
+    "end_date": "2026-08-18",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 26787.356812000013,
+    "liquidity": 5728.2921,
+    "category": null
+  },
+  {
+    "question": "Claudio Tapia out as AFA President by July 19, 2026?",
+    "slug": "claudio-tapia-out-as-afa-president-by-july-19-2026",
+    "conditionId": "0x76151c30f23ef5ee963e2f73fa49d5433b4db34839c39383bee4989cb270b639",
+    "yes_price": 0.345,
+    "days_to_resolution": 54,
+    "end_date": "2026-07-19",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 194823.8391909998,
+    "liquidity": 615.9352,
+    "category": null
+  },
+  {
+    "question": "Will Apple release Homepod Mini Successor by June 30?",
+    "slug": "will-apple-release-homepod-mini-successor-by-june-30",
+    "conditionId": "0xe6e841c41ed65247c83f0806e53a9872529ff19976c3dacb9420a660b686ac15",
+    "yes_price": 0.225,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "ai-tech"
+    ],
+    "volume": 2077.9091009999997,
+    "liquidity": 1012.0901,
+    "category": null
+  },
+  {
+    "question": "Will N\u2019Kiyla \u201cJasmine\u201d Thomas be the Democratic nominee for Senate in Oklahoma?",
+    "slug": "will-nkiyla-jasmine-thomas-be-the-democratic-nominee-for-senate-in-oklahoma",
+    "conditionId": "0x1f1c63908f6c1e3b49559fa80ddef36baa9c5482d52e6a7852c90303807ee22e",
+    "yes_price": 0.53,
+    "days_to_resolution": 21,
+    "end_date": "2026-06-16",
+    "tags": [
+      "policy"
+    ],
+    "volume": 2214.0050920000003,
+    "liquidity": 1513.9434,
+    "category": null
+  },
+  {
+    "question": "Will Jim Priest be the Democratic nominee for Senate in Oklahoma?",
+    "slug": "will-jim-priest-be-the-democratic-nominee-for-senate-in-oklahoma",
+    "conditionId": "0xac50f53a650c8de904c6944b02758d2c156409b8578a7d6838cdede8fc6cc7ba",
+    "yes_price": 0.26,
+    "days_to_resolution": 21,
+    "end_date": "2026-06-16",
+    "tags": [
+      "policy"
+    ],
+    "volume": 4463.564052999999,
+    "liquidity": 2925.3416,
+    "category": null
+  },
+  {
+    "question": "US-Iran nuclear deal by June 30?",
+    "slug": "us-iran-nuclear-deal-by-june-30",
+    "conditionId": "0xa70fc3695a65833b91b45df6db6015096f3e1471b70352ca411b4209010e7633",
+    "yes_price": 0.385,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 2972333.5179109992,
+    "liquidity": 45259.7122,
+    "category": null
+  },
+  {
+    "question": "Will Marie Gluesenkamp Perez advance to the general election for WA-03?",
+    "slug": "will-marie-gluesenkamp-perez-advance-to-the-general-election-for-wa-03",
+    "conditionId": "0xef720745be0a15b63c392854dacae4227a9deafe11fdf6afe79bdf45754dd10a",
+    "yes_price": 0.6445,
+    "days_to_resolution": 70,
+    "end_date": "2026-08-04",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 7357.917956,
+    "liquidity": 23945.19724,
+    "category": null
+  },
+  {
+    "question": "Will Brent Hennrich advance to the general election for WA-03?",
+    "slug": "will-brent-hennrich-advance-to-the-general-election-for-wa-03",
+    "conditionId": "0xe97fd68138299f654dfe7d46c56e86c30b03bd558d121e6380d204dfc016b6a7",
+    "yes_price": 0.211,
+    "days_to_resolution": 70,
+    "end_date": "2026-08-04",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 18607.109902999997,
+    "liquidity": 6663.34889,
+    "category": null
+  },
+  {
+    "question": "Will Antony Barran advance to the general election for WA-03?",
+    "slug": "will-antony-barran-advance-to-the-general-election-for-wa-03",
+    "conditionId": "0x5fae5ba9043197e890c32aef1acf277e3ebbc31b643022bef86006b35b3dec5e",
+    "yes_price": 0.152,
+    "days_to_resolution": 70,
+    "end_date": "2026-08-04",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 116.150514,
+    "liquidity": 1869.1222,
+    "category": null
+  },
+  {
+    "question": "Will Lois Frankel be the Democratic Nominee for FL-23?",
+    "slug": "will-lois-frankel-be-the-democratic-nominee-for-fl-23-146",
+    "conditionId": "0x0a0d699f9c0b1ab6300aaba14062c9e1597724a81211fd7e5bea998a5f0c61ad",
+    "yes_price": 0.77,
+    "days_to_resolution": 84,
+    "end_date": "2026-08-18",
+    "tags": [
+      "other"
+    ],
+    "volume": 1415.38,
+    "liquidity": 5531.1957,
+    "category": null
+  },
+  {
+    "question": "Will Shri Thanedar be the Democratic Nominee for MI-13?",
+    "slug": "will-shri-thanedar-be-the-democratic-nominee-for-mi-13",
+    "conditionId": "0x399b69600812f9997ee0dcac06c74c9351f230baa53765eacbc443a77bc520b9",
+    "yes_price": 0.345,
+    "days_to_resolution": 70,
+    "end_date": "2026-08-04",
+    "tags": [
+      "other"
+    ],
+    "volume": 1514.334039,
+    "liquidity": 1521.7926,
+    "category": null
+  },
+  {
+    "question": "Will Donavan McKinney be the Democratic Nominee for MI-13?",
+    "slug": "will-donavan-mckinney-be-the-democratic-nominee-for-mi-13",
+    "conditionId": "0x2cfbd8aabc3519021dc16ab0c7e0f42b0fdac191e64bcc3c42c2319c4c0117f3",
+    "yes_price": 0.57,
+    "days_to_resolution": 70,
+    "end_date": "2026-08-04",
+    "tags": [
+      "other"
+    ],
+    "volume": 20862.061307999993,
+    "liquidity": 1305.2424,
+    "category": null
+  },
+  {
+    "question": "Will Adriano Espaillat be the Democratic Nominee for NY-13?",
+    "slug": "will-adriano-espaillat-be-the-democratic-nominee-for-ny-13",
+    "conditionId": "0xba8526e4bf87c26c043d7048d364508d066117c173a91f2c56a82128fdc9102c",
+    "yes_price": 0.485,
+    "days_to_resolution": 28,
+    "end_date": "2026-06-23",
+    "tags": [
+      "other"
+    ],
+    "volume": 6186.874667000002,
+    "liquidity": 2399.3174,
+    "category": null
+  },
+  {
+    "question": "Will Darializa Avila Chevalier be the Democratic Nominee for NY-13?",
+    "slug": "will-darializa-avila-chevalier-be-the-democratic-nominee-for-ny-13",
+    "conditionId": "0x09e25ccabb32e8d68fed95405ffe3975ffcb2af7de61b1de2f4eb22f1b375029",
+    "yes_price": 0.505,
+    "days_to_resolution": 28,
+    "end_date": "2026-06-23",
+    "tags": [
+      "other"
+    ],
+    "volume": 3687.7396580000004,
+    "liquidity": 2796.9131,
+    "category": null
+  },
+  {
+    "question": "Meta \"Mango\" model released by June 30?",
+    "slug": "meta-mango-model-released-by-june-30",
+    "conditionId": "0xe2b3aca20d136af79f908b7c9cba9832b338e2c02083aa114444f273621b17b4",
+    "yes_price": 0.505,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "ai-tech"
+    ],
+    "volume": 6431.694538000013,
+    "liquidity": 874.2623,
+    "category": null
+  },
+  {
+    "question": "Will Thomas Chalifoux be the Republican nominee for FL-09?",
+    "slug": "will-thomas-chalifoux-be-the-republican-nominee-for-fl-09",
+    "conditionId": "0xe368e5e6be50377d08d2af99c9ad18694aef2f3af9ccbf60b1146302c3ee3da1",
+    "yes_price": 0.545,
+    "days_to_resolution": 84,
+    "end_date": "2026-08-18",
+    "tags": [
+      "other"
+    ],
+    "volume": 1284.661072,
+    "liquidity": 335.88,
+    "category": null
+  },
+  {
+    "question": "Will Gold (GC) settle at $4,200-$4,600 in June?",
+    "slug": "gc-settle-4200-4600-jun-2026",
+    "conditionId": "0xa19142e40da92f4110d29f63475ed9689f1471f8963c87e3220a989cdb356d45",
+    "yes_price": 0.361,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 57004.41298499989,
+    "liquidity": 3540.98968,
+    "category": null
+  },
+  {
+    "question": "Will Gold (GC) settle at $4,600-$5,000 in June?",
+    "slug": "gc-settle-4600-5000-jun-2026",
+    "conditionId": "0x5e75c47528185caa0b8140d5199a505b111d535d004f10c14c77099e160f8c43",
+    "yes_price": 0.295,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 50776.898263999974,
+    "liquidity": 3434.385,
+    "category": null
+  },
+  {
+    "question": "Will Gold (GC) hit (LOW) $4,200 by end of June?",
+    "slug": "gc-hit-4200-low-jun-2026-737-562-112-239-328-831-356-185-544-513-223-988",
+    "conditionId": "0x8cf61b7b84b6ac2e0c619867dd6966e688b43e4fd4c866423da2f757c58f0a9f",
+    "yes_price": 0.185,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 315294.58412000054,
+    "liquidity": 12058.6646,
+    "category": null
+  },
+  {
+    "question": "Will Gold (GC) settle over $5,000 on the final trading day of June 2026?",
+    "slug": "gc-above-5000-jun-2026",
+    "conditionId": "0xd38b5f805174839c5e7d9ccd316e2055c7e8af0de5eab7892850f4d9171151ff",
+    "yes_price": 0.185,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 1893.4933569999996,
+    "liquidity": 375.3287,
+    "category": null
+  },
+  {
+    "question": "Will Gold (GC) settle over $4,800 on the final trading day of June 2026?",
+    "slug": "gc-above-4800-jun-2026",
+    "conditionId": "0x3ce540874f47c3fe82dcf9359276b57a5ce8def9083fff1c4f501af4817b68a6",
+    "yes_price": 0.365,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 8556.548002000001,
+    "liquidity": 698.5552,
+    "category": null
+  },
+  {
+    "question": "Will Gold (GC) settle over $4,600 on the final trading day of June 2026?",
+    "slug": "gc-above-4600-jun-2026",
+    "conditionId": "0x4168795e4e9143c6c12b0a7b98397454038e6091d4bb32dc61a17a1882a5c21c",
+    "yes_price": 0.5,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 9707.178575,
+    "liquidity": 2606.4631,
+    "category": null
+  },
+  {
+    "question": "Will Silver (SI) settle at $60-$70 in June?",
+    "slug": "si-settle-60-70-jun-2026",
+    "conditionId": "0x4b062c82af15ed00e6f2085e41250e48d057cc951adccacad30c976e3f7e44f8",
+    "yes_price": 0.2025,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 69269.25750499993,
+    "liquidity": 8650.76566,
+    "category": null
+  },
+  {
+    "question": "Will Silver (SI) settle at $70-$80 in June?",
+    "slug": "si-settle-70-80-jun-2026",
+    "conditionId": "0x893f70675597eeba1e8108a1e9da79387bb9f7bf56845481f246a1e8c9885101",
+    "yes_price": 0.3515,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 78207.76078200006,
+    "liquidity": 7325.4708,
+    "category": null
+  },
+  {
+    "question": "Will Silver (SI) settle at $80-$90 in June?",
+    "slug": "si-settle-80-90-jun-2026",
+    "conditionId": "0x06298d988d1062d0a96369a2846a3c85a2f4e2c4ca5c31d1bbfd0ac37d1c5d56",
+    "yes_price": 0.235,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 36979.155226999996,
+    "liquidity": 9022.0734,
+    "category": null
+  },
+  {
+    "question": "Will Silver (SI) hit (LOW) $65 by end of June?",
+    "slug": "will-silver-si-hit-low-65-by-end-of-june-998-897",
+    "conditionId": "0xa43ad4037543d8376fe6bc828997820cc197ceb86d8c8f51b33b95c6676078cf",
+    "yes_price": 0.185,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 206155.6404879999,
+    "liquidity": 12706.7971,
+    "category": null
+  },
+  {
+    "question": "Will Silver (SI) settle over $95 on the final trading day of June 2026?",
+    "slug": "si-above-95-jun-2026",
+    "conditionId": "0x4dffcbc56218b274c4ee89a57555b64b5974c668745b97f21f812a996c00ae39",
+    "yes_price": 0.17,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 26966.69621799998,
+    "liquidity": 8170.3956,
+    "category": null
+  },
+  {
+    "question": "Will Silver (SI) settle over $90 on the final trading day of June 2026?",
+    "slug": "si-above-90-jun-2026",
+    "conditionId": "0xfc1c23e6b01435e0222e652f86ecc498a2d1680f0b63fec90f498418ee2f5a94",
+    "yes_price": 0.2755,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 54098.22342700002,
+    "liquidity": 958.10794,
+    "category": null
+  },
+  {
+    "question": "Will Silver (SI) settle over $85 on the final trading day of June 2026?",
+    "slug": "si-above-85-jun-2026",
+    "conditionId": "0x35f8bbbb8961d5aabd7b50ff4d5aa73897fa021be33a1a9661f67a0400244c8f",
+    "yes_price": 0.32,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 48383.18830599995,
+    "liquidity": 5427.2428,
+    "category": null
+  },
+  {
+    "question": "Will Silver (SI) settle over $80 on the final trading day of June 2026?",
+    "slug": "si-above-80-jun-2026",
+    "conditionId": "0x1bd11989afe904941c1353cff19896f90a33312c2a6ebc96e120f4b9f1b86b76",
+    "yes_price": 0.435,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 19894.407142999982,
+    "liquidity": 827.8585,
+    "category": null
+  },
+  {
+    "question": "Will Silver (SI) settle over $75 on the final trading day of June 2026?",
+    "slug": "si-above-75-jun-2026",
+    "conditionId": "0x7c7e938289a1af110fb56821d7e0839e549577e92f99a7a0ce8a3c5b698061ed",
+    "yes_price": 0.645,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 13041.470043000008,
+    "liquidity": 2689.2918,
+    "category": null
+  },
+  {
+    "question": "Will Silver (SI) settle over $70 on the final trading day of June 2026?",
+    "slug": "si-above-70-jun-2026",
+    "conditionId": "0x915a3b8fee72fc9a3c77b9bada8b7ed1af02dff2bb4fe13f2ade33c0d2611669",
+    "yes_price": 0.765,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 23667.271877999963,
+    "liquidity": 1861.8753,
+    "category": null
+  },
+  {
+    "question": "Will Crude Oil (CL) settle at $77-$84 in June?",
+    "slug": "cl-settle-77-84-jun-2026",
+    "conditionId": "0x684c23649305e53fcfb6180b3187c055f412af4d2a4fa8a0fa1b442dbf3d06be",
+    "yes_price": 0.175,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 16864.657989000007,
+    "liquidity": 6116.868,
+    "category": null
+  },
+  {
+    "question": "Will Crude Oil (CL) settle at >$84 in June?",
+    "slug": "cl-settle-above-84-jun-2026",
+    "conditionId": "0x34a4d29cc8e7227543fd3bbe7b6b2313fac9cc3b2ae9bcace5f88bd17c990b67",
+    "yes_price": 0.635,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 85966.10507499996,
+    "liquidity": 5574.6024,
+    "category": null
+  },
+  {
+    "question": "Will Crude Oil (CL) settle over $90 on the final trading day of June 2026?",
+    "slug": "cl-above-90-jun-2026",
+    "conditionId": "0x2c50e53f3546e82024279f67fc51db167b56d2d79580d731098d8d8862bd8140",
+    "yes_price": 0.52,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 25828.458792999998,
+    "liquidity": 248.1842,
+    "category": null
+  },
+  {
+    "question": "Will Crude Oil (CL) settle over $85 on the final trading day of June 2026?",
+    "slug": "cl-above-85-jun-2026",
+    "conditionId": "0xae1cdaf54a721c39cab846843d3cf5aa5aa0187d262fbe093c793867db6aab57",
+    "yes_price": 0.605,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 5726.830809,
+    "liquidity": 691.2897,
+    "category": null
+  },
+  {
+    "question": "Will Crude Oil (CL) settle over $80 on the final trading day of June 2026?",
+    "slug": "cl-above-80-jun-2026",
+    "conditionId": "0x56c1e2a0689bf31e3346e80d851812f1b03efe8555eb279cc0b99e9a73f34e32",
+    "yes_price": 0.72,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 5907.4109240000025,
+    "liquidity": 333.8426,
+    "category": null
+  },
+  {
+    "question": "Will Jannik Sinner be the 2026 Men\u2019s Wimbledon winner?",
+    "slug": "will-jannik-sinner-be-the-2026-mens-wimbledon-winner",
+    "conditionId": "0x16b3e96fc29f37ff8a5309e82e1ebd11b6658b171dd788104d9a88c12cceebb6",
+    "yes_price": 0.65,
+    "days_to_resolution": 47,
+    "end_date": "2026-07-12",
+    "tags": [
+      "other"
+    ],
+    "volume": 31855.31637700004,
+    "liquidity": 5609.7636,
+    "category": null
+  },
+  {
+    "question": "Will Aryna Sabalenka be the 2026 Women\u2019s Wimbledon Winner?",
+    "slug": "will-aryna-sabalenka-be-the-2026-womens-wimbledon-winner",
+    "conditionId": "0x00de24efbe083e61da20587be324b35e842b51f330c4f5c55942bf8681cd0857",
+    "yes_price": 0.315,
+    "days_to_resolution": 47,
+    "end_date": "2026-07-12",
+    "tags": [
+      "other"
+    ],
+    "volume": 8096.790685000001,
+    "liquidity": 3789.886,
+    "category": null
+  },
+  {
+    "question": "Will Elena Rybakina be the 2026 Women\u2019s Wimbledon Winner?",
+    "slug": "will-elena-rybakina-be-the-2026-womens-wimbledon-winner",
+    "conditionId": "0xeffa3fd586db59043682b5bb90e4162f90bbfeb488edc118702d985183de0700",
+    "yes_price": 0.19,
+    "days_to_resolution": 47,
+    "end_date": "2026-07-12",
+    "tags": [
+      "other"
+    ],
+    "volume": 15111.66494899999,
+    "liquidity": 2291.8234,
+    "category": null
+  },
+  {
+    "question": "Will Paris Gentle Mates finish in the top 4 of the CDL Regular Season?",
+    "slug": "will-paris-gentle-mates-finish-in-the-top-4-of-the-cdl-regular-season",
+    "conditionId": "0xc121c55325f37df2b2a1bf37ed41494a14d865be20d12590a680c8d890cc08cc",
+    "yes_price": 0.5,
+    "days_to_resolution": 33,
+    "end_date": "2026-06-28",
+    "tags": [
+      "other"
+    ],
+    "volume": 21.900000000000002,
+    "liquidity": 1.5,
+    "category": null
+  },
+  {
+    "question": "Will Toronto KOI finish in the top 4 of the CDL Regular Season?",
+    "slug": "will-toronto-koi-finish-in-the-top-4-of-the-cdl-regular-season",
+    "conditionId": "0xb8863c39d18eb1e74702eba1dcb18635df9b9ff62c0ffcfae1cab35038f2d19a",
+    "yes_price": 0.495,
+    "days_to_resolution": 33,
+    "end_date": "2026-06-28",
+    "tags": [
+      "other"
+    ],
+    "volume": null,
+    "liquidity": 1.0,
+    "category": null
+  },
+  {
+    "question": "Will Boston Breach finish in the top 4 of the CDL Regular Season?",
+    "slug": "will-boston-breach-finish-in-the-top-4-of-the-cdl-regular-season",
+    "conditionId": "0x2f6796f92c0155569e8ba16bf6939ddd8c8f712860c89a6f618fbfa34de31e9e",
+    "yes_price": 0.486,
+    "days_to_resolution": 33,
+    "end_date": "2026-06-28",
+    "tags": [
+      "other"
+    ],
+    "volume": 56.42665,
+    "liquidity": 4.80984,
+    "category": null
+  },
+  {
+    "question": "Will Riyadh Falcons finish in the top 4 of the CDL Regular Season?",
+    "slug": "will-riyadh-falcons-finish-in-the-top-4-of-the-cdl-regular-season",
+    "conditionId": "0xb3037da1fbb230e238c8ce909f54d274ad5fadaae0039e9371378e0481753108",
+    "yes_price": 0.485,
+    "days_to_resolution": 33,
+    "end_date": "2026-06-28",
+    "tags": [
+      "other"
+    ],
+    "volume": null,
+    "liquidity": 3.47,
+    "category": null
+  },
+  {
+    "question": "Will Cloud9 New York finish in the top 4 of the CDL Regular Season?",
+    "slug": "will-cloud9-new-york-finish-in-the-top-4-of-the-cdl-regular-season",
+    "conditionId": "0xedefe737258afc0a0fb908b9c0f63d075ed469a8262af67f28782673f8938b1f",
+    "yes_price": 0.216,
+    "days_to_resolution": 33,
+    "end_date": "2026-06-28",
+    "tags": [
+      "other"
+    ],
+    "volume": 71.390038,
+    "liquidity": 90.35893,
+    "category": null
+  },
+  {
+    "question": "Will Miami Heretics finish in the top 4 of the CDL Regular Season?",
+    "slug": "will-miami-heretics-finish-in-the-top-4-of-the-cdl-regular-season",
+    "conditionId": "0xfb68bdcb4cd3c5b7f7c5838dd3e4787e4ae293ef49a219581c4e50219ace7271",
+    "yes_price": 0.33,
+    "days_to_resolution": 33,
+    "end_date": "2026-06-28",
+    "tags": [
+      "other"
+    ],
+    "volume": 85.393802,
+    "liquidity": 14.1266,
+    "category": null
+  },
+  {
+    "question": "Will G2 Minnesota finish in the top 4 of the CDL Regular Season?",
+    "slug": "will-g2-minnesota-finish-in-the-top-4-of-the-cdl-regular-season",
+    "conditionId": "0xcc2f05769ca8ffd66b43f5d45b86626c554ea8d7a83d4545b97163472f14971d",
+    "yes_price": 0.495,
+    "days_to_resolution": 33,
+    "end_date": "2026-06-28",
+    "tags": [
+      "other"
+    ],
+    "volume": null,
+    "liquidity": 1.0,
+    "category": null
+  },
+  {
+    "question": "Will Carolina Royal Ravens finish in the top 4 of the CDL Regular Season?",
+    "slug": "will-carolina-royal-ravens-finish-in-the-top-4-of-the-cdl-regular-season",
+    "conditionId": "0x9d1e2e0c3afd066180d3e7ae742142e2291d7d66b481be6a78ddb899378f2584",
+    "yes_price": 0.4975,
+    "days_to_resolution": 33,
+    "end_date": "2026-06-28",
+    "tags": [
+      "other"
+    ],
+    "volume": 164.219653,
+    "liquidity": 6.20992,
+    "category": null
+  },
+  {
+    "question": "Miguel D\u00edaz-Canel out as leader of Cuba by June 30?",
+    "slug": "miguel-daz-canel-out-as-leader-of-cuba-by-june-30-935-772",
+    "conditionId": "0x119db6dda44f109bcdc2ec5e1d9cb8c21fa1a7e66489f59b1190fdfb25c0d515",
+    "yes_price": 0.185,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 837695.641083996,
+    "liquidity": 28571.5928,
+    "category": null
+  },
+  {
+    "question": "Will Hong Wang win the 2026 Fields Medal?",
+    "slug": "will-hong-wang-win-the-2026-fields-medal",
+    "conditionId": "0xd74fcb17049c77b2e4312931de0c8d6c06ca28e23645cfd19772a142a92c88fe",
+    "yes_price": 0.76,
+    "days_to_resolution": 65,
+    "end_date": "2026-07-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 78959.634176,
+    "liquidity": 1056.5898,
+    "category": null
+  },
+  {
+    "question": "Will Jacob Tsimerman win the 2026 Fields Medal?",
+    "slug": "will-jacob-tsimerman-win-the-2026-fields-medal",
+    "conditionId": "0xb7867ccbeebaaa4a51278c4b7bb08c5d7de8e5d4e48f6150f03cc776dce2f817",
+    "yes_price": 0.615,
+    "days_to_resolution": 65,
+    "end_date": "2026-07-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 54152.94403799999,
+    "liquidity": 150.1444,
+    "category": null
+  },
+  {
+    "question": "Will John Pardon win the 2026 Fields Medal?",
+    "slug": "will-john-pardon-win-the-2026-fields-medal",
+    "conditionId": "0xdef79aab7ed2ea2b1cf53f2c20d353380ff1583eb7e4b29109dc7c667f0d298f",
+    "yes_price": 0.345,
+    "days_to_resolution": 65,
+    "end_date": "2026-07-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 84458.71611399997,
+    "liquidity": 816.7922,
+    "category": null
+  },
+  {
+    "question": "Will Julian Sahasrabudhe win the 2026 Fields Medal?",
+    "slug": "will-julian-sahasrabudhe-win-the-2026-fields-medal",
+    "conditionId": "0xaec72d4f87e99615a333176329a7f62310eb68e3a32c1b73a882a9110ccd254c",
+    "yes_price": 0.27,
+    "days_to_resolution": 65,
+    "end_date": "2026-07-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 84556.74028499999,
+    "liquidity": 452.8937,
+    "category": null
+  },
+  {
+    "question": "Will Yu Deng win the 2026 Fields Medal?",
+    "slug": "will-yu-deng-win-the-2026-fields-medal",
+    "conditionId": "0xce361643116d65999278058d79744d37ba0a9ef6c439e095df21716bdd5d949f",
+    "yes_price": 0.575,
+    "days_to_resolution": 65,
+    "end_date": "2026-07-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 117866.11369300002,
+    "liquidity": 307.0599,
+    "category": null
+  },
+  {
+    "question": "Will Jack Thorne win the 2026 Fields Medal?",
+    "slug": "will-jack-thorne-win-the-2026-fields-medal",
+    "conditionId": "0x31ff4152662e8e50faff8ad80ff5561054753b27a5a4801aa95d3b08ccd2494e",
+    "yes_price": 0.435,
+    "days_to_resolution": 65,
+    "end_date": "2026-07-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 100790.97281600005,
+    "liquidity": 226.7377,
+    "category": null
+  },
+  {
+    "question": "Will Sam Raskin win the 2026 Fields Medal?",
+    "slug": "will-sam-raskin-win-the-2026-fields-medal",
+    "conditionId": "0x7014fc8058f02a7acc7cb0051a24d75bdbcf08db04392e119ceacf3e791c9e43",
+    "yes_price": 0.235,
+    "days_to_resolution": 65,
+    "end_date": "2026-07-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 2572.841051,
+    "liquidity": 807.1159,
+    "category": null
+  },
+  {
+    "question": "Will Aleksandr Logunov win the 2026 Fields Medal?",
+    "slug": "will-aleksandr-logunov-win-the-2026-fields-medal",
+    "conditionId": "0xc8fd0988416e7299aaf762cf3c6c7a83e5c0ef4093e927ee48b1a85fe8062942",
+    "yes_price": 0.24,
+    "days_to_resolution": 65,
+    "end_date": "2026-07-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 261.80553699999996,
+    "liquidity": 108.3278,
+    "category": null
+  },
+  {
+    "question": "Will S&P 500 (SPX) hit $7,700 (HIGH) in June?",
+    "slug": "spx-hit-7700-high-jun-2026-675",
+    "conditionId": "0x0357f760e337c64f62a83f89f0bc99faf22778453188878330cc39a535eaf68a",
+    "yes_price": 0.443,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "macro"
+    ],
+    "volume": 15790.769403,
+    "liquidity": 3585.4599,
+    "category": null
+  },
+  {
+    "question": "Alix Earle and Tom Brady confirmed relationship by June 30?",
+    "slug": "alix-earle-and-tom-brady-confirmed-relationship-by-june-30",
+    "conditionId": "0xa09a4c117998dac09ba8da247dd6c29579795b70777bbcc128df2b6b74b0b63f",
+    "yes_price": 0.2865,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 884.9426820000001,
+    "liquidity": 81.45844,
+    "category": null
+  },
+  {
+    "question": "Jacob Elordi and Olivia Jade confirmed relationship by June 30?",
+    "slug": "jacob-elordi-and-olivia-jade-confirmed-relationship-by-june-30",
+    "conditionId": "0xb8a5f7e900a774f817e9fe7a970061b9d704a25c1ec5c00064c855bb76029637",
+    "yes_price": 0.295,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 1097.6809940000007,
+    "liquidity": 455.7059,
+    "category": null
+  },
+  {
+    "question": "Will Lana Del Rey release a new album by June 30?",
+    "slug": "will-lana-del-rey-release-a-new-album-by-june-30",
+    "conditionId": "0x03ddc235d917eb09fded05d1d2e0326a12e261c1922a2f7f049f0e44251efdf1",
+    "yes_price": 0.375,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 3649.2569530000005,
+    "liquidity": 98.5792,
+    "category": null
+  },
+  {
+    "question": "Israeli parliament dissolved by June 30?",
+    "slug": "israeli-parliament-dissolved-by-june-30-228",
+    "conditionId": "0x3f0bc2757babb8bb9971c9f782fe81f9db734c12d84822f1120a90681c991ff8",
+    "yes_price": 0.555,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 237071.8719860006,
+    "liquidity": 28224.4615,
+    "category": null
+  },
+  {
+    "question": "Will OpenAI GPT score at least 50% on Humanity\u2019s Last Exam?",
+    "slug": "will-openai-gpt-score-at-least-50-on-humanitys-last-exam",
+    "conditionId": "0xc3bb9eb2c758cd71f7a59199c27bf3f20c9e1d929687c72b20c8d06076c45c78",
+    "yes_price": 0.58,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "ai-tech"
+    ],
+    "volume": 23654.570031999985,
+    "liquidity": 1038.5083,
+    "category": null
+  },
+  {
+    "question": "Will an Anthropic Claude model score at least 45% on Humanity\u2019s Last Exam?",
+    "slug": "will-an-anthropic-claude-model-score-at-least-45-on-humanitys-last-exam",
+    "conditionId": "0x4a3ae5bc03b849fa2aae19b687428cc9cbf27ce27a966bacdc879fa067a62a2d",
+    "yes_price": 0.19,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "ai-tech"
+    ],
+    "volume": 135380.51639000003,
+    "liquidity": 2881.953,
+    "category": null
+  },
+  {
+    "question": "Will Elon Musk Testify to Congress about Epstein?",
+    "slug": "will-elon-musk-testify-to-congress-about-epstein",
+    "conditionId": "0x919accaaa0401567e47dc9e7e2acaab929d9750a6af2f9264cc5c4d389e957fa",
+    "yes_price": 0.1735,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "policy"
+    ],
+    "volume": 1103.9715040000003,
+    "liquidity": 301.90628,
+    "category": null
+  },
+  {
+    "question": "Will GPT-6 be released by September 30, 2026?",
+    "slug": "will-gpt-6-be-released-by-september-30-2026",
+    "conditionId": "0xf82f84686ee2a25f5690430461413c4dc5a39dcea922a7c5f47d9d29418fbdb6",
+    "yes_price": 0.54,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "ai-tech"
+    ],
+    "volume": 6131.821445000003,
+    "liquidity": 1241.3387,
+    "category": null
+  },
+  {
+    "question": " Iran agrees to end enrichment of uranium by June 30?",
+    "slug": "iran-agrees-to-end-enrichment-of-uranium-by-june-30",
+    "conditionId": "0x9d3f02264a94bafc676afd7add8b11442e6ec72dabaa69cefef835f0672275c7",
+    "yes_price": 0.265,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 1559364.1343270054,
+    "liquidity": 35675.31,
+    "category": null
+  },
+  {
+    "question": "Will Trey Hendrickson be traded?",
+    "slug": "will-trey-hendrickson-be-traded",
+    "conditionId": "0xffa4f4bde5d3a7924eed213e136af6f39bdc196b12d7443644fc36a09434bc60",
+    "yes_price": 0.476,
+    "days_to_resolution": 57,
+    "end_date": "2026-07-22",
+    "tags": [
+      "other"
+    ],
+    "volume": null,
+    "liquidity": 3.8364,
+    "category": null
+  },
+  {
+    "question": "Will Russia capture Kostyantynivka by June 30?",
+    "slug": "will-russia-capture-kostyantynivka-by-june-30-382-954-769",
+    "conditionId": "0xb23587fc1e319cdf9aaa12c503f6b2149c820c3d64ded3c98b4ff6719cac78fe",
+    "yes_price": 0.2245,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 335654.7876820007,
+    "liquidity": 11486.22649,
+    "category": null
+  },
+  {
+    "question": "Kash Patel out by June 30?",
+    "slug": "kash-patel-out-by-june-30-165-798",
+    "conditionId": "0x79859c9e6645873e1568344b0b8ee54cc9eb02b90701cc5ba19c9a547ff313ce",
+    "yes_price": 0.18,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 394495.14045700035,
+    "liquidity": 23531.47,
+    "category": null
+  },
+  {
+    "question": "Will Eric Chung be the Democratic Nominee for MI-10?",
+    "slug": "will-eric-chung-be-the-democratic-nominee-for-mi-10-763",
+    "conditionId": "0x9f9fcc462b3a8f8a4919813ed390be771e565a352566e7beb8be227343d7500f",
+    "yes_price": 0.64,
+    "days_to_resolution": 70,
+    "end_date": "2026-08-04",
+    "tags": [
+      "other"
+    ],
+    "volume": 4695.654417,
+    "liquidity": 877.2064,
+    "category": null
+  },
+  {
+    "question": "Will Christina Hines be the Democratic Nominee for MI-10?",
+    "slug": "will-christina-hines-be-the-democratic-nominee-for-mi-10-239",
+    "conditionId": "0xb59d36284a3e05ca397761f1cbcbefcfee54fe0f3821d440140cbe5c3eb436f8",
+    "yes_price": 0.24,
+    "days_to_resolution": 70,
+    "end_date": "2026-08-04",
+    "tags": [
+      "other"
+    ],
+    "volume": 4640.381624,
+    "liquidity": 3316.0397,
+    "category": null
+  },
+  {
+    "question": "Larry Wheels divorce by June 30?",
+    "slug": "larry-wheels-divorce-by-june-30",
+    "conditionId": "0xf8df575004b59dc5bcab852b178fa46b2f90f408c820ca9a1a39cbdcee75117d",
+    "yes_price": 0.3715,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 4330.376910999971,
+    "liquidity": 636.8086,
+    "category": null
+  },
+  {
+    "question": "Tony Gonzales charged by June 30?",
+    "slug": "tony-gonzalez-charged-by-june-30",
+    "conditionId": "0xcedbb121712ed5ec15c65274b3626802905930bd64c0d810401ccc79f9db921b",
+    "yes_price": 0.29,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 6137.674921000002,
+    "liquidity": 1235.5803,
+    "category": null
+  },
+  {
+    "question": "Fed rate cut by October 2026 meeting?",
+    "slug": "fed-rate-cut-by-october-2026-meeting-199-747",
+    "conditionId": "0x4092815fea8f91e60586882d45fa2f61bfca8a36d595f47fdea9eec5d2893025",
+    "yes_price": 0.1995,
+    "days_to_resolution": 22,
+    "end_date": "2026-06-17",
+    "tags": [
+      "macro"
+    ],
+    "volume": 46362.66584300005,
+    "liquidity": 19403.07125,
+    "category": null
+  },
+  {
+    "question": "Fed rate cut by December 2026 meeting?",
+    "slug": "fed-rate-cut-by-december-2026-meeting",
+    "conditionId": "0xc60022fe066abd6f96c375adb09f38d92c4931f09c10b805354581b4e5465e93",
+    "yes_price": 0.325,
+    "days_to_resolution": 22,
+    "end_date": "2026-06-17",
+    "tags": [
+      "macro"
+    ],
+    "volume": 120717.69219000023,
+    "liquidity": 15733.2301,
+    "category": null
+  },
+  {
+    "question": "Will John Larson be the Democratic nominee for CT-01?",
+    "slug": "will-john-larson-be-the-democratic-nominee-for-ct-01",
+    "conditionId": "0x5ffc4b0998e7e63eecf817ac89a9ee4b4c1276452b5e7d4a628ad6b9d0f026b9",
+    "yes_price": 0.45,
+    "days_to_resolution": 77,
+    "end_date": "2026-08-11",
+    "tags": [
+      "other"
+    ],
+    "volume": 1410.5569289999999,
+    "liquidity": 871.1056,
+    "category": null
+  },
+  {
+    "question": "Will Luke Bronin be the Democratic nominee for CT-01?",
+    "slug": "will-luke-bronin-be-the-democratic-nominee-for-ct-01",
+    "conditionId": "0x14710adfa9ca2f0450c1710d0080b67d73d6779c0d62df497c6d40f2eba870dd",
+    "yes_price": 0.47,
+    "days_to_resolution": 77,
+    "end_date": "2026-08-11",
+    "tags": [
+      "other"
+    ],
+    "volume": 4188.895583,
+    "liquidity": 1128.0352,
+    "category": null
+  },
+  {
+    "question": "Will T1 qualify to MSI 2026?",
+    "slug": "will-t1-qualify-to-msi-2026",
+    "conditionId": "0x990fafef630445eeb670416c528881677618c43f6ed648bad9eb58f9aa22761e",
+    "yes_price": 0.54,
+    "days_to_resolution": 47,
+    "end_date": "2026-07-12",
+    "tags": [
+      "other"
+    ],
+    "volume": 8629.508777000001,
+    "liquidity": 402.5665,
+    "category": null
+  },
+  {
+    "question": "Will GenG qualify to MSI 2026?",
+    "slug": "will-geng-qualify-to-msi-2026",
+    "conditionId": "0x6b35ee697c45b825db8857e81a19afd3201593285ef870ef6367997d99137704",
+    "yes_price": 0.74,
+    "days_to_resolution": 47,
+    "end_date": "2026-07-12",
+    "tags": [
+      "other"
+    ],
+    "volume": 6421.259253,
+    "liquidity": 440.69748,
+    "category": null
+  },
+  {
+    "question": "Will Lyon qualify to MSI 2026?",
+    "slug": "will-lyon-qualify-to-msi-2026",
+    "conditionId": "0x2a9476f1eb28b97bedd07c79012afc68ee8054f7f8d14ea2324a107ac4fab634",
+    "yes_price": 0.495,
+    "days_to_resolution": 47,
+    "end_date": "2026-07-12",
+    "tags": [
+      "other"
+    ],
+    "volume": 63.93,
+    "liquidity": 7.02,
+    "category": null
+  },
+  {
+    "question": "Will Karmine Corp qualify to MSI 2026?",
+    "slug": "will-karmine-corp-qualify-to-msi-2026",
+    "conditionId": "0xc2833723941ad131b976638eb40baa5fa05e9c08499e6a05b28901a2513fd9ce",
+    "yes_price": 0.57,
+    "days_to_resolution": 47,
+    "end_date": "2026-07-12",
+    "tags": [
+      "other"
+    ],
+    "volume": 4368.471727,
+    "liquidity": 23.9276,
+    "category": null
+  },
+  {
+    "question": "Will Movistar KOI qualify to MSI 2026?",
+    "slug": "will-movistar-koi-qualify-to-msi-2026",
+    "conditionId": "0x5edffd8c485eeb2829d998430222a220569b1ebcf66f272dfd3dba6ee1083530",
+    "yes_price": 0.67,
+    "days_to_resolution": 47,
+    "end_date": "2026-07-12",
+    "tags": [
+      "other"
+    ],
+    "volume": 6565.202064,
+    "liquidity": 109.1449,
+    "category": null
+  },
+  {
+    "question": "Will Anyone's Legend qualify to MSI 2026?",
+    "slug": "will-anyones-legend-qualify-to-msi-2026",
+    "conditionId": "0xfeeebb6daa7ed4e2c87236c4fd11ea325f8419d460e9b0e65255b0ae7cd4c072",
+    "yes_price": 0.335,
+    "days_to_resolution": 47,
+    "end_date": "2026-07-12",
+    "tags": [
+      "other"
+    ],
+    "volume": 13752.676758000001,
+    "liquidity": 441.821,
+    "category": null
+  },
+  {
+    "question": "Will JD Gaming qualify to MSI 2026?",
+    "slug": "will-jd-gaming-qualify-to-msi-2026",
+    "conditionId": "0x8d89ef34320d8d3799c1645eac4435eafa6d9cca308032f247b8333c20b3a090",
+    "yes_price": 0.27,
+    "days_to_resolution": 47,
+    "end_date": "2026-07-12",
+    "tags": [
+      "other"
+    ],
+    "volume": 10299.642732000006,
+    "liquidity": 349.9009,
+    "category": null
+  },
+  {
+    "question": "Will a team from LCK (South Korea) win MSI 2026?",
+    "slug": "will-a-team-from-lck-south-korea-win-msi-2026",
+    "conditionId": "0x4890e36c536eef20111bd617f6479b6b7384ad2ebf16e18a108d989dc0aa9f9e",
+    "yes_price": 0.655,
+    "days_to_resolution": 47,
+    "end_date": "2026-07-12",
+    "tags": [
+      "other"
+    ],
+    "volume": 32064.24024200001,
+    "liquidity": 37924.8204,
+    "category": null
+  },
+  {
+    "question": "Will a team from LPL (China) win MSI 2026?",
+    "slug": "will-a-team-from-lpl-china-win-msi-2026",
+    "conditionId": "0x9f61a4c01f2c8414b54fae93f7bad383593edea835ccd5c1990fa43422be1634",
+    "yes_price": 0.315,
+    "days_to_resolution": 47,
+    "end_date": "2026-07-12",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 21484.695547999974,
+    "liquidity": 35737.6253,
+    "category": null
+  },
+  {
+    "question": "Will Justin Pearson be the Democratic Nominee for TN-09?",
+    "slug": "will-justin-pearson-be-the-democratic-nominee-for-tn-09",
+    "conditionId": "0x6f2580e9ed1a2d48bc76cce406b9554c5f6d2c767b516d53b14c5f39ba1afee8",
+    "yes_price": 0.785,
+    "days_to_resolution": 72,
+    "end_date": "2026-08-06",
+    "tags": [
+      "other"
+    ],
+    "volume": 2125.231453000001,
+    "liquidity": 1276.4976,
+    "category": null
+  },
+  {
+    "question": "US x Cuba economic deal by June 30, 2026?",
+    "slug": "us-x-cuba-economic-deal-by-june-30-2026",
+    "conditionId": "0xe34380896d3df2ac2fcd753a01b3a8887acc335778c11e93af952fd273fca7fb",
+    "yes_price": 0.21,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 141568.45674299978,
+    "liquidity": 11053.1849,
+    "category": null
+  },
+  {
+    "question": "Will De'Von Achane be traded?",
+    "slug": "will-devon-achane-be-traded",
+    "conditionId": "0x7e5dfc792390e4667149853bea2b49741b94f415e3478905b4679b9426edbdd6",
+    "yes_price": 0.475,
+    "days_to_resolution": 57,
+    "end_date": "2026-07-22",
+    "tags": [
+      "other"
+    ],
+    "volume": 49.542100000000005,
+    "liquidity": 1.731,
+    "category": null
+  },
+  {
+    "question": "Will either Tate brother be arrested by June 30?",
+    "slug": "will-either-tate-brother-be-arrested-by-june-30",
+    "conditionId": "0x5005adaac0211b84ff06ec99ab507f9b79fcb5305b7794ad1d512cf40364eaa6",
+    "yes_price": 0.255,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 1753.371548,
+    "liquidity": 1119.9004,
+    "category": null
+  },
+  {
+    "question": "Will Crude Oil (CL) hit (HIGH) $115 by end of June?",
+    "slug": "will-crude-oil-cl-hit-high-115-by-end-of-june-217-913-468-473",
+    "conditionId": "0x46f19d5bedd6d601d597d308d86814245974014d8a108395a7690d7a099cacdd",
+    "yes_price": 0.2995,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 752451.3074430083,
+    "liquidity": 20441.2607,
+    "category": null
+  },
+  {
+    "question": "Will Crude Oil (CL) hit (HIGH) $120 by end of June?",
+    "slug": "will-crude-oil-cl-hit-high-120-by-end-of-june",
+    "conditionId": "0xba8af64c1b08f322ca7f66f3cfdbdfd50c0eae6fc88d2fcf29c30ceb62682421",
+    "yes_price": 0.205,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 718228.5037230004,
+    "liquidity": 29068.0114,
+    "category": null
+  },
+  {
+    "question": "Will Crude Oil (CL) hit (LOW) $70 by end of June?",
+    "slug": "will-crude-oil-cl-hit-low-70-by-end-of-june-776-556-989-392-677-842-888-775-665",
+    "conditionId": "0xe3f8272f4957b7dcc492d988e5c7cd6dbb2f4111cd309571514a280938d617f1",
+    "yes_price": 0.155,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 478407.7104799981,
+    "liquidity": 27926.5272,
+    "category": null
+  },
+  {
+    "question": "Will Crude Oil (CL) hit (LOW) $80 by end of June?",
+    "slug": "will-crude-oil-cl-hit-low-80-by-end-of-june-412",
+    "conditionId": "0xbaf252e7ac957d6636a6916da51892c9f42e59bfbf808bd4d8e16f194694d2b5",
+    "yes_price": 0.46,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 382942.12787700037,
+    "liquidity": 22366.2945,
+    "category": null
+  },
+  {
+    "question": "No change in Bank of Japan\u2019s interest rates after the June 2026 meeting?",
+    "slug": "no-change-in-bank-of-japans-interest-rates-after-the-june-2026-meeting",
+    "conditionId": "0xe2fc1b6f5e644f939e090c42c309a498db86fb3bc20c02f05021ab42f1567de7",
+    "yes_price": 0.205,
+    "days_to_resolution": 21,
+    "end_date": "2026-06-16",
+    "tags": [
+      "policy"
+    ],
+    "volume": 46261.41650800003,
+    "liquidity": 4944.368,
+    "category": null
+  },
+  {
+    "question": "Bank of Japan increases interest rates by 25 bps after the June 2026 meeting?",
+    "slug": "bank-of-japan-increases-interest-rates-by-25-bps-after-the-june-2026-meeting",
+    "conditionId": "0xb3237c597bd198f2e5af2d9c2597c71cdda3ab88649a410a917798b3eec8cff4",
+    "yes_price": 0.762,
+    "days_to_resolution": 21,
+    "end_date": "2026-06-16",
+    "tags": [
+      "policy"
+    ],
+    "volume": 47118.81941200004,
+    "liquidity": 4406.48409,
+    "category": null
+  },
+  {
+    "question": "Trump's face on US gold coin by July 4?",
+    "slug": "trumps-face-on-us-gold-coin-by-july-4",
+    "conditionId": "0xec5b32436cfd25152336963ea48d49a64448cec695583355c74e8cded2542ee9",
+    "yes_price": 0.26,
+    "days_to_resolution": 39,
+    "end_date": "2026-07-04",
+    "tags": [
+      "other"
+    ],
+    "volume": 21000.66817500018,
+    "liquidity": 6803.6082,
+    "category": null
+  },
+  {
+    "question": "Vicky Chun out as Yale AD by June 30, 2026?",
+    "slug": "vicky-chun-out-as-yale-ad-by-june-30-2026",
+    "conditionId": "0xa741d70432e80d33ee4787130a8c909fdfce98cce905a3ef61c1c077ca48a490",
+    "yes_price": 0.51,
+    "days_to_resolution": 36,
+    "end_date": "2026-07-01",
+    "tags": [
+      "other"
+    ],
+    "volume": 240.675309,
+    "liquidity": 22.7428,
+    "category": null
+  },
+  {
+    "question": "SCOTUS bars counting mail ballots after election day?",
+    "slug": "scotus-bars-counting-mail-ballots-after-election-day",
+    "conditionId": "0xd73237bb27cdc455578e9a0788c358bd79609d394f43a270bde10cde4788105f",
+    "yes_price": 0.72,
+    "days_to_resolution": 67,
+    "end_date": "2026-08-01",
+    "tags": [
+      "policy",
+      "geopolitics"
+    ],
+    "volume": 40189.463949999976,
+    "liquidity": 5348.5997,
+    "category": null
+  },
+  {
+    "question": "Katy Perry and Justin Trudeau breakup before August? ",
+    "slug": "katy-perry-and-justin-trudeau-breakup-before-august",
+    "conditionId": "0x10c7f906fbd022b2136becc38fc97623aa9fb14fd625a23c65bceb141918b58e",
+    "yes_price": 0.315,
+    "days_to_resolution": 66,
+    "end_date": "2026-07-31",
+    "tags": [
+      "other"
+    ],
+    "volume": 667.2701539999999,
+    "liquidity": 156.0147,
+    "category": null
+  },
+  {
+    "question": "Law banning sports prediction markets enacted in 2026?",
+    "slug": "law-banning-sports-prediction-markets-enacted-in-2026",
+    "conditionId": "0x3ef18432c0e44e0a28b75d0950aa2d187a8f6e9aff6d5b56147693b6ddc235b4",
+    "yes_price": 0.215,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "policy"
+    ],
+    "volume": 14445.881543000005,
+    "liquidity": 3229.0998,
+    "category": null
+  },
+  {
+    "question": "Iran agrees to surrender enriched uranium stockpile by June 30, 2026?",
+    "slug": "iran-agrees-to-surrender-enriched-uranium-stockpile-by-june-30-2026",
+    "conditionId": "0x6cb3ec9e0fb1c258898f648f8b33422f59ba3e8a71aee551449d7cb147bb8ead",
+    "yes_price": 0.195,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 2659087.941111017,
+    "liquidity": 63806.1413,
+    "category": null
+  },
+  {
+    "question": "Will Trump Mobile release a phone by June 30, 2026?",
+    "slug": "will-trump-mobile-release-a-phone-by-june-30-2026",
+    "conditionId": "0x873debbeb6edb7d590c7b661e7bf288dff69306af7e01b02bdfe7d747ed544c2",
+    "yes_price": 0.545,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 34389.77132500016,
+    "liquidity": 179.1637,
+    "category": null
+  },
+  {
+    "question": "Will the Bank of Israel decrease the Bank of Israel Interest Rate after the July decision?",
+    "slug": "will-the-bank-of-israel-decrease-the-bank-of-israel-interest-rate-after-the-july-decision",
+    "conditionId": "0xac8094e49053b7b8db7e434a0703db67b12d85e40335950afec12ed995f0fc8b",
+    "yes_price": 0.56,
+    "days_to_resolution": 41,
+    "end_date": "2026-07-06",
+    "tags": [
+      "policy",
+      "geopolitics"
+    ],
+    "volume": 723.1886380000001,
+    "liquidity": 1613.934,
+    "category": null
+  },
+  {
+    "question": "Will the Bank of Israel make no change to the Bank of Israel Interest Rate after the July decision?",
+    "slug": "will-the-bank-of-israel-make-no-change-to-the-bank-of-israel-interest-rate-after-the-july-decision",
+    "conditionId": "0x17c51c52caf554ca5337fb1391dae64e2b9dda236ff5725e27191faae96e1b83",
+    "yes_price": 0.42,
+    "days_to_resolution": 41,
+    "end_date": "2026-07-06",
+    "tags": [
+      "policy",
+      "geopolitics"
+    ],
+    "volume": 852.684328,
+    "liquidity": 2152.944,
+    "category": null
+  },
+  {
+    "question": "Trump Media x TAE Technologies merger closed by June 30?",
+    "slug": "trump-media-x-tae-technologies-merger-closed-by-june-30",
+    "conditionId": "0x28833e2cda96ed96c8bd95a17512286b3265f4679bd538d76ba4aac23a455659",
+    "yes_price": 0.52,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 81.05740300000001,
+    "liquidity": 313.6919,
+    "category": null
+  },
+  {
+    "question": "Naim Qassem out as Hezbollah\u2019s secretary-general by June 30, 2026?",
+    "slug": "naim-qassem-out-as-hezbollahs-secretary-general-by-june-30-2026",
+    "conditionId": "0xb14c073b5ff01c3f9a42b15c867475ae38612ecbe3a8945375ba56969c270247",
+    "yes_price": 0.215,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 147862.20662699887,
+    "liquidity": 18868.5524,
+    "category": null
+  },
+  {
+    "question": "Jang Dong-hyeok out as PPP Leader by June 30, 2026?",
+    "slug": "jang-dong-hyeok-out-as-ppp-leader-by-june-30-2026",
+    "conditionId": "0x18ddcf51a87e7dbf5133339ad116db0673e4d2bd5154ee9050088c60cec4e3b5",
+    "yes_price": 0.565,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 5128.045468000007,
+    "liquidity": 1808.7027,
+    "category": null
+  },
+  {
+    "question": "Will Polymarket mindshare hit 90% by June 30?",
+    "slug": "will-polymarket-mindshare-hit-90-by-june-30",
+    "conditionId": "0xcff7f29133a7eb9682e6887c75b4f394fd12c96bb30327fa8610343f2b086217",
+    "yes_price": 0.2,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 25927.535163999975,
+    "liquidity": 2326.4748,
+    "category": null
+  },
+  {
+    "question": "Will Polymarket mindshare hit 85% by June 30?",
+    "slug": "will-polymarket-mindshare-hit-85-by-june-30",
+    "conditionId": "0x1cfa011b48b27e06aa489362886d8ecdd170e5a2e91b78f52697fcd54cb7be0d",
+    "yes_price": 0.425,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 28175.10347199998,
+    "liquidity": 4066.898,
+    "category": null
+  },
+  {
+    "question": "Will any country join the Board of Peace by June 30?",
+    "slug": "will-any-country-join-the-board-of-peace-by-june-30-128",
+    "conditionId": "0x4c8a5faadc9bb2dcb5220a87c67ac94ddeb617d614d3b058e70b5353d3df877c",
+    "yes_price": 0.345,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 14033.761002000005,
+    "liquidity": 1845.9259,
+    "category": null
+  },
+  {
+    "question": "Trump-Denmark Greenland deal signed by June 30?",
+    "slug": "trump-denmark-greenland-deal-signed-by-june-30-588",
+    "conditionId": "0x9f9e646e76dc793f4847ea13f4358db6167b655646877a138cdff0ff48551fb4",
+    "yes_price": 0.15,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 14072.696939000001,
+    "liquidity": 2973.2356,
+    "category": null
+  },
+  {
+    "question": "Will another country recognize Somaliland by June 30?",
+    "slug": "will-another-country-recognize-somaliland-by-june-30",
+    "conditionId": "0x152535dc7d0e961cad58550089338ab78a93b5488bac0371f29a7ddaedb823f0",
+    "yes_price": 0.25,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 10681.500159999987,
+    "liquidity": 4143.6372,
+    "category": null
+  },
+  {
+    "question": "Will Aristotle self-certify sports event contracts by June 30, 2026?",
+    "slug": "will-aristotle-self-certify-sports-event-contracts-by-june-30-2026",
+    "conditionId": "0xd5d09b7ac4a4ada87f082bb75fa8f96970d4a6c1d21a591e0615bf3eb71a56a2",
+    "yes_price": 0.53,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 18373.57240199999,
+    "liquidity": 1537.5833,
+    "category": null
+  },
+  {
+    "question": "Will the Small Exchange self-certify sports event contracts by June 30, 2026?",
+    "slug": "will-the-small-exchange-self-certify-sports-event-contracts-by-june-30-2026",
+    "conditionId": "0x7ddaa807ca7fe702e7e26c22d48a77a971cfc734ad63a9c278156105e9b22e74",
+    "yes_price": 0.175,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 1725.1601730000002,
+    "liquidity": 1781.9508,
+    "category": null
+  },
+  {
+    "question": "Will the Central Bank of Colombia announce no change at the June meeting?",
+    "slug": "will-the-central-bank-of-colombia-announce-no-change-at-the-june-meeting",
+    "conditionId": "0xdb57f9b9232a158cb5837b0d33ff54d61cdb8cce1ab4c9cd2a2bf57b284d5d22",
+    "yes_price": 0.615,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "policy"
+    ],
+    "volume": 1581.2646929999996,
+    "liquidity": 431.29,
+    "category": null
+  },
+  {
+    "question": "Will the Central Bank of Colombia announce an increase at the June meeting?",
+    "slug": "will-the-central-bank-of-colombia-announce-an-increase-at-the-june-meeting",
+    "conditionId": "0xde7971d294b406b3184545a9295b01ba25d45e0358108710986c0b5b1393c478",
+    "yes_price": 0.49,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "policy"
+    ],
+    "volume": 1077.536916,
+    "liquidity": 688.0552,
+    "category": null
+  },
+  {
+    "question": "Will there be 8 or fewer earthquakes of magnitude 7.0 or higher worldwide by June 30?",
+    "slug": "will-there-be-8-or-fewer-earthquakes-of-magnitude-7pt0-or-higher-worldwide-by-june-30",
+    "conditionId": "0xafe51cdedad143d1f220b328aae33e0084e44d849e3f7180ae0f14fc33082b88",
+    "yes_price": 0.515,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 25934.840455,
+    "liquidity": 1432.582,
+    "category": null
+  },
+  {
+    "question": "Will there be exactly 9 earthquake of magnitude 7.0 or higher worldwide by June 30?",
+    "slug": "will-there-be-exactly-9-earthquake-of-magnitude-7pt0-or-higher-worldwide-by-june-30",
+    "conditionId": "0x33c2e986cd71e942ae35fd6c25b8effb4132fedfe74a98a4241980c2ea6ebea7",
+    "yes_price": 0.225,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 17760.624031000018,
+    "liquidity": 1233.6908,
+    "category": null
+  },
+  {
+    "question": "Will Jonathan Kreiss-Tomkins advance from the 2026 Alaska Governor primary election?",
+    "slug": "will-jonathan-kreiss-tomkins-advance-from-the-2026-alaska-governor-primary-election",
+    "conditionId": "0xdfa9c276f883ae7539684ceaf7289ff3db4b83003afb1b8f561f0a569368ff24",
+    "yes_price": 0.535,
+    "days_to_resolution": 84,
+    "end_date": "2026-08-18",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 2961.3899999999994,
+    "liquidity": 2904.6033,
+    "category": null
+  },
+  {
+    "question": "Will Atl\u00e9tico Nacional win Colombia Primera A?",
+    "slug": "2026-soccer-colombia-primera-a-winner-atltico-nacional",
+    "conditionId": "0xd3890d10e640bd0c9a69906179cad17969fdaf1fb3d6ebd86ab8db8a74f33450",
+    "yes_price": 0.495,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": null,
+    "liquidity": 3.9922,
+    "category": null
+  },
+  {
+    "question": "Will Deportivo Pasto win Colombia Primera A?",
+    "slug": "2026-soccer-colombia-primera-a-winner-deportivo-pasto",
+    "conditionId": "0xa157519f2f4b89c73ba1d1e59f8d1aeb69ff241d0929a067221db13ab6535abe",
+    "yes_price": 0.49,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": null,
+    "liquidity": 1.7922,
+    "category": null
+  },
+  {
+    "question": "Will Once Caldas win Colombia Primera A?",
+    "slug": "2026-soccer-colombia-primera-a-winner-once-caldas",
+    "conditionId": "0xbc54c99ad6d5302b67440c1e2e9a388f29aa30081e5d75f4adf6ae772ed6aa16",
+    "yes_price": 0.49,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 1.04165,
+    "liquidity": 1.7262,
+    "category": null
+  },
+  {
+    "question": "Will Internacional de Bogot\u00e1 win Colombia Primera A?",
+    "slug": "2026-soccer-colombia-primera-a-winner-internacional-de-bogot",
+    "conditionId": "0x75b9331ae6464ebad2d7ca69a7f84b700c245d2a97fa38e9a2d420c58d2fd8cc",
+    "yes_price": 0.49,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": null,
+    "liquidity": 1.7922,
+    "category": null
+  },
+  {
+    "question": "Will Am\u00e9rica de Cali win Colombia Primera A?",
+    "slug": "2026-soccer-colombia-primera-a-winner-amrica-de-cali",
+    "conditionId": "0x819ea95e73df924acac780205f3f27d8e5fa0aed42a66a1dd1ebb8c47045e64b",
+    "yes_price": 0.49,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": null,
+    "liquidity": 1.7922,
+    "category": null
+  },
+  {
+    "question": "Will Junior win Colombia Primera A?",
+    "slug": "2026-soccer-colombia-primera-a-winner-junior",
+    "conditionId": "0x14df62eb0cb3ceb0ad279f0d332d69ce28eec6ef701acab01651b85bcd95edfc",
+    "yes_price": 0.49,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": null,
+    "liquidity": 1.7922,
+    "category": null
+  },
+  {
+    "question": "Will Deportes Tolima win Colombia Primera A?",
+    "slug": "2026-soccer-colombia-primera-a-winner-deportes-tolima",
+    "conditionId": "0x237ae4862c95408496ac411f20cd53221a404f970bddf2d5ad19ec94abcf72c5",
+    "yes_price": 0.49,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": null,
+    "liquidity": 1.7922,
+    "category": null
+  },
+  {
+    "question": "Will Independiente Santa Fe win Colombia Primera A?",
+    "slug": "2026-soccer-colombia-primera-a-winner-independiente-santa-fe",
+    "conditionId": "0x17b23503c0c663317401f5e729903ed4592a0763e16ec8cc98534b1e08136271",
+    "yes_price": 0.49,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": null,
+    "liquidity": 1.7922,
+    "category": null
+  },
+  {
+    "question": "Will Raja Casablanca win Morocco Botola Pro?",
+    "slug": "2026-soccer-morocco-botola-pro-winner-raja-casablanca",
+    "conditionId": "0xcf71a470d3e5ab23d1c65e2bcdc9343e69c1f9b327d32253a83866c14294e8ed",
+    "yes_price": 0.48,
+    "days_to_resolution": 49,
+    "end_date": "2026-07-14",
+    "tags": [
+      "other"
+    ],
+    "volume": null,
+    "liquidity": 2.9899,
+    "category": null
+  },
+  {
+    "question": "Will Wydad Casablanca win Morocco Botola Pro?",
+    "slug": "2026-soccer-morocco-botola-pro-winner-wydad-casablanca",
+    "conditionId": "0x72b28c13d7fb64ee3718f1de18f5e6d00905a6bf6e322a1d75069a089d10aee5",
+    "yes_price": 0.49,
+    "days_to_resolution": 49,
+    "end_date": "2026-07-14",
+    "tags": [
+      "other"
+    ],
+    "volume": null,
+    "liquidity": 2.9998,
+    "category": null
+  },
+  {
+    "question": "Will RS Berkane win Morocco Botola Pro?",
+    "slug": "2026-soccer-morocco-botola-pro-winner-rs-berkane",
+    "conditionId": "0x44ada1ffe670d2899a886e492d152301d21282973a9ac830763d6884273b34f9",
+    "yes_price": 0.49,
+    "days_to_resolution": 49,
+    "end_date": "2026-07-14",
+    "tags": [
+      "other"
+    ],
+    "volume": null,
+    "liquidity": 2.9998,
+    "category": null
+  },
+  {
+    "question": "Will FUS Rabat win Morocco Botola Pro?",
+    "slug": "2026-soccer-morocco-botola-pro-winner-fus-rabat",
+    "conditionId": "0xc5c51f061539c2e86c5d5be2852f618de4539556a724201e5418972881f868b9",
+    "yes_price": 0.49,
+    "days_to_resolution": 49,
+    "end_date": "2026-07-14",
+    "tags": [
+      "other"
+    ],
+    "volume": null,
+    "liquidity": 2.9998,
+    "category": null
+  },
+  {
+    "question": "Will FAR Rabat win Morocco Botola Pro?",
+    "slug": "2026-soccer-morocco-botola-pro-winner-far-rabat",
+    "conditionId": "0x8b0dd3151eb5ef51889e54a72b06edfa10f8184ade77d2a80ffd65ac9226746f",
+    "yes_price": 0.49,
+    "days_to_resolution": 49,
+    "end_date": "2026-07-14",
+    "tags": [
+      "other"
+    ],
+    "volume": null,
+    "liquidity": 2.9998,
+    "category": null
+  },
+  {
+    "question": "Will Maghreb F\u00e8s win Morocco Botola Pro?",
+    "slug": "2026-soccer-morocco-botola-pro-winner-maghreb-fs",
+    "conditionId": "0x434801b936823eec60f36e20608fe5e94accdaddc5e6ae3b8033b55e93c55aa4",
+    "yes_price": 0.49,
+    "days_to_resolution": 49,
+    "end_date": "2026-07-14",
+    "tags": [
+      "other"
+    ],
+    "volume": null,
+    "liquidity": 2.9998,
+    "category": null
+  },
+  {
+    "question": "Will KACM Marrakech win Morocco Botola Pro?",
+    "slug": "2026-soccer-morocco-botola-pro-winner-kacm-marrakech",
+    "conditionId": "0x956d0a8d4604bef8f6cf08ac07978ee0bd6400e3c3d83bcfc8084fd3048fd29b",
+    "yes_price": 0.49,
+    "days_to_resolution": 49,
+    "end_date": "2026-07-14",
+    "tags": [
+      "other"
+    ],
+    "volume": null,
+    "liquidity": 2.9998,
+    "category": null
+  },
+  {
+    "question": "Will Hassania Agadir win Morocco Botola Pro?",
+    "slug": "2026-soccer-morocco-botola-pro-winner-hassania-agadir",
+    "conditionId": "0x772148c8661b3b38546344bce2d93caa3fe16684916c80d4b639dda47bc05a4d",
+    "yes_price": 0.49,
+    "days_to_resolution": 49,
+    "end_date": "2026-07-14",
+    "tags": [
+      "other"
+    ],
+    "volume": null,
+    "liquidity": 2.9998,
+    "category": null
+  },
+  {
+    "question": "Will Difa\u00e2 El Jadida win Morocco Botola Pro?",
+    "slug": "2026-soccer-morocco-botola-pro-winner-difa-el-jadida",
+    "conditionId": "0x185c7fb53ea30e6b41ccd097a4106587e3c0b268ef9d3592aeee1df335c90ebf",
+    "yes_price": 0.49,
+    "days_to_resolution": 49,
+    "end_date": "2026-07-14",
+    "tags": [
+      "other"
+    ],
+    "volume": null,
+    "liquidity": 2.9998,
+    "category": null
+  },
+  {
+    "question": "Will Ittihad Tanger win Morocco Botola Pro?",
+    "slug": "2026-soccer-morocco-botola-pro-winner-ittihad-tanger",
+    "conditionId": "0x06bd8c61189ec3ae8d3615c456afade5bedecd5b6ea6bae0bc8157b907253094",
+    "yes_price": 0.49,
+    "days_to_resolution": 49,
+    "end_date": "2026-07-14",
+    "tags": [
+      "other"
+    ],
+    "volume": null,
+    "liquidity": 2.9998,
+    "category": null
+  },
+  {
+    "question": "Will CODM Mekn\u00e8s win Morocco Botola Pro?",
+    "slug": "2026-soccer-morocco-botola-pro-winner-codm-mekns",
+    "conditionId": "0xfc60457f9d94eb82094986b3b2df8013b26867e1bd12322356f9473f3b98189d",
+    "yes_price": 0.49,
+    "days_to_resolution": 49,
+    "end_date": "2026-07-14",
+    "tags": [
+      "other"
+    ],
+    "volume": null,
+    "liquidity": 2.9998,
+    "category": null
+  },
+  {
+    "question": "Will Renaissance Zemamra win Morocco Botola Pro?",
+    "slug": "2026-soccer-morocco-botola-pro-winner-renaissance-zemamra",
+    "conditionId": "0xf5645ccc746a1bd6b5a91ebae13ec4e080335d7489f5241b95b44953607523a9",
+    "yes_price": 0.49,
+    "days_to_resolution": 49,
+    "end_date": "2026-07-14",
+    "tags": [
+      "other"
+    ],
+    "volume": null,
+    "liquidity": 2.9998,
+    "category": null
+  },
+  {
+    "question": "Will Union de Touarga win Morocco Botola Pro?",
+    "slug": "2026-soccer-morocco-botola-pro-winner-union-de-touarga",
+    "conditionId": "0x723253b4806d58fc0fb070699826adb01f73e4cee71ae36eff2fd7c908865667",
+    "yes_price": 0.49,
+    "days_to_resolution": 49,
+    "end_date": "2026-07-14",
+    "tags": [
+      "other"
+    ],
+    "volume": null,
+    "liquidity": 2.9998,
+    "category": null
+  },
+  {
+    "question": "Will Olympique Dcheira win Morocco Botola Pro?",
+    "slug": "2026-soccer-morocco-botola-pro-winner-olympique-dcheira",
+    "conditionId": "0x119b3f2c8e91641eaba3ffb0cee79992dcade74fecefeaa1b8960707bce4f12e",
+    "yes_price": 0.49,
+    "days_to_resolution": 49,
+    "end_date": "2026-07-14",
+    "tags": [
+      "other"
+    ],
+    "volume": null,
+    "liquidity": 2.9998,
+    "category": null
+  },
+  {
+    "question": "Will US Yacoub El Mansour win Morocco Botola Pro?",
+    "slug": "2026-soccer-morocco-botola-pro-winner-us-yacoub-el-mansour",
+    "conditionId": "0xfe9f7c94d96fe57e647c26b623c65a5401959efd59ae68b5f46d7921c80e0afb",
+    "yes_price": 0.485,
+    "days_to_resolution": 49,
+    "end_date": "2026-07-14",
+    "tags": [
+      "other"
+    ],
+    "volume": null,
+    "liquidity": 2.9998,
+    "category": null
+  },
+  {
+    "question": "Will any AI model reach 1510 Overall Arena Score by June 30, 2026?",
+    "slug": "will-any-ai-model-reach-1510-overall-arena-score-by-june-30-2026",
+    "conditionId": "0x126633028f9a939c9ff28c9d05baf3ac5c6016fb9fb4f10d78e846fb30005799",
+    "yes_price": 0.34,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 7206.7852619999985,
+    "liquidity": 1037.575,
+    "category": null
+  },
+  {
+    "question": "Will any AI model reach 1530 Math Arena Score by June 30, 2026?",
+    "slug": "will-any-ai-model-reach-1530-math-arena-score-by-june-30-2026",
+    "conditionId": "0x1908eac5ccb58e70cd26384d230bade8ba3543d05d97a0e6abdc0218a40f8d90",
+    "yes_price": 0.45,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 1502.54123,
+    "liquidity": 445.5734,
+    "category": null
+  },
+  {
+    "question": "Will any AI model reach 1540 Math Arena Score by June 30, 2026?",
+    "slug": "will-any-ai-model-reach-1540-math-arena-score-by-june-30-2026",
+    "conditionId": "0xf52fca4d6acddf3fb4c0cc4e73180f03129213a3f5281d8f5564e517a9ba032c",
+    "yes_price": 0.335,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 827.4300000000001,
+    "liquidity": 172.3372,
+    "category": null
+  },
+  {
+    "question": "Will any AI model reach 1550 Math Arena Score by June 30, 2026?",
+    "slug": "will-any-ai-model-reach-1550-math-arena-score-by-june-30-2026",
+    "conditionId": "0x23cd81224d900a5acd78dcf2f94e0cc9d1ae8d7029671a213f1b09a9591a0b49",
+    "yes_price": 0.164,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 1998.831414,
+    "liquidity": 327.615,
+    "category": null
+  },
+  {
+    "question": "Will any AI model reach 1550 Coding Arena Score by June 30, 2026?",
+    "slug": "will-any-ai-model-reach-1550-coding-arena-score-by-june-30-2026",
+    "conditionId": "0x2bb058c26f1a4e632e8717bbf9ad874fb09c3607b40c78e411198fd1bac17038",
+    "yes_price": 0.41,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 4504.824872,
+    "liquidity": 2348.8539,
+    "category": null
+  },
+  {
+    "question": "Will any AI model reach 1560 Coding Arena Score by June 30, 2026?",
+    "slug": "will-any-ai-model-reach-1560-coding-arena-score-by-june-30-2026",
+    "conditionId": "0xed48dc33835202daeb5a2641f935ce10b2e6512f167042060f78f8181a0e60e9",
+    "yes_price": 0.5,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 1837.4071499999998,
+    "liquidity": 122.006,
+    "category": null
+  },
+  {
+    "question": "Will Moonshot AI\u2019s Kimi K3 model be released by June 30, 2026?",
+    "slug": "will-moonshot-ais-kimi-k3-model-be-released-by-june-30-2026",
+    "conditionId": "0xd357984e8f297cddb0d877592b1ae67455c7f624a6123a98d636bdc76149ff5f",
+    "yes_price": 0.26,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 4988.711180999997,
+    "liquidity": 1268.0993,
+    "category": null
+  },
+  {
+    "question": "Will Donald Trump announce Lee Zeldin as the next United States Attorney General by June 30?",
+    "slug": "will-donald-trump-announce-lee-zeldin-as-the-next-united-states-attorney-general-by-june-30",
+    "conditionId": "0x9157c83fc048cf87d5c5d982477d248f3b38e94616fa93ea653ed4c97caae33a",
+    "yes_price": 0.155,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 196146.4654440023,
+    "liquidity": 17667.4942,
+    "category": null
+  },
+  {
+    "question": "Will Donald Trump not announce a next United States Attorney General by June 30?",
+    "slug": "will-donald-trump-not-announce-a-next-united-states-attorney-general-by-june-30-541",
+    "conditionId": "0xc3fdb556a123e6545f0ac61ce6ce04793ea18ba83d5305596fac858ff8b9aa63",
+    "yes_price": 0.685,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 94468.40654799997,
+    "liquidity": 30250.61328,
+    "category": null
+  },
+  {
+    "question": "Will Chicago Wolves win American Hockey League?",
+    "slug": "2026-hockey-american-hockey-league-winner-chicago-wolves",
+    "conditionId": "0x8563ed56efbb24acc5efdc00ba79e88e8019af7ce602994a78a581dcfced137c",
+    "yes_price": 0.495,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 5.0,
+    "liquidity": 1.0,
+    "category": null
+  },
+  {
+    "question": "Will Colorado Eagles win American Hockey League?",
+    "slug": "2026-hockey-american-hockey-league-winner-colorado-eagles",
+    "conditionId": "0x441391cef755a71cd771d8262b6f7970ac527dfcc1924c5eb2cea290646cbae9",
+    "yes_price": 0.495,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 5.0,
+    "liquidity": 1.0,
+    "category": null
+  },
+  {
+    "question": "Will Toronto Marlies win American Hockey League?",
+    "slug": "2026-hockey-american-hockey-league-winner-toronto-marlies",
+    "conditionId": "0x21c429c369b17dcb27e0983dc91f1a70e47d88d18490d631e9a4905d1e21bf18",
+    "yes_price": 0.495,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 5.0,
+    "liquidity": 1.0,
+    "category": null
+  },
+  {
+    "question": "Will Wilkes-Barre/Scranton Penguins win American Hockey League?",
+    "slug": "2026-hockey-american-hockey-league-winner-wilkes-barrescranton-penguins",
+    "conditionId": "0xe4cdefbb6e42e337452da1bd8af8fa15ec1b4c1834d1747b6ceeefb7bb6cacd7",
+    "yes_price": 0.495,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 5.0,
+    "liquidity": 1.0,
+    "category": null
+  },
+  {
+    "question": "Will Mar\u00eda Corina Machado enter Venezuela by June 30?",
+    "slug": "will-mara-corina-machado-enter-venezuela-by-june-30",
+    "conditionId": "0x8d6e53e9c96faed715f6fe20d7d1944f31bf203f980d8f3d94304c0a302381fc",
+    "yes_price": 0.23,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 228268.5699780023,
+    "liquidity": 9114.6238,
+    "category": null
+  },
+  {
+    "question": "Will the No to ten million Switzerland initiative be approved in Switzerland\u2019s June 14, 2026 popular vote?",
+    "slug": "will-the-no-to-ten-million-switzerland-initiative-be-approved-in-switzerlands-june-14-2026-popular-vote",
+    "conditionId": "0x88e08e1db2095d39e18ef77068b8dc8074069ccac3feac7fba88482f4f822935",
+    "yes_price": 0.405,
+    "days_to_resolution": 19,
+    "end_date": "2026-06-14",
+    "tags": [
+      "other"
+    ],
+    "volume": 130933.79682099997,
+    "liquidity": 20542.7069,
+    "category": null
+  },
+  {
+    "question": "Will the Referendum on the Civilian Service Act be approved in Switzerland\u2019s June 14, 2026 popular vote?",
+    "slug": "will-the-referendum-on-the-civilian-service-act-be-approved-in-switzerlands-june-14-2026-popular-vote",
+    "conditionId": "0x64d46c7e4cf283ef84da138bc30accd319bf7bd856e8e26797dbe50d4e3a67eb",
+    "yes_price": 0.715,
+    "days_to_resolution": 19,
+    "end_date": "2026-06-14",
+    "tags": [
+      "other"
+    ],
+    "volume": 8762.434819,
+    "liquidity": 8491.4098,
+    "category": null
+  },
+  {
+    "question": "Will Tesla deliver between 375000 and 400000 vehicles in Q2 2026",
+    "slug": "will-tesla-deliver-between-375000-and-400000-vehicles-in-q2-2026",
+    "conditionId": "0x13150beedcc4b60c60580eec5f87bbb3092995cd893aadb709425e097af82df4",
+    "yes_price": 0.195,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "ai-tech"
+    ],
+    "volume": 5124.817765000001,
+    "liquidity": 2842.4021,
+    "category": null
+  },
+  {
+    "question": "Will Tesla deliver between 400000 and 425000 vehicles in Q2 2026",
+    "slug": "will-tesla-deliver-between-400000-and-425000-vehicles-in-q2-2026",
+    "conditionId": "0xb98ca5f27a851fd490082e9d3f3058e9a8cf0266ec207854395693015acbd293",
+    "yes_price": 0.255,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "ai-tech"
+    ],
+    "volume": 8800.919396,
+    "liquidity": 1822.15501,
+    "category": null
+  },
+  {
+    "question": "Will Tesla deliver between 425000 and 450000 vehicles in Q2 2026",
+    "slug": "will-tesla-deliver-between-425000-and-450000-vehicles-in-q2-2026",
+    "conditionId": "0x3be2b05f91f41cea6c5bd803b4c456ca5339a38a8c2bb19f71d38ef44636b0da",
+    "yes_price": 0.195,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "ai-tech"
+    ],
+    "volume": 4812.5577820000035,
+    "liquidity": 1566.4186,
+    "category": null
+  },
+  {
+    "question": "Will Team Spirit win IEM Cologne Major 2026?",
+    "slug": "will-team-spirit-win-iem-cologne-major-2026",
+    "conditionId": "0x10cfe107f46a1f4465e41501bebf20edda4f16ef47b702a4f45cacce90e01d16",
+    "yes_price": 0.175,
+    "days_to_resolution": 26,
+    "end_date": "2026-06-21",
+    "tags": [
+      "other"
+    ],
+    "volume": 108080.6354579996,
+    "liquidity": 52732.9507,
+    "category": null
+  },
+  {
+    "question": "Will Vitality win IEM Cologne Major 2026?",
+    "slug": "will-vitality-win-iem-cologne-major-2026",
+    "conditionId": "0xdf6e9ed2eaf69707c7a1162a240ca025a02b0a5028dc286c9248769e0044bdf7",
+    "yes_price": 0.495,
+    "days_to_resolution": 26,
+    "end_date": "2026-06-21",
+    "tags": [
+      "other"
+    ],
+    "volume": 163087.23191600008,
+    "liquidity": 66687.2644,
+    "category": null
+  },
+  {
+    "question": "Will Marquita Bradshaw be the Democratic nominee for Senate in Tennessee?",
+    "slug": "will-marquita-bradshaw-be-the-democratic-nominee-for-senate-in-tennessee",
+    "conditionId": "0x253a4a01dd09a35fd73e6671ddaacada7af886af4d5c196dfc9a6d50b1e735ba",
+    "yes_price": 0.765,
+    "days_to_resolution": 72,
+    "end_date": "2026-08-06",
+    "tags": [
+      "policy"
+    ],
+    "volume": 4011.634755,
+    "liquidity": 10606.4078,
+    "category": null
+  },
+  {
+    "question": "Will Cloud9 win LCS 2026 Spring?",
+    "slug": "will-cloud9-win-lcs-2026-spring",
+    "conditionId": "0x226c71868c59b9999980d55795804f6a7bfd189510110c32b3f944b57f8cc72d",
+    "yes_price": 0.3655,
+    "days_to_resolution": 19,
+    "end_date": "2026-06-14",
+    "tags": [
+      "other"
+    ],
+    "volume": 1102.5799519999998,
+    "liquidity": 574.3399,
+    "category": null
+  },
+  {
+    "question": "Will Team Liquid win LCS 2026 Spring?",
+    "slug": "will-team-liquid-win-lcs-2026-spring",
+    "conditionId": "0x47605fddde0e97c8936cb2b0e63526f6ddd43ae5e99cdbe8a947b5bc26681aa1",
+    "yes_price": 0.248,
+    "days_to_resolution": 19,
+    "end_date": "2026-06-14",
+    "tags": [
+      "other"
+    ],
+    "volume": 1392.175719,
+    "liquidity": 347.33719,
+    "category": null
+  },
+  {
+    "question": "Will LYON win LCS 2026 Spring?",
+    "slug": "will-lyon-win-lcs-2026-spring",
+    "conditionId": "0xbb00c0a2febb661d1a216a8e83b5ac65a4d574ce90eb94a1bfbc3967eb3704ac",
+    "yes_price": 0.2225,
+    "days_to_resolution": 19,
+    "end_date": "2026-06-14",
+    "tags": [
+      "other"
+    ],
+    "volume": 3867.9102949999997,
+    "liquidity": 385.43664,
+    "category": null
+  },
+  {
+    "question": "Will Bilibili Gaming win LPL 2026 Split 2?",
+    "slug": "will-bilibili-gaming-win-lpl-2026-split-2",
+    "conditionId": "0xcbf2e173d92a989f9abba89988417b08d37711c0e9c9ae699a64ec4a2b91d416",
+    "yes_price": 0.655,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 8784.975681,
+    "liquidity": 452.4057,
+    "category": null
+  },
+  {
+    "question": "Kanye blocked from entering another country by June 30?",
+    "slug": "kanye-blocked-from-entering-another-country-by-june-30",
+    "conditionId": "0xffb9f2082d5a6e94861d563e0dfe65f4b42a159ff632d6581bf8492ff59089ec",
+    "yes_price": 0.225,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 5345.483654999981,
+    "liquidity": 1649.2988,
+    "category": null
+  },
+  {
+    "question": "Pershing Square acquires Universal Music Group by June 30?",
+    "slug": "pershing-square-acquires-universal-music-group-by-june-30",
+    "conditionId": "0x34485e9a46cdbe2b3aa86ac1b6fd76d8238d63cadc5f7a4f80c98867d5ba2fc0",
+    "yes_price": 0.22,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 4.769423,
+    "liquidity": 100.8944,
+    "category": null
+  },
+  {
+    "question": "Will Trump attend NATO Summit?",
+    "slug": "will-trump-attend-nato-summit-279",
+    "conditionId": "0x71ee9c148f0e2b386ba959aca5954c5e6c428695bf1a5fca0af9194f40487758",
+    "yes_price": 0.66,
+    "days_to_resolution": 43,
+    "end_date": "2026-07-08",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 13356.45927300004,
+    "liquidity": 9687.4101,
+    "category": null
+  },
+  {
+    "question": "Will \"you seem pretty sad for a girl so in love\" - Olivia Rodrigo debut week album sales be between 250k and 300k?",
+    "slug": "will-you-seem-pretty-sad-for-a-girl-so-in-love-olivia-rodrigo-debut-week-album-sales-be-between-250k-and-300k",
+    "conditionId": "0xf7d43d04efb874daca551c0b0c67095595afb960c4517188687087c5427003fe",
+    "yes_price": 0.365,
+    "days_to_resolution": 24,
+    "end_date": "2026-06-19",
+    "tags": [
+      "other"
+    ],
+    "volume": 153.95491400000003,
+    "liquidity": 77.2558,
+    "category": null
+  },
+  {
+    "question": "Will \"you seem pretty sad for a girl so in love\" - Olivia Rodrigo debut week album sales be between 300k and 350k?",
+    "slug": "will-you-seem-pretty-sad-for-a-girl-so-in-love-olivia-rodrigo-debut-week-album-sales-be-between-300k-and-350k",
+    "conditionId": "0xfce7a369c452036112a590de72a867155df2100783497f76fc1dd9228fcfd4fa",
+    "yes_price": 0.28,
+    "days_to_resolution": 24,
+    "end_date": "2026-06-19",
+    "tags": [
+      "other"
+    ],
+    "volume": 113.30999999999999,
+    "liquidity": 84.0595,
+    "category": null
+  },
+  {
+    "question": "Will \"you seem pretty sad for a girl so in love\" - Olivia Rodrigo debut week album sales be between 350k and 400k?",
+    "slug": "will-you-seem-pretty-sad-for-a-girl-so-in-love-olivia-rodrigo-debut-week-album-sales-be-between-350k-and-400k",
+    "conditionId": "0x1dc0ba41c11e0088509a2b3d38bcbc83c7ca5fc581f02102df161ae0cb1ed4ae",
+    "yes_price": 0.19,
+    "days_to_resolution": 24,
+    "end_date": "2026-06-19",
+    "tags": [
+      "other"
+    ],
+    "volume": 125.895805,
+    "liquidity": 75.9414,
+    "category": null
+  },
+  {
+    "question": "Will \"you seem pretty sad for a girl so in love\" - Olivia Rodrigo debut week album sales be between 400k and 450k?",
+    "slug": "will-you-seem-pretty-sad-for-a-girl-so-in-love-olivia-rodrigo-debut-week-album-sales-be-between-400k-and-450k",
+    "conditionId": "0x7c6e62c6659b09d685292c944a69cb8487b3a6833a81ad29e8e117bf6f86039d",
+    "yes_price": 0.345,
+    "days_to_resolution": 24,
+    "end_date": "2026-06-19",
+    "tags": [
+      "other"
+    ],
+    "volume": 136.92,
+    "liquidity": 109.4247,
+    "category": null
+  },
+  {
+    "question": "Will \"you seem pretty sad for a girl so in love\" - Olivia Rodrigo debut week album sales be at least 450k?",
+    "slug": "will-you-seem-pretty-sad-for-a-girl-so-in-love-olivia-rodrigo-debut-week-album-sales-be-at-least-450k",
+    "conditionId": "0xa0de46b27ad846a9e1085a8d2e81fc71c593187086864b769c0f62d3909511d5",
+    "yes_price": 0.165,
+    "days_to_resolution": 24,
+    "end_date": "2026-06-19",
+    "tags": [
+      "other"
+    ],
+    "volume": 136.22286,
+    "liquidity": 118.5767,
+    "category": null
+  },
+  {
+    "question": "Will Natus Vincere make a roster change before July?",
+    "slug": "will-natus-vincere-make-a-roster-change-before-july",
+    "conditionId": "0x84d32943acd12d50ed68ebdd0aece0793b151009de8da2125cbb6d2e536e2552",
+    "yes_price": 0.485,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": null,
+    "liquidity": 10.1301,
+    "category": null
+  },
+  {
+    "question": "Will PARIVISION make a roster change before July?",
+    "slug": "will-parivision-make-a-roster-change-before-july",
+    "conditionId": "0x868131aa7e00a17dffb13b4a445ca4c81ffeedb09640fea12dbfda2678f44fd2",
+    "yes_price": 0.765,
+    "days_to_resolution": 36,
+    "end_date": "2026-07-01",
+    "tags": [
+      "other"
+    ],
+    "volume": 2262.365713,
+    "liquidity": 489.33,
+    "category": null
+  },
+  {
+    "question": "Will Aurora make a roster change before July?",
+    "slug": "will-aurora-make-a-roster-change-before-july",
+    "conditionId": "0x1f18997c6e8e795f483141b471d41dcc1128e3afa3a11bf424c4209820392d0d",
+    "yes_price": 0.185,
+    "days_to_resolution": 36,
+    "end_date": "2026-07-01",
+    "tags": [
+      "other"
+    ],
+    "volume": 132.708314,
+    "liquidity": 1291.368,
+    "category": null
+  },
+  {
+    "question": "Will The MongolZ make a roster change before July?",
+    "slug": "will-the-mongolz-make-a-roster-change-before-july",
+    "conditionId": "0xa7c3d9ac335ade700b756bdf4e093895d95e977fdab4274c3aa2212615969987",
+    "yes_price": 0.39,
+    "days_to_resolution": 36,
+    "end_date": "2026-07-01",
+    "tags": [
+      "other"
+    ],
+    "volume": 325.241058,
+    "liquidity": 37.7308,
+    "category": null
+  },
+  {
+    "question": "Will Astralis make a roster change before July?",
+    "slug": "will-astralis-make-a-roster-change-before-july",
+    "conditionId": "0xa12b0b1e22062500f532bea8b593a567822599cd1f130bb263b70b8a647fce79",
+    "yes_price": 0.19,
+    "days_to_resolution": 36,
+    "end_date": "2026-07-01",
+    "tags": [
+      "other"
+    ],
+    "volume": 531.5,
+    "liquidity": 602.9172,
+    "category": null
+  },
+  {
+    "question": "Will Santander fail by June 30, 2026?",
+    "slug": "will-santander-fail-by-june-30-2026",
+    "conditionId": "0x2c26d778228b3ee21a8c394e122798f0d60ea2f9852138abf03c279cf474277d",
+    "yes_price": 0.2345,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 327.35909200000003,
+    "liquidity": 829.05705,
+    "category": null
+  },
+  {
+    "question": "Will Bilibili Gaming make a roster change before July?",
+    "slug": "will-bilibili-gaming-make-a-roster-change-before-july",
+    "conditionId": "0xedd6f583beb92839a74d2c5c66bb26cfe6b87d82056580c57a78b2f2e0eb8fe5",
+    "yes_price": 0.345,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 755.986059,
+    "liquidity": 136.9089,
+    "category": null
+  },
+  {
+    "question": "Will Ninjas in Pyjamas make a roster change before July?",
+    "slug": "will-ninjas-in-pyjamas-make-a-roster-change-before-july",
+    "conditionId": "0xf838b92f94a3324c68a1aa8c37b93ca9d51dc5b6c9dbf563b6d5e820e7ac1c2c",
+    "yes_price": 0.485,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 902.1052949999998,
+    "liquidity": 550.3827,
+    "category": null
+  },
+  {
+    "question": "Will Charli XCX release a new original album by July 31?",
+    "slug": "will-charli-xcx-release-a-new-original-album-by-july-31",
+    "conditionId": "0x4409e1a9624df8d22dd9e32c4884babb89fe5c1f555f60b7b4a5088ee7ea21af",
+    "yes_price": 0.71,
+    "days_to_resolution": 66,
+    "end_date": "2026-07-31",
+    "tags": [
+      "other"
+    ],
+    "volume": 296.66225199999997,
+    "liquidity": 81.0542,
+    "category": null
+  },
+  {
+    "question": "Will US crude oil reserves fall to 350M by June 5?",
+    "slug": "will-us-crude-oil-reserves-fall-to-350m-by-june-5",
+    "conditionId": "0x351b328835e3ff4d574ae836c9842a7dd72bad929d990098ce0976fb794fab9e",
+    "yes_price": 0.585,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 31240.09373300001,
+    "liquidity": 5077.7747,
+    "category": null
+  },
+  {
+    "question": "Will no qualifying diplomatic US-Iran meeting occur by June 30, 2026?",
+    "slug": "will-no-qualifying-diplomatic-us-iran-meeting-occur-by-june-30-2026-673",
+    "conditionId": "0x189c38e8bf3733572f401f8d578099f7233baef3d5fcb438b4eeb0b73bacc787",
+    "yes_price": 0.256,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 1011080.9665010003,
+    "liquidity": 46873.78131,
+    "category": null
+  },
+  {
+    "question": "Will the next diplomatic US-Iran meeting be in Pakistan?",
+    "slug": "will-the-next-diplomatic-us-iran-meeting-be-in-pakistan-295",
+    "conditionId": "0x0f3062f421a43ab9af2f3dc9c3eef48e2aab38a4c9858aca7651947642c4c964",
+    "yes_price": 0.463,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 1005911.2286289965,
+    "liquidity": 43340.03522,
+    "category": null
+  },
+  {
+    "question": "Strait of Hormuz traffic returns to normal by end of June?",
+    "slug": "strait-of-hormuz-traffic-returns-to-normal-by-end-of-june",
+    "conditionId": "0x348cd9adf4f6855f58bd9c6dbf9ff251c4142ef77233a5dc95c65b4b61cd2187",
+    "yes_price": 0.385,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 9980858.498694016,
+    "liquidity": 194128.6744,
+    "category": null
+  },
+  {
+    "question": "Will the Bank of Korea make no change to the base rate after the July Meeting?",
+    "slug": "will-the-bank-of-korea-make-no-change-to-the-base-rate-after-the-july-meeting",
+    "conditionId": "0x532bc7c57ab441649590c6d3477c7ec1cf145914d5aebc5f0580c6d2a81e0526",
+    "yes_price": 0.445,
+    "days_to_resolution": 51,
+    "end_date": "2026-07-16",
+    "tags": [
+      "policy"
+    ],
+    "volume": 2871.262895,
+    "liquidity": 2634.3426,
+    "category": null
+  },
+  {
+    "question": "Will the Bank of Korea increase the base rate after the July Meeting?",
+    "slug": "will-the-bank-of-korea-increase-the-base-rate-after-the-july-meeting",
+    "conditionId": "0x4961d77539d2ae985a957254aa479a1cf95394be11d03b4a39be8278695f6e5a",
+    "yes_price": 0.565,
+    "days_to_resolution": 51,
+    "end_date": "2026-07-16",
+    "tags": [
+      "policy"
+    ],
+    "volume": 4021.211364,
+    "liquidity": 1846.6466,
+    "category": null
+  },
+  {
+    "question": "Will Anthropic have the third best AI model at the end of June 2026?",
+    "slug": "will-anthropic-have-the-third-best-ai-model-at-the-end-of-june-2026",
+    "conditionId": "0x3c6ece0cadb3d3d87bd47ac065722bf75521e904274870da03e164d719ea2c14",
+    "yes_price": 0.66,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "ai-tech"
+    ],
+    "volume": 3075.910699,
+    "liquidity": 3091.7201,
+    "category": null
+  },
+  {
+    "question": "Will Google have the third best AI model at the end of June 2026?",
+    "slug": "will-google-have-the-third-best-ai-model-at-the-end-of-june-2026",
+    "conditionId": "0x9a410fefe79447cf2bc106107a7c1d95e09ce3951fb004d0c95fecfea8899203",
+    "yes_price": 0.28,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "ai-tech"
+    ],
+    "volume": 1064.0617910000003,
+    "liquidity": 2590.986,
+    "category": null
+  },
+  {
+    "question": "Will Anthropic have the #2 AI model at the end of June 2026 (Style Control On)?",
+    "slug": "will-anthropic-have-the-2-ai-model-at-the-end-of-june-2026-style-control-on",
+    "conditionId": "0x2fa398b0da1dddf91587ca5b78410460c1d418126226bcd45a02d35d0958f6e4",
+    "yes_price": 0.755,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "ai-tech"
+    ],
+    "volume": 308.73424500000004,
+    "liquidity": 1026.6951,
+    "category": null
+  },
+  {
+    "question": "Will Google have the #2 AI model at the end of June 2026 (Style Control On)?",
+    "slug": "will-google-have-the-2-ai-model-at-the-end-of-june-2026-style-control-on",
+    "conditionId": "0x47f87fd6632b1066497c7e63137b8b1222fa75b8cdbc3f352fd48e8b611a7b1e",
+    "yes_price": 0.195,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "ai-tech"
+    ],
+    "volume": 165.15533900000003,
+    "liquidity": 1194.2287,
+    "category": null
+  },
+  {
+    "question": "Will Meituan have the #2 AI model at the end of June 2026 (Style Control On)?",
+    "slug": "will-meituan-have-the-2-ai-model-at-the-end-of-june-2026-style-control-on",
+    "conditionId": "0x850c6757a6c12c47d52fba19bd54d83362d3d248d89f58fc9f2ef1592bed2e8a",
+    "yes_price": 0.182,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 139.13586400000003,
+    "liquidity": 1110.66817,
+    "category": null
+  },
+  {
+    "question": "Will Anthropic have the #3 AI model at the end of June 2026 (Style Control On)?",
+    "slug": "will-anthropic-have-the-3-ai-model-at-the-end-of-june-2026-style-control-on",
+    "conditionId": "0xd3b572f14a93e1d3eb1fb9424c684bbf602539fb02111c971c2936aaf69812ea",
+    "yes_price": 0.72,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "ai-tech"
+    ],
+    "volume": 570.018492,
+    "liquidity": 2256.1657,
+    "category": null
+  },
+  {
+    "question": "Will TMZ be granted a White House Press Badge?",
+    "slug": "will-tmz-be-granted-a-white-house-press-badge",
+    "conditionId": "0x3567e4aa78aa0f147385e34421673e37eea5599141476607c1c8f270f179cab0",
+    "yes_price": 0.375,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 26.315787,
+    "liquidity": 37.7291,
+    "category": null
+  },
+  {
+    "question": "Will J.D. Vance attend the next US x Iran diplomatic meeting?",
+    "slug": "will-jd-vance-attend-the-next-us-x-iran-diplomatic-meeting",
+    "conditionId": "0x7e5228c4aa228752fb75ec1ffcb315a5f2fef812d746ceb6601cee285366d1a8",
+    "yes_price": 0.3795,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 672482.0633599994,
+    "liquidity": 17449.47681,
+    "category": null
+  },
+  {
+    "question": "Will Jared Kushner attend the next US x Iran diplomatic meeting?",
+    "slug": "will-jared-kushner-attend-the-next-us-x-iran-diplomatic-meeting",
+    "conditionId": "0xf0abc9c2b0726ec594aa6547d121e46d5264d778f20acd00689d5c21b5e38d18",
+    "yes_price": 0.535,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 134241.349425,
+    "liquidity": 10092.7054,
+    "category": null
+  },
+  {
+    "question": "Will Steve Witkoff attend the next US x Iran diplomatic meeting?",
+    "slug": "will-steve-witkoff-attend-the-next-us-x-iran-diplomatic-meeting",
+    "conditionId": "0x7e591fb31786d46761d906abbffbcec8eba519b649909bfb2d7833609a960782",
+    "yes_price": 0.7135,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 108539.33359799988,
+    "liquidity": 11687.25934,
+    "category": null
+  },
+  {
+    "question": "Tamas Sulyok out as President of Hungary by June 30?",
+    "slug": "tamas-sulyok-out-as-president-of-hungary-by-june-30",
+    "conditionId": "0x2af78d63305bbeeab287701eba943a587357b9c63086603cb85b15d8405e12a7",
+    "yes_price": 0.385,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 247628.40190899943,
+    "liquidity": 42962.5653,
+    "category": null
+  },
+  {
+    "question": "Will Aisha Wahab win the CA-14 special election?",
+    "slug": "will-aisha-wahab-win-the-ca-14-special-election",
+    "conditionId": "0x54c2b2d889a1f1d86e2ebe557a6b3da3e35c77c476c96d1a90498632f00db20e",
+    "yes_price": 0.725,
+    "days_to_resolution": 84,
+    "end_date": "2026-08-18",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 494.6157740000001,
+    "liquidity": 43.5305,
+    "category": null
+  },
+  {
+    "question": "Will Rakhi Israni Singh win the CA-14 special election?",
+    "slug": "will-rakhi-israni-singh-win-the-ca-14-special-election",
+    "conditionId": "0x67bf91daba125a739f48ef9bc0a6d3420cb2258ba44cb1e93ae18cce6e0b3175",
+    "yes_price": 0.168,
+    "days_to_resolution": 84,
+    "end_date": "2026-08-18",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 696.0970710000001,
+    "liquidity": 1476.56983,
+    "category": null
+  },
+  {
+    "question": "Will Gold (GC) hit (LOW) $4,400 by end of June?",
+    "slug": "will-gold-gc-hit-low-4400-by-end-of-june-119-456-768-222-524-767-865-171-778-361-729-781",
+    "conditionId": "0x9873e4c216f5af4dc19651af175cf432c72e80a60c7ff78918f8e252b0e31642",
+    "yes_price": 0.59,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 25988.25838300002,
+    "liquidity": 3768.9703,
+    "category": null
+  },
+  {
+    "question": "Will Gold (GC) hit (LOW) $4,300 by end of June?",
+    "slug": "will-gold-gc-hit-low-4300-by-end-of-june-786-418-284-459-592-615-611-319-993-231-689-345",
+    "conditionId": "0x29a63e3c3163446dfe747e94e41109b5f4061f708e6ac91cd3c715649bf7b76c",
+    "yes_price": 0.435,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 35555.35717299998,
+    "liquidity": 12580.4991,
+    "category": null
+  },
+  {
+    "question": "Will Gold (GC) hit (HIGH) $4,900 by end of June?",
+    "slug": "will-gold-gc-hit-high-4900-by-end-of-june",
+    "conditionId": "0x1f478289d98ce38307785bfc98b1f05aaf31680ad52b498ec0a668098281eece",
+    "yes_price": 0.17,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "other"
+    ],
+    "volume": 52261.95736400006,
+    "liquidity": 4298.0186,
+    "category": null
+  },
+  {
+    "question": "Israel x Iran permanent peace deal by June 30, 2026?",
+    "slug": "israel-x-iran-permanent-peace-deal-by-june-30-2026-262",
+    "conditionId": "0x5efa976ebe94080bbda7e45605333ff8f30156cc91604d66c41eb52fd3e25f3e",
+    "yes_price": 0.1585,
+    "days_to_resolution": 35,
+    "end_date": "2026-06-30",
+    "tags": [
+      "geopolitics"
+    ],
+    "volume": 557851.7835320004,
+    "liquidity": 102133.44789,
+    "category": null
+  },
+  {
+    "question": "Will China GDP growth in Q2 2026 be between 4.6% and 4.9%?",
+    "slug": "will-china-gdp-growth-in-q2-2026-be-between-4pt6-and-4pt9",
+    "conditionId": "0x800be7611c7efcdf5827c049e0baac8b6047b506af412e283dbac9ce7e202560",
+    "yes_price": 0.505,
+    "days_to_resolution": 51,
+    "end_date": "2026-07-16",
+    "tags": [
+      "macro",
+      "geopolitics"
+    ],
+    "volume": 8580.893536999998,
+    "liquidity": 4094.3044,
+    "category": null
+  },
+  {
+    "question": "Will China GDP growth in Q2 2026 be between 4.9% and 5.2%?",
+    "slug": "will-china-gdp-growth-in-q2-2026-be-between-4pt9-and-5pt2",
+    "conditionId": "0x4af115cc5eadfbaa831523a17f297842011e6ba4175fc194b6d1e5e862193077",
+    "yes_price": 0.37,
+    "days_to_resolution": 51,
+    "end_date": "2026-07-16",
+    "tags": [
+      "macro",
+      "geopolitics"
+    ],
+    "volume": 4333.517846,
+    "liquidity": 3844.6172,
+    "category": null
+  }
+]
