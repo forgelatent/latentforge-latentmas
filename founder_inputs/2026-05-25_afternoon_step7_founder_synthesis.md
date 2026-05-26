@@ -48,7 +48,7 @@ Engine input: All three engines independently recommended (ii) hybrid surface �
 
 2. The Founder has demonstrated override discipline before. The Rain grant pressure from automated agents persisted for weeks before April 18 surfaced the contamination that would have made the grant claims indefensible. The same instinct — "wait, this isn't ready / this isn't the real test" — is operating here.
 
-3. The engines' shared worry (experimental identity across hybrid surfaces) is real and unsolved. Their hybrid recommendations create a problem they could not propose a clean solution to. Polymarket-primary preserves the experimental identity solution Variant A was designed to provide.
+3. The engines' shared worry (experimental identity across hybrid surfaces) is real. Each engine proposed a mechanism to address it (Gemini: cryptographic hashes for non-market dataset slots; ChatGPT: immutable benchmark objects with versioned resolution logic; Grok: hybrid registry entries with versioned identifiers). None of the three mechanisms was convincing enough to overcome the unified-surface advantage Variant A provides. Polymarket-primary preserves the experimental identity solution Variant A was designed to provide.
 
 4. The "weak language priors" argument (A-1 in the briefing) is acknowledged as a future-audit watch item (see Decision 4 below). It is not allowed to overturn the Founder's commit to adversarial real-money testing.
 
@@ -135,5 +135,8 @@ Founder cognitive doubt about the override decision is **not** a legitimate trig
 | Founder override authority | `docs/intent.md` "How this project works" section |
 
 ---
+
+**Edit log:**
+- 2026-05-26 (fresh session, John + Claude): Precision correction to Decision 2 reason #3. Original wording ("engines could not propose a clean solution") understated what the engines wrote. Replaced with wording that names each engine's proposed mechanism and the actual reason for the override (mechanisms not convincing enough to overcome unified-surface advantage). The override itself is unchanged.
 
 *End of synthesis. Step 7 closed. Round 3 (specific market selection) blocked on this synthesis being committed.*
