@@ -1,0 +1,18 @@
+{
+  "run_state": "ERROR",
+  "error_kind": "identity",
+  "error": "returned conditionId set does not match registry",
+  "detail": {
+    "returned_count": 3,
+    "expected_count": 8,
+    "missing_from_response": [
+      "0x5efa976ebe94080bbda7e45605333ff8f30156cc91604d66c41eb52fd3e25f3e",
+      "0x6cb3ec9e0fb1c258898f648f8b33422f59ba3e8a71aee551449d7cb147bb8ead",
+      "0xa4d72632ac0ddadcac5247ffc586a193f1bc3bc839cf9ce993c2471e0d599cca",
+      "0xba8af64c1b08f322ca7f66f3cfdbdfd50c0eae6fc88d2fcf29c30ceb62682421",
+      "0xd73237bb27cdc455578e9a0788c358bd79609d394f43a270bde10cde4788105f"
+    ],
+    "unexpected_in_response": []
+  },
+  "loader_run_at": "2026-07-11T19:57:06.882772+00:00"
+}
