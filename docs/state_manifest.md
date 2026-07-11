@@ -111,6 +111,8 @@ These govern how work gets done and how remediation is verified. They are load-b
 
 - **Failure Escalation Protocol** (ratified April 29, 2026). When any of the following are detected: session-tainting condition met, Strategic Drift identified, a required component marked `VALID: no`, or the Precedence Rule fails to resolve cleanly — Claude must halt forward reasoning, explicitly declare the failure condition, identify which rule triggered it, and request resolution or clarification. No conclusions may be drawn under unresolved failure conditions. The rule converts the manifest from "well-described" to "enforced."
 
+- **End-of-session handoff** (practice since May 2026; codified July 11, 2026). Before session close, write `founder_inputs/YYYY-MM-DD_end_of_session_handoff.md` carrying what the Trinity does not: session patterns, CFM observations, founder context, next-session do/do-not lists. Rationale: practices not written into the bundle die at the session boundary — this practice itself silently dropped on July 11 until the Founder asked.
+
 - **Mixed-Source Synthesis Rule** (ratified April 29, 2026). Do not synthesize across components or files of differing validity or freshness without explicit reconciliation. A `VALID: yes` output and a `VALID: no` output may not be combined into a single conclusion. A current output and a stale output may not be combined without an explicit timestamp note. This covers cross-file staleness, mixed-validity synthesis, and the Social Proof Loop class of failure (where confident narratives compound across engines without returning to raw data).
 
 ---
