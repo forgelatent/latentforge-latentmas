@@ -3,6 +3,8 @@
 **Date:** June 27, 2026
 **Maintainer:** John McGuire (Founder Engine), with Claude (Systems Engine)
 **Status:** Loader contract LOCKED. Five decisions (Q1–Q5) synthesized from three cold engine responses (June 7) plus a targeted Q4(b) re-ask (June 27). Implementation is the NEXT work block — NOT started here (Pattern D firewall).
+
+**AMENDED July 11, 2026:** Q4(b) "one bulk call" and Q5.3 "api_response_sha256" (singular) were amended during the loader install — see the Amendment section at the end of this document. The original text below is preserved unedited as the June 27 record.
 **Briefing:** `founder_inputs/2026-05-26_loader_contract_briefing_to_engines.md` (committed `a03fdf5`)
 **Round 4 responses:** `founder_inputs/2026-06-07_loader_contract_responses.md` (committed `2fc7b2e`)
 **June 7 handoff:** `founder_inputs/2026-06-07_end_of_session_handoff.md`
@@ -169,3 +171,18 @@ Grok's 0/1/2 chosen over Gemini's 0/10/20 — the load-bearing thing is three ti
 ---
 
 *End of synthesis. The Mode 1 v1 loader contract is locked. Implementation is the next, separate work block.*
+
+
+---
+
+## Amendment — July 11, 2026 (loader install session)
+
+**What changed and why.** During the install (per `LOADER_HANDOVER_2026-06-28`), the first repo-location run hard-failed the Q5.1 identity check: only 3 of 8 markets returned. Tier 1 live-API probes established that the Gamma `/markets` endpoint silently applies `closed=false` by default even on explicit `condition_ids` queries, and `closed=true` is an exclusive filter. There is no single-call way to retrieve a registry containing any resolved market. The June 27 reproducer that validated "one bulk call returns all 8" was correct *at the time* — all 8 markets were then live, so the silent filter had nothing to hide.
+
+**Q4(b) amended:** "one call for all 8" becomes a **two-pass bulk fetch** — bare query (live markets) + `closed=true` query (closed markets), merged by conditionId with a duplicate-cid hard-fail guard. This is API-forced, not a design preference. Everything else in Q4 stands: bulk `condition_ids` endpoint, no per-slug fallback, all-or-nothing atomicity (now across the merged pair), 3 attempts per call (1 + 2 retries per `RETRY_BACKOFF_SECONDS = [10, 30]`, verified at line 75), [L-1] no-silent-fallback posture unchanged.
+
+**Retry-count wording note (pre-existing, not amended behavior):** the June 27 contract's Q4(c) reads "2 attempts (10s, 30s)"; the code implements 1 initial attempt + 2 retries = 3 attempts total. The (10s, 30s) backoffs match — the contract's "2" counts retries, worded as attempts. Recorded here as a wording imprecision that predates the July 11 fix; behavior was never in conflict.
+
+**Q5.3 amended:** the single `api_response_sha256` becomes **dual hashes** — `api_response_sha256_live` and `api_response_sha256_closed` — one fingerprint per pass, computed from the raw as-received bytes of each response.
+
+**Provenance:** fix designed as a Founder-approved 5-item plan, implemented in-session under explicit Pattern D override, verified through all gates (ast.parse -> selfcheck -> live run, exit 1 RETIRED_PRESENT). Commit `6476c03`; ledger entry July 11, 2026; cold re-read verification July 11 afternoon (commit `9f560a4`, existence verified at amendment time). File hash of record: `f487be95...`.
