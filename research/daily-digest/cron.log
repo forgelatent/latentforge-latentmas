@@ -1,0 +1,569 @@
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+✅ Research digest saved → research/daily-digest/2026-03-30.md
+   arXiv hits: 0 | GitHub updates: 8
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+✅ Research digest saved → research/daily-digest/2026-03-31.md
+   arXiv hits: 81 | GitHub updates: 8
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 1313, in mkdir
+    self._accessor.mkdir(self, mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'research/daily-digest'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py", line 9, in <module>
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 1317, in mkdir
+    self.parent.mkdir(parents=True, exist_ok=True)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 1313, in mkdir
+    self._accessor.mkdir(self, mode)
+OSError: [Errno 30] Read-only file system: 'research'
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-04-06.md
+  arXiv hits: 24 | GitHub updates: 8 | RSS: 1
+Tue Apr  7 04:36:46 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-04-07.md
+  arXiv hits: 27 | GitHub updates: 8 | RSS: 1
+Tue Apr  7 04:37:01 PDT 2026: SUCCESS on attempt 1
+Wed Apr  8 04:35:57 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-04-08.md
+  arXiv hits: 27 | GitHub updates: 8 | RSS: 1
+Wed Apr  8 04:36:10 PDT 2026: SUCCESS on attempt 1
+Thu Apr  9 04:45:36 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-04-09.md
+  arXiv hits: 27 | GitHub updates: 8 | RSS: 1
+Thu Apr  9 04:45:49 PDT 2026: SUCCESS on attempt 1
+Fri Apr 10 04:34:57 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-04-10.md
+  arXiv hits: 27 | GitHub updates: 2 | RSS: 0
+Fri Apr 10 05:23:23 PDT 2026: SUCCESS on attempt 1
+Sat Apr 11 04:34:48 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-04-11.md
+  arXiv hits: 27 | GitHub updates: 8 | RSS: 0
+Sat Apr 11 04:53:31 PDT 2026: SUCCESS on attempt 1
+Sun Apr 12 04:34:17 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-04-12.md
+  arXiv hits: 27 | GitHub updates: 8 | RSS: 1
+Sun Apr 12 04:34:29 PDT 2026: SUCCESS on attempt 1
+Mon Apr 13 04:42:01 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-04-13.md
+  arXiv hits: 0 | GitHub updates: 8 | RSS: 1
+Mon Apr 13 04:42:28 PDT 2026: SUCCESS on attempt 1
+Tue Apr 14 04:43:17 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-04-14.md
+  arXiv hits: 19 | GitHub updates: 8 | RSS: 1
+Tue Apr 14 04:59:32 PDT 2026: SUCCESS on attempt 1
+Wed Apr 15 04:35:03 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-04-15.md
+  arXiv hits: 27 | GitHub updates: 8 | RSS: 1
+Wed Apr 15 05:56:45 PDT 2026: SUCCESS on attempt 1
+Thu Apr 16 04:31:35 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-04-16.md
+  arXiv hits: 41 | GitHub updates: 8 | RSS: 0
+Thu Apr 16 05:20:39 PDT 2026: SUCCESS on attempt 1
+Fri Apr 17 04:37:45 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-04-17.md
+  arXiv hits: 26 | GitHub updates: 8 | RSS: 0
+Fri Apr 17 05:52:31 PDT 2026: SUCCESS on attempt 1
+Sat Apr 18 04:34:20 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-04-18.md
+  arXiv hits: 28 | GitHub updates: 6 | RSS: 0
+Sat Apr 18 05:25:53 PDT 2026: SUCCESS on attempt 1
+Sun Apr 19 04:44:47 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-04-19.md
+  arXiv hits: 28 | GitHub updates: 8 | RSS: 1
+Sun Apr 19 04:45:05 PDT 2026: SUCCESS on attempt 1
+Mon Apr 20 04:39:20 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-04-20.md
+  arXiv hits: 26 | GitHub updates: 8 | RSS: 0
+Mon Apr 20 05:11:42 PDT 2026: SUCCESS on attempt 1
+Tue Apr 21 04:34:02 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-04-21.md
+  arXiv hits: 25 | GitHub updates: 6 | RSS: 0
+Tue Apr 21 05:35:02 PDT 2026: SUCCESS on attempt 1
+Wed Apr 22 04:32:13 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-04-22.md
+  arXiv hits: 32 | GitHub updates: 8 | RSS: 0
+Wed Apr 22 05:42:27 PDT 2026: SUCCESS on attempt 1
+Thu Apr 23 04:37:49 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-04-23.md
+  arXiv hits: 27 | GitHub updates: 8 | RSS: 0
+Thu Apr 23 05:15:55 PDT 2026: SUCCESS on attempt 1
+Fri Apr 24 04:30:01 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-04-24.md
+  arXiv hits: 36 | GitHub updates: 8 | RSS: 0
+Fri Apr 24 04:30:13 PDT 2026: SUCCESS on attempt 1
+Sat Apr 25 04:30:54 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-04-25.md
+  arXiv hits: 0 | GitHub updates: 0 | RSS: 0
+Sat Apr 25 04:30:54 PDT 2026: SUCCESS on attempt 1
+Sun Apr 26 04:31:34 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-04-26.md
+  arXiv hits: 0 | GitHub updates: 0 | RSS: 0
+Sun Apr 26 04:31:34 PDT 2026: SUCCESS on attempt 1
+Mon Apr 27 04:33:12 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-04-27.md
+  arXiv hits: 0 | GitHub updates: 0 | RSS: 0
+Mon Apr 27 04:33:12 PDT 2026: SUCCESS on attempt 1
+Tue Apr 28 04:40:01 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-04-28.md
+  arXiv hits: 31 | GitHub updates: 8 | RSS: 1
+Tue Apr 28 04:40:14 PDT 2026: SUCCESS on attempt 1
+Wed Apr 29 04:34:18 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-04-29.md
+  arXiv hits: 21 | GitHub updates: 8 | RSS: 1
+Wed Apr 29 04:34:31 PDT 2026: SUCCESS on attempt 1
+Thu Apr 30 04:35:04 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-04-30.md
+  arXiv hits: 34 | GitHub updates: 8 | RSS: 1
+Thu Apr 30 04:35:21 PDT 2026: SUCCESS on attempt 1
+Fri May  1 04:33:50 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-01.md
+  arXiv hits: 23 | GitHub updates: 8 | RSS: 1
+Fri May  1 04:34:03 PDT 2026: SUCCESS on attempt 1
+Sat May  2 04:30:08 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-02.md
+  arXiv hits: 19 | GitHub updates: 8 | RSS: 0
+Sat May  2 08:09:21 PDT 2026: SUCCESS on attempt 1
+Sun May  3 04:38:37 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-03.md
+  arXiv hits: 23 | GitHub updates: 6 | RSS: 0
+Sun May  3 06:40:41 PDT 2026: SUCCESS on attempt 1
+Mon May  4 04:43:22 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-04.md
+  arXiv hits: 30 | GitHub updates: 0 | RSS: 0
+Mon May  4 05:01:19 PDT 2026: SUCCESS on attempt 1
+Tue May  5 04:38:01 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-05.md
+  arXiv hits: 0 | GitHub updates: 0 | RSS: 0
+Tue May  5 04:38:01 PDT 2026: SUCCESS on attempt 1
+Wed May  6 04:30:37 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-06.md
+  arXiv hits: 0 | GitHub updates: 0 | RSS: 0
+Wed May  6 04:30:37 PDT 2026: SUCCESS on attempt 1
+Thu May  7 06:36:51 CDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-07.md
+  arXiv hits: 33 | GitHub updates: 8 | RSS: 1
+Thu May  7 06:37:02 CDT 2026: SUCCESS on attempt 1
+Fri May  8 04:32:08 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-08.md
+  arXiv hits: 25 | GitHub updates: 8 | RSS: 0
+Fri May  8 06:01:02 PDT 2026: SUCCESS on attempt 1
+Sat May  9 04:31:13 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-09.md
+  arXiv hits: 30 | GitHub updates: 8 | RSS: 1
+Sat May  9 05:38:56 PDT 2026: SUCCESS on attempt 1
+Sun May 10 04:30:10 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-10.md
+  arXiv hits: 30 | GitHub updates: 8 | RSS: 0
+Sun May 10 04:30:34 PDT 2026: SUCCESS on attempt 1
+Mon May 11 04:43:01 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-11.md
+  arXiv hits: 24 | GitHub updates: 2 | RSS: 0
+Mon May 11 06:34:10 PDT 2026: SUCCESS on attempt 1
+Tue May 12 04:35:31 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-12.md
+  arXiv hits: 32 | GitHub updates: 8 | RSS: 1
+Tue May 12 04:35:44 PDT 2026: SUCCESS on attempt 1
+Wed May 13 04:35:45 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-13.md
+  arXiv hits: 14 | GitHub updates: 8 | RSS: 0
+Wed May 13 05:56:44 PDT 2026: SUCCESS on attempt 1
+Thu May 14 04:31:10 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-14.md
+  arXiv hits: 0 | GitHub updates: 6 | RSS: 0
+Thu May 14 05:03:01 PDT 2026: SUCCESS on attempt 1
+Fri May 15 04:43:05 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-15.md
+  arXiv hits: 16 | GitHub updates: 6 | RSS: 0
+Fri May 15 09:18:30 PDT 2026: SUCCESS on attempt 1
+Sat May 16 04:32:17 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-16.md
+  arXiv hits: 21 | GitHub updates: 6 | RSS: 0
+Sat May 16 06:09:17 PDT 2026: SUCCESS on attempt 1
+Sun May 17 04:34:51 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-17.md
+  arXiv hits: 0 | GitHub updates: 8 | RSS: 0
+Sun May 17 11:32:46 PDT 2026: SUCCESS on attempt 1
+Mon May 18 04:31:27 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-18.md
+  arXiv hits: 26 | GitHub updates: 8 | RSS: 1
+Mon May 18 06:33:43 PDT 2026: SUCCESS on attempt 1
+Tue May 19 04:38:57 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-19.md
+  arXiv hits: 33 | GitHub updates: 4 | RSS: 0
+Tue May 19 07:13:44 PDT 2026: SUCCESS on attempt 1
+Wed May 20 04:42:05 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-20.md
+  arXiv hits: 31 | GitHub updates: 8 | RSS: 0
+Wed May 20 05:49:44 PDT 2026: SUCCESS on attempt 1
+Thu May 21 04:46:28 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-21.md
+  arXiv hits: 2 | GitHub updates: 0 | RSS: 0
+Thu May 21 06:59:35 PDT 2026: SUCCESS on attempt 1
+Fri May 22 04:44:08 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-22.md
+  arXiv hits: 18 | GitHub updates: 0 | RSS: 0
+Fri May 22 07:07:48 PDT 2026: SUCCESS on attempt 1
+Sat May 23 04:42:45 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-23.md
+  arXiv hits: 32 | GitHub updates: 6 | RSS: 0
+Sat May 23 07:57:17 PDT 2026: SUCCESS on attempt 1
+Sun May 24 04:31:50 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-24.md
+  arXiv hits: 32 | GitHub updates: 8 | RSS: 1
+Sun May 24 04:32:05 PDT 2026: SUCCESS on attempt 1
+Mon May 25 04:42:08 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-25.md
+  arXiv hits: 30 | GitHub updates: 8 | RSS: 0
+Mon May 25 05:15:39 PDT 2026: SUCCESS on attempt 1
+Tue May 26 04:43:07 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-26.md
+  arXiv hits: 0 | GitHub updates: 8 | RSS: 1
+Tue May 26 05:16:33 PDT 2026: SUCCESS on attempt 1
+Wed May 27 04:36:06 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-27.md
+  arXiv hits: 12 | GitHub updates: 0 | RSS: 0
+Wed May 27 07:01:49 PDT 2026: SUCCESS on attempt 1
+Thu May 28 04:46:15 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-28.md
+  arXiv hits: 0 | GitHub updates: 0 | RSS: 0
+Thu May 28 06:49:49 PDT 2026: SUCCESS on attempt 1
+Fri May 29 04:38:46 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-29.md
+  arXiv hits: 9 | GitHub updates: 0 | RSS: 0
+Fri May 29 06:56:28 PDT 2026: SUCCESS on attempt 1
+Sat May 30 04:36:49 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-30.md
+  arXiv hits: 18 | GitHub updates: 8 | RSS: 0
+Sat May 30 08:19:20 PDT 2026: SUCCESS on attempt 1
+Sun May 31 04:46:07 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-05-31.md
+  arXiv hits: 0 | GitHub updates: 0 | RSS: 0
+Sun May 31 04:46:08 PDT 2026: SUCCESS on attempt 1
+Mon Jun  1 12:37:07 IST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-01.md
+  arXiv hits: 23 | GitHub updates: 8 | RSS: 0
+Mon Jun  1 13:24:17 IST 2026: SUCCESS on attempt 1
+Tue Jun  2 12:39:29 IST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-02.md
+  arXiv hits: 23 | GitHub updates: 6 | RSS: 0
+Tue Jun  2 14:23:13 IST 2026: SUCCESS on attempt 1
+Wed Jun  3 12:38:53 IST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-03.md
+  arXiv hits: 0 | GitHub updates: 8 | RSS: 1
+Wed Jun  3 17:32:24 IST 2026: SUCCESS on attempt 1
+Thu Jun  4 12:40:08 IST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-04.md
+  arXiv hits: 15 | GitHub updates: 0 | RSS: 0
+Thu Jun  4 15:57:48 IST 2026: SUCCESS on attempt 1
+Fri Jun  5 12:45:32 IST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-05.md
+  arXiv hits: 0 | GitHub updates: 0 | RSS: 0
+Fri Jun  5 12:45:32 IST 2026: SUCCESS on attempt 1
+Sat Jun  6 04:35:45 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-06.md
+  arXiv hits: 12 | GitHub updates: 8 | RSS: 0
+Sat Jun  6 08:33:06 PDT 2026: SUCCESS on attempt 1
+Sun Jun  7 04:42:58 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-07.md
+  arXiv hits: 25 | GitHub updates: 6 | RSS: 0
+Sun Jun  7 07:30:15 PDT 2026: SUCCESS on attempt 1
+Mon Jun  8 04:30:03 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-08.md
+  arXiv hits: 25 | GitHub updates: 8 | RSS: 0
+Mon Jun  8 04:30:17 PDT 2026: SUCCESS on attempt 1
+Tue Jun  9 04:37:13 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-09.md
+  arXiv hits: 0 | GitHub updates: 0 | RSS: 0
+Tue Jun  9 04:37:13 PDT 2026: SUCCESS on attempt 1
+Wed Jun 10 04:43:41 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-10.md
+  arXiv hits: 23 | GitHub updates: 8 | RSS: 1
+Wed Jun 10 05:16:15 PDT 2026: SUCCESS on attempt 1
+Thu Jun 11 04:40:23 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-11.md
+  arXiv hits: 0 | GitHub updates: 0 | RSS: 0
+Thu Jun 11 04:40:23 PDT 2026: SUCCESS on attempt 1
+Fri Jun 12 04:35:52 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-12.md
+  arXiv hits: 21 | GitHub updates: 8 | RSS: 0
+Fri Jun 12 05:26:13 PDT 2026: SUCCESS on attempt 1
+Sat Jun 13 04:32:44 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-13.md
+  arXiv hits: 21 | GitHub updates: 6 | RSS: 0
+Sat Jun 13 08:19:43 PDT 2026: SUCCESS on attempt 1
+Sun Jun 14 04:34:51 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-14.md
+  arXiv hits: 21 | GitHub updates: 8 | RSS: 0
+Sun Jun 14 08:36:11 PDT 2026: SUCCESS on attempt 1
+Mon Jun 15 04:33:03 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-15.md
+  arXiv hits: 25 | GitHub updates: 6 | RSS: 0
+Mon Jun 15 09:19:56 PDT 2026: SUCCESS on attempt 1
+Tue Jun 16 04:41:23 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-16.md
+  arXiv hits: 0 | GitHub updates: 0 | RSS: 0
+Tue Jun 16 04:41:23 PDT 2026: SUCCESS on attempt 1
+Wed Jun 17 04:43:11 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-17.md
+  arXiv hits: 0 | GitHub updates: 0 | RSS: 0
+Wed Jun 17 04:43:11 PDT 2026: SUCCESS on attempt 1
+Thu Jun 18 04:43:04 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-18.md
+  arXiv hits: 0 | GitHub updates: 0 | RSS: 0
+Thu Jun 18 04:43:04 PDT 2026: SUCCESS on attempt 1
+Fri Jun 19 04:32:43 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-19.md
+  arXiv hits: 0 | GitHub updates: 0 | RSS: 0
+Fri Jun 19 04:32:43 PDT 2026: SUCCESS on attempt 1
+Sat Jun 20 04:34:27 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-20.md
+  arXiv hits: 27 | GitHub updates: 8 | RSS: 0
+Sat Jun 20 05:21:19 PDT 2026: SUCCESS on attempt 1
+Sun Jun 21 04:33:45 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-21.md
+  arXiv hits: 23 | GitHub updates: 8 | RSS: 0
+Sun Jun 21 06:33:33 PDT 2026: SUCCESS on attempt 1
+Mon Jun 22 04:38:30 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-22.md
+  arXiv hits: 27 | GitHub updates: 6 | RSS: 0
+Mon Jun 22 06:30:27 PDT 2026: SUCCESS on attempt 1
+Tue Jun 23 04:30:22 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-23.md
+  arXiv hits: 0 | GitHub updates: 0 | RSS: 0
+Tue Jun 23 04:30:22 PDT 2026: SUCCESS on attempt 1
+Wed Jun 24 04:30:30 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-24.md
+  arXiv hits: 16 | GitHub updates: 0 | RSS: 0
+Wed Jun 24 06:56:07 PDT 2026: SUCCESS on attempt 1
+Thu Jun 25 04:43:11 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-25.md
+  arXiv hits: 17 | GitHub updates: 0 | RSS: 0
+Thu Jun 25 05:57:33 PDT 2026: SUCCESS on attempt 1
+Fri Jun 26 04:30:34 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-26.md
+  arXiv hits: 0 | GitHub updates: 0 | RSS: 0
+Fri Jun 26 04:30:34 PDT 2026: SUCCESS on attempt 1
+Sat Jun 27 04:40:08 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-27.md
+  arXiv hits: 22 | GitHub updates: 8 | RSS: 0
+Sat Jun 27 08:54:05 PDT 2026: SUCCESS on attempt 1
+Sun Jun 28 04:38:09 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-28.md
+  arXiv hits: 23 | GitHub updates: 6 | RSS: 0
+Sun Jun 28 06:31:55 PDT 2026: SUCCESS on attempt 1
+Mon Jun 29 04:40:47 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-29.md
+  arXiv hits: 33 | GitHub updates: 6 | RSS: 0
+Mon Jun 29 07:42:17 PDT 2026: SUCCESS on attempt 1
+Tue Jun 30 04:40:16 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-06-30.md
+  arXiv hits: 27 | GitHub updates: 8 | RSS: 1
+Tue Jun 30 05:26:53 PDT 2026: SUCCESS on attempt 1
+Wed Jul  1 04:43:30 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-07-01.md
+  arXiv hits: 18 | GitHub updates: 8 | RSS: 0
+Wed Jul  1 06:27:22 PDT 2026: SUCCESS on attempt 1
+Thu Jul  2 04:32:39 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-07-02.md
+  arXiv hits: 37 | GitHub updates: 8 | RSS: 0
+Thu Jul  2 05:22:31 PDT 2026: SUCCESS on attempt 1
+Fri Jul  3 04:38:52 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-07-03.md
+  arXiv hits: 24 | GitHub updates: 8 | RSS: 0
+Fri Jul  3 07:22:04 PDT 2026: SUCCESS on attempt 1
+Sat Jul  4 04:44:36 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-07-04.md
+  arXiv hits: 25 | GitHub updates: 6 | RSS: 0
+Sat Jul  4 06:50:48 PDT 2026: SUCCESS on attempt 1
+Sat Jul 11 12:42:42 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-07-11.md
+  arXiv hits: 0 | GitHub updates: 0 | RSS: 0
+Sat Jul 11 12:42:43 PDT 2026: SUCCESS on attempt 1
