@@ -1,1 +1,6 @@
 config/kalshi/
+
+# Mode 1 loader daily output — regenerable, stays local (2026-07-11 decision)
+experiments/benchmark/mode1/market_state_2026-*.json
+experiments/benchmark/mode1/market_state_current.json
+experiments/benchmark/mode1/cron.log

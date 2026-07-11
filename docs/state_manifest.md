@@ -4,14 +4,14 @@
 
 Companion to `docs/intent.md`. Where `intent.md` defines what the project is *for* (permanent), this file defines what is *currently true* (volatile — operational state + session hygiene). Fresh Claude sessions read both at the start of every session.
 
-Last meaningful update: May 24, 2026
+Last meaningful update: July 11, 2026
 Maintained by: John McGuire (Founder Engine), with Systems Engine (Claude) and Divergent Thinking Engine (Grok)
 
 ---
 
 ## HEAD
 
-**HEAD:** `5407ed6` — docs(incident_ledger): calibration_tracker audited; VALID restored (preceded by `1690f95`: state_manifest calibration-tracker VALID restored to yes)
+**HEAD:** `6476c03` — feat(mode1): install market-state loader with two-pass fetch fix (preceded by `c0b53ce`: Round 4 loader contract decisions)
 *(Use `git log -1 HEAD` for timestamp.)*
 
 ---
@@ -171,6 +171,15 @@ Purpose: to show a fresh session the *Operational Delta* — the gap between whe
   - **Open observation (not gating, separate cleanup):** the file carries an `[INVALIDATED 2026-04-18]` banner at lines 1-4 from the post-contamination blanket annotation. The audit demonstrates the banner is incorrect against source for this specific file — the script has read live Polymarket data since inception. Banner removal is a separate cleanup task, not part of this VALID: yes promotion.
   - `depends-on:` Anthropic API, Polymarket Gamma API (both via direct HTTPS calls). Does **not** depend on: text-swarm, shadow_match, polymarket-pull (the launchd job — calibration-tracker calls Polymarket directly, not via stored files), commercialization-agent, BRAIN.md.
   - Cross-reference: `incident_ledger.md` Section 4 May 24, 2026 second entry ("calibration_tracker.py audited; VALID restored").
+
+- mode1-loader `[LOADED: yes | VALID: yes]`
+  - Mode 1 market-state loader: `experiments/benchmark/04_market_state_loader.py` (launchd job `com.latentforge.mode1-loader`, 4:50 AM, wrapper `scripts/run_mode1_loader.sh` — keyless, public Gamma endpoint, deliberately not `run_with_key.sh`). Installed and verified July 11, 2026; file hash of record `f487be95...`; commit `6476c03`.
+  - Fetches the 8 Round-3 registry markets via **two-pass bulk fetch** (bare query -> live; `closed=true` -> closed; merged with duplicate-cid hard-fail) — required because the Gamma endpoint silently filters `closed=false` by default even on explicit condition_id queries (see `incident_ledger.md` July 11, 2026 entry). Q5.1 identity check on the merged set; per-market LIVE/RETIRED classification with `cause_of_death` (closed vs missing); tiered exits 0/1/2 (ALL_LIVE / RETIRED_PRESENT / ERROR). **Exit 1 is a success tier, not a failure** — the wrapper translates 0 and 1 both to clean exit for launchd and retries only on 2.
+  - Output: `experiments/benchmark/mode1/market_state_YYYY-MM-DD.json` + atomic `market_state_current.json` symlink; ERROR runs write a sidecar and preserve the last good file. Daily output gitignored (July 11 decision); ERROR sidecars deliberately not ignored.
+  - Current data state: 3 LIVE, 5 RETIRED (June 30 resolutions). **Downstream consumers must handle a shrinking live-market count.**
+  - **Reproducers:** `shasum -a 256 experiments/benchmark/04_market_state_loader.py` returns `f487be95...`; `python3 experiments/benchmark/04_market_state_loader.py --selfcheck` shows 8 markets in merged response; `launchctl list | grep mode1` shows the job; `tail -5 experiments/benchmark/mode1/cron.log` shows the RETIRED_PRESENT success line.
+  - `depends-on:` Polymarket Gamma API (direct HTTPS), `benchmark_registry_v1.json`. Not dependent on: any other launchd component, BRAIN.md, Anthropic API.
+  - **OPEN FOUNDER DECISION (flagged July 11, not resolved):** registry v1 now carries 5 retired of 8 markets. Whether Mode 1 v1 runs out its longitudinal clock on 3 live markets or a registry-v2 decision is scheduled is a synthesis-session question touching the Round 3 locked registry. Do not infer an answer; do not add markets without Founder decision.
 
 **Active, untrusted:**
 
