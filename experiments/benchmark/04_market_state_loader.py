@@ -201,6 +201,11 @@ def build_bulk_url(condition_ids, closed: bool = False) -> str:
     params = [("condition_ids", cid) for cid in condition_ids]
     if closed:
         params.append(("closed", "true"))
+    # Explicit limit: the API silently caps responses at 100 (ledger,
+    # July 12 finding 3) and ignores unknown params with HTTP 200, so we
+    # never lean on its defaults. Registry growth past 100 would need
+    # chunked fetching; the Q5.1 identity check fails loud long before.
+    params.append(("limit", str(max(100, len(condition_ids)))))
     return GAMMA_MARKETS_ENDPOINT + "?" + urllib.parse.urlencode(params)
 
 
