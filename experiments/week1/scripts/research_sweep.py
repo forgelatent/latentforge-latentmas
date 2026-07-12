@@ -58,10 +58,13 @@ COMPETITIVE_WATCH = [
     ("Aaru", "https://api.github.com/search/repositories?q=aaru+simulation&sort=updated"),
 ]
 
+FETCH_STATS = {"attempts": 0, "failures": 0}
+
 def arxiv_search():
     results = []
     seen = set()
     for term in ARXIV_TERMS:
+        FETCH_STATS["attempts"] += 1
         url = f"https://export.arxiv.org/api/query?search_query=all:{term}&sortBy=submittedDate&sortOrder=descending&max_results=5"
         try:
             resp = requests.get(url, timeout=15)
@@ -74,13 +77,16 @@ def arxiv_search():
                     if key not in seen:
                         seen.add(key)
                         results.append(f"arXiv [{term}]: {t.strip()} — https://arxiv.org/abs/{key}")
-        except:
-            pass
+            if resp.status_code != 200:
+                FETCH_STATS["failures"] += 1
+        except Exception:
+            FETCH_STATS["failures"] += 1
     return results
 
 def github_activity():
     results = []
     for repo in GITHUB_REPOS:
+        FETCH_STATS["attempts"] += 1
         url = f"https://api.github.com/repos/{repo}/commits?per_page=3"
         try:
             resp = requests.get(url, timeout=15)
@@ -88,13 +94,16 @@ def github_activity():
                 for c in resp.json()[:2]:
                     msg = c['commit']['message'][:100].replace('\n', ' ')
                     results.append(f"GitHub {repo}: {msg}... — {c['html_url']}")
-        except:
-            pass
+            if resp.status_code != 200:
+                FETCH_STATS["failures"] += 1
+        except Exception:
+            FETCH_STATS["failures"] += 1
     return results
 
 def rss_check():
     results = []
     for name, url in RSS_FEEDS:
+        FETCH_STATS["attempts"] += 1
         try:
             resp = requests.get(url, timeout=10)
             if resp.status_code == 200:
@@ -103,8 +112,10 @@ def rss_check():
                 links = re.findall(r'<link>(.*?)</link>', resp.text)
                 if len(titles) > 1:
                     results.append(f"{name}: {titles[1].strip()} — {links[1].strip() if len(links) > 1 else ''}")
-        except:
-            pass
+            if resp.status_code != 200:
+                FETCH_STATS["failures"] += 1
+        except Exception:
+            FETCH_STATS["failures"] += 1
     return results
 
 def build_x_watchlist():
@@ -119,9 +130,16 @@ def main():
     arxiv_results = arxiv_search()
     github_results = github_activity()
     rss_results = rss_check()
+
+    if FETCH_STATS["attempts"] > 0 and FETCH_STATS["failures"] == FETCH_STATS["attempts"]:
+        print(f"FETCH FAILURE: all {FETCH_STATS['attempts']} fetch attempts failed (network down?) — refusing to write an 'all quiet' digest")
+        raise SystemExit(1)
     x_lines = build_x_watchlist()
 
     content = f"# Research Nervous System Digest — {TODAY}\n\n"
+
+    if FETCH_STATS["failures"] > 0:
+        content += f"**WARNING: {FETCH_STATS['failures']} of {FETCH_STATS['attempts']} fetch attempts failed this run — sections below may be incomplete.**\n\n"
 
     content += "## X/Twitter Watchlist (manual check)\n"
     content += "\n".join(x_lines)
@@ -161,7 +179,7 @@ def main():
         f.write(content)
 
     print(f"Research digest saved to {OUTPUT_FILE}")
-    print(f"  arXiv hits: {len(arxiv_results)} | GitHub updates: {len(github_results)} | RSS: {len(rss_results)}")
+    print(f"  arXiv hits: {len(arxiv_results)} | GitHub updates: {len(github_results)} | RSS: {len(rss_results)} | fetch failures: {FETCH_STATS['failures']}/{FETCH_STATS['attempts']}")
 
 if __name__ == "__main__":
     main()
