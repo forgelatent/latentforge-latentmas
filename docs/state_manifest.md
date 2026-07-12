@@ -182,7 +182,7 @@ Purpose: to show a fresh session the *Operational Delta* — the gap between whe
   - Current data state: 3 LIVE, 5 RETIRED (June 30 resolutions). **Downstream consumers must handle a shrinking live-market count.**
   - **Reproducers:** `shasum -a 256 experiments/benchmark/04_market_state_loader.py` returns `f487be95...`; `python3 experiments/benchmark/04_market_state_loader.py --selfcheck` shows 8 markets in merged response; `launchctl list | grep mode1` shows the job; `tail -5 experiments/benchmark/mode1/cron.log` shows the RETIRED_PRESENT success line.
   - `depends-on:` Polymarket Gamma API (direct HTTPS), `benchmark_registry_v1.json`. Not dependent on: any other launchd component, BRAIN.md, Anthropic API.
-  - **OPEN FOUNDER DECISION (flagged July 11, not resolved):** registry v1 now carries 5 retired of 8 markets. Whether Mode 1 v1 runs out its longitudinal clock on 3 live markets or a registry-v2 decision is scheduled is a synthesis-session question touching the Round 3 locked registry. Do not infer an answer; do not add markets without Founder decision.
+  - **RESOLVED July 12, 2026 (Round 5):** v2 triggered by Founder decision. v1 is archive-on-handover: loader continues reading v1 (daily exit 1 = normal) until v2 is locked and verified, then the job is repointed and v1 archived with note. Selection rules and gates: see ledger July 12 Round 5 entry and `founder_inputs/2026-07-12_v2_selection_session_handoff.md`. v2 selection in progress; do not treat any `benchmark_registry_v2_CANDIDATE.json` as locked.
 
 **Active, untrusted:**
 
