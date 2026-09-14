@@ -41,7 +41,7 @@ from pathlib import Path
 # ---------------------------------------------------------------------------
 
 LOADER_SCHEMA_VERSION = "mode1-loader-v1"   # this loader's own output-schema version
-EXPECTED_REGISTRY_VERSION = "v1"            # the registry version this loader is built for
+EXPECTED_REGISTRY_VERSION = "v2"            # the registry version this loader is built for
 
 # ---------------------------------------------------------------------------
 # Paths — ABSOLUTE ONLY.
@@ -54,7 +54,7 @@ HOME = Path.home()
 REPO_ROOT = HOME / "Projects" / "latentforge-latentmas"
 
 # Input: the locked 8-market registry the loader reads.
-REGISTRY_PATH = REPO_ROOT / "experiments" / "benchmark" / "benchmark_registry_v1.json"
+REGISTRY_PATH = REPO_ROOT / "benchmark_registry_v2.json"
 
 # Output: the loader's own dedicated room (Piece 1 decision).
 OUTPUT_DIR = REPO_ROOT / "experiments" / "benchmark" / "mode1"
@@ -117,7 +117,7 @@ def validate_registry(registry: dict) -> None:
     """Structural checks the loader requires before trusting the registry.
     Each failure is a loud, specific error — never a silent shrug.
 
-      1. version must match EXPECTED_REGISTRY_VERSION ('v1').
+      1. version must match EXPECTED_REGISTRY_VERSION ('v2').
       2. 'markets' must be a list.
       3. there must be exactly 8 markets.
       4. every market must carry a non-empty condition_id.
@@ -135,7 +135,7 @@ def validate_registry(registry: dict) -> None:
     if not isinstance(markets, list):
         raise RegistryError("Registry 'markets' is missing or not a list.")
 
-    if len(markets) != 8:
+    if len(markets) != 15:
         raise RegistryError(
             f"Registry must contain exactly 8 markets; found {len(markets)}."
         )

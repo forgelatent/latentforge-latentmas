@@ -1,19 +1,19 @@
 {
-  "registry_version": "v2",
+  "version": "v2",
+  "created": "2026-09-14",
   "status": "LOCKED - promoted after Gate 4 cold re-read, 2026-09-14",
-  "selected": "2026-09-14",
-  "promoted": "2026-09-14",
-  "gate4_findings": "founder_inputs/2026-09-14_gate4_findings.md",
-  "gate4_findings_sha256": "c5745c36950e386ef5008d7af4dedc985139b7f3d708b5e56ca84ffee01a44ad",
-  "selection_source": {
-    "pool_file": "scratch/qualifying_pool_2026-09-14.json",
-    "pool_sha256": "160b262836a8f6749e5712d0b9986a936d515b86bd564b5fc29d1df08d158380",
-    "pool_size": 12640
+  "source_pool": {
+    "file": "scratch/qualifying_pool_2026-09-14.json",
+    "sha256": "160b262836a8f6749e5712d0b9986a936d515b86bd564b5fc29d1df08d158380",
+    "size": 12640
   },
+  "synthesis_doc": "founder_inputs/2026-09-14_gate4_findings.md",
+  "synthesis_doc_sha256": "c5745c36950e386ef5008d7af4dedc985139b7f3d708b5e56ca84ffee01a44ad",
   "selection_rules": "3a-3f per founder_inputs/2026-07-12_v2_selection_session_handoff.md; D1-D5 per Gate 4 findings",
   "rule_3b_note": "D1: settlement_month is authoritative for 3b bucketing; end_date is NOT. Derived from question text.",
-  "rule_3e_exceptions_used": 0,
-  "category_mix_3f": {
+  "liquidity_floor_usd": 10000,
+  "exceptions_summary": "0 of max 2 used",
+  "domain_mix_target": {
     "geopolitics": 8,
     "policy": 3,
     "macro": 1,
@@ -21,261 +21,381 @@
     "ai-tech": 1,
     "other": 1
   },
+  "reopen_triggers": "3d: below 10 live start next-version selection; below 6 urgent",
   "declared_correlations": [
     "US-Iran pair: invade-Iran and US-Iran-diplomatic-meeting, opposite valence",
     "Vance 2028 nomination feeds Republicans-win-2028 general",
     "GOP Senate control and CA wealth tax both settle 2026 US election day",
     "Bolsonaro and Milei: thin South American right-populist linkage"
   ],
-  "live_verification_2026-09-14": "15/15 live (closed=False, acceptingOrders=True); all above $10K floor; all volume/liquidity above 1.0",
-  "notes": [
-    "Promoted from benchmark_registry_v2_CANDIDATE.json sha256 b5e9f9cd...",
-    "D4: Strait of Hormuz dropped (four picks settled 2026-12-31; also broke Iran correlation trio)",
-    "D5: Russia-Ukraine ceasefire replaced (posted depth $114K vs $3.9K lifetime volume)",
-    "Near-term attrition on record: Bitcoin 16d and Bolsonaro 19d; registry reaches 13 live by early Oct 2026"
+  "accepted_tradeoffs": [
+    "geopolitics 8/15 (53%) accepted under D5",
+    "three markets settle 2026-12-31, at the 3b cap",
+    "near-term attrition: Bitcoin 16d, Bolsonaro 19d; 13 live by early Oct 2026"
   ],
+  "live_verification_2026-09-14": "15/15 live; all above floor; all volume/liquidity above 1.0",
   "markets": [
     {
-      "question": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
-      "slug": "will-flvio-bolsonaro-win-the-2026-brazilian-presidential-election",
-      "conditionId": "0x1a01bf78f56a507fcb666d564d8c8b91b0750679163ed6e96746102c9b7d285d",
-      "yes_price": 0.525,
-      "days_to_resolution": 19,
-      "end_date": "2026-10-04",
-      "open_ended": false,
-      "tags": [
-        "geopolitics"
-      ],
-      "volume": 10663978.365123997,
-      "liquidity": 206944.93425,
-      "category": null,
-      "settlement_month": "2026-10"
-    },
-    {
-      "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-      "slug": "will-there-be-no-change-in-fed-interest-rates-after-the-october-2026-meeting-20260617190324031",
-      "conditionId": "0xdf9bf27ee5757c55b44b8b9826ddc9ec3a8809aa3278634c45edbb7fc8f1a3e3",
-      "yes_price": 0.615,
-      "days_to_resolution": 44,
-      "end_date": "2026-10-28",
-      "open_ended": false,
-      "tags": [
-        "macro"
-      ],
-      "volume": 402490.1432090002,
-      "liquidity": 170275.8216,
-      "category": null,
-      "settlement_month": "2026-10"
-    },
-    {
-      "question": "Will Bitcoin reach $82,500 in September?",
+      "registry_index": 1,
       "slug": "will-bitcoin-reach-82pt5k-in-september-2026",
-      "conditionId": "0xc4cc6d2ddca13b7194a7737e331aa8109575cdc38d02bd6be31a5a47d1b34520",
-      "yes_price": 0.54,
-      "days_to_resolution": 16,
-      "end_date": "2026-10-01",
-      "open_ended": false,
-      "tags": [
+      "condition_id": "0xc4cc6d2ddca13b7194a7737e331aa8109575cdc38d02bd6be31a5a47d1b34520",
+      "question": "Will Bitcoin reach $82,500 in September?",
+      "synthesis_domain": "crypto",
+      "pool_tags": [
         "crypto"
       ],
-      "volume": 469692.94771700003,
-      "liquidity": 79471.1062,
-      "category": null,
-      "settlement_month": "2026-09"
+      "end_date": "2026-10-01",
+      "settlement_month": "2026-09",
+      "days_to_resolution_at_selection": 16,
+      "selection_snapshot": {
+        "date": "2026-09-14",
+        "yes_price": 0.54,
+        "liquidity_usd": 79471.1062,
+        "volume_usd": 469692.94771700003
+      },
+      "engine_support": "founder_per_item",
+      "liquidity_exception": {
+        "is_exception": false,
+        "reason": null
+      }
     },
     {
-      "question": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+      "registry_index": 2,
+      "slug": "will-flvio-bolsonaro-win-the-2026-brazilian-presidential-election",
+      "condition_id": "0x1a01bf78f56a507fcb666d564d8c8b91b0750679163ed6e96746102c9b7d285d",
+      "question": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
+      "synthesis_domain": "geopolitics",
+      "pool_tags": [
+        "geopolitics"
+      ],
+      "end_date": "2026-10-04",
+      "settlement_month": "2026-10",
+      "days_to_resolution_at_selection": 19,
+      "selection_snapshot": {
+        "date": "2026-09-14",
+        "yes_price": 0.525,
+        "liquidity_usd": 206944.93425,
+        "volume_usd": 10663978.365123997
+      },
+      "engine_support": "founder_per_item",
+      "liquidity_exception": {
+        "is_exception": false,
+        "reason": null
+      }
+    },
+    {
+      "registry_index": 3,
+      "slug": "will-there-be-no-change-in-fed-interest-rates-after-the-october-2026-meeting-20260617190324031",
+      "condition_id": "0xdf9bf27ee5757c55b44b8b9826ddc9ec3a8809aa3278634c45edbb7fc8f1a3e3",
+      "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+      "synthesis_domain": "macro",
+      "pool_tags": [
+        "macro"
+      ],
+      "end_date": "2026-10-28",
+      "settlement_month": "2026-10",
+      "days_to_resolution_at_selection": 44,
+      "selection_snapshot": {
+        "date": "2026-09-14",
+        "yes_price": 0.615,
+        "liquidity_usd": 170275.8216,
+        "volume_usd": 402490.1432090002
+      },
+      "engine_support": "founder_per_item",
+      "liquidity_exception": {
+        "is_exception": false,
+        "reason": null
+      }
+    },
+    {
+      "registry_index": 4,
       "slug": "will-the-republican-party-control-the-senate-after-the-2026-midterm-elections",
-      "conditionId": "0x86bfb53af7250a40928975c551d12c185b762fa4ce0b40c6a64a50c946d72587",
-      "yes_price": 0.475,
-      "days_to_resolution": 49,
-      "end_date": "2026-11-03",
-      "open_ended": false,
-      "tags": [
+      "condition_id": "0x86bfb53af7250a40928975c551d12c185b762fa4ce0b40c6a64a50c946d72587",
+      "question": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+      "synthesis_domain": "policy",
+      "pool_tags": [
         "policy",
         "geopolitics"
       ],
-      "volume": 1781864.7988829995,
-      "liquidity": 234320.2819,
-      "category": null,
-      "settlement_month": "2026-11"
+      "end_date": "2026-11-03",
+      "settlement_month": "2026-11",
+      "days_to_resolution_at_selection": 49,
+      "selection_snapshot": {
+        "date": "2026-09-14",
+        "yes_price": 0.475,
+        "liquidity_usd": 234320.2819,
+        "volume_usd": 1781864.7988829995
+      },
+      "engine_support": "founder_per_item",
+      "liquidity_exception": {
+        "is_exception": false,
+        "reason": null
+      }
     },
     {
-      "question": "Billionaire one-time wealth tax passes in California election 2026?",
+      "registry_index": 5,
       "slug": "billionaire-one-time-wealth-tax-passes-in-california-election-2026",
-      "conditionId": "0x9345d5142a67f5541264c96515496affee02580f1c572680759eac9fd2a1588a",
-      "yes_price": 0.295,
-      "days_to_resolution": 49,
-      "end_date": "2026-11-03",
-      "open_ended": false,
-      "tags": [
+      "condition_id": "0x9345d5142a67f5541264c96515496affee02580f1c572680759eac9fd2a1588a",
+      "question": "Billionaire one-time wealth tax passes in California election 2026?",
+      "synthesis_domain": "policy",
+      "pool_tags": [
         "policy",
         "geopolitics"
       ],
-      "volume": 3727550.3860270022,
-      "liquidity": 88954.6907,
-      "category": null,
-      "settlement_month": "2026-11"
+      "end_date": "2026-11-03",
+      "settlement_month": "2026-11",
+      "days_to_resolution_at_selection": 49,
+      "selection_snapshot": {
+        "date": "2026-09-14",
+        "yes_price": 0.295,
+        "liquidity_usd": 88954.6907,
+        "volume_usd": 3727550.3860270022
+      },
+      "engine_support": "founder_per_item",
+      "liquidity_exception": {
+        "is_exception": false,
+        "reason": null
+      }
     },
     {
-      "question": "Will Iliana Iotova win the next Bulgarian presidential election?",
+      "registry_index": 6,
       "slug": "will-iliana-iotova-win-the-next-bulgarian-presidential-election",
-      "conditionId": "0x5512bfa9294bf914063ed120969908dee5cdf6e14293f28ca405d3ce4edcf485",
-      "yes_price": 0.625,
-      "days_to_resolution": 76,
-      "end_date": "2026-11-30",
-      "open_ended": false,
-      "tags": [
+      "condition_id": "0x5512bfa9294bf914063ed120969908dee5cdf6e14293f28ca405d3ce4edcf485",
+      "question": "Will Iliana Iotova win the next Bulgarian presidential election?",
+      "synthesis_domain": "geopolitics",
+      "pool_tags": [
         "geopolitics"
       ],
-      "volume": 137524.30678200003,
-      "liquidity": 26503.6084,
-      "category": null,
-      "settlement_month": "2026-11"
+      "end_date": "2026-11-30",
+      "settlement_month": "2026-11",
+      "days_to_resolution_at_selection": 76,
+      "selection_snapshot": {
+        "date": "2026-09-14",
+        "yes_price": 0.625,
+        "liquidity_usd": 26503.6084,
+        "volume_usd": 137524.30678200003
+      },
+      "engine_support": "founder_per_item",
+      "liquidity_exception": {
+        "is_exception": false,
+        "reason": null
+      }
     },
     {
-      "question": "Will Apple be the largest company in the world by market cap on December 31?",
+      "registry_index": 7,
       "slug": "will-apple-be-the-largest-company-in-the-world-by-market-cap-on-december-31-291",
-      "conditionId": "0x55a5a4b50b7947482e95af8f638fa0b8d9a46740c5cd04c6799443e83565176a",
-      "yes_price": 0.233,
-      "days_to_resolution": 107,
-      "end_date": "2026-12-31",
-      "open_ended": false,
-      "tags": [
+      "condition_id": "0x55a5a4b50b7947482e95af8f638fa0b8d9a46740c5cd04c6799443e83565176a",
+      "question": "Will Apple be the largest company in the world by market cap on December 31?",
+      "synthesis_domain": "ai-tech",
+      "pool_tags": [
         "ai-tech"
       ],
-      "volume": 924412.6842799999,
-      "liquidity": 123745.39694,
-      "category": null,
-      "settlement_month": "2026-12"
+      "end_date": "2026-12-31",
+      "settlement_month": "2026-12",
+      "days_to_resolution_at_selection": 107,
+      "selection_snapshot": {
+        "date": "2026-09-14",
+        "yes_price": 0.233,
+        "liquidity_usd": 123745.39694,
+        "volume_usd": 924412.6842799999
+      },
+      "engine_support": "founder_per_item",
+      "liquidity_exception": {
+        "is_exception": false,
+        "reason": null
+      }
     },
     {
-      "question": "Will the U.S. invade Iran before 2027?",
+      "registry_index": 8,
       "slug": "will-the-us-invade-iran-before-2027",
-      "conditionId": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
-      "yes_price": 0.165,
-      "days_to_resolution": 108,
-      "end_date": "2027-01-01",
-      "open_ended": false,
-      "tags": [
+      "condition_id": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
+      "question": "Will the U.S. invade Iran before 2027?",
+      "synthesis_domain": "geopolitics",
+      "pool_tags": [
         "geopolitics"
       ],
-      "volume": 66108128.764545076,
-      "liquidity": 645364.136,
-      "category": null,
-      "settlement_month": "2026-12"
+      "end_date": "2027-01-01",
+      "settlement_month": "2026-12",
+      "days_to_resolution_at_selection": 108,
+      "selection_snapshot": {
+        "date": "2026-09-14",
+        "yes_price": 0.165,
+        "liquidity_usd": 645364.136,
+        "volume_usd": 66108128.764545076
+      },
+      "engine_support": "founder_per_item",
+      "liquidity_exception": {
+        "is_exception": false,
+        "reason": null
+      }
     },
     {
-      "question": "Clarity Act (H.R.3633) signed into law in 2026?",
+      "registry_index": 9,
       "slug": "clarity-act-signed-into-law-in-2026",
-      "conditionId": "0x9cb23d04b2ded06147482076688b69b487a8d982c63ebdda2ab3678cf27cf390",
-      "yes_price": 0.285,
-      "days_to_resolution": 108,
-      "end_date": "2027-01-01",
-      "open_ended": false,
-      "tags": [
+      "condition_id": "0x9cb23d04b2ded06147482076688b69b487a8d982c63ebdda2ab3678cf27cf390",
+      "question": "Clarity Act (H.R.3633) signed into law in 2026?",
+      "synthesis_domain": "policy",
+      "pool_tags": [
         "policy"
       ],
-      "volume": 16574462.093220001,
-      "liquidity": 280863.2353,
-      "category": null,
-      "settlement_month": "2026-12"
+      "end_date": "2027-01-01",
+      "settlement_month": "2026-12",
+      "days_to_resolution_at_selection": 108,
+      "selection_snapshot": {
+        "date": "2026-09-14",
+        "yes_price": 0.285,
+        "liquidity_usd": 280863.2353,
+        "volume_usd": 16574462.093220001
+      },
+      "engine_support": "founder_per_item",
+      "liquidity_exception": {
+        "is_exception": false,
+        "reason": null
+      }
     },
     {
-      "question": "Will Marine Le Pen win the 2027 French presidential election?",
-      "slug": "will-marine-le-pen-win-the-2027-french-presidential-election",
-      "conditionId": "0x8126317d621047fb13d508a2651eecc8d38305904671822a62309c5aabd353aa",
-      "yes_price": 0.349,
-      "days_to_resolution": 227,
-      "end_date": "2027-04-30",
-      "open_ended": false,
-      "tags": [
-        "geopolitics"
-      ],
-      "volume": 2442035.689319,
-      "liquidity": 378349.37888,
-      "category": null,
-      "settlement_month": "2027-04"
-    },
-    {
-      "question": "US x Iran diplomatic meeting by March 31, 2027?",
+      "registry_index": 10,
       "slug": "us-x-iran-diplomatic-meeting-by-march-31-2027-491",
-      "conditionId": "0xe7a464eaf3aa5f378aeb08cef1d23ddb58f75b46aba414e8b66a2a451f168a7d",
-      "yes_price": 0.575,
-      "days_to_resolution": 198,
+      "condition_id": "0xe7a464eaf3aa5f378aeb08cef1d23ddb58f75b46aba414e8b66a2a451f168a7d",
+      "question": "US x Iran diplomatic meeting by March 31, 2027?",
+      "synthesis_domain": "geopolitics",
+      "pool_tags": [
+        "geopolitics"
+      ],
       "end_date": "2027-03-31",
-      "open_ended": false,
-      "tags": [
-        "geopolitics"
-      ],
-      "volume": 302158.76269999996,
-      "liquidity": 69460.6274,
-      "category": null,
-      "settlement_month": "2027-03"
+      "settlement_month": "2027-03",
+      "days_to_resolution_at_selection": 198,
+      "selection_snapshot": {
+        "date": "2026-09-14",
+        "yes_price": 0.575,
+        "liquidity_usd": 69460.6274,
+        "volume_usd": 302158.76269999996
+      },
+      "engine_support": "founder_per_item",
+      "liquidity_exception": {
+        "is_exception": false,
+        "reason": null
+      }
     },
     {
-      "question": "Will J.D. Vance win the 2028 Republican presidential nomination?",
-      "slug": "will-jd-vance-win-the-2028-republican-presidential-nomination",
-      "conditionId": "0x18b1c135d0a40c5894da9412e77311827d9caf16cf4cd6591b247a34730af919",
-      "yes_price": 0.5125,
-      "days_to_resolution": 784,
-      "end_date": "2028-11-07",
-      "open_ended": false,
-      "tags": [
+      "registry_index": 11,
+      "slug": "will-marine-le-pen-win-the-2027-french-presidential-election",
+      "condition_id": "0x8126317d621047fb13d508a2651eecc8d38305904671822a62309c5aabd353aa",
+      "question": "Will Marine Le Pen win the 2027 French presidential election?",
+      "synthesis_domain": "geopolitics",
+      "pool_tags": [
         "geopolitics"
       ],
-      "volume": 15635121.755110966,
-      "liquidity": 331991.8568,
-      "category": null,
-      "settlement_month": "2028-11"
+      "end_date": "2027-04-30",
+      "settlement_month": "2027-04",
+      "days_to_resolution_at_selection": 227,
+      "selection_snapshot": {
+        "date": "2026-09-14",
+        "yes_price": 0.349,
+        "liquidity_usd": 378349.37888,
+        "volume_usd": 2442035.689319
+      },
+      "engine_support": "founder_per_item",
+      "liquidity_exception": {
+        "is_exception": false,
+        "reason": null
+      }
     },
     {
-      "question": "Will the Republicans win the 2028 US Presidential Election?",
-      "slug": "will-the-republicans-win-the-2028-us-presidential-election",
-      "conditionId": "0x0a99479228e93524b25676ae69b94bd3f4278a6bca8d8c265c84d24755399cf5",
-      "yes_price": 0.335,
-      "days_to_resolution": 784,
-      "end_date": "2028-11-07",
-      "open_ended": false,
-      "tags": [
+      "registry_index": 12,
+      "slug": "will-javier-milei-win-the-2027-argentina-presidential-election",
+      "condition_id": "0x338f6f3e5ff30f189a7228290a66b9a4213722032da364c8635b496589ddfd3b",
+      "question": "Will Javier Milei win the 2027 Argentina presidential election?",
+      "synthesis_domain": "geopolitics",
+      "pool_tags": [
         "geopolitics"
       ],
-      "volume": 1161041.5626310005,
-      "liquidity": 296118.475,
-      "category": null,
-      "settlement_month": "2028-11"
+      "end_date": "2027-10-24",
+      "settlement_month": "2027-10",
+      "days_to_resolution_at_selection": 404,
+      "selection_snapshot": {
+        "date": "2026-09-14",
+        "yes_price": 0.54,
+        "liquidity_usd": 23701.113,
+        "volume_usd": 174356.52144099996
+      },
+      "engine_support": "founder_per_item",
+      "liquidity_exception": {
+        "is_exception": false,
+        "reason": null
+      }
     },
     {
-      "question": "Skin cancer vaccine FDA approved by December 31, 2027?",
+      "registry_index": 13,
       "slug": "skin-cancer-vaccine-fda-approved-by-december-31-2027",
-      "conditionId": "0x0b44e9c6eb563adf459816f9a7a2de0aa66ba5423c474ecab30c97203a3e8207",
-      "yes_price": 0.645,
-      "days_to_resolution": 473,
-      "end_date": "2027-12-31",
-      "open_ended": false,
-      "tags": [
+      "condition_id": "0x0b44e9c6eb563adf459816f9a7a2de0aa66ba5423c474ecab30c97203a3e8207",
+      "question": "Skin cancer vaccine FDA approved by December 31, 2027?",
+      "synthesis_domain": "other",
+      "pool_tags": [
         "other"
       ],
-      "volume": 84228.494943,
-      "liquidity": 21481.6211,
-      "category": null,
-      "settlement_month": "2027-12"
+      "end_date": "2027-12-31",
+      "settlement_month": "2027-12",
+      "days_to_resolution_at_selection": 473,
+      "selection_snapshot": {
+        "date": "2026-09-14",
+        "yes_price": 0.645,
+        "liquidity_usd": 21481.6211,
+        "volume_usd": 84228.494943
+      },
+      "engine_support": "founder_per_item",
+      "liquidity_exception": {
+        "is_exception": false,
+        "reason": null
+      }
     },
     {
-      "question": "Will Javier Milei win the 2027 Argentina presidential election?",
-      "slug": "will-javier-milei-win-the-2027-argentina-presidential-election",
-      "conditionId": "0x338f6f3e5ff30f189a7228290a66b9a4213722032da364c8635b496589ddfd3b",
-      "yes_price": 0.54,
-      "days_to_resolution": 404,
-      "end_date": "2027-10-24",
-      "open_ended": false,
-      "tags": [
+      "registry_index": 14,
+      "slug": "will-jd-vance-win-the-2028-republican-presidential-nomination",
+      "condition_id": "0x18b1c135d0a40c5894da9412e77311827d9caf16cf4cd6591b247a34730af919",
+      "question": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+      "synthesis_domain": "geopolitics",
+      "pool_tags": [
         "geopolitics"
       ],
-      "volume": 174356.52144099996,
-      "liquidity": 23701.113,
-      "category": null,
-      "settlement_month": "2027-10"
+      "end_date": "2028-11-07",
+      "settlement_month": "2028-11",
+      "days_to_resolution_at_selection": 784,
+      "selection_snapshot": {
+        "date": "2026-09-14",
+        "yes_price": 0.5125,
+        "liquidity_usd": 331991.8568,
+        "volume_usd": 15635121.755110966
+      },
+      "engine_support": "founder_per_item",
+      "liquidity_exception": {
+        "is_exception": false,
+        "reason": null
+      }
+    },
+    {
+      "registry_index": 15,
+      "slug": "will-the-republicans-win-the-2028-us-presidential-election",
+      "condition_id": "0x0a99479228e93524b25676ae69b94bd3f4278a6bca8d8c265c84d24755399cf5",
+      "question": "Will the Republicans win the 2028 US Presidential Election?",
+      "synthesis_domain": "geopolitics",
+      "pool_tags": [
+        "geopolitics"
+      ],
+      "end_date": "2028-11-07",
+      "settlement_month": "2028-11",
+      "days_to_resolution_at_selection": 784,
+      "selection_snapshot": {
+        "date": "2026-09-14",
+        "yes_price": 0.335,
+        "liquidity_usd": 296118.475,
+        "volume_usd": 1161041.5626310005
+      },
+      "engine_support": "founder_per_item",
+      "liquidity_exception": {
+        "is_exception": false,
+        "reason": null
+      }
     }
   ]
 }
