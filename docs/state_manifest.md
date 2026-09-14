@@ -115,6 +115,14 @@ These govern how work gets done and how remediation is verified. They are load-b
 
 - **Mixed-Source Synthesis Rule** (ratified April 29, 2026). Do not synthesize across components or files of differing validity or freshness without explicit reconciliation. A `VALID: yes` output and a `VALID: no` output may not be combined into a single conclusion. A current output and a stale output may not be combined without an explicit timestamp note. This covers cross-file staleness, mixed-validity synthesis, and the Social Proof Loop class of failure (where confident narratives compound across engines without returning to raw data).
 
+- **Registry version selection procedure** (ratified September 14, 2026). Selection rules 3a-3f (ledger, July 12, 2026) define what a valid registry *contains*; this procedure defines how a candidate is *verified* before it becomes canonical. Gates run in order, none skippable. Generalized from the v2 selection gates, which were written as a one-off for that version.
+  - **Fresh pool.** Regenerate the qualifying pool before selecting; a prior pool is stale by default. Identify existing tooling by content, not filename (Pattern C). Selection runs only against the fresh pull's output.
+  - **Known loader defects ship before lock.** Any outstanding defect in the consuming loader is fixed and verified (ast.parse clean, `--selfcheck` passing on the current registry, new hash recorded) before a candidate is locked — not after.
+  - **Schema conformance.** Verify the candidate against the loader's input contract by reading the loader's source, not by assuming its interface. Field names and required keys are part of the contract. *Added after the v2 promotion, where the candidate was built in pool-record shape and would have hard-failed the loader on version mismatch; caught only by reading the source.*
+  - **Candidate, then confirm.** Commit the selection as a CANDIDATE file. Promotion to locked requires a cold re-read in a fresh context. Only after promotion: repoint the loader, archive the predecessor with the ratified archive note.
+  - **Standing prohibitions.** No market may be proposed from an engine's general knowledge — that is the seed-file shape; cite a pool line for every pick. Never promote a CANDIDATE inside the selection session. Never combine two registry versions as one series.
+  - **Evidence base:** promoted on one completed run (v2, September 14, 2026), which caught six findings including a 3b violation masked by the year boundary, and missed the schema shape now covered above. One run, not a battle-tested procedure.
+
 ---
 
 ## System validity by component
