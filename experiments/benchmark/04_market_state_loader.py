@@ -80,7 +80,7 @@ REQUEST_TIMEOUT_SECONDS = 30
 # Piece 2: registry load + identity contract
 #
 # Reads the LOCAL registry file only. No network. This is where the loader
-# learns "the right 8 markets" so that later (Piece 3+) it can verify the API
+# learns "the right 15 markets" so that later (Piece 3+) it can verify the API
 # handed back exactly those 8 and not a swapped/missing/extra market.
 #
 # Honors the contract:
@@ -90,7 +90,7 @@ REQUEST_TIMEOUT_SECONDS = 30
 #     (slug, condition_id, question, selection_snapshot, etc.) so the loader can
 #     carry the snapshot into its output later.
 #   - "don't trust silently": if the registry isn't the version we expect, or
-#     doesn't contain exactly 8 markets with unique condition_ids, we raise a
+#     doesn't contain exactly 15 markets with unique condition_ids, we raise a
 #     hard error instead of quietly working off the wrong list.
 # ---------------------------------------------------------------------------
 
@@ -119,16 +119,16 @@ def validate_registry(registry: dict) -> None:
 
       1. version must match EXPECTED_REGISTRY_VERSION ('v2').
       2. 'markets' must be a list.
-      3. there must be exactly 8 markets.
+      3. there must be exactly 15 markets.
       4. every market must carry a non-empty condition_id.
-      5. the 8 condition_ids must be unique (no duplicates / no accidental
+      5. the 15 condition_ids must be unique (no duplicates / no accidental
          double-listing of the same market).
     """
     version = registry.get("version")
     if version != EXPECTED_REGISTRY_VERSION:
         raise RegistryError(
             f"Registry version mismatch: expected '{EXPECTED_REGISTRY_VERSION}', "
-            f"got '{version}'. Loader is built for the v1 registry only."
+            f"got '{version}'. Loader is built for the v2 registry only."
         )
 
     markets = registry.get("markets")
@@ -137,7 +137,7 @@ def validate_registry(registry: dict) -> None:
 
     if len(markets) != 15:
         raise RegistryError(
-            f"Registry must contain exactly 8 markets; found {len(markets)}."
+            f"Registry must contain exactly 15 markets; found {len(markets)}."
         )
 
     condition_ids = []
@@ -153,12 +153,12 @@ def validate_registry(registry: dict) -> None:
     unique = set(condition_ids)
     if len(unique) != len(condition_ids):
         raise RegistryError(
-            "Registry contains duplicate condition_ids; the 8 markets must be distinct."
+            "Registry contains duplicate condition_ids; the 15 markets must be distinct."
         )
 
 
 def get_expected_condition_ids(registry: dict) -> set:
-    """The set of 8 condition_ids the API must return — the Q5.1 identity anchor.
+    """The set of 15 condition_ids the API must return — the Q5.1 identity anchor.
     Returns a set for exact set-equality comparison later (Piece 3+)."""
     return {m["condition_id"] for m in registry["markets"]}
 
@@ -400,7 +400,7 @@ def parse_price_string(outcome_prices_raw, condition_id: str):
 def require_num_field(market: dict, field: str, condition_id: str) -> float:
     """Read a typed numeric *Num field, hard-failing if it is absent or not a
     number. Used for liquidityNum and volumeNum, which the June 28 probe
-    confirmed present on all 8 markets. (24h volume is deliberately NOT read
+    confirmed present on all 15 markets. (24h volume is deliberately NOT read
     here — see the volume-field-gap note.)"""
     if field not in market:
         raise TransformError(

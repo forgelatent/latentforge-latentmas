@@ -18,9 +18,10 @@ shed its entire provenance record. Both halves are listed below for that reason.
 - `condition_id` per market — non-empty string. [loader:145-152]
 - `condition_id` uniqueness — no duplicates across the 15. [loader:154-159]
 
-Caution: the count and duplicate error *messages* still say "8 markets" and the
-version error says "built for the v1 registry only". The enforced logic is 15/v2;
-the strings are stale from v1. Trust the code, not the message.
+Note: these error messages and the surrounding docstrings originally carried v1
+text ("8 markets", "built for the v1 registry only") while enforcing 15/v2. Corrected
+September 14, 2026. One comment at line 179 still describes the pre-July-11 single-call
+fetch and is knowingly left for separate work.
 
 ## Loader pass-through — read with .get(), default None, never validated
 
