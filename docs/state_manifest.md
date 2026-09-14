@@ -4,14 +4,14 @@
 
 Companion to `docs/intent.md`. Where `intent.md` defines what the project is *for* (permanent), this file defines what is *currently true* (volatile — operational state + session hygiene). Fresh Claude sessions read both at the start of every session.
 
-Last meaningful update: July 11, 2026
+Last meaningful update: September 14, 2026
 Maintained by: John McGuire (Founder Engine), with Systems Engine (Claude) and Divergent Thinking Engine (Grok)
 
 ---
 
 ## HEAD
 
-**HEAD:** `755a79c` — fix(research-sweep): fail loud on total fetch failure (preceded by `6476c03`: mode1 loader install + two-pass fetch fix)
+**HEAD:** `e6d7b3b` — docs(registry): archive v1 with companion note at v2 handover (preceded by `1665078`: mode1 loader repointed to registry v2)
 *(Use `git log -1 HEAD` for timestamp.)*
 
 ---
@@ -176,13 +176,13 @@ Purpose: to show a fresh session the *Operational Delta* — the gap between whe
   - Cross-reference: `incident_ledger.md` Section 4 May 24, 2026 second entry ("calibration_tracker.py audited; VALID restored").
 
 - mode1-loader `[LOADED: yes | VALID: yes]`
-  - Mode 1 market-state loader: `experiments/benchmark/04_market_state_loader.py` (launchd job `com.latentforge.mode1-loader`, 4:50 AM, wrapper `scripts/run_mode1_loader.sh` — keyless, public Gamma endpoint, deliberately not `run_with_key.sh`). Installed and verified July 11, 2026; file hash of record `f487be95...`; commit `6476c03`.
-  - Fetches the 8 Round-3 registry markets via **two-pass bulk fetch** (bare query -> live; `closed=true` -> closed; merged with duplicate-cid hard-fail) — required because the Gamma endpoint silently filters `closed=false` by default even on explicit condition_id queries (see `incident_ledger.md` July 11, 2026 entry). Q5.1 identity check on the merged set; per-market LIVE/RETIRED classification with `cause_of_death` (closed vs missing); tiered exits 0/1/2 (ALL_LIVE / RETIRED_PRESENT / ERROR). **Exit 1 is a success tier, not a failure** — the wrapper translates 0 and 1 both to clean exit for launchd and retries only on 2.
-  - Output: `experiments/benchmark/mode1/market_state_YYYY-MM-DD.json` + atomic `market_state_current.json` symlink; ERROR runs write a sidecar and preserve the last good file. Daily output gitignored (July 11 decision); ERROR sidecars deliberately not ignored.
-  - Current data state: 3 LIVE, 5 RETIRED (June 30 resolutions). **Downstream consumers must handle a shrinking live-market count.**
-  - **Reproducers:** `shasum -a 256 experiments/benchmark/04_market_state_loader.py` returns `f487be95...`; `python3 experiments/benchmark/04_market_state_loader.py --selfcheck` shows 8 markets in merged response; `launchctl list | grep mode1` shows the job; `tail -5 experiments/benchmark/mode1/cron.log` shows the RETIRED_PRESENT success line.
-  - `depends-on:` Polymarket Gamma API (direct HTTPS), `benchmark_registry_v1.json`. Not dependent on: any other launchd component, BRAIN.md, Anthropic API.
-  - **RESOLVED July 12, 2026 (Round 5):** v2 triggered by Founder decision. v1 is archive-on-handover: loader continues reading v1 (daily exit 1 = normal) until v2 is locked and verified, then the job is repointed and v1 archived with note. Selection rules and gates: see ledger July 12 Round 5 entry and `founder_inputs/2026-07-12_v2_selection_session_handoff.md`. v2 selection in progress; do not treat any `benchmark_registry_v2_CANDIDATE.json` as locked.
+  - Mode 1 market-state loader: `experiments/benchmark/04_market_state_loader.py` (launchd job `com.latentforge.mode1-loader`, 4:50 AM, wrapper `scripts/run_mode1_loader.sh` — keyless, public Gamma endpoint, deliberately not `run_with_key.sh`). **File hash of record: `9cc65738...`** (supersedes `8ce0ca39` Gate 3 hardening, and `f487be95` from the July 11 install).
+  - **Reads `benchmark_registry_v2.json` (repo root), 15 markets, locked September 14, 2026** after the Gate 4 cold re-read. Registry hash of record `c4717c68...`. Registry v1 archived the same day — see `experiments/benchmark/benchmark_registry_v1_ARCHIVE_NOTE.md` and `incident_ledger.md` September 14, 2026 entry.
+  - Two-pass bulk fetch (bare -> live; `closed=true` -> closed), merged with duplicate-cid hard-fail, explicit `limit` param. Q5.1 identity check on the merged set; per-market LIVE/RETIRED classification with `cause_of_death`; tiered exits 0/1/2 (ALL_LIVE / RETIRED_PRESENT / ERROR). **Exit 1 is a success tier, not a failure** — the wrapper translates 0 and 1 both to clean exit for launchd and retries only on 2.
+  - Output: `experiments/benchmark/mode1/market_state_YYYY-MM-DD.json` + atomic `market_state_current.json` symlink; ERROR runs write a sidecar and preserve the last good file. Daily output gitignored; ERROR sidecars deliberately not ignored.
+  - Current data state: **15 LIVE, 0 RETIRED** (verified September 14, 2026 — first exit 0 since the June 30 v1 retirements). **Downstream consumers must still handle a shrinking live count:** two markets resolve within three weeks (Bitcoin 16d, Bolsonaro 19d), and rule 3d triggers next-version selection below 10 live, urgent below 6.
+  - **Reproducers:** `shasum -a 256 experiments/benchmark/04_market_state_loader.py` returns `9cc65738...`; `shasum -a 256 benchmark_registry_v2.json` returns `c4717c68...`; `python3 experiments/benchmark/04_market_state_loader.py --selfcheck` reports registry version v2, market count 15, 15 unique condition_ids; `launchctl list | grep mode1` shows the job; `tail -5 experiments/benchmark/mode1/cron.log` shows the most recent run line.
+  - `depends-on:` Polymarket Gamma API (direct HTTPS), `benchmark_registry_v2.json`. Not dependent on: any other launchd component, BRAIN.md, Anthropic API.
 
 **Active, untrusted:**
 
