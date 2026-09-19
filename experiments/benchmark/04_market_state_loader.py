@@ -2,8 +2,8 @@
 """
 04_market_state_loader.py — LatentForge Mode 1 v1 market-state loader.
 
-Reads the 8-market benchmark registry, fetches their current state from the
-Polymarket Gamma API in one bulk call, normalizes it into deterministic Mode 1
+Reads the 15-market benchmark registry (v2), fetches their current state from the
+Polymarket Gamma API in a two-pass bulk fetch, normalizes it into deterministic Mode 1
 semantics, and writes a single daily snapshot that all downstream consumers read.
 
 Built against the LOCKED loader contract:
@@ -15,7 +15,7 @@ This file is implementation only. The contract is inherited, not re-opened.
 BUILD PROGRESS (6 pieces):
   [x] Piece 1: scaffolding — constants and paths
   [x] Piece 2: registry load + identity contract (reads local registry only)
-  [x] Piece 3: HTTP fetch (the single bulk API call, retry, loud failure)
+  [x] Piece 3: HTTP fetch (two-pass bulk call, merge, retry, loud failure)
   [x] Piece 4: transform / normalize (the single normalization gatekeeper)
   [x] Piece 5: state decision + identity + exit codes + provenance + write
   [x] Piece 6: launchd scheduling (plist + wrapper + manual run)
@@ -53,7 +53,7 @@ EXPECTED_REGISTRY_VERSION = "v2"            # the registry version this loader i
 HOME = Path.home()
 REPO_ROOT = HOME / "Projects" / "latentforge-latentmas"
 
-# Input: the locked 8-market registry the loader reads.
+# Input: the locked 15-market registry (v2) the loader reads.
 REGISTRY_PATH = REPO_ROOT / "benchmark_registry_v2.json"
 
 # Output: the loader's own dedicated room (Piece 1 decision).
@@ -69,7 +69,7 @@ USER_AGENT = "LatentForge-mode1-loader/1.0"
 
 GAMMA_MARKETS_ENDPOINT = "https://gamma-api.polymarket.com/markets"
 
-# Q4 retry policy: 2 attempts on the single bulk call, waiting 10s then 30s
+# Q4 retry policy: 1 try + 2 retries (waits 10s, then 30s) on each bulk call
 # before each retry, then ERROR. Lighter than polymarket-pull's 3x5min because
 # this is one targeted call, not a full-surface pull.
 RETRY_BACKOFF_SECONDS = [10, 30]   # len = number of retries after the first try
@@ -172,17 +172,29 @@ def get_registry_records_by_condition_id(registry: dict) -> dict:
 
 
 # ---------------------------------------------------------------------------
-# Piece 3: HTTP fetch — the single bulk call
+# Piece 3: HTTP fetch — the two-pass bulk fetch
 #
-# Honors the contract (Q4):
+# Honors the contract (Q4, amended July 11, 2026 — see incident_ledger.md):
 #   - urllib + explicit User-Agent (without the UA the API returns 403).
-#   - ONE bulk call to /markets?condition_ids=... for all 8 markets.
+#   - TWO bulk calls to /markets?condition_ids=..., both carrying the full
+#     registry's condition_ids and an explicit `limit`:
+#       pass 1: bare query      -> returns only LIVE markets
+#       pass 2: `closed=true`   -> returns only CLOSED markets
+#     The Gamma API silently applies `closed=false` by default even when
+#     querying by explicit condition_ids, and `closed=true` is an exclusive
+#     filter. There is no single-call way to retrieve a registry containing
+#     any resolved market. The two responses partition the registry exactly;
+#     they are merged by conditionId with a duplicate-cid hard-fail guard.
 #   - NO per-slug fallback. All-or-nothing is intended: a complete time-aligned
 #     record, or a clean labeled gap (ERROR). We do not build a second ingestion
 #     path (that would be fallback-shaped behavior — the exact thing [L-1] forbids).
-#   - 2-attempt retry (waits 10s, then 30s) on the single bulk call, then ERROR.
+#   - Up to 2 retries after the first try (waits 10s, then 30s) on each bulk
+#     call independently, then ERROR. Distinct from the launchd wrapper's own
+#     3-attempt retry, which re-runs the whole loader.
+#   - Provenance is dual (Q5.3): api_response_sha256_live and _closed, each
+#     fingerprinting the bytes that actually arrived on that pass.
 #
-# This function does ONE job: get the raw bytes back, or fail loudly. It does
+# These functions do ONE job: get the raw bytes back, or fail loudly. They do
 # NOT parse market fields, judge liveness, or check identity — those are later
 # pieces. Keeping fetch separate from interpret is the locked architecture.
 # ---------------------------------------------------------------------------
