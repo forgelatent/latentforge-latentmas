@@ -1,0 +1,6 @@
+{
+  "run_state": "ERROR",
+  "error_kind": "fetch",
+  "error": "Bulk market fetch failed after 3 attempt(s). Last error: URLError [Errno 8] nodename nor servname provided, or not known",
+  "loader_run_at": "2026-07-17T11:51:34.554662+00:00"
+}
