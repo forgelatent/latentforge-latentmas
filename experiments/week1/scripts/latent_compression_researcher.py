@@ -3,9 +3,16 @@ LatentForge — Latent Compression Researcher Agent
 Runs nightly at 2 AM. Reads today's research digest + BRAIN.md and generates
 2-4 concrete compression/latent space suggestions from adjacent fields.
 Output: research/suggestions/YYYY-MM-DD.md
+
+Failure contract (September 19 2026): any failed call exits non-zero and
+writes NOTHING to the output path. Exit 1 = call failed. Exit 2 = call
+returned but the response does not look like research. The wrapper retries
+on any non-zero exit.
 """
 
 import os
+import sys
+import subprocess
 import requests
 from datetime import datetime
 from pathlib import Path
@@ -54,6 +61,12 @@ Generate exactly 3 suggestions. Prioritize ideas that are:
 Do not pad. Do not summarize. Only concrete, actionable suggestions."""
 
 
+def fail(reason, code=1):
+    print(f"FAILED: {reason}")
+    print(f"No output file written for {TODAY}.")
+    sys.exit(code)
+
+
 def load_latest_digest():
     files = sorted(DIGEST_DIR.glob("*.md"), key=lambda x: x.stat().st_mtime, reverse=True)
     if not files:
@@ -78,7 +91,7 @@ def load_brain_summary():
 
 def call_claude(prompt):
     if not ANTHROPIC_API_KEY:
-        return "ERROR: ANTHROPIC_API_KEY not set."
+        fail("ANTHROPIC_API_KEY not set")
     try:
         r = requests.post(
             "https://api.anthropic.com/v1/messages",
@@ -98,12 +111,17 @@ def call_claude(prompt):
         if r.status_code == 200:
             return r.json()["content"][0]["text"]
         else:
-            return f"API Error {r.status_code}: {r.text[:200]}"
+            fail(f"API Error {r.status_code}: {r.text[:200]}")
     except Exception as e:
-        return f"Request failed: {e}"
+        fail(f"Request failed: {e}")
 
 
 def main():
+    try:
+        subprocess.Popen(["/usr/bin/caffeinate", "-i", "-w", str(os.getpid())])
+    except Exception as e:
+        print(f"WARNING: could not start caffeinate, sleep may interrupt the call: {e}")
+
     digest = load_latest_digest()
     brain = load_brain_summary()
 
@@ -119,6 +137,11 @@ Based on this context, generate 3 concrete compression/latent space suggestions 
 
     print(f"Running Latent Compression Researcher for {TODAY}...")
     result = call_claude(prompt)
+
+    if result is None or result.count("SUGGESTION") < 1 or len(result) < 1000:
+        shown = "" if result is None else result[:200]
+        size = 0 if result is None else len(result)
+        fail(f"response does not look like research (length {size}): {shown}", code=2)
 
     output = f"# Latent Compression Research Suggestions — {TODAY}\n\n"
     output += f"*Generated at {datetime.now().strftime('%H:%M')} by compression researcher agent*\n\n"
