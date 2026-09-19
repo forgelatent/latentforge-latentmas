@@ -34,8 +34,19 @@ def main():
         # Kalshi API usually returns {"markets": [...] } or direct list
         if isinstance(data, dict) and "markets" in data:
             markets = data["markets"]
+        elif isinstance(data, list):
+            markets = data
         else:
-            markets = data if isinstance(data, list) else []
+            shape = sorted(data.keys())[:10] if isinstance(data, dict) else type(data).__name__
+            print(f"Error: unexpected Kalshi response shape ({shape}) - nothing written")
+            sys.exit(2)
+
+        if not isinstance(markets, list) or len(markets) == 0:
+            print("Error: Kalshi returned no markets (empty or not a list) - nothing written")
+            sys.exit(2)
+
+        if isinstance(data, dict) and data.get("cursor"):
+            print("NOTE: Kalshi reports more pages - this file holds the first page only")
 
         print(f"Total markets received: {len(markets)}")
 
