@@ -49,7 +49,9 @@ X_WATCHLIST = {
 
 # RSS feeds for people who have them (auto-pulled)
 RSS_FEEDS = [
-    ("Andrew Ng newsletter", "https://www.deeplearning.ai/the-batch/feed/"),
+    # Andrew Ng newsletter (deeplearning.ai/the-batch/feed/) removed 2026-09-19: address returns
+    # HTTP 404 (probe, Tier 1). No official feed found; a community-made substitute answered 200
+    # with zero items. Re-add only with a feed that a probe shows returning real items.
     ("Lex Fridman blog", "https://lexfridman.com/feed/"),
 ]
 
@@ -60,11 +62,32 @@ COMPETITIVE_WATCH = [
 
 FETCH_STATS = {"attempts": 0, "failures": 0}
 
+# Failure contract (September 19 2026):
+#   all fetches fail            -> no digest written, exit 1 (July 12)
+#   every arXiv or GitHub fetch -> digest written WITH a FETCH FAILED section, then exit 1
+#     fails (source dark)          so the wrapper retries; RSS is excluded from this trigger
+#   some fetches fail           -> digest written, each failure named in banner and log, exit 0
+FETCH_FAILURES = []   # (source, label, reason)
+SOURCE_STATS = {}     # source -> [attempts, failures]
+
+def note_attempt(source):
+    FETCH_STATS["attempts"] += 1
+    SOURCE_STATS.setdefault(source, [0, 0])[0] += 1
+
+def note_failure(source, label, reason):
+    FETCH_STATS["failures"] += 1
+    SOURCE_STATS.setdefault(source, [0, 0])[1] += 1
+    FETCH_FAILURES.append((source, label, reason))
+
+def source_dark(source):
+    attempts, failures = SOURCE_STATS.get(source, [0, 0])
+    return attempts > 0 and failures == attempts
+
 def arxiv_search():
     results = []
     seen = set()
     for term in ARXIV_TERMS:
-        FETCH_STATS["attempts"] += 1
+        note_attempt("arxiv")
         url = f"https://export.arxiv.org/api/query?search_query=all:{term}&sortBy=submittedDate&sortOrder=descending&max_results=5"
         try:
             resp = requests.get(url, timeout=15)
@@ -78,15 +101,15 @@ def arxiv_search():
                         seen.add(key)
                         results.append(f"arXiv [{term}]: {t.strip()} — https://arxiv.org/abs/{key}")
             if resp.status_code != 200:
-                FETCH_STATS["failures"] += 1
-        except Exception:
-            FETCH_STATS["failures"] += 1
+                note_failure("arxiv", term, f"HTTP {resp.status_code}")
+        except Exception as e:
+            note_failure("arxiv", term, f"exception {type(e).__name__}")
     return results
 
 def github_activity():
     results = []
     for repo in GITHUB_REPOS:
-        FETCH_STATS["attempts"] += 1
+        note_attempt("github")
         url = f"https://api.github.com/repos/{repo}/commits?per_page=3"
         try:
             resp = requests.get(url, timeout=15)
@@ -95,27 +118,29 @@ def github_activity():
                     msg = c['commit']['message'][:100].replace('\n', ' ')
                     results.append(f"GitHub {repo}: {msg}... — {c['html_url']}")
             if resp.status_code != 200:
-                FETCH_STATS["failures"] += 1
-        except Exception:
-            FETCH_STATS["failures"] += 1
+                note_failure("github", repo, f"HTTP {resp.status_code}")
+        except Exception as e:
+            note_failure("github", repo, f"exception {type(e).__name__}")
     return results
 
 def rss_check():
     results = []
     for name, url in RSS_FEEDS:
-        FETCH_STATS["attempts"] += 1
+        note_attempt("rss")
         try:
-            resp = requests.get(url, timeout=10)
+            resp = requests.get(url, timeout=60)
             if resp.status_code == 200:
                 import re
                 titles = re.findall(r'<title>(.*?)</title>', resp.text)
                 links = re.findall(r'<link>(.*?)</link>', resp.text)
                 if len(titles) > 1:
                     results.append(f"{name}: {titles[1].strip()} — {links[1].strip() if len(links) > 1 else ''}")
+                else:
+                    note_failure("rss", name, "HTTP 200 but no items in feed")
             if resp.status_code != 200:
-                FETCH_STATS["failures"] += 1
-        except Exception:
-            FETCH_STATS["failures"] += 1
+                note_failure("rss", name, f"HTTP {resp.status_code}")
+        except Exception as e:
+            note_failure("rss", name, f"exception {type(e).__name__}")
     return results
 
 def build_x_watchlist():
@@ -140,6 +165,9 @@ def main():
 
     if FETCH_STATS["failures"] > 0:
         content += f"**WARNING: {FETCH_STATS['failures']} of {FETCH_STATS['attempts']} fetch attempts failed this run — sections below may be incomplete.**\n\n"
+        for source, label, reason in FETCH_FAILURES:
+            content += f"- FAILED {source}: {label} ({reason})\n"
+        content += "\n"
 
     content += "## X/Twitter Watchlist (manual check)\n"
     content += "\n".join(x_lines)
@@ -153,6 +181,8 @@ def main():
     content += "## arXiv Recent Papers\n"
     if arxiv_results:
         content += "\n".join([f"- {r}" for r in arxiv_results])
+    elif source_dark("arxiv"):
+        content += f"**FETCH FAILED: all {SOURCE_STATS['arxiv'][0]} arXiv queries failed. This is NOT a quiet day. arXiv was not checked.**"
     else:
         content += "No new results found."
     content += "\n\n"
@@ -160,6 +190,8 @@ def main():
     content += "## GitHub Activity (key repos)\n"
     if github_results:
         content += "\n".join([f"- {r}" for r in github_results])
+    elif source_dark("github"):
+        content += f"**FETCH FAILED: all {SOURCE_STATS['github'][0]} GitHub repo checks failed. This is NOT a quiet day. GitHub was not checked.**"
     else:
         content += "No recent activity."
     content += "\n\n"
@@ -180,6 +212,14 @@ def main():
 
     print(f"Research digest saved to {OUTPUT_FILE}")
     print(f"  arXiv hits: {len(arxiv_results)} | GitHub updates: {len(github_results)} | RSS: {len(rss_results)} | fetch failures: {FETCH_STATS['failures']}/{FETCH_STATS['attempts']}")
+    for source, label, reason in FETCH_FAILURES:
+        print(f"  FAILED {source}: {label} ({reason})")
+
+    dark = [s for s in ("arxiv", "github") if source_dark(s)]
+    if dark:
+        print(f"SOURCE DARK: every {' and '.join(dark)} fetch failed. Digest written with FETCH FAILED markers; exiting 1 so the wrapper retries.")
+        raise SystemExit(1)
+
 
 if __name__ == "__main__":
     main()
