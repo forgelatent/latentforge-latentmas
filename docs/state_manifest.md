@@ -11,7 +11,7 @@ Maintained by: John McGuire (Founder Engine), with Systems Engine (Claude) and D
 
 ## HEAD
 
-**HEAD:** `e6d7b3b` — docs(registry): archive v1 with companion note at v2 handover (preceded by `1665078`: mode1 loader repointed to registry v2)
+**HEAD:** `247ca8e` — fix(mode1-loader): correct stale single-call fetch description, six strings (preceded by `ee8be3d`: repo-wide stale-v1 sweep)
 *(Use `git log -1 HEAD` for timestamp.)*
 
 ---
@@ -184,12 +184,12 @@ Purpose: to show a fresh session the *Operational Delta* — the gap between whe
   - Cross-reference: `incident_ledger.md` Section 4 May 24, 2026 second entry ("calibration_tracker.py audited; VALID restored").
 
 - mode1-loader `[LOADED: yes | VALID: yes]`
-  - Mode 1 market-state loader: `experiments/benchmark/04_market_state_loader.py` (launchd job `com.latentforge.mode1-loader`, 4:50 AM, wrapper `scripts/run_mode1_loader.sh` — keyless, public Gamma endpoint, deliberately not `run_with_key.sh`). **File hash of record: `aa8e59cd...`** (supersedes `9cc65738` from the September 14 v2 repoint, `8ce0ca39` Gate 3 hardening, and `f487be95` from the July 11 install).
+  - Mode 1 market-state loader: `experiments/benchmark/04_market_state_loader.py` (launchd job `com.latentforge.mode1-loader`, 4:50 AM, wrapper `scripts/run_mode1_loader.sh` — keyless, public Gamma endpoint, deliberately not `run_with_key.sh`). **File hash of record: `32197ee0...`** (supersedes `aa8e59cd` from the September 14 input-contract session, `9cc65738` from the v2 repoint, `8ce0ca39` Gate 3 hardening, and `f487be95` from the July 11 install).
   - **Reads `benchmark_registry_v2.json` (repo root), 15 markets, locked September 14, 2026** after the Gate 4 cold re-read. Registry hash of record `c4717c68...`. Registry v1 archived the same day — see `experiments/benchmark/benchmark_registry_v1_ARCHIVE_NOTE.md` and `incident_ledger.md` September 14, 2026 entry.
   - Two-pass bulk fetch (bare -> live; `closed=true` -> closed), merged with duplicate-cid hard-fail, explicit `limit` param. Q5.1 identity check on the merged set; per-market LIVE/RETIRED classification with `cause_of_death`; tiered exits 0/1/2 (ALL_LIVE / RETIRED_PRESENT / ERROR). **Exit 1 is a success tier, not a failure** — the wrapper translates 0 and 1 both to clean exit for launchd and retries only on 2.
   - Output: `experiments/benchmark/mode1/market_state_YYYY-MM-DD.json` + atomic `market_state_current.json` symlink; ERROR runs write a sidecar and preserve the last good file. Daily output gitignored; ERROR sidecars deliberately not ignored.
   - Current data state: **15 LIVE, 0 RETIRED** (verified September 14, 2026 — first exit 0 since the June 30 v1 retirements). **Downstream consumers must still handle a shrinking live count:** two markets resolve within three weeks (Bitcoin 16d, Bolsonaro 19d), and rule 3d triggers next-version selection below 10 live, urgent below 6.
-  - **Reproducers — registry state** (what the loader is wired to, independent of scheduling): `shasum -a 256 experiments/benchmark/04_market_state_loader.py` returns `aa8e59cd...`; `shasum -a 256 benchmark_registry_v2.json` returns `c4717c68...`; `python3 experiments/benchmark/04_market_state_loader.py --selfcheck` reports registry version v2, market count 15, 15 unique condition_ids.
+  - **Reproducers — registry state** (what the loader is wired to, independent of scheduling): `shasum -a 256 experiments/benchmark/04_market_state_loader.py` returns `32197ee0...`; `shasum -a 256 benchmark_registry_v2.json` returns `c4717c68...`; `python3 experiments/benchmark/04_market_state_loader.py --selfcheck` reports registry version v2, market count 15, 15 unique condition_ids.
   - **Reproducers — job health** (whether the scheduled wrapper is running): `launchctl list | grep mode1` shows the job; `tail -5 experiments/benchmark/mode1/cron.log` shows the most recent run line. **Note:** after a registry repoint, cron.log lags until the next 4:50 AM run — it reports the last *scheduled* run, not the current registry. A mismatch between this log and the data-state line above is expected during a handover window and is not drift.
   - `depends-on:` Polymarket Gamma API (direct HTTPS), `benchmark_registry_v2.json`. Not dependent on: any other launchd component, BRAIN.md, Anthropic API.
 
