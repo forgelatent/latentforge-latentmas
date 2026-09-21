@@ -1259,3 +1259,39 @@ Saved to /Users/latentforge/Projects/latentforge-latentmas/research/suggestions/
 --- PREVIEW (first 800 chars) ---
 Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=300)
 Sat Sep 19 09:43:28 PDT 2026: SUCCESS on attempt 1
+Sun Sep 20 02:02:59 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-09-20...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=300)
+No output file written for 2026-09-20.
+Sun Sep 20 10:25:23 PDT 2026: FAILED on attempt 1 (exit code 1)
+Sun Sep 20 10:25:23 PDT 2026: Retrying in 300s...
+Sun Sep 20 13:37:40 PDT 2026: Attempt 2 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-09-20...
+Saved to /Users/latentforge/Projects/latentforge-latentmas/research/suggestions/2026-09-20.md
+
+--- PREVIEW (first 800 chars) ---
+---
+SUGGESTION 1
+Technique: Olfactory Receptor Sparse Combinatorial Coding
+Field: Neuroscience / Computational Biology
+Core idea: The mammalian olfactory system encodes ~10,000 distinguishable odors using only ~400 receptor types via sparse combinatorial activation patterns, achieving extreme compression without identity loss.
+Why LatentForge: Your current top-k sparsity (k=128) selects the *largest* magnitude dimensions — a greedy amplitude strategy. The olfactory system suggests a fundamentally different selection criterion: choose dimensions by their *combinatorial discriminability*, not amplitude. In the olfactory code, what matters is which receptors fire together, not how strongly any single one fires. Applied to latent deltas, this means replacing top-k selection with a learned comb
+Sun Sep 20 13:38:15 PDT 2026: SUCCESS on attempt 2
+Mon Sep 21 02:00:53 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-09-21...
+Saved to /Users/latentforge/Projects/latentforge-latentmas/research/suggestions/2026-09-21.md
+
+--- PREVIEW (first 800 chars) ---
+---
+SUGGESTION 1
+Technique: Olfactory Receptor Sparse Combinatorial Coding
+Field: Neuroscience / Sensory Biology
+Core idea: The mammalian olfactory system encodes ~10,000 distinct odors using only ~400 receptor types by activating sparse, overlapping receptor *combinations* — identity lives in the pattern of co-activation, not in individual receptor values.
+Why LatentForge: Current top-k sparsity selects the 128 highest-magnitude dimensions independently, discarding relational structure. Olfactory coding suggests an alternative: instead of selecting top-k *individual* dimensions, select top-k *co-activation clusters* — groups of dimensions that fire together and whose joint pattern carries the semantic signal. For latent deltas, this means learning a combinatorial codebook (offline, on his
+Mon Sep 21 02:01:32 PDT 2026: SUCCESS on attempt 1
