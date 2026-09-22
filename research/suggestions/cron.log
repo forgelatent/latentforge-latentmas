@@ -1295,3 +1295,17 @@ Field: Neuroscience / Sensory Biology
 Core idea: The mammalian olfactory system encodes ~10,000 distinct odors using only ~400 receptor types by activating sparse, overlapping receptor *combinations* — identity lives in the pattern of co-activation, not in individual receptor values.
 Why LatentForge: Current top-k sparsity selects the 128 highest-magnitude dimensions independently, discarding relational structure. Olfactory coding suggests an alternative: instead of selecting top-k *individual* dimensions, select top-k *co-activation clusters* — groups of dimensions that fire together and whose joint pattern carries the semantic signal. For latent deltas, this means learning a combinatorial codebook (offline, on his
 Mon Sep 21 02:01:32 PDT 2026: SUCCESS on attempt 1
+Tue Sep 22 02:00:03 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-09-22...
+Saved to /Users/latentforge/Projects/latentforge-latentmas/research/suggestions/2026-09-22.md
+
+--- PREVIEW (first 800 chars) ---
+---
+SUGGESTION 1
+Technique: Olfactory Receptor Sparse Combinatorial Coding
+Field: Neuroscience / Chemosensory Biology
+Core idea: The mammalian olfactory system encodes ~10,000 distinguishable odors using only ~400 receptor types by exploiting sparse combinatorial activation patterns where identity lives in *which* receptors fire, not *how much*.
+Why LatentForge: Current top-k sparsity selects the k largest-magnitude dimensions — a magnitude-ranked approach. Olfactory coding suggests an alternative: learn a fixed "receptor basis" (a small dictionary of ~128–256 learned prototype directions in latent space) and encode each delta as a binary or low-bit activation pattern over that basis rather than transmitting raw coordinate values. The delta becomes a set-membership signal ("which basis vec
+Tue Sep 22 02:00:39 PDT 2026: SUCCESS on attempt 1
