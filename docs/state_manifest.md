@@ -268,6 +268,7 @@ Purpose: to show a fresh session the *Operational Delta* — the gap between whe
 - shadow_match `[not in launchd | VALID: no]`
   - Issue: structural invalidity across four layers (data, scoring, cost, narrative) per May 24 audit — see `incident_ledger.md` Section 4 May 24, 2026 entry ("shadow_match.py audited; Pro-Thesis Optimization Loop candidate pattern"). Reload requires four prerequisites: (1) live-data rewrite (replace seed-file load with polymarket-pull read); (2) scoring layer rewritten against resolved-outcome data rather than `abs()` distance from anchor; (3) cost-comparison layer rewritten to use measured tokens rather than hardcoded `0.003` constants; (4) hardcoded `grant_line` output (lines 226, 229, 232 + docstring lines 4, 9 self-documenting "Strengthens the Rain grant narrative") removed entirely. Addressing only prerequisite (1) would leave the Pro-Thesis Optimization Loop intact.
   - `depends-on: (currently) policy_markets_seed.json (quarantined); (post-rewrite) polymarket-pull`
+  - *Note, September 21, 2026:* this card describes `experiments/benchmark/shadow_match.py` (259 lines). A second, different program, `experiments/week1/scripts/shadow_match.py` (94 lines, live `public-search` prices, no seed reference), exists, was the April morning-routine script, and has no status here and no audit. See the ledger entry, F-7.
 
 **Experimental hosts (not in production pipeline):**
 
@@ -303,6 +304,7 @@ Per `intent.md` "Measurable proof targets" section. This section tracks current 
 - **Blocked by:** V0.1 demo not yet built. Mac Mini work required. Mac Mini Autonomy Rule applies.
 - **Sub-target progress:**
   - Compute-savings half: not yet measured. Compression fidelity work (24x compression with fidelity 1.0000 on Phi-3 Mini 3.8B) is foundational but not the same measurement.
+    - *Correction, September 21, 2026:* per `05_topk_sparsity_phi3.json`, cosine fidelity at 24× is 0.607 (the 1.0000 is uncompressed); no compression level met the 0.95 bar. See `incident_ledger.md`, September 21 third-session (continued) entry, F-1.
   - Novel-solutions half: not yet measured. The four-arm benchmark architecture on prediction markets is the parallel measurement instrument for "useful divergence" but is currently blocked by text-swarm matching contract (per text-swarm component entry above).
 
 ---

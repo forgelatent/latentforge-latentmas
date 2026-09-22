@@ -34,6 +34,7 @@ The motor-car question is whether (2) is real. Everything in this project serves
 These are reproducible, verified on real hardware, and safe to reason from:
 
 - **Latent transport works.** Hidden states can be captured, compressed (24x with fidelity 1.0000 on Phi-3 Mini 3.8B), and reconstructed. Confirmed RunPod A40, March 2026.
+  - *Correction, September 21, 2026 (Tier 1, `experiments/week2/results/05_topk_sparsity_phi3.json`):* the 1.0000 is the uncompressed round trip (k=3072). At 24× top-k sparsity cosine fidelity is 0.607; 12× 0.714; 6× 0.827. No compression level met the project's 0.95 bar. "Latent transport works" holds for capture and uncompressed reconstruction only. See `incident_ledger.md`, September 21 third-session (continued) entry, F-1.
 - **Activation steering works.** Injecting a latent residual into the residual stream during generation changes the output. Confirmed Mac Mini M4 Pro MPS, April 15.
 - **Unidirectional semantic steering works (single-market, constrained test).** A bullish contrastive vector (h_bullish - h_bearish) injected at layers 16/20/24, scale 0.4, produced a controlled, reproducible directional shift in Agent B output probability (35% -> 75%) with stance-specific reasoning generated alongside — not complement arithmetic, not framing hijack. **This is a controlled single-market demonstration, not yet a generalized or replicated result.**
 
@@ -42,6 +43,7 @@ That last result is the "first flight" moment. It is not yet "the motor car." It
 ## What we are proving next
 
 - **Bidirectional steering.** Bearish injection currently breaks coherence. Fix pending.
+  - *Correction, September 21, 2026:* per `docs/internal_steering_report_2026-04-17.md` §5, every normalized bearish method was flat; only raw negative injection broke output. Bullish moved 4 of 11 markets with one templated stance vector. See the ledger entry, F-4.
 - **Multi-market replication.** One market does not generalize. Needs multiple markets, multiple stance pairs, multiple replication runs.
 - **Useful divergence.** Even with bidirectional control working, the open question remains: does latent coordination produce insights text coordination cannot? The four-arm benchmark (text single-agent, text swarm, latent single-agent, latent swarm) is how we answer this.
 
@@ -107,6 +109,7 @@ Nine automated agents run on launchd, each serving one arm of the proof architec
 **Serving the benchmark (measuring whether the thesis works):**
 
 - **polymarket-pull** (4:40 AM) / **kalshi-pull** (4:45 AM) — pull live market data as the ground-truth feed for every downstream agent. Everything that scores against "crowd" depends on these producing honest data; the April 18 incident happened because a fictional seed file replaced their output silently.
+  - *Note, September 21, 2026:* kalshi-pull has returned only multi-leg sports markets in every file since March 29; BRAIN.md recorded the endpoint as sports-only (March 29) and the pull as "kept for sports data" (April 4). Founder decision on the feed's purpose is open (see `state_manifest.md`). This note records the drift; it does not resolve it.
 - **text-swarm** (5:15 AM) — the control arm. See dedicated section below.
 - **calibration-tracker** (5:30 AM) — tracks Brier scores against resolved markets on the 30-day paper-trading clock.
 - **benchmark-updater** (6:00 AM) — auto-regenerates the canonical benchmark report from calibration and shadow-match output.
