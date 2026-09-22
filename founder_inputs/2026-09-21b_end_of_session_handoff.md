@@ -30,6 +30,25 @@ echo "== 5 loader"; if [ -f experiments/benchmark/mode1/cron.log ]; then tail -3
 - Night 3 toward the compression-researcher label if clean. Do not set the label.
 - Tomorrow's robot outputs will be uncommitted; same precedent as `0eee1f8`: strict scan, count 0, commit.
 
+### Mac Mini check — Founder-initiated (the Founder said he will do it September 22)
+
+Read-only. Looks and counts, runs nothing, changes nothing. On the Mac Mini, in Terminal, as `latentforge`. Paste the whole output into the session.
+
+```
+cd ~/Projects/latentforge-latentmas 2>/dev/null || cd ~/latentforge-latentmas 2>/dev/null; echo "== repo at: $(pwd)"
+echo "== last commit here"; git log -1 --date=short --format="%h %ad %s"
+echo "== unpushed commits"; git fetch -q 2>/dev/null; echo "ahead of origin: $(git log origin/main..HEAD --oneline | wc -l | tr -d ' ')"; echo "behind origin: $(git log HEAD..origin/main --oneline | wc -l | tr -d ' ')"
+echo "== uncommitted files (count, then first 40 names)"; git status --porcelain | wc -l | tr -d ' '; git status --porcelain | awk 'NR<=40'
+echo "== stashes"; git stash list | wc -l | tr -d ' '
+echo "== sparsity script anywhere under home"; find ~ -name "*topk_sparsity*" -not -path "*/Library/*" -not -path "*/.Trash/*" 2>/dev/null; echo "(end of list)"
+echo "== experiment result files here that the laptop does not have"; find experiments -type f \( -name "*.json" -o -name "*.md" -o -name "*.npy" \) -newer experiments/week4/ab_test.py 2>/dev/null | awk 'NR<=40'; echo "(end of list)"
+```
+
+- "ahead of origin: 0" and uncommitted 0 = the laptop has everything; the audit stands as written.
+- Any number above 0 = work only the Mac Mini knows about. List it before deciding anything.
+- A path printed under "sparsity script" = the method behind 0.607 can be read and the fidelity question closed.
+- Do not run any experiment. Do not commit from the Mac Mini in that session; report first.
+
 ## Owed
 
 Nothing. Both same-day cold re-reads were cashed September 21 (first session). No fix was made today, so no re-read is owed.
@@ -64,6 +83,7 @@ New from the review:
 - Whether the Mac Mini's own clone holds experiments never pushed (Mac Mini checks are Founder-initiated).
 - The data source of `polymarket_historical_benchmark.py` (the retracted 45%).
 - Whether `05_topk_sparsity_benchmark.py` uses the same cosine as `02_latent_delta.py`.
+- **The Week 2 sparsity script is missing** (found after the handoff was first committed). `05_topk_sparsity_benchmark.py` is not in the repo, not in git history, not on the MacBook; only its output survives (`05_topk_sparsity_phi3.json`, `6712f67`, unchanged since March 29). The 0.607 stands as observed output; its method is unverifiable here. Unsearched: the Mac Mini clone and the RunPod volume. Ledger F-1 carries the dated note.
 - Changes to `calibration_tracker.py` since the May 24 audit (hash `19ad9b75…`, none of record); the primary/full track split of its 42 resolved entries.
 - Contents of `experiments/openspiel-divergence-spec-001.md`, `docs/arm3_preregistration.md`, `founder_inputs/2026-04-16_less_latent_better_relay_paper.md`.
 - Whether a Kalshi demo-environment account exists (email and `demo.kalshi.co` login checks are the Founder's; code and history show none).
