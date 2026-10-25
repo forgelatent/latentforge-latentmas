@@ -11,7 +11,7 @@ Maintained by: John McGuire (Founder Engine), with Systems Engine (Claude) and D
 
 ## HEAD
 
-**HEAD:** `2db498f` — Founder decision note, October 25, 2026. Last code commit: `d7c8d09` (September 19, kalshi-pull fail-loud); before it `36a6fc5` (research-sweep) and `2832d02` (compression-researcher). Every commit after `d7c8d09` is records, evidence or pattern text. The commit that carries this line is itself past the anchor; expected, not drift.
+**HEAD:** `aee6689` — records of the October 25 evening session (round 3 synthesis, grouping design v2, cold round 4); previous anchor `2db498f` (Founder decision note, October 25, 2026). Last code commit: `d7c8d09` (September 19, kalshi-pull fail-loud); before it `36a6fc5` (research-sweep) and `2832d02` (compression-researcher). Every commit after `d7c8d09` is records, evidence or pattern text. The commit that carries this line is itself past the anchor; expected, not drift.
 *(Use `git log -1 HEAD` for timestamp.)*
 
 ---

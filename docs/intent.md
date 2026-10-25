@@ -81,6 +81,8 @@ Both arms feed the same threshold: **$10M of verifiable real-world performance b
 
 The $10M threshold is deliberate. In a field where narrative often outruns evidence, we chose to prove first and talk second.
 
+*Note, October 25, 2026:* the $10M threshold is superseded by the Founder decision note (`founder_inputs/2026-10-25_founder_decision_note.md`): "proven" now means a pre-registered test on at least 250 resolved markets across at least 150 independent units, the latent arm beating the text arm by more than a pre-registered margin, with error bars. The text above is left as history. See `incident_ledger.md`, September 22 – October 25 entry.
+
 ---
 
 ## Ground truth hierarchy
@@ -110,6 +112,7 @@ Nine automated agents run on launchd, each serving one arm of the proof architec
 
 - **polymarket-pull** (4:40 AM) / **kalshi-pull** (4:45 AM) — pull live market data as the ground-truth feed for every downstream agent. Everything that scores against "crowd" depends on these producing honest data; the April 18 incident happened because a fictional seed file replaced their output silently.
   - *Note, September 21, 2026:* kalshi-pull has returned only multi-leg sports markets in every file since March 29; BRAIN.md recorded the endpoint as sports-only (March 29) and the pull as "kept for sports data" (April 4). Founder decision on the feed's purpose is open (see `state_manifest.md`). This note records the drift; it does not resolve it.
+  - *Note, October 25, 2026:* resolved. kalshi-pull was paused and unloaded by Founder decision on October 25; every file it saved since March 29 held only multi-leg sports combination markets (ledger, September 20 and 21 entries), so it was never a ground-truth feed for the markets this project studies. The description above is left as history.
 - **text-swarm** (5:15 AM) — the control arm. See dedicated section below.
 - **calibration-tracker** (5:30 AM) — tracks Brier scores against resolved markets on the 30-day paper-trading clock.
 - **benchmark-updater** (6:00 AM) — auto-regenerates the canonical benchmark report from calibration and shadow-match output.
