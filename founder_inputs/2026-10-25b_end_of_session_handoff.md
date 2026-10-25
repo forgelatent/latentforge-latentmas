@@ -27,3 +27,12 @@ Why daily counts fell from 191 (Apr 20) to 84 (Oct 25): pull script not read. Ho
 ## 5. Next session do / do-not
 **Do:** Founder writes the decision note first. Then, in order: verify polymarket-pull's October runs; resolution-lookup script (first internet touch, read-only, two-pass, own reproducer); step-1 definition of "useful divergence" as a scoreable rule (a document, then a cold round); Mac Mini check; pause the other jobs only after the Founder says so.
 **Do not:** design the experiment before the budget definition exists; name a model without a filed search; pause or unload anything on your own; cite 412 as "resolved" (it is "ended by endDate"; resolution unverified).
+
+## 6. Added later the same day (after `94abd78`)
+- Founder decision note committed `2db498f`; manifest updated `f6a354a` (HEAD anchor, kalshi-pull LOADED: no, registry 13/2, suggestions 37/104). kalshi-pull unloaded Oct 25 (`launchctl list | grep -c kalshi` returns 0). Lid stays open overnight by Founder decision.
+- **Resolution lookup done (Tier 1):** `scratch/pool_resolution_lookup_2026-10-25.py` (64 lines; borrows the loader's Gamma mechanics) wrote `scratch/pool_resolutions_2026-10-25.json`: 410 of 412 resolved (81 YES, 329 NO) across 291 events; 2 STILL_OPEN (both "next Prime Minister of Sweden", endDate 2026-09-14, API says open); 0 NOT_FOUND, 0 ambiguous. Clears the decision note's 250/150 floors. Resolution read from settlement prices (one side >= 0.99, the other <= 0.01).
+- `umaResolutionStatuses` is NOT a usable second source: 220 of 410 settled markets show only `["proposed"]`; "resolved" appears in 115. Pattern G Form 2 shape. Recorded, not counted.
+- YES rate is 19.8% (81 of 410): many pool markets are slices of one event. The scoring rule must count by event and compare both arms against a base-rate baseline, not only against each other.
+- Not verified: any label against the real world. Founder eyeballed ten sampled questions. Settlement prices paid real money and are the best truth available.
+- Systems Engine errors: three wrong counts (44 for 29, 27 for 25, "files" label on first-seen days); the lookup script's first half did not land on the first paste (file had 30 lines; caught by `wc -l` before running).
+- Next session: the scoring-rule document for "useful divergence" (step 1 of the work order), then a cold round on it. Not to be started at the end of a long day.
