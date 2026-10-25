@@ -1309,3 +1309,329 @@ Field: Neuroscience / Chemosensory Biology
 Core idea: The mammalian olfactory system encodes ~10,000 distinguishable odors using only ~400 receptor types by exploiting sparse combinatorial activation patterns where identity lives in *which* receptors fire, not *how much*.
 Why LatentForge: Current top-k sparsity selects the k largest-magnitude dimensions — a magnitude-ranked approach. Olfactory coding suggests an alternative: learn a fixed "receptor basis" (a small dictionary of ~128–256 learned prototype directions in latent space) and encode each delta as a binary or low-bit activation pattern over that basis rather than transmitting raw coordinate values. The delta becomes a set-membership signal ("which basis vec
 Tue Sep 22 02:00:39 PDT 2026: SUCCESS on attempt 1
+Wed Sep 23 02:00:01 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-09-23...
+Saved to /Users/latentforge/Projects/latentforge-latentmas/research/suggestions/2026-09-23.md
+
+--- PREVIEW (first 800 chars) ---
+---
+SUGGESTION 1
+Technique: Sparse Distributed Representations (SDR) with Semantic Overlap Metric
+Field: Computational Neuroscience (Numenta HTM theory)
+Core idea: Encode latent deltas as fixed-sparsity binary vectors where semantic similarity is preserved by the degree of bit overlap, not Euclidean distance.
+Why LatentForge: Your current top-k sparsity selects the largest-magnitude components, but this is magnitude-driven, not semantics-driven. HTM cortical columns use SDRs where two vectors that share ~2% of active bits are considered semantically related, and zero shared bits means completely unrelated — with formal noise tolerance guarantees. Applied to latent deltas: instead of transmitting the raw float values of top-128 components, you encode which *semantic subspaces* are active as
+Wed Sep 23 02:00:36 PDT 2026: SUCCESS on attempt 1
+Thu Sep 24 02:06:22 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-09-24...
+Saved to /Users/latentforge/Projects/latentforge-latentmas/research/suggestions/2026-09-24.md
+
+--- PREVIEW (first 800 chars) ---
+---
+SUGGESTION 1
+Technique: Predictive Coding Residual Transmission
+Field: Computational Neuroscience / Hierarchical Predictive Processing
+Core idea: Transmit only the *prediction error* between what the receiving agent expects and what the sending agent actually holds — mirroring how the mammalian cortex suppresses redundant signals by only passing surprise upward through layers.
+Why LatentForge: The shared seed vector is already functioning as a prior. Rather than treating the delta as a raw difference from seed, structure the compression around a *learned expectation model* that each agent maintains about its partner's likely next state. The sender runs a lightweight forward model of "what will the receiver predict I'm holding?" and subtracts that from the actual latent — transmitting o
+Thu Sep 24 02:06:59 PDT 2026: SUCCESS on attempt 1
+Fri Sep 25 02:10:55 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-09-25...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=300)
+No output file written for 2026-09-25.
+Fri Sep 25 06:58:10 PDT 2026: FAILED on attempt 1 (exit code 1)
+Fri Sep 25 06:58:10 PDT 2026: Retrying in 300s...
+Fri Sep 25 07:03:10 PDT 2026: Attempt 2 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-09-25...
+Saved to /Users/latentforge/Projects/latentforge-latentmas/research/suggestions/2026-09-25.md
+
+--- PREVIEW (first 800 chars) ---
+---
+SUGGESTION 1
+Technique: Myelin-Inspired Sparse Channel Gating
+Field: Neuroscience / Axonal Signal Transmission
+Core idea: Biological myelin sheaths don't compress signals uniformly — they gate conduction velocity by selectively insulating high-priority axon segments, effectively creating a learned sparsity mask that is *structural* rather than *magnitude-based*.
+Why LatentForge: Current top-k sparsity selects the 128 largest-magnitude dimensions at transmission time, which is a greedy, stateless heuristic. Myelination suggests an alternative: learn a *persistent channel mask* per agent-pair that reflects which latent dimensions have historically carried the most divergence signal across sessions. This mask becomes the shared "myelin sheath" — dimensions outside the mask are gated to ze
+Fri Sep 25 07:03:43 PDT 2026: SUCCESS on attempt 2
+Sat Sep 26 02:00:02 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-09-26...
+Saved to /Users/latentforge/Projects/latentforge-latentmas/research/suggestions/2026-09-26.md
+
+--- PREVIEW (first 800 chars) ---
+---
+SUGGESTION 1
+Technique: Predictive Coding Residual Transmission
+Field: Computational Neuroscience / Hierarchical Bayesian Inference
+Core idea: Transmit only the *surprise* (prediction error) between what a receiving agent expects and what the sender actually holds — mirroring how the mammalian cortex suppresses redundant signals and only propagates unpredicted information up the hierarchy.
+Why LatentForge: Instead of compressing a raw delta from a shared seed, each agent maintains a lightweight generative model of the *other agent's* latent trajectory. The sender runs a forward pass of this model to predict what the receiver expects, subtracts that prediction from its actual state, and transmits only the residual error vector. Because agent latent states drift in structured, often low-
+Sat Sep 26 02:00:38 PDT 2026: SUCCESS on attempt 1
+Sun Sep 27 02:05:54 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-09-27...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=300)
+No output file written for 2026-09-27.
+Sun Sep 27 15:39:16 PDT 2026: FAILED on attempt 1 (exit code 1)
+Sun Sep 27 15:39:16 PDT 2026: Retrying in 300s...
+Mon Sep 28 03:36:50 PDT 2026: Attempt 2 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-09-28...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=300)
+No output file written for 2026-09-28.
+Mon Sep 28 15:34:23 PDT 2026: FAILED on attempt 2 (exit code 1)
+Mon Sep 28 15:34:23 PDT 2026: Retrying in 300s...
+Tue Sep 29 03:50:56 PDT 2026: Attempt 3 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-09-29...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=300)
+No output file written for 2026-09-29.
+Tue Sep 29 13:34:33 PDT 2026: FAILED on attempt 3 (exit code 1)
+Tue Sep 29 13:34:33 PDT 2026: PERMANENT FAILURE after 3 attempts — manual rerun required
+Wed Sep 30 02:14:13 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-09-30...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=300)
+No output file written for 2026-09-30.
+Wed Sep 30 18:43:16 PDT 2026: FAILED on attempt 1 (exit code 1)
+Wed Sep 30 18:43:16 PDT 2026: Retrying in 300s...
+Thu Oct  1 07:07:29 PDT 2026: Attempt 2 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-10-01...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=300)
+No output file written for 2026-10-01.
+Fri Oct  2 05:11:42 PDT 2026: FAILED on attempt 2 (exit code 1)
+Fri Oct  2 05:11:42 PDT 2026: Retrying in 300s...
+Sat Oct  3 04:13:18 PDT 2026: Attempt 3 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-10-03...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=300)
+No output file written for 2026-10-03.
+Sun Oct  4 00:31:59 PDT 2026: FAILED on attempt 3 (exit code 1)
+Sun Oct  4 00:31:59 PDT 2026: PERMANENT FAILURE after 3 attempts — manual rerun required
+Sun Oct  4 02:12:44 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-10-04...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=300)
+No output file written for 2026-10-04.
+Sun Oct  4 22:11:07 PDT 2026: FAILED on attempt 1 (exit code 1)
+Sun Oct  4 22:11:07 PDT 2026: Retrying in 300s...
+Mon Oct  5 10:58:40 PDT 2026: Attempt 2 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-10-05...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Max retries exceeded with url: /v1/messages (Caused by NameResolutionError("HTTPSConnection(host='api.anthropic.com', port=443): Failed to resolve 'api.anthropic.com' ([Errno 8] nodename nor servname provided, or not known)"))
+No output file written for 2026-10-05.
+Mon Oct  5 10:58:40 PDT 2026: FAILED on attempt 2 (exit code 1)
+Mon Oct  5 10:58:40 PDT 2026: Retrying in 300s...
+Tue Oct  6 07:39:51 PDT 2026: Attempt 3 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-10-06...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Max retries exceeded with url: /v1/messages (Caused by NameResolutionError("HTTPSConnection(host='api.anthropic.com', port=443): Failed to resolve 'api.anthropic.com' ([Errno 8] nodename nor servname provided, or not known)"))
+No output file written for 2026-10-06.
+Tue Oct  6 07:39:51 PDT 2026: FAILED on attempt 3 (exit code 1)
+Tue Oct  6 07:39:51 PDT 2026: PERMANENT FAILURE after 3 attempts — manual rerun required
+Wed Oct  7 02:19:26 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-10-07...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Max retries exceeded with url: /v1/messages (Caused by NameResolutionError("HTTPSConnection(host='api.anthropic.com', port=443): Failed to resolve 'api.anthropic.com' ([Errno 8] nodename nor servname provided, or not known)"))
+No output file written for 2026-10-07.
+Wed Oct  7 02:19:26 PDT 2026: FAILED on attempt 1 (exit code 1)
+Wed Oct  7 02:19:26 PDT 2026: Retrying in 300s...
+Wed Oct  7 20:47:01 PDT 2026: Attempt 2 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-10-07...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Max retries exceeded with url: /v1/messages (Caused by NameResolutionError("HTTPSConnection(host='api.anthropic.com', port=443): Failed to resolve 'api.anthropic.com' ([Errno 8] nodename nor servname provided, or not known)"))
+No output file written for 2026-10-07.
+Wed Oct  7 20:47:01 PDT 2026: FAILED on attempt 2 (exit code 1)
+Wed Oct  7 20:47:01 PDT 2026: Retrying in 300s...
+Thu Oct  8 16:29:55 PDT 2026: Attempt 3 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-10-08...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Max retries exceeded with url: /v1/messages (Caused by NameResolutionError("HTTPSConnection(host='api.anthropic.com', port=443): Failed to resolve 'api.anthropic.com' ([Errno 8] nodename nor servname provided, or not known)"))
+No output file written for 2026-10-08.
+Thu Oct  8 16:29:55 PDT 2026: FAILED on attempt 3 (exit code 1)
+Thu Oct  8 16:29:55 PDT 2026: PERMANENT FAILURE after 3 attempts — manual rerun required
+Fri Oct  9 02:37:42 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-10-09...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Max retries exceeded with url: /v1/messages (Caused by NameResolutionError("HTTPSConnection(host='api.anthropic.com', port=443): Failed to resolve 'api.anthropic.com' ([Errno 8] nodename nor servname provided, or not known)"))
+No output file written for 2026-10-09.
+Fri Oct  9 02:37:42 PDT 2026: FAILED on attempt 1 (exit code 1)
+Fri Oct  9 02:37:42 PDT 2026: Retrying in 300s...
+Fri Oct  9 15:14:42 PDT 2026: Attempt 2 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-10-09...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=300)
+No output file written for 2026-10-09.
+Sat Oct 10 06:36:50 PDT 2026: FAILED on attempt 2 (exit code 1)
+Sat Oct 10 06:36:50 PDT 2026: Retrying in 300s...
+Sat Oct 10 13:56:53 PDT 2026: Attempt 3 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-10-10...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=300)
+No output file written for 2026-10-10.
+Sat Oct 10 20:35:28 PDT 2026: FAILED on attempt 3 (exit code 1)
+Sat Oct 10 20:35:28 PDT 2026: PERMANENT FAILURE after 3 attempts — manual rerun required
+Sun Oct 11 02:01:00 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-10-11...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=300)
+No output file written for 2026-10-11.
+Mon Oct 12 02:42:40 PDT 2026: FAILED on attempt 1 (exit code 1)
+Mon Oct 12 02:42:40 PDT 2026: Retrying in 300s...
+Mon Oct 12 20:05:13 PDT 2026: Attempt 2 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-10-12...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Max retries exceeded with url: /v1/messages (Caused by NameResolutionError("HTTPSConnection(host='api.anthropic.com', port=443): Failed to resolve 'api.anthropic.com' ([Errno 8] nodename nor servname provided, or not known)"))
+No output file written for 2026-10-12.
+Mon Oct 12 20:05:14 PDT 2026: FAILED on attempt 2 (exit code 1)
+Mon Oct 12 20:05:14 PDT 2026: Retrying in 300s...
+Tue Oct 13 12:50:27 PDT 2026: Attempt 3 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-10-13...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Max retries exceeded with url: /v1/messages (Caused by NameResolutionError("HTTPSConnection(host='api.anthropic.com', port=443): Failed to resolve 'api.anthropic.com' ([Errno 8] nodename nor servname provided, or not known)"))
+No output file written for 2026-10-13.
+Tue Oct 13 12:50:27 PDT 2026: FAILED on attempt 3 (exit code 1)
+Tue Oct 13 12:50:27 PDT 2026: PERMANENT FAILURE after 3 attempts — manual rerun required
+Wed Oct 14 02:03:19 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-10-14...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Max retries exceeded with url: /v1/messages (Caused by NameResolutionError("HTTPSConnection(host='api.anthropic.com', port=443): Failed to resolve 'api.anthropic.com' ([Errno 8] nodename nor servname provided, or not known)"))
+No output file written for 2026-10-14.
+Wed Oct 14 02:03:19 PDT 2026: FAILED on attempt 1 (exit code 1)
+Wed Oct 14 02:03:19 PDT 2026: Retrying in 300s...
+Wed Oct 14 07:11:43 PDT 2026: Attempt 2 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-10-14...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Max retries exceeded with url: /v1/messages (Caused by NameResolutionError("HTTPSConnection(host='api.anthropic.com', port=443): Failed to resolve 'api.anthropic.com' ([Errno 8] nodename nor servname provided, or not known)"))
+No output file written for 2026-10-14.
+Wed Oct 14 07:11:43 PDT 2026: FAILED on attempt 2 (exit code 1)
+Wed Oct 14 07:12:33 PDT 2026: Retrying in 300s...
+Wed Oct 14 14:45:04 PDT 2026: Attempt 3 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-10-14...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Max retries exceeded with url: /v1/messages (Caused by NameResolutionError("HTTPSConnection(host='api.anthropic.com', port=443): Failed to resolve 'api.anthropic.com' ([Errno 8] nodename nor servname provided, or not known)"))
+No output file written for 2026-10-14.
+Wed Oct 14 14:45:04 PDT 2026: FAILED on attempt 3 (exit code 1)
+Wed Oct 14 14:45:04 PDT 2026: PERMANENT FAILURE after 3 attempts — manual rerun required
+Thu Oct 15 02:04:09 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-10-15...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Max retries exceeded with url: /v1/messages (Caused by NameResolutionError("HTTPSConnection(host='api.anthropic.com', port=443): Failed to resolve 'api.anthropic.com' ([Errno 8] nodename nor servname provided, or not known)"))
+No output file written for 2026-10-15.
+Thu Oct 15 02:04:09 PDT 2026: FAILED on attempt 1 (exit code 1)
+Thu Oct 15 02:04:09 PDT 2026: Retrying in 300s...
+Thu Oct 15 11:06:13 PDT 2026: Attempt 2 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-10-15...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Max retries exceeded with url: /v1/messages (Caused by NameResolutionError("HTTPSConnection(host='api.anthropic.com', port=443): Failed to resolve 'api.anthropic.com' ([Errno 8] nodename nor servname provided, or not known)"))
+No output file written for 2026-10-15.
+Thu Oct 15 11:06:13 PDT 2026: FAILED on attempt 2 (exit code 1)
+Thu Oct 15 11:06:13 PDT 2026: Retrying in 300s...
+Thu Oct 15 21:33:40 PDT 2026: Attempt 3 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-10-15...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Max retries exceeded with url: /v1/messages (Caused by NameResolutionError("HTTPSConnection(host='api.anthropic.com', port=443): Failed to resolve 'api.anthropic.com' ([Errno 8] nodename nor servname provided, or not known)"))
+No output file written for 2026-10-15.
+Thu Oct 15 21:33:40 PDT 2026: FAILED on attempt 3 (exit code 1)
+Thu Oct 15 21:33:40 PDT 2026: PERMANENT FAILURE after 3 attempts — manual rerun required
+Fri Oct 16 02:00:38 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-10-16...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=300)
+No output file written for 2026-10-16.
+Fri Oct 16 11:23:37 PDT 2026: FAILED on attempt 1 (exit code 1)
+Fri Oct 16 11:23:37 PDT 2026: Retrying in 300s...
+Fri Oct 16 21:56:59 PDT 2026: Attempt 2 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-10-16...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=300)
+No output file written for 2026-10-16.
+Sat Oct 17 11:57:43 PDT 2026: FAILED on attempt 2 (exit code 1)
+Sat Oct 17 11:57:43 PDT 2026: Retrying in 300s...
+Sun Oct 18 01:48:27 PDT 2026: Attempt 3 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-10-18...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=300)
+No output file written for 2026-10-18.
+Sun Oct 18 14:31:32 PDT 2026: FAILED on attempt 3 (exit code 1)
+Sun Oct 18 14:31:32 PDT 2026: PERMANENT FAILURE after 3 attempts — manual rerun required
+Mon Oct 19 02:12:26 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-10-19...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=300)
+No output file written for 2026-10-19.
+Mon Oct 19 20:48:27 PDT 2026: FAILED on attempt 1 (exit code 1)
+Mon Oct 19 20:48:27 PDT 2026: Retrying in 300s...
+Tue Oct 20 12:03:43 PDT 2026: Attempt 2 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-10-20...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=300)
+No output file written for 2026-10-20.
+Wed Oct 21 00:04:23 PDT 2026: FAILED on attempt 2 (exit code 1)
+Wed Oct 21 00:04:23 PDT 2026: Retrying in 300s...
+Wed Oct 21 19:12:46 PDT 2026: Attempt 3 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-10-21...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=300)
+No output file written for 2026-10-21.
+Sat Oct 24 15:17:20 PDT 2026: FAILED on attempt 3 (exit code 1)
+Sat Oct 24 15:17:20 PDT 2026: PERMANENT FAILURE after 3 attempts — manual rerun required
+Sun Oct 25 02:12:42 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-10-25...
+FAILED: Request failed: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=300)
+No output file written for 2026-10-25.
+Sun Oct 25 10:05:25 PDT 2026: FAILED on attempt 1 (exit code 1)
+Sun Oct 25 10:05:25 PDT 2026: Retrying in 300s...
+Sun Oct 25 10:10:25 PDT 2026: Attempt 2 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/latent_compression_researcher.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running Latent Compression Researcher for 2026-10-25...
+Saved to /Users/latentforge/Projects/latentforge-latentmas/research/suggestions/2026-10-25.md
+
+--- PREVIEW (first 800 chars) ---
+---
+SUGGESTION 1
+Technique: Predictive Coding Residuals (Hierarchical Error Propagation)
+Field: Computational Neuroscience / Predictive Processing Theory
+Core idea: Instead of transmitting the full latent delta, transmit only the prediction error — the difference between what the receiving agent *expected* the delta to be and what it actually is — compressing the already-sparse residual signal.
+Why LatentForge: The mammalian cortex doesn't send raw sensory data upward through its hierarchy — it sends prediction errors. The canonical Rao & Ballard (1999) framework shows that if both sender and receiver maintain a shared generative model, only the *surprise* needs to travel. In LatentForge terms: if the receiving agent can predict the next latent delta given the shared seed vector and messag
+Sun Oct 25 10:11:05 PDT 2026: SUCCESS on attempt 2

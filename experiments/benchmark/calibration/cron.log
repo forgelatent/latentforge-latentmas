@@ -7494,3 +7494,1848 @@ Newly resolved: 0
 
 Logs: /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration
 Tue Sep 22 05:30:03 PDT 2026: SUCCESS on attempt 1
+Wed Sep 23 05:30:01 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-09-23
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Found 0 qualifying markets
+
+=== CALIBRATION SUMMARY ===
+Total markets tracked: 42
+New predictions today: 0
+Newly resolved: 0
+
+--- PRIMARY TRACK (policy/macro/geopolitics/elections) ---
+  Resolved markets scored: 3
+  Swarm avg Brier:  0.17
+  Crowd avg Brier:  0.1132
+  Naive avg Brier:  0.25
+  Swarm vs naive:   32.0%
+  Swarm vs crowd:   -50.2%
+  Brier Skill Score:-0.5018  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.823  (higher = more uncertain)
+  Swarm dispersion: 40.0pts  (range of swarm predictions)
+  Crowd dispersion: 51.9pts  (range of crowd predictions)
+  Avg divergence:   7.6pts  (avg |swarm - crowd| on resolved markets)
+
+--- FULL TRACK (all categories, for transparency) ---
+  Resolved markets scored: 37
+  Swarm avg Brier:  0.1376
+  Crowd avg Brier:  0.1362
+  Naive avg Brier:  0.25
+  Swarm vs naive:   45.0%
+  Swarm vs crowd:   -1.0%
+  Brier Skill Score:-0.0103  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.615  (higher = more uncertain)
+  Swarm dispersion: 46.3pts  (range of swarm predictions)
+  Crowd dispersion: 67.7pts  (range of crowd predictions)
+  Avg divergence:   8.7pts  (avg |swarm - crowd| on resolved markets)
+
+Logs: /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration
+Wed Sep 23 05:30:01 PDT 2026: SUCCESS on attempt 1
+Thu Sep 24 05:30:03 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-09-24
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Found 0 qualifying markets
+
+=== CALIBRATION SUMMARY ===
+Total markets tracked: 42
+New predictions today: 0
+Newly resolved: 0
+
+--- PRIMARY TRACK (policy/macro/geopolitics/elections) ---
+  Resolved markets scored: 3
+  Swarm avg Brier:  0.17
+  Crowd avg Brier:  0.1132
+  Naive avg Brier:  0.25
+  Swarm vs naive:   32.0%
+  Swarm vs crowd:   -50.2%
+  Brier Skill Score:-0.5018  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.823  (higher = more uncertain)
+  Swarm dispersion: 40.0pts  (range of swarm predictions)
+  Crowd dispersion: 51.9pts  (range of crowd predictions)
+  Avg divergence:   7.6pts  (avg |swarm - crowd| on resolved markets)
+
+--- FULL TRACK (all categories, for transparency) ---
+  Resolved markets scored: 37
+  Swarm avg Brier:  0.1376
+  Crowd avg Brier:  0.1362
+  Naive avg Brier:  0.25
+  Swarm vs naive:   45.0%
+  Swarm vs crowd:   -1.0%
+  Brier Skill Score:-0.0103  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.615  (higher = more uncertain)
+  Swarm dispersion: 46.3pts  (range of swarm predictions)
+  Crowd dispersion: 67.7pts  (range of crowd predictions)
+  Avg divergence:   8.7pts  (avg |swarm - crowd| on resolved markets)
+
+Logs: /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration
+Thu Sep 24 05:30:04 PDT 2026: SUCCESS on attempt 1
+Fri Sep 25 05:45:18 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-09-25
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Found 0 qualifying markets
+
+=== CALIBRATION SUMMARY ===
+Total markets tracked: 42
+New predictions today: 0
+Newly resolved: 0
+
+--- PRIMARY TRACK (policy/macro/geopolitics/elections) ---
+  Resolved markets scored: 3
+  Swarm avg Brier:  0.17
+  Crowd avg Brier:  0.1132
+  Naive avg Brier:  0.25
+  Swarm vs naive:   32.0%
+  Swarm vs crowd:   -50.2%
+  Brier Skill Score:-0.5018  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.823  (higher = more uncertain)
+  Swarm dispersion: 40.0pts  (range of swarm predictions)
+  Crowd dispersion: 51.9pts  (range of crowd predictions)
+  Avg divergence:   7.6pts  (avg |swarm - crowd| on resolved markets)
+
+--- FULL TRACK (all categories, for transparency) ---
+  Resolved markets scored: 37
+  Swarm avg Brier:  0.1376
+  Crowd avg Brier:  0.1362
+  Naive avg Brier:  0.25
+  Swarm vs naive:   45.0%
+  Swarm vs crowd:   -1.0%
+  Brier Skill Score:-0.0103  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.615  (higher = more uncertain)
+  Swarm dispersion: 46.3pts  (range of swarm predictions)
+  Crowd dispersion: 67.7pts  (range of crowd predictions)
+  Avg divergence:   8.7pts  (avg |swarm - crowd| on resolved markets)
+
+Logs: /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration
+Fri Sep 25 05:45:19 PDT 2026: SUCCESS on attempt 1
+Sat Sep 26 05:30:01 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-09-26
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Found 0 qualifying markets
+
+=== CALIBRATION SUMMARY ===
+Total markets tracked: 42
+New predictions today: 0
+Newly resolved: 0
+
+--- PRIMARY TRACK (policy/macro/geopolitics/elections) ---
+  Resolved markets scored: 3
+  Swarm avg Brier:  0.17
+  Crowd avg Brier:  0.1132
+  Naive avg Brier:  0.25
+  Swarm vs naive:   32.0%
+  Swarm vs crowd:   -50.2%
+  Brier Skill Score:-0.5018  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.823  (higher = more uncertain)
+  Swarm dispersion: 40.0pts  (range of swarm predictions)
+  Crowd dispersion: 51.9pts  (range of crowd predictions)
+  Avg divergence:   7.6pts  (avg |swarm - crowd| on resolved markets)
+
+--- FULL TRACK (all categories, for transparency) ---
+  Resolved markets scored: 37
+  Swarm avg Brier:  0.1376
+  Crowd avg Brier:  0.1362
+  Naive avg Brier:  0.25
+  Swarm vs naive:   45.0%
+  Swarm vs crowd:   -1.0%
+  Brier Skill Score:-0.0103  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.615  (higher = more uncertain)
+  Swarm dispersion: 46.3pts  (range of swarm predictions)
+  Crowd dispersion: 67.7pts  (range of crowd predictions)
+  Avg divergence:   8.7pts  (avg |swarm - crowd| on resolved markets)
+
+Logs: /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration
+Sat Sep 26 05:30:01 PDT 2026: SUCCESS on attempt 1
+Sun Sep 27 05:44:59 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-09-27
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Found 0 qualifying markets
+
+=== CALIBRATION SUMMARY ===
+Total markets tracked: 42
+New predictions today: 0
+Newly resolved: 0
+
+--- PRIMARY TRACK (policy/macro/geopolitics/elections) ---
+  Resolved markets scored: 3
+  Swarm avg Brier:  0.17
+  Crowd avg Brier:  0.1132
+  Naive avg Brier:  0.25
+  Swarm vs naive:   32.0%
+  Swarm vs crowd:   -50.2%
+  Brier Skill Score:-0.5018  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.823  (higher = more uncertain)
+  Swarm dispersion: 40.0pts  (range of swarm predictions)
+  Crowd dispersion: 51.9pts  (range of crowd predictions)
+  Avg divergence:   7.6pts  (avg |swarm - crowd| on resolved markets)
+
+--- FULL TRACK (all categories, for transparency) ---
+  Resolved markets scored: 37
+  Swarm avg Brier:  0.1376
+  Crowd avg Brier:  0.1362
+  Naive avg Brier:  0.25
+  Swarm vs naive:   45.0%
+  Swarm vs crowd:   -1.0%
+  Brier Skill Score:-0.0103  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.615  (higher = more uncertain)
+  Swarm dispersion: 46.3pts  (range of swarm predictions)
+  Crowd dispersion: 67.7pts  (range of crowd predictions)
+  Avg divergence:   8.7pts  (avg |swarm - crowd| on resolved markets)
+
+Logs: /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration
+Sun Sep 27 05:45:00 PDT 2026: SUCCESS on attempt 1
+Mon Sep 28 05:40:18 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-09-28
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Found 0 qualifying markets
+
+=== CALIBRATION SUMMARY ===
+Total markets tracked: 42
+New predictions today: 0
+Newly resolved: 0
+
+--- PRIMARY TRACK (policy/macro/geopolitics/elections) ---
+  Resolved markets scored: 3
+  Swarm avg Brier:  0.17
+  Crowd avg Brier:  0.1132
+  Naive avg Brier:  0.25
+  Swarm vs naive:   32.0%
+  Swarm vs crowd:   -50.2%
+  Brier Skill Score:-0.5018  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.823  (higher = more uncertain)
+  Swarm dispersion: 40.0pts  (range of swarm predictions)
+  Crowd dispersion: 51.9pts  (range of crowd predictions)
+  Avg divergence:   7.6pts  (avg |swarm - crowd| on resolved markets)
+
+--- FULL TRACK (all categories, for transparency) ---
+  Resolved markets scored: 37
+  Swarm avg Brier:  0.1376
+  Crowd avg Brier:  0.1362
+  Naive avg Brier:  0.25
+  Swarm vs naive:   45.0%
+  Swarm vs crowd:   -1.0%
+  Brier Skill Score:-0.0103  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.615  (higher = more uncertain)
+  Swarm dispersion: 46.3pts  (range of swarm predictions)
+  Crowd dispersion: 67.7pts  (range of crowd predictions)
+  Avg divergence:   8.7pts  (avg |swarm - crowd| on resolved markets)
+
+Logs: /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration
+Mon Sep 28 05:40:19 PDT 2026: SUCCESS on attempt 1
+Tue Sep 29 05:42:50 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-09-29
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Found 0 qualifying markets
+
+=== CALIBRATION SUMMARY ===
+Total markets tracked: 42
+New predictions today: 0
+Newly resolved: 0
+
+--- PRIMARY TRACK (policy/macro/geopolitics/elections) ---
+  Resolved markets scored: 3
+  Swarm avg Brier:  0.17
+  Crowd avg Brier:  0.1132
+  Naive avg Brier:  0.25
+  Swarm vs naive:   32.0%
+  Swarm vs crowd:   -50.2%
+  Brier Skill Score:-0.5018  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.823  (higher = more uncertain)
+  Swarm dispersion: 40.0pts  (range of swarm predictions)
+  Crowd dispersion: 51.9pts  (range of crowd predictions)
+  Avg divergence:   7.6pts  (avg |swarm - crowd| on resolved markets)
+
+--- FULL TRACK (all categories, for transparency) ---
+  Resolved markets scored: 37
+  Swarm avg Brier:  0.1376
+  Crowd avg Brier:  0.1362
+  Naive avg Brier:  0.25
+  Swarm vs naive:   45.0%
+  Swarm vs crowd:   -1.0%
+  Brier Skill Score:-0.0103  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.615  (higher = more uncertain)
+  Swarm dispersion: 46.3pts  (range of swarm predictions)
+  Crowd dispersion: 67.7pts  (range of crowd predictions)
+  Avg divergence:   8.7pts  (avg |swarm - crowd| on resolved markets)
+
+Logs: /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration
+Tue Sep 29 05:42:51 PDT 2026: SUCCESS on attempt 1
+Wed Sep 30 05:32:42 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-09-30
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Found 0 qualifying markets
+
+=== CALIBRATION SUMMARY ===
+Total markets tracked: 42
+New predictions today: 0
+Newly resolved: 0
+
+--- PRIMARY TRACK (policy/macro/geopolitics/elections) ---
+  Resolved markets scored: 3
+  Swarm avg Brier:  0.17
+  Crowd avg Brier:  0.1132
+  Naive avg Brier:  0.25
+  Swarm vs naive:   32.0%
+  Swarm vs crowd:   -50.2%
+  Brier Skill Score:-0.5018  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.823  (higher = more uncertain)
+  Swarm dispersion: 40.0pts  (range of swarm predictions)
+  Crowd dispersion: 51.9pts  (range of crowd predictions)
+  Avg divergence:   7.6pts  (avg |swarm - crowd| on resolved markets)
+
+--- FULL TRACK (all categories, for transparency) ---
+  Resolved markets scored: 37
+  Swarm avg Brier:  0.1376
+  Crowd avg Brier:  0.1362
+  Naive avg Brier:  0.25
+  Swarm vs naive:   45.0%
+  Swarm vs crowd:   -1.0%
+  Brier Skill Score:-0.0103  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.615  (higher = more uncertain)
+  Swarm dispersion: 46.3pts  (range of swarm predictions)
+  Crowd dispersion: 67.7pts  (range of crowd predictions)
+  Avg divergence:   8.7pts  (avg |swarm - crowd| on resolved markets)
+
+Logs: /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration
+Wed Sep 30 05:32:43 PDT 2026: SUCCESS on attempt 1
+Thu Oct  1 05:40:07 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-01
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Found 0 qualifying markets
+
+=== CALIBRATION SUMMARY ===
+Total markets tracked: 42
+New predictions today: 0
+Newly resolved: 0
+
+--- PRIMARY TRACK (policy/macro/geopolitics/elections) ---
+  Resolved markets scored: 3
+  Swarm avg Brier:  0.17
+  Crowd avg Brier:  0.1132
+  Naive avg Brier:  0.25
+  Swarm vs naive:   32.0%
+  Swarm vs crowd:   -50.2%
+  Brier Skill Score:-0.5018  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.823  (higher = more uncertain)
+  Swarm dispersion: 40.0pts  (range of swarm predictions)
+  Crowd dispersion: 51.9pts  (range of crowd predictions)
+  Avg divergence:   7.6pts  (avg |swarm - crowd| on resolved markets)
+
+--- FULL TRACK (all categories, for transparency) ---
+  Resolved markets scored: 37
+  Swarm avg Brier:  0.1376
+  Crowd avg Brier:  0.1362
+  Naive avg Brier:  0.25
+  Swarm vs naive:   45.0%
+  Swarm vs crowd:   -1.0%
+  Brier Skill Score:-0.0103  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.615  (higher = more uncertain)
+  Swarm dispersion: 46.3pts  (range of swarm predictions)
+  Crowd dispersion: 67.7pts  (range of crowd predictions)
+  Avg divergence:   8.7pts  (avg |swarm - crowd| on resolved markets)
+
+Logs: /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration
+Thu Oct  1 05:40:07 PDT 2026: SUCCESS on attempt 1
+Fri Oct  2 05:44:22 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-02
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Found 0 qualifying markets
+
+=== CALIBRATION SUMMARY ===
+Total markets tracked: 42
+New predictions today: 0
+Newly resolved: 0
+
+--- PRIMARY TRACK (policy/macro/geopolitics/elections) ---
+  Resolved markets scored: 3
+  Swarm avg Brier:  0.17
+  Crowd avg Brier:  0.1132
+  Naive avg Brier:  0.25
+  Swarm vs naive:   32.0%
+  Swarm vs crowd:   -50.2%
+  Brier Skill Score:-0.5018  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.823  (higher = more uncertain)
+  Swarm dispersion: 40.0pts  (range of swarm predictions)
+  Crowd dispersion: 51.9pts  (range of crowd predictions)
+  Avg divergence:   7.6pts  (avg |swarm - crowd| on resolved markets)
+
+--- FULL TRACK (all categories, for transparency) ---
+  Resolved markets scored: 37
+  Swarm avg Brier:  0.1376
+  Crowd avg Brier:  0.1362
+  Naive avg Brier:  0.25
+  Swarm vs naive:   45.0%
+  Swarm vs crowd:   -1.0%
+  Brier Skill Score:-0.0103  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.615  (higher = more uncertain)
+  Swarm dispersion: 46.3pts  (range of swarm predictions)
+  Crowd dispersion: 67.7pts  (range of crowd predictions)
+  Avg divergence:   8.7pts  (avg |swarm - crowd| on resolved markets)
+
+Logs: /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration
+Fri Oct  2 05:44:23 PDT 2026: SUCCESS on attempt 1
+Sat Oct  3 05:38:38 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-03
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Found 0 qualifying markets
+
+=== CALIBRATION SUMMARY ===
+Total markets tracked: 42
+New predictions today: 0
+Newly resolved: 0
+
+--- PRIMARY TRACK (policy/macro/geopolitics/elections) ---
+  Resolved markets scored: 3
+  Swarm avg Brier:  0.17
+  Crowd avg Brier:  0.1132
+  Naive avg Brier:  0.25
+  Swarm vs naive:   32.0%
+  Swarm vs crowd:   -50.2%
+  Brier Skill Score:-0.5018  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.823  (higher = more uncertain)
+  Swarm dispersion: 40.0pts  (range of swarm predictions)
+  Crowd dispersion: 51.9pts  (range of crowd predictions)
+  Avg divergence:   7.6pts  (avg |swarm - crowd| on resolved markets)
+
+--- FULL TRACK (all categories, for transparency) ---
+  Resolved markets scored: 37
+  Swarm avg Brier:  0.1376
+  Crowd avg Brier:  0.1362
+  Naive avg Brier:  0.25
+  Swarm vs naive:   45.0%
+  Swarm vs crowd:   -1.0%
+  Brier Skill Score:-0.0103  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.615  (higher = more uncertain)
+  Swarm dispersion: 46.3pts  (range of swarm predictions)
+  Crowd dispersion: 67.7pts  (range of crowd predictions)
+  Avg divergence:   8.7pts  (avg |swarm - crowd| on resolved markets)
+
+Logs: /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration
+Sat Oct  3 05:38:39 PDT 2026: SUCCESS on attempt 1
+Sun Oct  4 05:39:34 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-04
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Found 0 qualifying markets
+
+=== CALIBRATION SUMMARY ===
+Total markets tracked: 42
+New predictions today: 0
+Newly resolved: 0
+
+--- PRIMARY TRACK (policy/macro/geopolitics/elections) ---
+  Resolved markets scored: 3
+  Swarm avg Brier:  0.17
+  Crowd avg Brier:  0.1132
+  Naive avg Brier:  0.25
+  Swarm vs naive:   32.0%
+  Swarm vs crowd:   -50.2%
+  Brier Skill Score:-0.5018  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.823  (higher = more uncertain)
+  Swarm dispersion: 40.0pts  (range of swarm predictions)
+  Crowd dispersion: 51.9pts  (range of crowd predictions)
+  Avg divergence:   7.6pts  (avg |swarm - crowd| on resolved markets)
+
+--- FULL TRACK (all categories, for transparency) ---
+  Resolved markets scored: 37
+  Swarm avg Brier:  0.1376
+  Crowd avg Brier:  0.1362
+  Naive avg Brier:  0.25
+  Swarm vs naive:   45.0%
+  Swarm vs crowd:   -1.0%
+  Brier Skill Score:-0.0103  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.615  (higher = more uncertain)
+  Swarm dispersion: 46.3pts  (range of swarm predictions)
+  Crowd dispersion: 67.7pts  (range of crowd predictions)
+  Avg divergence:   8.7pts  (avg |swarm - crowd| on resolved markets)
+
+Logs: /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration
+Sun Oct  4 05:39:34 PDT 2026: SUCCESS on attempt 1
+Mon Oct  5 05:34:33 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-05
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Found 0 qualifying markets
+
+=== CALIBRATION SUMMARY ===
+Total markets tracked: 42
+New predictions today: 0
+Newly resolved: 0
+
+--- PRIMARY TRACK (policy/macro/geopolitics/elections) ---
+  Resolved markets scored: 3
+  Swarm avg Brier:  0.17
+  Crowd avg Brier:  0.1132
+  Naive avg Brier:  0.25
+  Swarm vs naive:   32.0%
+  Swarm vs crowd:   -50.2%
+  Brier Skill Score:-0.5018  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.823  (higher = more uncertain)
+  Swarm dispersion: 40.0pts  (range of swarm predictions)
+  Crowd dispersion: 51.9pts  (range of crowd predictions)
+  Avg divergence:   7.6pts  (avg |swarm - crowd| on resolved markets)
+
+--- FULL TRACK (all categories, for transparency) ---
+  Resolved markets scored: 37
+  Swarm avg Brier:  0.1376
+  Crowd avg Brier:  0.1362
+  Naive avg Brier:  0.25
+  Swarm vs naive:   45.0%
+  Swarm vs crowd:   -1.0%
+  Brier Skill Score:-0.0103  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.615  (higher = more uncertain)
+  Swarm dispersion: 46.3pts  (range of swarm predictions)
+  Crowd dispersion: 67.7pts  (range of crowd predictions)
+  Avg divergence:   8.7pts  (avg |swarm - crowd| on resolved markets)
+
+Logs: /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration
+Mon Oct  5 05:34:34 PDT 2026: SUCCESS on attempt 1
+Tue Oct  6 05:37:52 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-06
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1012, in _send_output
+    self.send(msg)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 952, in send
+    self.connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1419, in connect
+    super().connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 923, in connect
+    self.sock = self._create_connection(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 300, in <module>
+    run()
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 216, in run
+    markets = fetch_near_term_markets(days=90, limit=200)
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 49, in fetch_near_term_markets
+    with urllib.request.urlopen(req, timeout=15) as r:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+Tue Oct  6 05:37:52 PDT 2026: FAILED on attempt 1 (exit code 1)
+Tue Oct  6 05:37:52 PDT 2026: Retrying in 300s...
+Wed Oct  7 02:34:28 PDT 2026: Attempt 2 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-07
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1012, in _send_output
+    self.send(msg)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 952, in send
+    self.connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1419, in connect
+    super().connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 923, in connect
+    self.sock = self._create_connection(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 300, in <module>
+    run()
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 216, in run
+    markets = fetch_near_term_markets(days=90, limit=200)
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 49, in fetch_near_term_markets
+    with urllib.request.urlopen(req, timeout=15) as r:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+Wed Oct  7 02:34:28 PDT 2026: FAILED on attempt 2 (exit code 1)
+Wed Oct  7 02:34:28 PDT 2026: Retrying in 300s...
+Wed Oct  7 21:03:14 PDT 2026: Attempt 3 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-07
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1012, in _send_output
+    self.send(msg)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 952, in send
+    self.connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1419, in connect
+    super().connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 923, in connect
+    self.sock = self._create_connection(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 300, in <module>
+    run()
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 216, in run
+    markets = fetch_near_term_markets(days=90, limit=200)
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 49, in fetch_near_term_markets
+    with urllib.request.urlopen(req, timeout=15) as r:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+Wed Oct  7 21:03:14 PDT 2026: FAILED on attempt 3 (exit code 1)
+Wed Oct  7 21:03:14 PDT 2026: PERMANENT FAILURE after 3 attempts — manual rerun required
+Thu Oct  8 05:39:12 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-08
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1012, in _send_output
+    self.send(msg)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 952, in send
+    self.connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1419, in connect
+    super().connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 923, in connect
+    self.sock = self._create_connection(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 300, in <module>
+    run()
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 216, in run
+    markets = fetch_near_term_markets(days=90, limit=200)
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 49, in fetch_near_term_markets
+    with urllib.request.urlopen(req, timeout=15) as r:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+Thu Oct  8 05:39:12 PDT 2026: FAILED on attempt 1 (exit code 1)
+Thu Oct  8 05:39:12 PDT 2026: Retrying in 300s...
+Fri Oct  9 01:52:26 PDT 2026: Attempt 2 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-09
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1012, in _send_output
+    self.send(msg)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 952, in send
+    self.connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1419, in connect
+    super().connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 923, in connect
+    self.sock = self._create_connection(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 300, in <module>
+    run()
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 216, in run
+    markets = fetch_near_term_markets(days=90, limit=200)
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 49, in fetch_near_term_markets
+    with urllib.request.urlopen(req, timeout=15) as r:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+Fri Oct  9 01:52:26 PDT 2026: FAILED on attempt 2 (exit code 1)
+Fri Oct  9 01:52:26 PDT 2026: Retrying in 300s...
+Fri Oct  9 15:14:41 PDT 2026: Attempt 3 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-09
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Found 0 qualifying markets
+
+=== CALIBRATION SUMMARY ===
+Total markets tracked: 42
+New predictions today: 0
+Newly resolved: 0
+
+--- PRIMARY TRACK (policy/macro/geopolitics/elections) ---
+  Resolved markets scored: 3
+  Swarm avg Brier:  0.17
+  Crowd avg Brier:  0.1132
+  Naive avg Brier:  0.25
+  Swarm vs naive:   32.0%
+  Swarm vs crowd:   -50.2%
+  Brier Skill Score:-0.5018  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.823  (higher = more uncertain)
+  Swarm dispersion: 40.0pts  (range of swarm predictions)
+  Crowd dispersion: 51.9pts  (range of crowd predictions)
+  Avg divergence:   7.6pts  (avg |swarm - crowd| on resolved markets)
+
+--- FULL TRACK (all categories, for transparency) ---
+  Resolved markets scored: 37
+  Swarm avg Brier:  0.1376
+  Crowd avg Brier:  0.1362
+  Naive avg Brier:  0.25
+  Swarm vs naive:   45.0%
+  Swarm vs crowd:   -1.0%
+  Brier Skill Score:-0.0103  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.615  (higher = more uncertain)
+  Swarm dispersion: 46.3pts  (range of swarm predictions)
+  Crowd dispersion: 67.7pts  (range of crowd predictions)
+  Avg divergence:   8.7pts  (avg |swarm - crowd| on resolved markets)
+
+Logs: /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration
+Fri Oct  9 15:14:41 PDT 2026: SUCCESS on attempt 3
+Sat Oct 10 05:31:28 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-10
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Found 0 qualifying markets
+
+=== CALIBRATION SUMMARY ===
+Total markets tracked: 42
+New predictions today: 0
+Newly resolved: 0
+
+--- PRIMARY TRACK (policy/macro/geopolitics/elections) ---
+  Resolved markets scored: 3
+  Swarm avg Brier:  0.17
+  Crowd avg Brier:  0.1132
+  Naive avg Brier:  0.25
+  Swarm vs naive:   32.0%
+  Swarm vs crowd:   -50.2%
+  Brier Skill Score:-0.5018  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.823  (higher = more uncertain)
+  Swarm dispersion: 40.0pts  (range of swarm predictions)
+  Crowd dispersion: 51.9pts  (range of crowd predictions)
+  Avg divergence:   7.6pts  (avg |swarm - crowd| on resolved markets)
+
+--- FULL TRACK (all categories, for transparency) ---
+  Resolved markets scored: 37
+  Swarm avg Brier:  0.1376
+  Crowd avg Brier:  0.1362
+  Naive avg Brier:  0.25
+  Swarm vs naive:   45.0%
+  Swarm vs crowd:   -1.0%
+  Brier Skill Score:-0.0103  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.615  (higher = more uncertain)
+  Swarm dispersion: 46.3pts  (range of swarm predictions)
+  Crowd dispersion: 67.7pts  (range of crowd predictions)
+  Avg divergence:   8.7pts  (avg |swarm - crowd| on resolved markets)
+
+Logs: /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration
+Sat Oct 10 05:31:29 PDT 2026: SUCCESS on attempt 1
+Sun Oct 11 05:45:04 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-11
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Found 0 qualifying markets
+
+=== CALIBRATION SUMMARY ===
+Total markets tracked: 42
+New predictions today: 0
+Newly resolved: 0
+
+--- PRIMARY TRACK (policy/macro/geopolitics/elections) ---
+  Resolved markets scored: 3
+  Swarm avg Brier:  0.17
+  Crowd avg Brier:  0.1132
+  Naive avg Brier:  0.25
+  Swarm vs naive:   32.0%
+  Swarm vs crowd:   -50.2%
+  Brier Skill Score:-0.5018  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.823  (higher = more uncertain)
+  Swarm dispersion: 40.0pts  (range of swarm predictions)
+  Crowd dispersion: 51.9pts  (range of crowd predictions)
+  Avg divergence:   7.6pts  (avg |swarm - crowd| on resolved markets)
+
+--- FULL TRACK (all categories, for transparency) ---
+  Resolved markets scored: 37
+  Swarm avg Brier:  0.1376
+  Crowd avg Brier:  0.1362
+  Naive avg Brier:  0.25
+  Swarm vs naive:   45.0%
+  Swarm vs crowd:   -1.0%
+  Brier Skill Score:-0.0103  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.615  (higher = more uncertain)
+  Swarm dispersion: 46.3pts  (range of swarm predictions)
+  Crowd dispersion: 67.7pts  (range of crowd predictions)
+  Avg divergence:   8.7pts  (avg |swarm - crowd| on resolved markets)
+
+Logs: /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration
+Sun Oct 11 05:45:05 PDT 2026: SUCCESS on attempt 1
+Mon Oct 12 05:33:13 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-12
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1012, in _send_output
+    self.send(msg)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 952, in send
+    self.connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1419, in connect
+    super().connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 923, in connect
+    self.sock = self._create_connection(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 300, in <module>
+    run()
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 216, in run
+    markets = fetch_near_term_markets(days=90, limit=200)
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 49, in fetch_near_term_markets
+    with urllib.request.urlopen(req, timeout=15) as r:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+Mon Oct 12 05:33:23 PDT 2026: FAILED on attempt 1 (exit code 1)
+Mon Oct 12 05:33:23 PDT 2026: Retrying in 300s...
+Tue Oct 13 00:30:06 PDT 2026: Attempt 2 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-13
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1012, in _send_output
+    self.send(msg)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 952, in send
+    self.connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1419, in connect
+    super().connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 923, in connect
+    self.sock = self._create_connection(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 300, in <module>
+    run()
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 216, in run
+    markets = fetch_near_term_markets(days=90, limit=200)
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 49, in fetch_near_term_markets
+    with urllib.request.urlopen(req, timeout=15) as r:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+Tue Oct 13 00:30:06 PDT 2026: FAILED on attempt 2 (exit code 1)
+Tue Oct 13 00:30:06 PDT 2026: Retrying in 300s...
+Tue Oct 13 15:02:43 PDT 2026: Attempt 3 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-13
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1012, in _send_output
+    self.send(msg)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 952, in send
+    self.connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1419, in connect
+    super().connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 923, in connect
+    self.sock = self._create_connection(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 300, in <module>
+    run()
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 216, in run
+    markets = fetch_near_term_markets(days=90, limit=200)
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 49, in fetch_near_term_markets
+    with urllib.request.urlopen(req, timeout=15) as r:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+Tue Oct 13 15:02:43 PDT 2026: FAILED on attempt 3 (exit code 1)
+Tue Oct 13 15:02:43 PDT 2026: PERMANENT FAILURE after 3 attempts — manual rerun required
+Wed Oct 14 05:33:44 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-14
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1012, in _send_output
+    self.send(msg)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 952, in send
+    self.connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1419, in connect
+    super().connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 923, in connect
+    self.sock = self._create_connection(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 300, in <module>
+    run()
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 216, in run
+    markets = fetch_near_term_markets(days=90, limit=200)
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 49, in fetch_near_term_markets
+    with urllib.request.urlopen(req, timeout=15) as r:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+Wed Oct 14 05:33:44 PDT 2026: FAILED on attempt 1 (exit code 1)
+Wed Oct 14 05:33:44 PDT 2026: Retrying in 300s...
+Wed Oct 14 12:23:46 PDT 2026: Attempt 2 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-14
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1012, in _send_output
+    self.send(msg)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 952, in send
+    self.connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1419, in connect
+    super().connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 923, in connect
+    self.sock = self._create_connection(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 300, in <module>
+    run()
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 216, in run
+    markets = fetch_near_term_markets(days=90, limit=200)
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 49, in fetch_near_term_markets
+    with urllib.request.urlopen(req, timeout=15) as r:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+Wed Oct 14 12:23:46 PDT 2026: FAILED on attempt 2 (exit code 1)
+Wed Oct 14 12:23:46 PDT 2026: Retrying in 300s...
+Wed Oct 14 22:27:35 PDT 2026: Attempt 3 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-14
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1012, in _send_output
+    self.send(msg)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 952, in send
+    self.connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1419, in connect
+    super().connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 923, in connect
+    self.sock = self._create_connection(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 300, in <module>
+    run()
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 216, in run
+    markets = fetch_near_term_markets(days=90, limit=200)
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 49, in fetch_near_term_markets
+    with urllib.request.urlopen(req, timeout=15) as r:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+Wed Oct 14 22:27:35 PDT 2026: FAILED on attempt 3 (exit code 1)
+Wed Oct 14 22:27:35 PDT 2026: PERMANENT FAILURE after 3 attempts — manual rerun required
+Thu Oct 15 05:40:53 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-15
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1012, in _send_output
+    self.send(msg)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 952, in send
+    self.connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1419, in connect
+    super().connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 923, in connect
+    self.sock = self._create_connection(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 300, in <module>
+    run()
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 216, in run
+    markets = fetch_near_term_markets(days=90, limit=200)
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 49, in fetch_near_term_markets
+    with urllib.request.urlopen(req, timeout=15) as r:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+Thu Oct 15 05:40:53 PDT 2026: FAILED on attempt 1 (exit code 1)
+Thu Oct 15 05:40:53 PDT 2026: Retrying in 300s...
+Thu Oct 15 13:00:22 PDT 2026: Attempt 2 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-15
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1012, in _send_output
+    self.send(msg)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 952, in send
+    self.connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1419, in connect
+    super().connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 923, in connect
+    self.sock = self._create_connection(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 300, in <module>
+    run()
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 216, in run
+    markets = fetch_near_term_markets(days=90, limit=200)
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 49, in fetch_near_term_markets
+    with urllib.request.urlopen(req, timeout=15) as r:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+Thu Oct 15 13:00:22 PDT 2026: FAILED on attempt 2 (exit code 1)
+Thu Oct 15 13:00:22 PDT 2026: Retrying in 300s...
+Thu Oct 15 23:00:50 PDT 2026: Attempt 3 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-15
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Found 0 qualifying markets
+
+=== CALIBRATION SUMMARY ===
+Total markets tracked: 42
+New predictions today: 0
+Newly resolved: 0
+
+--- PRIMARY TRACK (policy/macro/geopolitics/elections) ---
+  Resolved markets scored: 3
+  Swarm avg Brier:  0.17
+  Crowd avg Brier:  0.1132
+  Naive avg Brier:  0.25
+  Swarm vs naive:   32.0%
+  Swarm vs crowd:   -50.2%
+  Brier Skill Score:-0.5018  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.823  (higher = more uncertain)
+  Swarm dispersion: 40.0pts  (range of swarm predictions)
+  Crowd dispersion: 51.9pts  (range of crowd predictions)
+  Avg divergence:   7.6pts  (avg |swarm - crowd| on resolved markets)
+
+--- FULL TRACK (all categories, for transparency) ---
+  Resolved markets scored: 37
+  Swarm avg Brier:  0.1376
+  Crowd avg Brier:  0.1362
+  Naive avg Brier:  0.25
+  Swarm vs naive:   45.0%
+  Swarm vs crowd:   -1.0%
+  Brier Skill Score:-0.0103  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.615  (higher = more uncertain)
+  Swarm dispersion: 46.3pts  (range of swarm predictions)
+  Crowd dispersion: 67.7pts  (range of crowd predictions)
+  Avg divergence:   8.7pts  (avg |swarm - crowd| on resolved markets)
+
+Logs: /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration
+Thu Oct 15 23:00:51 PDT 2026: SUCCESS on attempt 3
+Fri Oct 16 05:32:32 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-16
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Found 0 qualifying markets
+
+=== CALIBRATION SUMMARY ===
+Total markets tracked: 42
+New predictions today: 0
+Newly resolved: 0
+
+--- PRIMARY TRACK (policy/macro/geopolitics/elections) ---
+  Resolved markets scored: 3
+  Swarm avg Brier:  0.17
+  Crowd avg Brier:  0.1132
+  Naive avg Brier:  0.25
+  Swarm vs naive:   32.0%
+  Swarm vs crowd:   -50.2%
+  Brier Skill Score:-0.5018  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.823  (higher = more uncertain)
+  Swarm dispersion: 40.0pts  (range of swarm predictions)
+  Crowd dispersion: 51.9pts  (range of crowd predictions)
+  Avg divergence:   7.6pts  (avg |swarm - crowd| on resolved markets)
+
+--- FULL TRACK (all categories, for transparency) ---
+  Resolved markets scored: 37
+  Swarm avg Brier:  0.1376
+  Crowd avg Brier:  0.1362
+  Naive avg Brier:  0.25
+  Swarm vs naive:   45.0%
+  Swarm vs crowd:   -1.0%
+  Brier Skill Score:-0.0103  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.615  (higher = more uncertain)
+  Swarm dispersion: 46.3pts  (range of swarm predictions)
+  Crowd dispersion: 67.7pts  (range of crowd predictions)
+  Avg divergence:   8.7pts  (avg |swarm - crowd| on resolved markets)
+
+Logs: /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration
+Fri Oct 16 05:32:32 PDT 2026: SUCCESS on attempt 1
+Sat Oct 17 05:33:19 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-17
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Found 0 qualifying markets
+
+=== CALIBRATION SUMMARY ===
+Total markets tracked: 42
+New predictions today: 0
+Newly resolved: 0
+
+--- PRIMARY TRACK (policy/macro/geopolitics/elections) ---
+  Resolved markets scored: 3
+  Swarm avg Brier:  0.17
+  Crowd avg Brier:  0.1132
+  Naive avg Brier:  0.25
+  Swarm vs naive:   32.0%
+  Swarm vs crowd:   -50.2%
+  Brier Skill Score:-0.5018  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.823  (higher = more uncertain)
+  Swarm dispersion: 40.0pts  (range of swarm predictions)
+  Crowd dispersion: 51.9pts  (range of crowd predictions)
+  Avg divergence:   7.6pts  (avg |swarm - crowd| on resolved markets)
+
+--- FULL TRACK (all categories, for transparency) ---
+  Resolved markets scored: 37
+  Swarm avg Brier:  0.1376
+  Crowd avg Brier:  0.1362
+  Naive avg Brier:  0.25
+  Swarm vs naive:   45.0%
+  Swarm vs crowd:   -1.0%
+  Brier Skill Score:-0.0103  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.615  (higher = more uncertain)
+  Swarm dispersion: 46.3pts  (range of swarm predictions)
+  Crowd dispersion: 67.7pts  (range of crowd predictions)
+  Avg divergence:   8.7pts  (avg |swarm - crowd| on resolved markets)
+
+Logs: /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration
+Sat Oct 17 05:33:20 PDT 2026: SUCCESS on attempt 1
+Sun Oct 18 05:32:32 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-18
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Found 0 qualifying markets
+
+=== CALIBRATION SUMMARY ===
+Total markets tracked: 42
+New predictions today: 0
+Newly resolved: 0
+
+--- PRIMARY TRACK (policy/macro/geopolitics/elections) ---
+  Resolved markets scored: 3
+  Swarm avg Brier:  0.17
+  Crowd avg Brier:  0.1132
+  Naive avg Brier:  0.25
+  Swarm vs naive:   32.0%
+  Swarm vs crowd:   -50.2%
+  Brier Skill Score:-0.5018  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.823  (higher = more uncertain)
+  Swarm dispersion: 40.0pts  (range of swarm predictions)
+  Crowd dispersion: 51.9pts  (range of crowd predictions)
+  Avg divergence:   7.6pts  (avg |swarm - crowd| on resolved markets)
+
+--- FULL TRACK (all categories, for transparency) ---
+  Resolved markets scored: 37
+  Swarm avg Brier:  0.1376
+  Crowd avg Brier:  0.1362
+  Naive avg Brier:  0.25
+  Swarm vs naive:   45.0%
+  Swarm vs crowd:   -1.0%
+  Brier Skill Score:-0.0103  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.615  (higher = more uncertain)
+  Swarm dispersion: 46.3pts  (range of swarm predictions)
+  Crowd dispersion: 67.7pts  (range of crowd predictions)
+  Avg divergence:   8.7pts  (avg |swarm - crowd| on resolved markets)
+
+Logs: /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration
+Sun Oct 18 05:32:33 PDT 2026: SUCCESS on attempt 1
+Mon Oct 19 05:40:24 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-19
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Found 0 qualifying markets
+
+=== CALIBRATION SUMMARY ===
+Total markets tracked: 42
+New predictions today: 0
+Newly resolved: 0
+
+--- PRIMARY TRACK (policy/macro/geopolitics/elections) ---
+  Resolved markets scored: 3
+  Swarm avg Brier:  0.17
+  Crowd avg Brier:  0.1132
+  Naive avg Brier:  0.25
+  Swarm vs naive:   32.0%
+  Swarm vs crowd:   -50.2%
+  Brier Skill Score:-0.5018  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.823  (higher = more uncertain)
+  Swarm dispersion: 40.0pts  (range of swarm predictions)
+  Crowd dispersion: 51.9pts  (range of crowd predictions)
+  Avg divergence:   7.6pts  (avg |swarm - crowd| on resolved markets)
+
+--- FULL TRACK (all categories, for transparency) ---
+  Resolved markets scored: 37
+  Swarm avg Brier:  0.1376
+  Crowd avg Brier:  0.1362
+  Naive avg Brier:  0.25
+  Swarm vs naive:   45.0%
+  Swarm vs crowd:   -1.0%
+  Brier Skill Score:-0.0103  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.615  (higher = more uncertain)
+  Swarm dispersion: 46.3pts  (range of swarm predictions)
+  Crowd dispersion: 67.7pts  (range of crowd predictions)
+  Avg divergence:   8.7pts  (avg |swarm - crowd| on resolved markets)
+
+Logs: /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration
+Mon Oct 19 05:40:25 PDT 2026: SUCCESS on attempt 1
+Tue Oct 20 05:40:15 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-20
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Found 0 qualifying markets
+
+=== CALIBRATION SUMMARY ===
+Total markets tracked: 42
+New predictions today: 0
+Newly resolved: 0
+
+--- PRIMARY TRACK (policy/macro/geopolitics/elections) ---
+  Resolved markets scored: 3
+  Swarm avg Brier:  0.17
+  Crowd avg Brier:  0.1132
+  Naive avg Brier:  0.25
+  Swarm vs naive:   32.0%
+  Swarm vs crowd:   -50.2%
+  Brier Skill Score:-0.5018  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.823  (higher = more uncertain)
+  Swarm dispersion: 40.0pts  (range of swarm predictions)
+  Crowd dispersion: 51.9pts  (range of crowd predictions)
+  Avg divergence:   7.6pts  (avg |swarm - crowd| on resolved markets)
+
+--- FULL TRACK (all categories, for transparency) ---
+  Resolved markets scored: 37
+  Swarm avg Brier:  0.1376
+  Crowd avg Brier:  0.1362
+  Naive avg Brier:  0.25
+  Swarm vs naive:   45.0%
+  Swarm vs crowd:   -1.0%
+  Brier Skill Score:-0.0103  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.615  (higher = more uncertain)
+  Swarm dispersion: 46.3pts  (range of swarm predictions)
+  Crowd dispersion: 67.7pts  (range of crowd predictions)
+  Avg divergence:   8.7pts  (avg |swarm - crowd| on resolved markets)
+
+Logs: /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration
+Tue Oct 20 05:40:16 PDT 2026: SUCCESS on attempt 1
+Wed Oct 21 05:42:54 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-21
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Found 0 qualifying markets
+
+=== CALIBRATION SUMMARY ===
+Total markets tracked: 42
+New predictions today: 0
+Newly resolved: 0
+
+--- PRIMARY TRACK (policy/macro/geopolitics/elections) ---
+  Resolved markets scored: 3
+  Swarm avg Brier:  0.17
+  Crowd avg Brier:  0.1132
+  Naive avg Brier:  0.25
+  Swarm vs naive:   32.0%
+  Swarm vs crowd:   -50.2%
+  Brier Skill Score:-0.5018  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.823  (higher = more uncertain)
+  Swarm dispersion: 40.0pts  (range of swarm predictions)
+  Crowd dispersion: 51.9pts  (range of crowd predictions)
+  Avg divergence:   7.6pts  (avg |swarm - crowd| on resolved markets)
+
+--- FULL TRACK (all categories, for transparency) ---
+  Resolved markets scored: 37
+  Swarm avg Brier:  0.1376
+  Crowd avg Brier:  0.1362
+  Naive avg Brier:  0.25
+  Swarm vs naive:   45.0%
+  Swarm vs crowd:   -1.0%
+  Brier Skill Score:-0.0103  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.615  (higher = more uncertain)
+  Swarm dispersion: 46.3pts  (range of swarm predictions)
+  Crowd dispersion: 67.7pts  (range of crowd predictions)
+  Avg divergence:   8.7pts  (avg |swarm - crowd| on resolved markets)
+
+Logs: /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration
+Wed Oct 21 05:42:54 PDT 2026: SUCCESS on attempt 1
+Sat Oct 24 15:12:10 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-24
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1012, in _send_output
+    self.send(msg)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 952, in send
+    self.connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1419, in connect
+    super().connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 923, in connect
+    self.sock = self._create_connection(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 300, in <module>
+    run()
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 216, in run
+    markets = fetch_near_term_markets(days=90, limit=200)
+  File "/Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py", line 49, in fetch_near_term_markets
+    with urllib.request.urlopen(req, timeout=15) as r:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+Sat Oct 24 15:12:11 PDT 2026: FAILED on attempt 1 (exit code 1)
+Sat Oct 24 15:12:11 PDT 2026: Retrying in 300s...
+Sat Oct 24 15:35:13 PDT 2026: Attempt 2 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-24
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Found 0 qualifying markets
+
+=== CALIBRATION SUMMARY ===
+Total markets tracked: 42
+New predictions today: 0
+Newly resolved: 0
+
+--- PRIMARY TRACK (policy/macro/geopolitics/elections) ---
+  Resolved markets scored: 3
+  Swarm avg Brier:  0.17
+  Crowd avg Brier:  0.1132
+  Naive avg Brier:  0.25
+  Swarm vs naive:   32.0%
+  Swarm vs crowd:   -50.2%
+  Brier Skill Score:-0.5018  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.823  (higher = more uncertain)
+  Swarm dispersion: 40.0pts  (range of swarm predictions)
+  Crowd dispersion: 51.9pts  (range of crowd predictions)
+  Avg divergence:   7.6pts  (avg |swarm - crowd| on resolved markets)
+
+--- FULL TRACK (all categories, for transparency) ---
+  Resolved markets scored: 37
+  Swarm avg Brier:  0.1376
+  Crowd avg Brier:  0.1362
+  Naive avg Brier:  0.25
+  Swarm vs naive:   45.0%
+  Swarm vs crowd:   -1.0%
+  Brier Skill Score:-0.0103  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.615  (higher = more uncertain)
+  Swarm dispersion: 46.3pts  (range of swarm predictions)
+  Crowd dispersion: 67.7pts  (range of crowd predictions)
+  Avg divergence:   8.7pts  (avg |swarm - crowd| on resolved markets)
+
+Logs: /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration
+Sat Oct 24 15:35:15 PDT 2026: SUCCESS on attempt 2
+Sun Oct 25 05:36:22 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration_tracker.py
+LatentForge Live Calibration Tracker v1.1
+Date: 2026-10-25
+
+Checking 42 tracked markets for resolution...
+  No new resolutions today.
+
+Fetching markets closing within 90 days...
+Found 0 qualifying markets
+
+=== CALIBRATION SUMMARY ===
+Total markets tracked: 42
+New predictions today: 0
+Newly resolved: 0
+
+--- PRIMARY TRACK (policy/macro/geopolitics/elections) ---
+  Resolved markets scored: 3
+  Swarm avg Brier:  0.17
+  Crowd avg Brier:  0.1132
+  Naive avg Brier:  0.25
+  Swarm vs naive:   32.0%
+  Swarm vs crowd:   -50.2%
+  Brier Skill Score:-0.5018  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.823  (higher = more uncertain)
+  Swarm dispersion: 40.0pts  (range of swarm predictions)
+  Crowd dispersion: 51.9pts  (range of crowd predictions)
+  Avg divergence:   7.6pts  (avg |swarm - crowd| on resolved markets)
+
+--- FULL TRACK (all categories, for transparency) ---
+  Resolved markets scored: 37
+  Swarm avg Brier:  0.1376
+  Crowd avg Brier:  0.1362
+  Naive avg Brier:  0.25
+  Swarm vs naive:   45.0%
+  Swarm vs crowd:   -1.0%
+  Brier Skill Score:-0.0103  (0=crowd-level, 1=perfect, negative=worse than crowd)
+  Swarm entropy:    0.615  (higher = more uncertain)
+  Swarm dispersion: 46.3pts  (range of swarm predictions)
+  Crowd dispersion: 67.7pts  (range of crowd predictions)
+  Avg divergence:   8.7pts  (avg |swarm - crowd| on resolved markets)
+
+Logs: /Users/latentforge/Projects/latentforge-latentmas/experiments/benchmark/calibration
+Sun Oct 25 05:36:23 PDT 2026: SUCCESS on attempt 1
