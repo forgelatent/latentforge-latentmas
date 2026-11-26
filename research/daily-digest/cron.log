@@ -1205,3 +1205,314 @@ Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/resea
   FAILED github: VectorArc/avp-python (exception ConnectionError)
   FAILED rss: Lex Fridman blog (exception ChunkedEncodingError)
 Sun Oct 25 06:10:23 PDT 2026: SUCCESS on attempt 1
+Mon Oct 26 04:45:56 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-10-26.md
+  arXiv hits: 34 | GitHub updates: 8 | RSS: 1 | fetch failures: 0/18
+Mon Oct 26 04:46:08 PDT 2026: SUCCESS on attempt 1
+Tue Oct 27 04:42:22 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-10-27.md
+  arXiv hits: 34 | GitHub updates: 8 | RSS: 1 | fetch failures: 0/18
+Tue Oct 27 04:42:46 PDT 2026: SUCCESS on attempt 1
+Wed Oct 28 04:31:25 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-10-28.md
+  arXiv hits: 27 | GitHub updates: 8 | RSS: 1 | fetch failures: 2/18
+  FAILED arxiv: emergent agent language (exception ReadTimeout)
+  FAILED arxiv: AI population forecasting (exception ReadTimeout)
+Wed Oct 28 05:35:27 PDT 2026: SUCCESS on attempt 1
+Thu Oct 29 04:41:18 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-10-29.md
+  arXiv hits: 28 | GitHub updates: 8 | RSS: 0 | fetch failures: 2/18
+  FAILED arxiv: latent governance (exception ConnectionError)
+  FAILED rss: Lex Fridman blog (exception ReadTimeout)
+Thu Oct 29 06:01:00 PDT 2026: SUCCESS on attempt 1
+Fri Oct 30 04:33:33 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-10-30.md
+  arXiv hits: 30 | GitHub updates: 8 | RSS: 1 | fetch failures: 2/18
+  FAILED arxiv: agent vector protocol (exception ReadTimeout)
+  FAILED arxiv: latent collaboration (exception ReadTimeout)
+Fri Oct 30 06:01:20 PDT 2026: SUCCESS on attempt 1
+Sat Oct 31 04:36:07 PDT 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-10-31.md
+  arXiv hits: 33 | GitHub updates: 8 | RSS: 1 | fetch failures: 0/18
+Sat Oct 31 04:36:19 PDT 2026: SUCCESS on attempt 1
+Sun Nov  1 04:31:22 PST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-11-01.md
+  arXiv hits: 31 | GitHub updates: 6 | RSS: 0 | fetch failures: 3/18
+  FAILED arxiv: latent governance (exception ReadTimeout)
+  FAILED github: VectorArc/avp-python (exception ConnectionError)
+  FAILED rss: Lex Fridman blog (exception ChunkedEncodingError)
+Sun Nov  1 05:52:49 PST 2026: SUCCESS on attempt 1
+Mon Nov  2 04:40:21 PST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-11-02.md
+  arXiv hits: 23 | GitHub updates: 8 | RSS: 1 | fetch failures: 1/18
+  FAILED arxiv: synthetic population simulation (exception ConnectionError)
+Mon Nov  2 04:54:15 PST 2026: SUCCESS on attempt 1
+Tue Nov  3 04:42:46 PST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-11-03.md
+  arXiv hits: 33 | GitHub updates: 8 | RSS: 1 | fetch failures: 1/18
+  FAILED arxiv: latent delta (exception ReadTimeout)
+Tue Nov  3 05:33:20 PST 2026: SUCCESS on attempt 1
+Wed Nov  4 04:34:07 PST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-11-04.md
+  arXiv hits: 35 | GitHub updates: 8 | RSS: 1 | fetch failures: 0/18
+Wed Nov  4 04:34:18 PST 2026: SUCCESS on attempt 1
+Thu Nov  5 04:43:13 PST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-11-05.md
+  arXiv hits: 26 | GitHub updates: 8 | RSS: 1 | fetch failures: 1/18
+  FAILED arxiv: emergent agent language (exception ReadTimeout)
+Thu Nov  5 05:13:24 PST 2026: SUCCESS on attempt 1
+Fri Nov  6 04:43:09 PST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-11-06.md
+  arXiv hits: 28 | GitHub updates: 8 | RSS: 1 | fetch failures: 0/18
+Fri Nov  6 04:43:40 PST 2026: SUCCESS on attempt 1
+Sat Nov  7 04:46:51 PST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-11-07.md
+  arXiv hits: 26 | GitHub updates: 8 | RSS: 1 | fetch failures: 1/18
+  FAILED arxiv: latent governance (exception ReadTimeout)
+Sat Nov  7 05:35:44 PST 2026: SUCCESS on attempt 1
+Sun Nov  8 04:41:41 PST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-11-08.md
+  arXiv hits: 27 | GitHub updates: 8 | RSS: 1 | fetch failures: 2/18
+  FAILED arxiv: hidden state communication (exception ReadTimeout)
+  FAILED arxiv: synthetic population simulation (exception ReadTimeout)
+Sun Nov  8 06:01:14 PST 2026: SUCCESS on attempt 1
+Mon Nov  9 04:39:10 PST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-11-09.md
+  arXiv hits: 28 | GitHub updates: 8 | RSS: 1 | fetch failures: 1/18
+  FAILED arxiv: latent governance (exception ReadTimeout)
+Mon Nov  9 05:24:34 PST 2026: SUCCESS on attempt 1
+Tue Nov 10 04:39:17 PST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-11-10.md
+  arXiv hits: 26 | GitHub updates: 8 | RSS: 1 | fetch failures: 3/18
+  FAILED arxiv: hidden state communication (exception ReadTimeout)
+  FAILED arxiv: latent governance (exception ReadTimeout)
+  FAILED arxiv: synthetic population simulation (exception ReadTimeout)
+Tue Nov 10 06:01:44 PST 2026: SUCCESS on attempt 1
+Wed Nov 11 04:30:19 PST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-11-11.md
+  arXiv hits: 34 | GitHub updates: 8 | RSS: 1 | fetch failures: 2/18
+  FAILED arxiv: hidden state communication (exception ReadTimeout)
+  FAILED arxiv: AI population forecasting (exception ReadTimeout)
+Wed Nov 11 06:01:09 PST 2026: SUCCESS on attempt 1
+Thu Nov 12 04:39:46 PST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-11-12.md
+  arXiv hits: 32 | GitHub updates: 8 | RSS: 1 | fetch failures: 2/18
+  FAILED arxiv: latent collaboration (exception ReadTimeout)
+  FAILED arxiv: synthetic population simulation (exception ReadTimeout)
+Thu Nov 12 06:01:16 PST 2026: SUCCESS on attempt 1
+Fri Nov 13 04:46:20 PST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-11-13.md
+  arXiv hits: 36 | GitHub updates: 8 | RSS: 1 | fetch failures: 2/18
+  FAILED arxiv: multi-agent latent (exception ReadTimeout)
+  FAILED arxiv: emergent agent language (exception ReadTimeout)
+Fri Nov 13 06:01:27 PST 2026: SUCCESS on attempt 1
+Sat Nov 14 04:32:20 PST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-11-14.md
+  arXiv hits: 37 | GitHub updates: 6 | RSS: 0 | fetch failures: 3/18
+  FAILED arxiv: synthetic population simulation (exception ReadTimeout)
+  FAILED github: NVIDIA/NemoClaw (exception ConnectionError)
+  FAILED rss: Lex Fridman blog (exception ConnectionError)
+Sat Nov 14 06:33:23 PST 2026: SUCCESS on attempt 1
+Sun Nov 15 04:36:28 PST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-11-15.md
+  arXiv hits: 37 | GitHub updates: 6 | RSS: 1 | fetch failures: 2/18
+  FAILED arxiv: latent governance (exception ReadTimeout)
+  FAILED github: Gen-Verse/LatentMAS (exception ReadTimeout)
+Sun Nov 15 06:01:16 PST 2026: SUCCESS on attempt 1
+Mon Nov 16 04:44:02 PST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-11-16.md
+  arXiv hits: 27 | GitHub updates: 8 | RSS: 1 | fetch failures: 2/18
+  FAILED arxiv: latentMAS (exception ReadTimeout)
+  FAILED arxiv: emergent agent language (exception ReadTimeout)
+Mon Nov 16 06:01:20 PST 2026: SUCCESS on attempt 1
+Tue Nov 17 04:34:24 PST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-11-17.md
+  arXiv hits: 29 | GitHub updates: 8 | RSS: 1 | fetch failures: 2/18
+  FAILED arxiv: emergent agent language (exception ReadTimeout)
+  FAILED arxiv: synthetic population simulation (exception ReadTimeout)
+Tue Nov 17 06:01:11 PST 2026: SUCCESS on attempt 1
+Wed Nov 18 04:41:04 PST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-11-18.md
+  arXiv hits: 34 | GitHub updates: 8 | RSS: 0 | fetch failures: 3/18
+  FAILED arxiv: agent vector protocol (exception ReadTimeout)
+  FAILED arxiv: latent governance (exception ConnectionError)
+  FAILED rss: Lex Fridman blog (exception ReadTimeout)
+Wed Nov 18 06:52:11 PST 2026: SUCCESS on attempt 1
+Thu Nov 19 04:34:44 PST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-11-19.md
+  arXiv hits: 29 | GitHub updates: 8 | RSS: 0 | fetch failures: 3/18
+  FAILED arxiv: agent vector protocol (exception ReadTimeout)
+  FAILED arxiv: AI population forecasting (exception ConnectionError)
+  FAILED rss: Lex Fridman blog (exception ReadTimeout)
+Thu Nov 19 06:37:08 PST 2026: SUCCESS on attempt 1
+Fri Nov 20 04:43:07 PST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+FETCH FAILURE: all 18 fetch attempts failed (network down?) — refusing to write an 'all quiet' digest
+Fri Nov 20 04:43:08 PST 2026: FAILED on attempt 1 (exit code 1)
+Fri Nov 20 04:43:08 PST 2026: Retrying in 300s...
+Fri Nov 20 06:18:08 PST 2026: Attempt 2 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+FETCH FAILURE: all 18 fetch attempts failed (network down?) — refusing to write an 'all quiet' digest
+Fri Nov 20 06:35:03 PST 2026: FAILED on attempt 2 (exit code 1)
+Fri Nov 20 06:35:03 PST 2026: Retrying in 300s...
+Fri Nov 20 08:18:28 PST 2026: Attempt 3 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+FETCH FAILURE: all 18 fetch attempts failed (network down?) — refusing to write an 'all quiet' digest
+Fri Nov 20 08:18:28 PST 2026: FAILED on attempt 3 (exit code 1)
+Fri Nov 20 08:18:28 PST 2026: PERMANENT FAILURE after 3 attempts — manual rerun required
+Sat Nov 21 04:40:28 PST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+FETCH FAILURE: all 18 fetch attempts failed (network down?) — refusing to write an 'all quiet' digest
+Sat Nov 21 04:40:28 PST 2026: FAILED on attempt 1 (exit code 1)
+Sat Nov 21 04:40:28 PST 2026: Retrying in 300s...
+Sat Nov 21 06:18:25 PST 2026: Attempt 2 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+FETCH FAILURE: all 18 fetch attempts failed (network down?) — refusing to write an 'all quiet' digest
+Sat Nov 21 06:18:26 PST 2026: FAILED on attempt 2 (exit code 1)
+Sat Nov 21 06:18:26 PST 2026: Retrying in 300s...
+Sat Nov 21 08:02:06 PST 2026: Attempt 3 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-11-21.md
+  arXiv hits: 15 | GitHub updates: 0 | RSS: 0 | fetch failures: 14/18
+  FAILED arxiv: agent vector protocol (exception ConnectionError)
+  FAILED arxiv: AVP latent (exception ConnectionError)
+  FAILED arxiv: multi-agent latent (exception ConnectionError)
+  FAILED arxiv: latent collaboration (exception ConnectionError)
+  FAILED arxiv: emergent agent language (exception ConnectionError)
+  FAILED arxiv: hidden state communication (exception ConnectionError)
+  FAILED arxiv: latent governance (exception ConnectionError)
+  FAILED arxiv: synthetic population simulation (exception ConnectionError)
+  FAILED arxiv: AI population forecasting (exception ConnectionError)
+  FAILED github: Gen-Verse/LatentMAS (exception ConnectionError)
+  FAILED github: VectorArc/avp-python (exception ConnectionError)
+  FAILED github: NVIDIA/NemoClaw (exception ConnectionError)
+  FAILED github: karpathy/autoresearch (exception ConnectionError)
+  FAILED rss: Lex Fridman blog (exception ConnectionError)
+SOURCE DARK: every github fetch failed. Digest written with FETCH FAILED markers; exiting 1 so the wrapper retries.
+Sat Nov 21 08:18:13 PST 2026: FAILED on attempt 3 (exit code 1)
+Sat Nov 21 08:18:13 PST 2026: PERMANENT FAILURE after 3 attempts — manual rerun required
+Sun Nov 22 04:38:24 PST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+FETCH FAILURE: all 18 fetch attempts failed (network down?) — refusing to write an 'all quiet' digest
+Sun Nov 22 04:38:24 PST 2026: FAILED on attempt 1 (exit code 1)
+Sun Nov 22 04:38:24 PST 2026: Retrying in 300s...
+Sun Nov 22 06:18:42 PST 2026: Attempt 2 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+FETCH FAILURE: all 18 fetch attempts failed (network down?) — refusing to write an 'all quiet' digest
+Sun Nov 22 06:18:42 PST 2026: FAILED on attempt 2 (exit code 1)
+Sun Nov 22 06:18:42 PST 2026: Retrying in 300s...
+Sun Nov 22 08:02:06 PST 2026: Attempt 3 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-11-22.md
+  arXiv hits: 29 | GitHub updates: 8 | RSS: 1 | fetch failures: 0/18
+Sun Nov 22 08:02:19 PST 2026: SUCCESS on attempt 3
+Mon Nov 23 04:30:17 PST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-11-23.md
+  arXiv hits: 28 | GitHub updates: 8 | RSS: 1 | fetch failures: 3/18
+  FAILED arxiv: latentMAS (exception ReadTimeout)
+  FAILED arxiv: AVP latent (exception ReadTimeout)
+  FAILED arxiv: multi-agent latent (exception ReadTimeout)
+Mon Nov 23 08:02:35 PST 2026: SUCCESS on attempt 1
+Tue Nov 24 04:44:02 PST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+FETCH FAILURE: all 18 fetch attempts failed (network down?) — refusing to write an 'all quiet' digest
+Tue Nov 24 04:44:03 PST 2026: FAILED on attempt 1 (exit code 1)
+Tue Nov 24 04:44:03 PST 2026: Retrying in 300s...
+Tue Nov 24 06:19:32 PST 2026: Attempt 2 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+FETCH FAILURE: all 18 fetch attempts failed (network down?) — refusing to write an 'all quiet' digest
+Tue Nov 24 06:19:32 PST 2026: FAILED on attempt 2 (exit code 1)
+Tue Nov 24 06:19:32 PST 2026: Retrying in 300s...
+Tue Nov 24 08:02:05 PST 2026: Attempt 3 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-11-24.md
+  arXiv hits: 32 | GitHub updates: 8 | RSS: 1 | fetch failures: 0/18
+Tue Nov 24 08:02:17 PST 2026: SUCCESS on attempt 3
+Wed Nov 25 04:44:38 PST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+FETCH FAILURE: all 18 fetch attempts failed (network down?) — refusing to write an 'all quiet' digest
+Wed Nov 25 04:44:38 PST 2026: FAILED on attempt 1 (exit code 1)
+Wed Nov 25 04:44:38 PST 2026: Retrying in 300s...
+Wed Nov 25 06:19:25 PST 2026: Attempt 2 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+FETCH FAILURE: all 18 fetch attempts failed (network down?) — refusing to write an 'all quiet' digest
+Wed Nov 25 06:19:25 PST 2026: FAILED on attempt 2 (exit code 1)
+Wed Nov 25 06:19:25 PST 2026: Retrying in 300s...
+Wed Nov 25 08:02:08 PST 2026: Attempt 3 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+FETCH FAILURE: all 18 fetch attempts failed (network down?) — refusing to write an 'all quiet' digest
+Wed Nov 25 08:21:11 PST 2026: FAILED on attempt 3 (exit code 1)
+Wed Nov 25 08:21:11 PST 2026: PERMANENT FAILURE after 3 attempts — manual rerun required
+Thu Nov 26 04:33:45 PST 2026: Attempt 1 of 3 — running /Users/latentforge/Projects/latentforge-latentmas/experiments/week1/scripts/research_sweep.py
+/Users/latentforge/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Research digest saved to /Users/latentforge/Projects/latentforge-latentmas/research/daily-digest/2026-11-26.md
+  arXiv hits: 33 | GitHub updates: 8 | RSS: 1 | fetch failures: 0/18
+Thu Nov 26 04:33:57 PST 2026: SUCCESS on attempt 1
